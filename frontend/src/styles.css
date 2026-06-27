@@ -1,0 +1,125 @@
+:root {
+  --bg: #0f172a;
+  --panel: #1e293b;
+  --panel-2: #273449;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --safe: #22c55e;
+  --competitive: #eab308;
+  --reach: #f97316;
+  --below: #64748b;
+  --unqualified: #ef4444;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", "Microsoft JhengHei", "PingFang HK", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+.header h1 { margin: 0 0 4px; font-size: 28px; }
+.header .sub { margin: 0; color: var(--muted); }
+
+.notice {
+  margin: 16px 0;
+  padding: 10px 14px;
+  background: #422006;
+  border: 1px solid #854d0e;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fde68a;
+}
+
+.layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
+
+.panel { background: var(--panel); border-radius: 12px; padding: 18px; }
+
+h3 { margin: 18px 0 10px; font-size: 15px; color: var(--accent); }
+.score-form h3:first-child { margin-top: 0; }
+
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field label { font-size: 13px; color: var(--muted); }
+select {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid #3b4a63;
+  border-radius: 6px;
+  padding: 7px 8px;
+  font-size: 14px;
+}
+
+.interests .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid #3b4a63;
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.chip.active { background: var(--accent); color: #0b2030; border-color: var(--accent); font-weight: 600; }
+
+.checkbox { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: 13px; color: var(--muted); }
+
+.submit {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  background: var(--accent);
+  color: #0b2030;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.submit:disabled { opacity: .6; cursor: default; }
+.error { margin-top: 12px; color: #fca5a5; font-size: 14px; }
+
+.empty { color: var(--muted); text-align: center; padding: 40px 10px; }
+
+.card {
+  background: var(--panel-2);
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-left: 4px solid var(--below);
+}
+.card.tier-safe { border-left-color: var(--safe); }
+.card.tier-competitive { border-left-color: var(--competitive); }
+.card.tier-reach { border-left-color: var(--reach); }
+.card.tier-unqualified { border-left-color: var(--unqualified); opacity: .8; }
+
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.uni { font-weight: 700; color: var(--accent); margin-right: 8px; }
+.pname { font-weight: 600; }
+.code { color: var(--muted); font-size: 12px; margin-left: 8px; }
+
+.badge { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.badge.safe { background: var(--safe); color: #052e16; }
+.badge.competitive { background: var(--competitive); color: #3f2d03; }
+.badge.reach { background: var(--reach); color: #431407; }
+.badge.below { background: var(--below); color: #0f172a; }
+.badge.unqualified { background: var(--unqualified); color: #450a0a; }
+
+.scores { display: flex; gap: 10px; margin: 12px 0; }
+.score-box {
+  flex: 1; text-align: center; background: #1b2436; border-radius: 8px; padding: 8px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+.score-box.mine { background: #0c2a3a; }
+.score-box .num { font-size: 22px; font-weight: 700; }
+.score-box .cap { font-size: 11px; color: var(--muted); }
+
+.req-warn { font-size: 13px; color: #fca5a5; margin-bottom: 8px; }
+.meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 12px; color: var(--muted); }
+.meta .pos { color: var(--safe); font-weight: 600; }
+.meta .neg { color: var(--reach); font-weight: 600; }
+.sample-tag { background: #422006; color: #fde68a; padding: 1px 8px; border-radius: 4px; }
