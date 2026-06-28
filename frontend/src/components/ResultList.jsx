@@ -10,9 +10,31 @@ const TIER_INFO = {
 };
 const TIER_ORDER = ['safe', 'competitive', 'reach', 'below', 'unqualified', 'reference'];
 
+const SCHEME_LABEL = {
+  bonusTop: '5**=8.5, 5*=7, 5=5.5, 4=4, 3=3, 2=2, 1=1（2025 新制）',
+  standard: '5**=7, 5*=6, 5=5, 4=4, 3=3, 2=2, 1=1',
+};
+const schemeLabel = (s) => SCHEME_LABEL[s] || s;
+
+function methodLabel(r) {
+  if (r.method === 'hku' && r.formula) {
+    const f = r.formula;
+    const fixed = (f.fixed || []).map((x) => `${x.weight}×${x.subject}`).join(' + ');
+    return `${fixed} + 最佳 ${f.bestN} 科${f.tailWeight ? ` + ${f.tailWeight}×第 ${f.bestN + 1} 佳` : ''}`;
+  }
+  if (r.method === 'best6') return '最佳 6 科（加權後）';
+  return '最佳 5 科（加權後）';
+}
+
 export default function ResultList({ results }) {
   const [uniFilter, setUniFilter] = useState('all');
   const [hideOutOfReach, setHideOutOfReach] = useState(false);
+  const [expanded, setExpanded] = useState(() => new Set());
+  const toggle = (id) => setExpanded((prev) => {
+    const n = new Set(prev);
+    n.has(id) ? n.delete(id) : n.add(id);
+    return n;
+  });
 
   const unis = useMemo(() => {
     const m = new Map();
@@ -102,7 +124,41 @@ export default function ResultList({ results }) {
                   距中位數 {r.gapToMedian >= 0 ? '+' : ''}{r.gapToMedian}
                 </span>
               )}
+              {r.scoreComparable !== false && r.breakdown?.length > 0 && (
+                <button className="calc-toggle" onClick={() => toggle(r.programmeId)}>
+                  {expanded.has(r.programmeId) ? '▲ 收起計分' : '▼ 計分明細'}
+                </button>
+              )}
             </div>
+
+            {expanded.has(r.programmeId) && r.scoreComparable !== false && (
+              <div className="calc-detail">
+                <div className="calc-method">
+                  計法：{methodLabel(r)}
+                  {r.weightsStatus === 'unweighted-approx' && <span className="approx">（加權近似，未完全還原）</span>}
+                </div>
+                <table className="calc-table">
+                  <thead>
+                    <tr><th>科目</th><th>等級</th><th>換分</th><th>加成</th><th>得分</th></tr>
+                  </thead>
+                  <tbody>
+                    {r.breakdown.map((b, i) => (
+                      <tr key={i}>
+                        <td>{b.name}{b.role ? <span className="role"> {b.role}</span> : ''}</td>
+                        <td>{b.grade}</td>
+                        <td>{b.basePoints ?? '—'}</td>
+                        <td className={b.weight !== 1 ? 'w-hi' : ''}>×{b.weight}</td>
+                        <td>{b.weightedPoints}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                  <tfoot>
+                    <tr><td colSpan="4">總分</td><td className="total">{r.yourScore}</td></tr>
+                  </tfoot>
+                </table>
+                <div className="calc-note">換分表：{schemeLabel(r.gradeScheme)}</div>
+              </div>
+            )}
           </div>
         );
       })}

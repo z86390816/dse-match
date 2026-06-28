@@ -4,12 +4,13 @@ const router = express.Router();
 const {
   SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, GRADE_OPTIONS, CSD_GRADES,
 } = require('../data');
+const { GRADE_SCHEMES } = require('../data/subjects');
 const { matchAll } = require('../services/matcher');
 const { recommend, INTEREST_TO_CATEGORY } = require('../services/recommender');
 
 // --- 元資料 ---
 router.get('/subjects', (req, res) => {
-  res.json({ subjects: SUBJECTS, gradeOptions: GRADE_OPTIONS, csdGrades: CSD_GRADES });
+  res.json({ subjects: SUBJECTS, gradeOptions: GRADE_OPTIONS, csdGrades: CSD_GRADES, gradeSchemes: GRADE_SCHEMES });
 });
 
 router.get('/universities', (req, res) => {

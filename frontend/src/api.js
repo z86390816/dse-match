@@ -23,6 +23,8 @@ async function post(path, body) {
 export const api = {
   getSubjects: () => get('/subjects'),
   getInterests: () => get('/interests'),
+  getProgrammes: () => get('/programmes'),
+  getUniversities: () => get('/universities'),
   match: (grades) => post('/match', { grades }),
   recommend: (grades, interests, onlyAttainable) =>
     post('/recommend', { grades, interests, onlyAttainable }),

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api } from './api';
 import ScoreForm from './components/ScoreForm.jsx';
 import ResultList from './components/ResultList.jsx';
+import ProgrammeBrowser from './components/ProgrammeBrowser.jsx';
 
 const INTEREST_LABELS = {
   science: '理科', business: '商科', medical: '醫科 / 護理', engineering: '工程',
@@ -22,6 +23,7 @@ export default function App() {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [view, setView] = useState('match'); // 'match' | 'browse'
 
   useEffect(() => {
     api.getSubjects().then((d) => {
@@ -62,10 +64,18 @@ export default function App() {
       </header>
 
       <div className="notice">
-        ℹ️ 收生中位數／下四分位數來自 <strong>JUPAS 官方 2025 數據</strong>（5 所主要大學：HKU／CUHK／HKUST／PolyU／CityU）。
+        ℹ️ 收生中位數／下四分位數來自 <strong>JUPAS 官方 2025 數據</strong>（全 9 所院校）。
         分數計算盡量還原各校公式，部分課程（標「僅供參考」）因計分較複雜未能精確比對。結果僅供參考，請以官方為準。
       </div>
 
+      <nav className="tabs">
+        <button className={`tab ${view === 'match' ? 'active' : ''}`} onClick={() => setView('match')}>🎯 成績比對</button>
+        <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>📚 瀏覽院校 / 專業</button>
+      </nav>
+
+      {view === 'browse' && <ProgrammeBrowser />}
+
+      {view === 'match' && (
       <main className="layout">
         <section className="panel form-panel">
           <ScoreForm
@@ -110,6 +120,7 @@ export default function App() {
           <ResultList results={results} />
         </section>
       </main>
+      )}
     </div>
   );
 }

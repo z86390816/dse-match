@@ -69,7 +69,7 @@ function calculateHku(grades, programme, university, scheme) {
     if (!g || g === 'U') continue;
     const pts = gradeToPoints(g, scheme);
     fixedScore += pts * weight;
-    breakdown.push({ subject, name: SUBJECT_MAP[subject]?.name || subject, grade: g, weight, weightedPoints: +(pts * weight).toFixed(2) });
+    breakdown.push({ subject, name: SUBJECT_MAP[subject]?.name || subject, grade: g, basePoints: pts, weight, weightedPoints: +(pts * weight).toFixed(2), role: '指定科' });
   }
 
   // 其餘科（排除固定科、公民），按分數高低
@@ -81,14 +81,14 @@ function calculateHku(grades, programme, university, scheme) {
   let bestSum = 0;
   remaining.slice(0, f.bestN).forEach((r) => {
     bestSum += r.points;
-    breakdown.push({ subject: r.subject, name: r.name, grade: r.grade, weight: 1, weightedPoints: +r.points.toFixed(2) });
+    breakdown.push({ subject: r.subject, name: r.name, grade: r.grade, basePoints: r.points, weight: 1, weightedPoints: +r.points.toFixed(2), role: `最佳 ${f.bestN} 科` });
   });
 
   let tailScore = 0;
   const tailSubj = remaining[f.bestN];
   if (f.tailWeight && tailSubj) {
     tailScore = tailSubj.points * f.tailWeight;
-    breakdown.push({ subject: tailSubj.subject, name: tailSubj.name, grade: tailSubj.grade, weight: f.tailWeight, weightedPoints: +tailScore.toFixed(2) });
+    breakdown.push({ subject: tailSubj.subject, name: tailSubj.name, grade: tailSubj.grade, basePoints: tailSubj.points, weight: f.tailWeight, weightedPoints: +tailScore.toFixed(2), role: `第 ${f.bestN + 1} 佳` });
   }
 
   return {
