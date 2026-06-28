@@ -1,5 +1,5 @@
 // 與後端 API 溝通的薄封裝。
-const BASE = '/api';
+const BASE = (import.meta.env.VITE_API_URL || '') + '/api';
 
 async function get(path) {
   const res = await fetch(BASE + path);
