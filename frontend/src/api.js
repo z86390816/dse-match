@@ -25,6 +25,7 @@ export const api = {
   getInterests: () => get('/interests'),
   getProgrammes: () => get('/programmes'),
   getUniversities: () => get('/universities'),
+  getApplications: (code) => get(`/applications/${code}`),
   match: (grades) => post('/match', { grades }),
   recommend: (grades, interests, onlyAttainable) =>
     post('/recommend', { grades, interests, onlyAttainable }),

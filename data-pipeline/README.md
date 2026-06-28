@@ -66,6 +66,21 @@ node parse_cityu.mjs             # 解析 CityU(p2-8) → cityu.json（引擎格
 **驗證** `node verify.mjs`：id 唯一性 + median≥LQ + 官方抽查（7 校）+ **18 萬次單調性** + 完美/最弱生範圍。
 目前 **0 錯誤 0 警告**。
 
+## 申請統計（Band A-E 報名人數）
+
+`scrape_applications.mjs`：逐一抓 JUPAS 各專業頁 `jupas.edu.hk/en/programme/{slug}/{JScode}/`，
+解析「Application Statistics (after Modification of Programme Choices)」表的 Band A-E + 總數（多年），
+及核心科目最低要求。輸出 `backend/src/data/applications.json`（key = JS code）。
+
+- 院校 slug：cityu→cityuhk、lingnan→lingnanu，其餘同 id。
+- Band A=首 3 志願、B=第 4-6、C=7-9、D=10-15、E=16-20。
+- 注意：頁面有兩個 Band 表（收生 vs 申請），錨定 `after Modification of Programme Choices` 才是「報名人數」。
+- 後端 `/api/applications/:code` 提供；前端瀏覽頁點專業即顯示。
+
+```bash
+cd data-pipeline && node scrape_applications.mjs   # ~349 頁，約 2-3 分鐘
+```
+
 ### 待精修
 - 加權還原：CityU/HKUST/EdUHK/HKMU 目前不加權近似；HKU 醫/牙特殊公式；PolyU 官方 200 制公式（需查 PolyU 網站）。
 - Lingnan/HKBU 部分 LQ 缺；HKBU/HKMU scheme 為推定（PDF 未明示）。

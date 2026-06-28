@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const {
-  SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, GRADE_OPTIONS, CSD_GRADES,
+  SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, GRADE_OPTIONS, CSD_GRADES, APPLICATIONS,
 } = require('../data');
 const { GRADE_SCHEMES } = require('../data/subjects');
 const { matchAll } = require('../services/matcher');
@@ -23,6 +23,12 @@ router.get('/programmes', (req, res) => {
 
 router.get('/interests', (req, res) => {
   res.json({ interests: Object.keys(INTEREST_TO_CATEGORY) });
+});
+
+// 某專業的申請統計（Band A-E 報名人數）+ 科目要求
+router.get('/applications/:code', (req, res) => {
+  const data = APPLICATIONS[req.params.code] || null;
+  res.json({ code: req.params.code, application: data });
 });
 
 // --- 配對 ---
