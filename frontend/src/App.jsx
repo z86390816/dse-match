@@ -69,8 +69,12 @@ export default function App() {
       </div>
 
       <nav className="tabs">
-        <button className={`tab ${view === 'match' ? 'active' : ''}`} onClick={() => setView('match')}>🎯 成績比對</button>
-        <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>📚 瀏覽院校 / 專業</button>
+        <button className={`tab ${view === 'match' ? 'active' : ''}`} onClick={() => setView('match')}>
+          <span className="tab-icon">🎯</span><span className="tab-label">成績比對</span>
+        </button>
+        <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>
+          <span className="tab-icon">📚</span><span className="tab-label">瀏覽專業</span>
+        </button>
       </nav>
 
       {view === 'browse' && <ProgrammeBrowser />}

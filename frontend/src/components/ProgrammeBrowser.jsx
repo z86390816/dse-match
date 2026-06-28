@@ -12,8 +12,11 @@ const SCHEME_LABEL = {
 };
 const SUBJ_NAME = {
   chin: '中文', eng: '英文', math: '數學', m1: 'M1', m2: 'M2', phys: '物理',
-  chem: '化學', bio: '生物', econ: '經濟', bafs: 'BAFS', geog: '地理',
-  hist: '歷史', chist: '中史', ict: 'ICT', va: '視藝',
+  chem: '化學', bio: '生物', cit: '組合科學', ist: '綜合科學',
+  econ: '經濟', bafs: 'BAFS', ths: '旅款',
+  geog: '地理', hist: '歷史', chist: '中史', chlit: '中國文學', englit: '英語文學', ethics: '倫理與宗教',
+  ict: 'ICT', dat: 'DAT', hmsc: '健社', tl: '科技與生活',
+  va: '視藝', music: '音樂', pe: '體育',
 };
 const sn = (id) => SUBJ_NAME[id] || id;
 
@@ -31,14 +34,182 @@ function describeScoring(p) {
   return `最佳 ${n} 科（任何科目，不額外加權）`;
 }
 
-// 公民與社會發展只有達標/未達標，顯示時統一為「達標」
 const reqMinLabel = (subject, min) =>
   /CITIZENSHIP/i.test(subject) ? '達標' : min;
 
 const BAND_LABEL = {
-  bandA: 'Band A（首 3 志願）', bandB: 'Band B（第 4–6 志願）', bandC: 'Band C（第 7–9）',
-  bandD: 'Band D（第 10–15）', bandE: 'Band E（第 16–20）',
+  bandA: 'Band A（首3志願）', bandB: 'Band B（4–6）', bandC: 'Band C（7–9）',
+  bandD: 'Band D（10–15）', bandE: 'Band E（16–20）',
 };
+
+function TrendChart({ bands, years }) {
+  const W = 600, H = 200, PX = 48, PY = 24, PB = 28;
+  const cw = W - PX - 12, ch = H - PY - PB;
+  const scale = Math.max(...years.map((y) => bands[y]?.total || 0), 1);
+  const pts = (key) => years.map((y, i) => {
+    const v = bands[y]?.[key] || 0;
+    const x = PX + (years.length > 1 ? (i / (years.length - 1)) * cw : cw / 2);
+    const yy = PY + ch - (v / scale) * ch;
+    return [x, yy, v, y];
+  });
+  const totalPts = pts('total');
+  const bandAPts = pts('bandA');
+  const line = (arr) => arr.map(([x, y], i) => `${i ? 'L' : 'M'}${x},${y}`).join(' ');
+  const gridLines = 4;
+  return (
+    <div className="trend-chart-wrap">
+      <svg viewBox={`0 0 ${W} ${H}`} className="trend-chart">
+        {Array.from({ length: gridLines + 1 }, (_, i) => {
+          const y = PY + (ch / gridLines) * i;
+          const v = Math.round(scale * (1 - i / gridLines));
+          return (
+            <g key={i}>
+              <line x1={PX} y1={y} x2={W - 12} y2={y} stroke="#2a3650" strokeWidth="1" />
+              <text x={PX - 6} y={y + 4} textAnchor="end" fill="#94a3b8" fontSize="10">{v}</text>
+            </g>
+          );
+        })}
+        {years.map((y, i) => {
+          const x = PX + (years.length > 1 ? (i / (years.length - 1)) * cw : cw / 2);
+          const show = years.length <= 8 || i % Math.ceil(years.length / 8) === 0 || i === years.length - 1;
+          return show ? <text key={y} x={x} y={H - 6} textAnchor="middle" fill="#94a3b8" fontSize="10">{y.slice(2)}</text> : null;
+        })}
+        <path d={line(totalPts)} fill="none" stroke="#38bdf8" strokeWidth="2" />
+        {totalPts.map(([x, y, v, yr]) => (
+          <circle key={`t-${yr}`} cx={x} cy={y} r="3" fill="#38bdf8"><title>{yr}：總數 {v}</title></circle>
+        ))}
+        <path d={line(bandAPts)} fill="none" stroke="#22c55e" strokeWidth="2" strokeDasharray="5,3" />
+        {bandAPts.map(([x, y, v, yr]) => (
+          <circle key={`a-${yr}`} cx={x} cy={y} r="3" fill="#22c55e"><title>{yr}：Band A {v}</title></circle>
+        ))}
+      </svg>
+      <div className="trend-legend">
+        <span><span className="legend-line total" />總報名</span>
+        <span><span className="legend-line banda" />Band A（首 3 志願）</span>
+      </div>
+    </div>
+  );
+}
+
+function TrendTable({ bands, years }) {
+  return (
+    <div className="trend-table-wrap">
+      <table className="trend-table">
+        <thead>
+          <tr><th>年份</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>總數</th></tr>
+        </thead>
+        <tbody>
+          {[...years].reverse().map((y) => {
+            const b = bands[y];
+            return (
+              <tr key={y}>
+                <td>{y}</td>
+                <td>{b?.bandA ?? '—'}</td><td>{b?.bandB ?? '—'}</td><td>{b?.bandC ?? '—'}</td>
+                <td>{b?.bandD ?? '—'}</td><td>{b?.bandE ?? '—'}</td><td className="trend-total">{b?.total ?? '—'}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function DetailOverlay({ prog, year, onClose }) {
+  const [appData, setAppData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [showTrend, setShowTrend] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    api.getApplications(prog.jupasCode)
+      .then((d) => setAppData(d.application))
+      .catch(() => setAppData(null))
+      .finally(() => setLoading(false));
+  }, [prog.jupasCode]);
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = ''; };
+  }, []);
+
+  const bands2025 = appData?.bands?.['2025'];
+  const maxBand = bands2025 ? Math.max(bands2025.bandA, bands2025.bandB, bands2025.bandC, bands2025.bandD, bands2025.bandE) : 0;
+
+  const trendYears = useMemo(() => {
+    if (!appData?.bands) return [];
+    return Object.keys(appData.bands).sort();
+  }, [appData]);
+
+  return (
+    <div className="detail-overlay">
+      <div className="detail-inner">
+        <div className="detail-top-bar">
+          <button className="back-btn" onClick={onClose}>← 返回</button>
+          <h3>{prog.jupasCode}</h3>
+        </div>
+
+        <h3 style={{ marginTop: 12, fontSize: 17 }}>{prog.name}</h3>
+
+        <div className="detail-grid">
+          <div><span className="dl">收生中位數</span><span className="dv">{prog.admission?.median ?? '—'}</span></div>
+          <div><span className="dl">下四分位數</span><span className="dv">{prog.admission?.lowerQuartile ?? '—'}</span></div>
+          <div><span className="dl">類別</span><span className="dv" style={{ fontSize: 16 }}>{CAT_LABELS[prog.category] || prog.category}</span></div>
+        </div>
+
+        <div className="detail-block">
+          <h4>計分方式 / 學科比重</h4>
+          <p>{describeScoring(prog)}</p>
+          {prog.weightsStatus === 'unweighted-approx' && <p className="muted">＊原校有科目加權，此處未完全還原，僅供參考。</p>}
+        </div>
+
+        {appData?.requirements?.length > 0 && (
+          <div className="detail-block">
+            <h4>核心科目最低要求</h4>
+            <div className="req-list">
+              {appData.requirements.map((r, i) => (
+                <span key={i} className="req-chip">{r.subject}：{reqMinLabel(r.subject, r.min)}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="detail-block">
+          <h4>報名人數（{year} · 改選後）</h4>
+          {loading && <p className="muted">載入中…</p>}
+          {!loading && !bands2025 && <p className="muted">暫無申請統計數據。</p>}
+          {bands2025 && (
+            <div className="bands">
+              {['bandA', 'bandB', 'bandC', 'bandD', 'bandE'].map((b) => (
+                <div className="band-row" key={b}>
+                  <span className="band-label">{BAND_LABEL[b]}</span>
+                  <span className="band-bar"><span className="band-fill" style={{ width: `${maxBand ? (bands2025[b] / maxBand) * 100 : 0}%` }} /></span>
+                  <span className="band-num">{bands2025[b]}</span>
+                </div>
+              ))}
+              <div className="band-total">總報名：{bands2025.total} 人</div>
+            </div>
+          )}
+        </div>
+
+        {trendYears.length > 1 && (
+          <div className="detail-block">
+            <div className="trend-header">
+              <h4>歷年報名趨勢</h4>
+              <button className="chip" onClick={() => setShowTrend(!showTrend)}>
+                {showTrend ? '收起表格' : '展開表格'}
+              </button>
+            </div>
+            <TrendChart bands={appData.bands} years={trendYears} />
+            {showTrend && <TrendTable bands={appData.bands} years={trendYears} />}
+          </div>
+        )}
+
+        <div className="scheme-note">計分換算：{SCHEME_LABEL[prog.gradeScheme] || prog.gradeScheme}</div>
+      </div>
+    </div>
+  );
+}
 
 export default function ProgrammeBrowser() {
   const [programmes, setProgrammes] = useState([]);
@@ -47,8 +218,6 @@ export default function ProgrammeBrowser() {
   const [keyword, setKeyword] = useState('');
   const [year, setYear] = useState(null);
   const [selProg, setSelProg] = useState(null);
-  const [appData, setAppData] = useState(null);
-  const [loadingApp, setLoadingApp] = useState(false);
 
   useEffect(() => {
     api.getProgrammes().then((d) => { setProgrammes(d.programmes); setYear(d.year); });
@@ -57,16 +226,6 @@ export default function ProgrammeBrowser() {
       if (d.universities[0]) setSelUni(d.universities[0].id);
     });
   }, []);
-
-  function openProg(p) {
-    setSelProg(p);
-    setAppData(null);
-    setLoadingApp(true);
-    api.getApplications(p.jupasCode)
-      .then((d) => setAppData(d.application))
-      .catch(() => setAppData(null))
-      .finally(() => setLoadingApp(false));
-  }
 
   const countByUni = useMemo(() => {
     const c = {};
@@ -84,9 +243,6 @@ export default function ProgrammeBrowser() {
     return l.sort((a, b) => (a.jupasCode || '').localeCompare(b.jupasCode || ''));
   }, [programmes, selUni, keyword]);
 
-  const bands2025 = appData?.bands?.['2025'];
-  const maxBand = bands2025 ? Math.max(bands2025.bandA, bands2025.bandB, bands2025.bandC, bands2025.bandD, bands2025.bandE) : 0;
-
   return (
     <div className="browser">
       <div className="panel">
@@ -94,7 +250,7 @@ export default function ProgrammeBrowser() {
         <div className="uni-filter">
           {universities.map((u) => (
             <button key={u.id} className={`chip ${selUni === u.id ? 'active' : ''}`}
-              onClick={() => { setSelUni(u.id); setSelProg(null); }}>
+              onClick={() => { setSelUni(u.id); }}>
               {u.short} ({countByUni[u.id] || 0})
             </button>
           ))}
@@ -106,8 +262,8 @@ export default function ProgrammeBrowser() {
       {uni && (
         <div className="panel">
           <div className="browse-head">
-            <h3>{uni.name}（{uni.short}）</h3>
-            <span className="muted">{list.length} 個專業 · {year} 收生數據 · 點專業看詳情</span>
+            <h3>{uni.short}</h3>
+            <span className="muted">{list.length} 個專業 · {year}</span>
           </div>
           <div className="prog-table">
             <div className="prog-row prog-th">
@@ -119,7 +275,7 @@ export default function ProgrammeBrowser() {
               <span className="c-num">下四分</span>
             </div>
             {list.map((p, idx) => (
-              <div className={`prog-row clickable ${selProg?.id === p.id ? 'sel' : ''}`} key={p.id} onClick={() => openProg(p)}>
+              <div className={`prog-row clickable`} key={p.id} onClick={() => setSelProg(p)}>
                 <span className="c-idx">{idx + 1}</span>
                 <span className="c-code">{p.jupasCode}</span>
                 <span className="c-name">
@@ -137,53 +293,7 @@ export default function ProgrammeBrowser() {
       )}
 
       {selProg && (
-        <div className="panel detail-panel">
-          <div className="browse-head">
-            <h3>{selProg.jupasCode} · {selProg.name}</h3>
-            <button className="chip" onClick={() => setSelProg(null)}>✕ 關閉</button>
-          </div>
-
-          <div className="detail-grid">
-            <div><span className="dl">收生中位數</span><span className="dv">{selProg.admission?.median ?? '—'}</span></div>
-            <div><span className="dl">下四分位數</span><span className="dv">{selProg.admission?.lowerQuartile ?? '—'}</span></div>
-            <div><span className="dl">類別</span><span className="dv">{CAT_LABELS[selProg.category] || selProg.category}</span></div>
-          </div>
-
-          <div className="detail-block">
-            <h4>計分方式 / 學科比重</h4>
-            <p>{describeScoring(selProg)}</p>
-            {selProg.weightsStatus === 'unweighted-approx' && <p className="muted">＊原校有科目加權，此處未完全還原，僅供參考。</p>}
-          </div>
-
-          {appData?.requirements?.length > 0 && (
-            <div className="detail-block">
-              <h4>核心科目最低要求</h4>
-              <div className="req-list">
-                {appData.requirements.map((r, i) => (
-                  <span key={i} className="req-chip">{r.subject}：{reqMinLabel(r.subject, r.min)}</span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div className="detail-block">
-            <h4>報名人數（{year} · 改選後）</h4>
-            {loadingApp && <p className="muted">載入中…</p>}
-            {!loadingApp && !bands2025 && <p className="muted">暫無申請統計數據。</p>}
-            {bands2025 && (
-              <div className="bands">
-                {['bandA', 'bandB', 'bandC', 'bandD', 'bandE'].map((b) => (
-                  <div className="band-row" key={b}>
-                    <span className="band-label">{BAND_LABEL[b]}</span>
-                    <span className="band-bar"><span className="band-fill" style={{ width: `${maxBand ? (bands2025[b] / maxBand) * 100 : 0}%` }} /></span>
-                    <span className="band-num">{bands2025[b]}</span>
-                  </div>
-                ))}
-                <div className="band-total">總報名：{bands2025.total} 人</div>
-              </div>
-            )}
-          </div>
-        </div>
+        <DetailOverlay prog={selProg} year={year} onClose={() => setSelProg(null)} />
       )}
     </div>
   );

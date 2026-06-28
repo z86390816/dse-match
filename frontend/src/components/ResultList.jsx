@@ -124,12 +124,12 @@ export default function ResultList({ results }) {
                   距中位數 {r.gapToMedian >= 0 ? '+' : ''}{r.gapToMedian}
                 </span>
               )}
-              {r.scoreComparable !== false && r.breakdown?.length > 0 && (
-                <button className="calc-toggle" onClick={() => toggle(r.programmeId)}>
-                  {expanded.has(r.programmeId) ? '▲ 收起計分' : '▼ 計分明細'}
-                </button>
-              )}
             </div>
+            {r.scoreComparable !== false && r.breakdown?.length > 0 && (
+              <button className="calc-btn" onClick={() => toggle(r.programmeId)}>
+                {expanded.has(r.programmeId) ? '▲ 收起計分明細' : '📊 查看計分明細'}
+              </button>
+            )}
 
             {expanded.has(r.programmeId) && r.scoreComparable !== false && (
               <div className="calc-detail">
