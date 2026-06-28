@@ -54,10 +54,59 @@ function checkRequirements(grades, programme) {
  * @param {Object} university  universities.js 的一筆
  * @returns {{ score:number, breakdown:Array, requirement:{ok,reasons} }}
  */
+/**
+ * HKU 計分：programme.formula = { fixed:[{subject,weight}], bestN, tailWeight }
+ * 分數 = Σ(固定科加權) + 最佳 N 科（其餘科，權重 1） + tailWeight × 第(N+1)佳其餘科
+ */
+function calculateHku(grades, programme, university, scheme) {
+  const f = programme.formula || { fixed: [], bestN: 5, tailWeight: 0 };
+  const breakdown = [];
+  const fixedIds = new Set(f.fixed.map((x) => x.subject));
+
+  let fixedScore = 0;
+  for (const { subject, weight } of f.fixed) {
+    const g = grades[subject];
+    if (!g || g === 'U') continue;
+    const pts = gradeToPoints(g, scheme);
+    fixedScore += pts * weight;
+    breakdown.push({ subject, name: SUBJECT_MAP[subject]?.name || subject, grade: g, weight, weightedPoints: +(pts * weight).toFixed(2) });
+  }
+
+  // 其餘科（排除固定科、公民），按分數高低
+  const remaining = Object.entries(grades)
+    .filter(([id, g]) => id !== 'csd' && g && g !== 'U' && !fixedIds.has(id))
+    .map(([id, g]) => ({ subject: id, name: SUBJECT_MAP[id]?.name || id, grade: g, points: gradeToPoints(g, scheme) }))
+    .sort((a, b) => b.points - a.points);
+
+  let bestSum = 0;
+  remaining.slice(0, f.bestN).forEach((r) => {
+    bestSum += r.points;
+    breakdown.push({ subject: r.subject, name: r.name, grade: r.grade, weight: 1, weightedPoints: +r.points.toFixed(2) });
+  });
+
+  let tailScore = 0;
+  const tailSubj = remaining[f.bestN];
+  if (f.tailWeight && tailSubj) {
+    tailScore = tailSubj.points * f.tailWeight;
+    breakdown.push({ subject: tailSubj.subject, name: tailSubj.name, grade: tailSubj.grade, weight: f.tailWeight, weightedPoints: +tailScore.toFixed(2) });
+  }
+
+  return {
+    score: +(fixedScore + bestSum + tailScore).toFixed(2),
+    breakdown,
+    requirement: checkRequirements(grades, programme),
+  };
+}
+
 function calculateScore(grades, programme, university) {
   const scheme = programme.gradeScheme || university?.gradeScheme || 'standard';
   const weights = programme.weights || {};
   const method = programme.method || 'best5';
+
+  // HKU 線性公式：a×Eng + b×Math (+...) + Best N 其餘科 + tail×第(N+1)佳
+  if (method === 'hku') {
+    return calculateHku(grades, programme, university, scheme);
+  }
 
   // 1. 把每一科算成「加權分數」
   const perSubject = [];

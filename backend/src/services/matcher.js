@@ -12,6 +12,8 @@ const { UNIVERSITY_MAP } = require('../data/universities');
  *   unqualified: 不符必修門檻
  */
 function classify(score, programme, requirementOk) {
+  // 計分方式無法複製（如 PolyU 200 制）→ 僅供參考，不評級
+  if (programme.scoreComparable === false) return 'reference';
   if (!requirementOk) return 'unqualified';
   const { median, lowerQuartile, minScore } = programme.admission || {};
   if (median != null && score >= median) return 'safe';
@@ -21,7 +23,7 @@ function classify(score, programme, requirementOk) {
   return 'below';
 }
 
-const TIER_ORDER = { safe: 0, competitive: 1, reach: 2, below: 3, unqualified: 4 };
+const TIER_ORDER = { safe: 0, competitive: 1, reach: 2, below: 3, unqualified: 4, reference: 5 };
 
 /**
  * 對所有專業跑配對。
@@ -51,6 +53,8 @@ function matchAll(grades, programmes) {
       gapToMedian: median != null ? +(score - median).toFixed(2) : null,
       gapToLowerQuartile: lowerQuartile != null ? +(score - lowerQuartile).toFixed(2) : null,
       tier,
+      scoreComparable: programme.scoreComparable !== false,
+      scaleNote: programme.scaleNote || null,
       requirementOk: requirement.ok,
       requirementReasons: requirement.reasons,
       breakdown,

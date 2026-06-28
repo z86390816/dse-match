@@ -85,6 +85,17 @@ select {
 
 .empty { color: var(--muted); text-align: center; padding: 40px 10px; }
 
+.tier-summary { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+.tier-pill { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; }
+.tier-pill.safe { background: var(--safe); color: #052e16; }
+.tier-pill.competitive { background: var(--competitive); color: #3f2d03; }
+.tier-pill.reach { background: var(--reach); color: #431407; }
+.tier-pill.below { background: var(--below); color: #0f172a; }
+.tier-pill.unqualified { background: var(--unqualified); color: #450a0a; }
+.uni-filter { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.uni-filter .chip { padding: 4px 10px; font-size: 12px; }
+.result-count { font-size: 12px; color: var(--muted); margin: 8px 0; }
+
 .card {
   background: var(--panel-2);
   border-radius: 10px;

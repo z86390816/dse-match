@@ -1,201 +1,6603 @@
 {
-  "_README": "⚠️ 以下 admission（median/lowerQuartile/minScore）全部為示例數據，dataStatus=sample，並非官方真實收生分數。正式上線前必須以核實過的官方資料替換。weights/method/requiredCore 用來示範各專業計分公式不同。",
   "year": 2025,
+  "source": "JUPAS 官方 2025 收生分數 (af_2025_JUPAS.pdf) — 5 所主要大學",
+  "dataNote": "收生中位數/下四分位數為官方數據。CityU/CUHK/HKUST 科目加權為自動解析（部分待人工核對）；HKU 為公式計算；PolyU 採 ~200-300 百分位尺度、計分公式不公開，僅供參考、不評級。",
   "programmes": [
     {
-      "id": "hku-mbbs",
-      "jupasCode": "JS6456",
-      "universityId": "hku",
-      "name": "內外全科醫學士 (MBBS)",
-      "category": "medical",
-      "method": "best6",
-      "weights": { "eng": 1, "chem": 1.5, "bio": 1.5, "math": 1 },
-      "requiredCore": { "eng": 4, "chin": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 44, "lowerQuartile": 42, "minScore": 40 },
-      "dataStatus": "sample"
-    },
-    {
-      "id": "hku-law",
-      "jupasCode": "JS6701",
-      "universityId": "hku",
-      "name": "法學士 (LLB)",
-      "category": "law",
-      "method": "best5",
-      "weights": { "eng": 2, "chin": 1 },
-      "requiredCore": { "eng": 4, "chin": 3 },
-      "requireCsd": true,
-      "admission": { "median": 38, "lowerQuartile": 36, "minScore": 34 },
-      "dataStatus": "sample"
-    },
-    {
-      "id": "hku-bba",
-      "jupasCode": "JS6951",
-      "universityId": "hku",
-      "name": "工商管理學學士 (BBA)",
-      "category": "business",
-      "method": "best5",
-      "weights": { "eng": 1.5, "math": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 34, "lowerQuartile": 31, "minScore": 28 },
-      "dataStatus": "sample"
-    },
-    {
-      "id": "hku-eng",
-      "jupasCode": "JS6963",
-      "universityId": "hku",
-      "name": "工程學學士 (BEng)",
-      "category": "engineering",
-      "method": "best5",
-      "weights": { "math": 2, "phys": 1.5, "m1": 1.5, "m2": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 33, "lowerQuartile": 29, "minScore": 26 },
-      "dataStatus": "sample"
-    },
-    {
-      "id": "hku-socsci",
-      "jupasCode": "JS6717",
-      "universityId": "hku",
-      "name": "社會科學學士",
-      "category": "social",
+      "id": "cityu-js1211",
+      "jupasCode": "JS1211",
+      "universityId": "cityu",
+      "name": "BEng Biomedical Engineering (Features: Medical Technology / Bioinstrum",
       "method": "best5",
       "weights": {},
-      "requiredCore": { "eng": 3, "chin": 3 },
-      "requireCsd": true,
-      "admission": { "median": 29, "lowerQuartile": 26, "minScore": 23 },
-      "dataStatus": "sample"
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 39,
+        "lowerQuartile": 38
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "medical"
     },
     {
-      "id": "cuhk-mbchb",
-      "jupasCode": "JS4501",
-      "universityId": "cuhk",
-      "name": "內外全科醫學士 (MBChB)",
+      "id": "cityu-js1805",
+      "jupasCode": "JS1805",
+      "universityId": "cityu",
+      "name": "Biomedical Sciences (Majors: BSc Biological Sciences / BSc Biomedical",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38.5,
+        "lowerQuartile": 37.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "medical"
+    },
+    {
+      "id": "cityu-js1806",
+      "jupasCode": "JS1806",
+      "universityId": "cityu",
+      "name": "BSc Biological Sciences (Features: Bioinformatics, Biochemistry, Genet",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35.5,
+        "lowerQuartile": 35
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1807",
+      "jupasCode": "JS1807",
+      "universityId": "cityu",
+      "name": "BSc Biomedical Sciences (Features: Clinical Chemistry, Hematology, Mic",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 45.5,
+        "lowerQuartile": 43
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "unweighted-approx",
       "category": "medical",
-      "method": "best6",
-      "weights": { "eng": 1, "chem": 1.5, "bio": 1.5 },
-      "requiredCore": { "eng": 4, "chin": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 43, "lowerQuartile": 41, "minScore": 39 },
-      "dataStatus": "sample"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
     },
     {
-      "id": "cuhk-ba",
+      "id": "cityu-js1000",
+      "jupasCode": "JS1000",
+      "universityId": "cityu",
+      "name": "BSc Computational Finance and Financial Technology (Streams: Computati",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1001",
+      "jupasCode": "JS1001",
+      "universityId": "cityu",
+      "name": "BBA Global Business (Features: 3 Exchanges / Joint Bachelor’s Degree P",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29.5,
+        "lowerQuartile": 28
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1002",
+      "jupasCode": "JS1002",
+      "universityId": "cityu",
+      "name": "BBA Accountancy (Streams: Professional Accounting / ESG and Tech)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1005",
+      "jupasCode": "JS1005",
+      "universityId": "cityu",
+      "name": "BBA Management (Streams: Human Resources Management / Strategy and Int",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1007",
+      "jupasCode": "JS1007",
+      "universityId": "cityu",
+      "name": "BBA Marketing (Streams: Global Marketing / Marketing Analytics)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1012",
+      "jupasCode": "JS1012",
+      "universityId": "cityu",
+      "name": "Economics and Finance (Majors: BBA Business Economics / BBA Finance)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 22.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1013",
+      "jupasCode": "JS1013",
+      "universityId": "cityu",
+      "name": "BBA Business Economics (Features: Economic Theory / International Econ",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1014",
+      "jupasCode": "JS1014",
+      "universityId": "cityu",
+      "name": "BBA Finance (Features: Investment Analysis / Financial Markets / Corpo",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1017",
+      "jupasCode": "JS1017",
+      "universityId": "cityu",
+      "name": "Intelligent Information Systems ( Majors: BBA Global Business Systems",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 21,
+        "lowerQuartile": 20.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1018",
+      "jupasCode": "JS1018",
+      "universityId": "cityu",
+      "name": "BBA Global Business Systems Management (Features: Intelligent Technolo",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1019",
+      "jupasCode": "JS1019",
+      "universityId": "cityu",
+      "name": "BBA Artificial Intelligence in Business (Streams: Business Intelligenc",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 21,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1026",
+      "jupasCode": "JS1026",
+      "universityId": "cityu",
+      "name": "BBA Business Decision Analytics (Streams: Decision Analytics / Data In",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1027",
+      "jupasCode": "JS1027",
+      "universityId": "cityu",
+      "name": "BBA Global Operations Management (Features: Supply Chain Management /",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1070",
+      "jupasCode": "JS1070",
+      "universityId": "cityu",
+      "name": "AI, Computing and Transformation (ACT) (Features: Free Choice of Major",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31,
+        "lowerQuartile": 30
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1071",
+      "jupasCode": "JS1071",
+      "universityId": "cityu",
+      "name": "Data Science (Majors: BSc Data Science / BSc Data and Systems Engineer",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 27.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1072",
+      "jupasCode": "JS1072",
+      "universityId": "cityu",
+      "name": "BSc Data Science (Features: Data Science / Machine Learning / Data Min",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 28.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1074",
+      "jupasCode": "JS1074",
+      "universityId": "cityu",
+      "name": "BSc Data and Systems Engineering (Features: Data Science / FinTech & D",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 27.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1204",
+      "jupasCode": "JS1204",
+      "universityId": "cityu",
+      "name": "BSc Computer Science (Streams: Artificial Intelligence / Cybersecurity",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 22
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1218",
+      "jupasCode": "JS1218",
+      "universityId": "cityu",
+      "name": "BSc Cybersecurity (Features: System Security / Software Security / Cry",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 20.5,
+        "lowerQuartile": 20.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1201",
+      "jupasCode": "JS1201",
+      "universityId": "cityu",
+      "name": "Architecture and Civil Engineering (Majors: BEng Architectural Enginee",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 43.5,
+        "lowerQuartile": 42.5
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cityu-js1205",
+      "jupasCode": "JS1205",
+      "universityId": "cityu",
+      "name": "Electrical Engineering (Majors: BEng Computer and Data Engineering / B",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 39,
+        "lowerQuartile": 37
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1207",
+      "jupasCode": "JS1207",
+      "universityId": "cityu",
+      "name": "Mechanical Engineering (Majors: BEng Aerospace Engineering / BEng Mech",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 34.5,
+        "lowerQuartile": 34
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1210",
+      "jupasCode": "JS1210",
+      "universityId": "cityu",
+      "name": "BEng Materials Science and Engineering (Features: HKIE Accredited / In",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 34,
+        "lowerQuartile": 32.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1216",
+      "jupasCode": "JS1216",
+      "universityId": "cityu",
+      "name": "BEng Intelligent Manufacturing Engineering (Features: Industrial Inter",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 20,
+        "lowerQuartile": 18
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1217",
+      "jupasCode": "JS1217",
+      "universityId": "cityu",
+      "name": "Pathway for Research, Innovation, and Multinational Engineering (PRIME",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38.5,
+        "lowerQuartile": 38
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1219",
+      "jupasCode": "JS1219",
+      "universityId": "cityu",
+      "name": "BEng Innovation and Enterprise Engineering (Features: Engineering / Te",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 19.5,
+        "lowerQuartile": 18.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1102",
+      "jupasCode": "JS1102",
+      "universityId": "cityu",
+      "name": "BSocSc International Relations and Global Affairs (Streams: Asian Stud",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "general"
+    },
+    {
+      "id": "cityu-js1103",
+      "jupasCode": "JS1103",
+      "universityId": "cityu",
+      "name": "BA Chinese and History (Streams: Chinese / History and Cultural Herita",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 36,
+        "lowerQuartile": 35.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "humanities"
+    },
+    {
+      "id": "cityu-js1104",
+      "jupasCode": "JS1104",
+      "universityId": "cityu",
+      "name": "BA English (Streams: English and Professional Communication / Language",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32,
+        "lowerQuartile": 29.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "social"
+    },
+    {
+      "id": "cityu-js1106",
+      "jupasCode": "JS1106",
+      "universityId": "cityu",
+      "name": "Media and Communication (Majors: BA Digital Television and Broadcastin",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 20.5,
+        "lowerQuartile": 20
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "social"
+    },
+    {
+      "id": "cityu-js1108",
+      "jupasCode": "JS1108",
+      "universityId": "cityu",
+      "name": "BSocSc Public Affairs and Management (Streams: Public Affairs and Gove",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1109",
+      "jupasCode": "JS1109",
+      "universityId": "cityu",
+      "name": "BA Linguistics and Language Applications (Features: General Linguistic",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 30,
+        "lowerQuartile": 29.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "humanities"
+    },
+    {
+      "id": "cityu-js1111",
+      "jupasCode": "JS1111",
+      "universityId": "cityu",
+      "name": "BSocSc Crime Science (Features: Crime Prevention / Security Practice /",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1112",
+      "jupasCode": "JS1112",
+      "universityId": "cityu",
+      "name": "BSocSc Psychology (Streams: Health and Development / Mind and Brain)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 24
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "medical"
+    },
+    {
+      "id": "cityu-js1113",
+      "jupasCode": "JS1113",
+      "universityId": "cityu",
+      "name": "BSocSc Social Work (Features: Social Engagement and Concern for People",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "social"
+    },
+    {
+      "id": "cityu-js1200",
+      "jupasCode": "JS1200",
+      "universityId": "cityu",
+      "name": "Global Research Enrichment and Technopreneurship (GREAT) [Majors: BSc",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1202",
+      "jupasCode": "JS1202",
+      "universityId": "cityu",
+      "name": "BSc Chemistry [ Streams: Comprehensive Chemistry / Cosmetic Chemistry",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1206",
+      "jupasCode": "JS1206",
+      "universityId": "cityu",
+      "name": "BSc Computing Mathematics [ Streams: Enriched Mathematics / Financial",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1208",
+      "jupasCode": "JS1208",
+      "universityId": "cityu",
+      "name": "BSc Physics [Features: Classical Physics / Modern Physics / Experiment",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1801",
+      "jupasCode": "JS1801",
+      "universityId": "cityu",
+      "name": "Bachelor of Veterinary Medicine (Features: One Health / Animal Health",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33.5,
+        "lowerQuartile": 32
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "medical"
+    },
+    {
+      "id": "cityu-js1040",
+      "jupasCode": "JS1040",
+      "universityId": "cityu",
+      "name": "JS 1040 Creative Arts and Technology Excellence (CREATE) (Options: Cre",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "cityu-js1041",
+      "jupasCode": "JS1041",
+      "universityId": "cityu",
+      "name": "Creative Media (Majors: BA Creative Media / BSc Creative Media / BAS N",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 25.5,
+        "lowerQuartile": 25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1042",
+      "jupasCode": "JS1042",
+      "universityId": "cityu",
+      "name": "BA Creative Media (Features: Animation / Cinema & Photography / Critic",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "cityu-js1043",
+      "jupasCode": "JS1043",
+      "universityId": "cityu",
+      "name": "BSc Creative Media (Features: Combination of Creative Media and Comput",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26.5,
+        "lowerQuartile": 25.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "cityu-js1044",
+      "jupasCode": "JS1044",
+      "universityId": "cityu",
+      "name": "BAS New Media (Features: Media Art / Robotics & AI / Art & Technology",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 24
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cityu-js1050",
+      "jupasCode": "JS1050",
+      "universityId": "cityu",
+      "name": "International Sustainability Programme for Innovation, Research & Entr",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38,
+        "lowerQuartile": 36.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "general"
+    },
+    {
+      "id": "cityu-js1051",
+      "jupasCode": "JS1051",
+      "universityId": "cityu",
+      "name": "Energy and Environment (Majors: BEng Energy Science and Engineering /",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 40.5,
+        "lowerQuartile": 40
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1053",
+      "jupasCode": "JS1053",
+      "universityId": "cityu",
+      "name": "BSc Environment and Sustainable Business (include English, Mathematics",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 40,
+        "lowerQuartile": 39.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "cityu-js1061",
+      "jupasCode": "JS1061",
+      "universityId": "cityu",
+      "name": "Bachelor of Laws Double Degree Programmes",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 21.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "law"
+    },
+    {
+      "id": "cityu-js1052",
+      "jupasCode": "JS1052",
+      "universityId": "cityu",
+      "name": "BEng Environmental Science and Engineering and BBA Finance [ Double De",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 40,
+        "lowerQuartile": 39.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "cityu-js1062",
+      "jupasCode": "JS1062",
+      "universityId": "cityu",
+      "name": "Bachelor of Laws and BBA Accountancy (Double Degree)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "law"
+    },
+    {
+      "id": "cityu-js1123",
+      "jupasCode": "JS1123",
+      "universityId": "cityu",
+      "name": "BSocSc Crime Science and Bachelor of Laws (Double Degree)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "law"
+    },
+    {
+      "id": "cityu-js1221",
+      "jupasCode": "JS1221",
+      "universityId": "cityu",
+      "name": "BSc Computer Science and BSc Computational Finance and Financial Techn",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 22
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "cuhk-js4006",
+      "jupasCode": "JS4006",
+      "universityId": "cuhk",
+      "name": "Anthropology Chinese Language and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4018",
+      "jupasCode": "JS4018",
+      "universityId": "cuhk",
+      "name": "Chinese Language and Literature",
+      "method": "best5",
+      "weights": {
+        "chin": 1.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 30.4,
+        "lowerQuartile": 29.2
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4032",
+      "jupasCode": "JS4032",
+      "universityId": "cuhk",
+      "name": "English",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.25,
+        "lowerQuartile": 26.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4044",
+      "jupasCode": "JS4044",
+      "universityId": "cuhk",
+      "name": "Fine Arts",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "arts"
+    },
+    {
+      "id": "cuhk-js4056",
+      "jupasCode": "JS4056",
+      "universityId": "cuhk",
+      "name": "History",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26.5,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4068",
+      "jupasCode": "JS4068",
+      "universityId": "cuhk",
+      "name": "Japanese Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4070",
+      "jupasCode": "JS4070",
+      "universityId": "cuhk",
+      "name": "Linguistics",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4082",
+      "jupasCode": "JS4082",
+      "universityId": "cuhk",
+      "name": "Music",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 22.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "arts"
+    },
+    {
+      "id": "cuhk-js4094",
+      "jupasCode": "JS4094",
+      "universityId": "cuhk",
+      "name": "Philosophy",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4100",
+      "jupasCode": "JS4100",
+      "universityId": "cuhk",
+      "name": "Public Humanities",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4109",
+      "jupasCode": "JS4109",
+      "universityId": "cuhk",
+      "name": "Religious Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "general"
+    },
+    {
+      "id": "cuhk-js4123",
+      "jupasCode": "JS4123",
+      "universityId": "cuhk",
+      "name": "Translation",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4136",
+      "jupasCode": "JS4136",
+      "universityId": "cuhk",
+      "name": "Chinese Studies",
+      "method": "best5",
+      "weights": {
+        "eng": 1.25
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 24.25,
+        "lowerQuartile": 24.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "humanities"
+    },
+    {
+      "id": "cuhk-js4202",
       "jupasCode": "JS4202",
       "universityId": "cuhk",
-      "name": "工商管理學士綜合課程",
-      "category": "business",
+      "name": "Integrated BBA",
       "method": "best5",
-      "weights": { "eng": 1.5, "math": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 33, "lowerQuartile": 30, "minScore": 27 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
     },
     {
-      "id": "cuhk-eng",
+      "id": "cuhk-js4214",
+      "jupasCode": "JS4214",
+      "universityId": "cuhk",
+      "name": "Global Business Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38,
+        "lowerQuartile": 36.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4226",
+      "jupasCode": "JS4226",
+      "universityId": "cuhk",
+      "name": "Hospitality and Real Estate Insurance, Financial and",
+      "method": "best5",
+      "weights": {
+        "eng": 1.25,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "general"
+    },
+    {
+      "id": "cuhk-js4238",
+      "jupasCode": "JS4238",
+      "universityId": "cuhk",
+      "name": "Insurance, Financial and Actuarial Analysis",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "econ": 1.25
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 41.75,
+        "lowerQuartile": 40.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "general"
+    },
+    {
+      "id": "cuhk-js4240",
+      "jupasCode": "JS4240",
+      "universityId": "cuhk",
+      "name": "Professional Accountancy",
+      "method": "best5",
+      "weights": {
+        "eng": 2,
+        "math": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4252",
+      "jupasCode": "JS4252",
+      "universityId": "cuhk",
+      "name": "Quantitative Finance Interdisciplinary Major",
+      "method": "best5",
+      "weights": {
+        "math": 2,
+        "phys": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 52.5,
+        "lowerQuartile": 51.75
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4254",
+      "jupasCode": "JS4254",
+      "universityId": "cuhk",
+      "name": "Interdisciplinary Major Programme in Global Economics and Finance BBA(",
+      "method": "best5",
+      "weights": {
+        "eng": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 33.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4264",
+      "jupasCode": "JS4264",
+      "universityId": "cuhk",
+      "name": "BBA(IBBA) – JD Double Degree Programme Quantitative Finance and Risk",
+      "method": "best5",
+      "weights": {
+        "eng": 2,
+        "math": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37.5,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4276",
+      "jupasCode": "JS4276",
+      "universityId": "cuhk",
+      "name": "Quantitative Finance and Risk Management Science Biotechnology, Entrep",
+      "method": "best5",
+      "weights": {
+        "math": 2,
+        "phys": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 57.75,
+        "lowerQuartile": 54.75
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4725",
+      "jupasCode": "JS4725",
+      "universityId": "cuhk",
+      "name": "Biotechnology, Entrepreneurship and Healthcare Management Interdiscipl",
+      "method": "best5",
+      "weights": {
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 27.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4760",
+      "jupasCode": "JS4760",
+      "universityId": "cuhk",
+      "name": "Interdisciplinary Data Analytics & X Double Major Programme",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "econ": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 34.75
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "general"
+    },
+    {
+      "id": "cuhk-js4320",
+      "jupasCode": "JS4320",
+      "universityId": "cuhk",
+      "name": "Human Movement Science and Health Studies Physical Education, Exercise",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4329",
+      "jupasCode": "JS4329",
+      "universityId": "cuhk",
+      "name": "Physical Education, Exercise Science and Health BA (Chinese Language S",
+      "method": "best5",
+      "weights": {
+        "chin": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4331",
+      "jupasCode": "JS4331",
+      "universityId": "cuhk",
+      "name": "BA (Chinese Language Studies) and BEd (Chinese Language Education) BA",
+      "method": "best5",
+      "weights": {
+        "chin": 2,
+        "eng": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 42,
+        "lowerQuartile": 40.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "education"
+    },
+    {
+      "id": "cuhk-js4343",
+      "jupasCode": "JS4343",
+      "universityId": "cuhk",
+      "name": "BA (English Studies) and BEd (English Language Education) BEd in Mathe",
+      "method": "best5",
+      "weights": {
+        "eng": 2,
+        "math": 2,
+        "chin": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 39,
+        "lowerQuartile": 37.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "education"
+    },
+    {
+      "id": "cuhk-js4361",
+      "jupasCode": "JS4361",
+      "universityId": "cuhk",
+      "name": "BEd in Mathematics and Mathematics Education",
+      "method": "best5",
+      "weights": {
+        "chin": 1.5,
+        "econ": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 53.75,
+        "lowerQuartile": 53
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "education",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4372",
+      "jupasCode": "JS4372",
+      "universityId": "cuhk",
+      "name": "BEd in Early Childhood Education BSc in Learning Design and",
+      "method": "best5",
+      "weights": {
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "education"
+    },
+    {
+      "id": "cuhk-js4386",
+      "jupasCode": "JS4386",
+      "universityId": "cuhk",
+      "name": "BSc in Learning Design and Technology Mechanical and Automation",
+      "method": "best5",
+      "weights": {
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 30.5,
+        "lowerQuartile": 30.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "engineering"
+    },
+    {
+      "id": "cuhk-js4408",
+      "jupasCode": "JS4408",
+      "universityId": "cuhk",
+      "name": "Mechanical and Automation Engineering Computer Science and",
+      "method": "best5",
+      "weights": {
+        "phys": 1.5,
+        "ict": 1.25,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31.5,
+        "lowerQuartile": 30.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "it"
+    },
+    {
+      "id": "cuhk-js4412",
+      "jupasCode": "JS4412",
+      "universityId": "cuhk",
+      "name": "Computer Science and Engineering",
+      "method": "best5",
+      "weights": {
+        "ict": 1.5,
+        "math": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 42.875,
+        "lowerQuartile": 40.375
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "it"
+    },
+    {
+      "id": "cuhk-js4416",
+      "jupasCode": "JS4416",
+      "universityId": "cuhk",
+      "name": "Computational Data Science",
+      "method": "best5",
+      "weights": {
+        "ict": 1.5,
+        "eng": 1.25,
+        "chin": 1.25,
+        "math": 1.75
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 54.5,
+        "lowerQuartile": 53
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4428",
+      "jupasCode": "JS4428",
+      "universityId": "cuhk",
+      "name": "Financial Technology",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "ict": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 47.375,
+        "lowerQuartile": 45.625
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "general",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4434",
+      "jupasCode": "JS4434",
+      "universityId": "cuhk",
+      "name": "Electronic Engineering",
+      "method": "best5",
+      "weights": {
+        "math": 2,
+        "phys": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31.25,
+        "lowerQuartile": 30.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "engineering"
+    },
+    {
+      "id": "cuhk-js4446",
+      "jupasCode": "JS4446",
+      "universityId": "cuhk",
+      "name": "Information Engineering Systems Engineering and",
+      "method": "best5",
+      "weights": {
+        "ict": 1.5,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 39.25,
+        "lowerQuartile": 38.125
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "it"
+    },
+    {
+      "id": "cuhk-js4458",
+      "jupasCode": "JS4458",
+      "universityId": "cuhk",
+      "name": "Systems Engineering and Engineering Management",
+      "method": "best5",
+      "weights": {
+        "ict": 1.5,
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32.5,
+        "lowerQuartile": 32.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "engineering"
+    },
+    {
+      "id": "cuhk-js4460",
+      "jupasCode": "JS4460",
+      "universityId": "cuhk",
+      "name": "Biomedical Engineering Energy and Environmental",
+      "method": "best5",
+      "weights": {
+        "phys": 1.5,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 42.25,
+        "lowerQuartile": 41.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4462",
+      "jupasCode": "JS4462",
+      "universityId": "cuhk",
+      "name": "Energy and Environmental Engineering Artificial Intelligence: Systems",
+      "method": "best5",
+      "weights": {
+        "ict": 1.5,
+        "phys": 1.2,
+        "eng": 1.25,
+        "chin": 1.25
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31.75,
+        "lowerQuartile": 31
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "it"
+    },
+    {
+      "id": "cuhk-js4468",
+      "jupasCode": "JS4468",
+      "universityId": "cuhk",
+      "name": "Artificial Intelligence: Systems and Technologies Materials Science an",
+      "method": "best5",
+      "weights": {
+        "chin": 1.25,
+        "math": 1.25,
+        "ict": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 52.375,
+        "lowerQuartile": 50.375
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4470",
+      "jupasCode": "JS4470",
+      "universityId": "cuhk",
+      "name": "Materials Science and Engineering BSc in Learning Design and",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "phys": 1.25
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26.375,
+        "lowerQuartile": 24.625
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "engineering"
+    },
+    {
+      "id": "cuhk-js4733",
+      "jupasCode": "JS4733",
+      "universityId": "cuhk",
+      "name": "Mathematics and Information Engineering Aerospace Science and Earth",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "ict": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 63.5,
+        "lowerQuartile": 52
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4750",
+      "jupasCode": "JS4750",
+      "universityId": "cuhk",
+      "name": "Aerospace Science and Earth Informatics & X Double Major Programme Int",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "phys": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 44.25,
+        "lowerQuartile": 38.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "engineering"
+    },
+    {
+      "id": "cuhk-js4903",
+      "jupasCode": "JS4903",
+      "universityId": "cuhk",
+      "name": "Bachelor of Laws BBA(IBBA) – JD Double Degree",
+      "method": "best5",
+      "weights": {
+        "eng": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 36,
+        "lowerQuartile": 34.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "law"
+    },
+    {
+      "id": "cuhk-js4501",
+      "jupasCode": "JS4501",
+      "universityId": "cuhk",
+      "name": "Medicine (MBChB) Programme Medicine (MBChB) Programme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "medical",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4502",
+      "jupasCode": "JS4502",
+      "universityId": "cuhk",
+      "name": "Medicine (MBChB) Programme Global Physician-Leadership Stream (GPS)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 40.5,
+        "lowerQuartile": 40
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "medical",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4513",
+      "jupasCode": "JS4513",
+      "universityId": "cuhk",
+      "name": "Nursing",
+      "method": "best5",
+      "weights": {
+        "phys": 1.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28.6,
+        "lowerQuartile": 28.3
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4525",
+      "jupasCode": "JS4525",
+      "universityId": "cuhk",
+      "name": "Pharmacy",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32,
+        "lowerQuartile": 30.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4537",
+      "jupasCode": "JS4537",
+      "universityId": "cuhk",
+      "name": "Public Health",
+      "method": "best5",
+      "weights": {
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32.75,
+        "lowerQuartile": 32.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4542",
+      "jupasCode": "JS4542",
+      "universityId": "cuhk",
+      "name": "Chinese Medicine",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5,
+        "bio": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 30.5,
+        "lowerQuartile": 29
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4550",
+      "jupasCode": "JS4550",
+      "universityId": "cuhk",
+      "name": "Biomedical Sciences Biotechnology, Entrepreneurship",
+      "method": "best5",
+      "weights": {
+        "bio": 1.5,
+        "chem": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 41,
+        "lowerQuartile": 39.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "medical"
+    },
+    {
+      "id": "cuhk-js4601",
       "jupasCode": "JS4601",
       "universityId": "cuhk",
-      "name": "工程學",
-      "category": "engineering",
+      "name": "Science (broad-based) Earth and Environmental",
       "method": "best5",
-      "weights": { "math": 2, "phys": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 31, "lowerQuartile": 28, "minScore": 25 },
-      "dataStatus": "sample"
+      "weights": {
+        "eng": 2,
+        "math": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37.75,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "science"
     },
     {
-      "id": "cuhk-arts",
-      "jupasCode": "JS4101",
+      "id": "cuhk-js4648",
+      "jupasCode": "JS4648",
       "universityId": "cuhk",
-      "name": "文學院",
-      "category": "arts",
+      "name": "Earth and Environmental Sciences",
       "method": "best5",
-      "weights": { "chin": 1.5, "eng": 1 },
-      "requiredCore": { "eng": 3, "chin": 3 },
-      "requireCsd": true,
-      "admission": { "median": 27, "lowerQuartile": 24, "minScore": 21 },
-      "dataStatus": "sample"
+      "weights": {
+        "math": 2,
+        "phys": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 47,
+        "lowerQuartile": 45
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "science"
     },
     {
-      "id": "hkust-eng",
-      "jupasCode": "JS5200",
+      "id": "cuhk-js4682",
+      "jupasCode": "JS4682",
+      "universityId": "cuhk",
+      "name": "Enrichment Mathematics Enrichment Stream in",
+      "method": "best5",
+      "weights": {
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 52.5,
+        "lowerQuartile": 51.75
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "auto-parsed",
+      "category": "science",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "cuhk-js4690",
+      "jupasCode": "JS4690",
+      "universityId": "cuhk",
+      "name": "Enrichment Stream in Theoretical Physics",
+      "method": "best5",
+      "weights": {
+        "math": 2,
+        "phys": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 46.75,
+        "lowerQuartile": 43
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "science"
+    },
+    {
+      "id": "cuhk-js4719",
+      "jupasCode": "JS4719",
+      "universityId": "cuhk",
+      "name": "Risk Management Science Quantitative Finance and",
+      "method": "best5",
+      "weights": {
+        "math": 2,
+        "eng": 2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 43,
+        "lowerQuartile": 41.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4801",
+      "jupasCode": "JS4801",
+      "universityId": "cuhk",
+      "name": "Social Science (broad-based)",
+      "method": "best5",
+      "weights": {
+        "eng": 1.3
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.65,
+        "lowerQuartile": 26.6
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "science"
+    },
+    {
+      "id": "cuhk-js4812",
+      "jupasCode": "JS4812",
+      "universityId": "cuhk",
+      "name": "Architectural Studies",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 26.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "general"
+    },
+    {
+      "id": "cuhk-js4824",
+      "jupasCode": "JS4824",
+      "universityId": "cuhk",
+      "name": "Economics Geography and Resource",
+      "method": "best5",
+      "weights": {
+        "math": 1.5,
+        "phys": 1.5,
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31.5,
+        "lowerQuartile": 30.75
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4836",
+      "jupasCode": "JS4836",
+      "universityId": "cuhk",
+      "name": "Geography and Resource Management",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5,
+        "phys": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 31.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "business"
+    },
+    {
+      "id": "cuhk-js4838",
+      "jupasCode": "JS4838",
+      "universityId": "cuhk",
+      "name": "Urban Studies Government and Public",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4848",
+      "jupasCode": "JS4848",
+      "universityId": "cuhk",
+      "name": "Government and Public Administration",
+      "method": "best5",
+      "weights": {
+        "eng": 1.3,
+        "chin": 1.25
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 27.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4850",
+      "jupasCode": "JS4850",
+      "universityId": "cuhk",
+      "name": "Journalism and Communication",
+      "method": "best5",
+      "weights": {
+        "eng": 1.3,
+        "chin": 1.3
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28.95,
+        "lowerQuartile": 27.8
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4858",
+      "jupasCode": "JS4858",
+      "universityId": "cuhk",
+      "name": "Global Communication",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29.15,
+        "lowerQuartile": 27.2
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4862",
+      "jupasCode": "JS4862",
+      "universityId": "cuhk",
+      "name": "Psychology",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5,
+        "math": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33.75,
+        "lowerQuartile": 32.25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4874",
+      "jupasCode": "JS4874",
+      "universityId": "cuhk",
+      "name": "Social Work",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 27.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4886",
+      "jupasCode": "JS4886",
+      "universityId": "cuhk",
+      "name": "Sociology",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26.5,
+        "lowerQuartile": 26.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4892",
+      "jupasCode": "JS4892",
+      "universityId": "cuhk",
+      "name": "Global Studies",
+      "method": "best5",
+      "weights": {
+        "eng": 1.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26.5,
+        "lowerQuartile": 25.75
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "social"
+    },
+    {
+      "id": "cuhk-js4893",
+      "jupasCode": "JS4893",
+      "universityId": "cuhk",
+      "name": "Data Science and Policy Studies Interdisciplinary Major",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 23.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "auto-parsed",
+      "category": "it"
+    },
+    {
+      "id": "hkust-js5101",
+      "jupasCode": "JS5101",
       "universityId": "hkust",
-      "name": "工程學",
-      "category": "engineering",
+      "name": "I nternational Research Enrichment",
       "method": "best5",
-      "weights": { "math": 2, "phys": 1.5, "m1": 1.5, "m2": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 30, "lowerQuartile": 27, "minScore": 24 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38.25,
+        "lowerQuartile": 37.88
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "general"
     },
     {
-      "id": "hkust-bus",
+      "id": "hkust-js5102",
+      "jupasCode": "JS5102",
+      "universityId": "hkust",
+      "name": "Science (Group A)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33.13,
+        "lowerQuartile": 32.63
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "science"
+    },
+    {
+      "id": "hkust-js5103",
+      "jupasCode": "JS5103",
+      "universityId": "hkust",
+      "name": "Science (Group B)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33.38,
+        "lowerQuartile": 32.75
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "science"
+    },
+    {
+      "id": "hkust-js5118",
+      "jupasCode": "JS5118",
+      "universityId": "hkust",
+      "name": "BSc in Biomedical and Health Sciences Science (Group A) with Extended",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 43.13,
+        "lowerQuartile": 40.5
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "medical",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5181",
+      "jupasCode": "JS5181",
+      "universityId": "hkust",
+      "name": "Intelligence",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37.5,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "general"
+    },
+    {
+      "id": "hkust-js5212",
+      "jupasCode": "JS5212",
+      "universityId": "hkust",
+      "name": "BEng in Computer Engineering",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 43.49,
+        "lowerQuartile": 41.97
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5220",
+      "jupasCode": "JS5220",
+      "universityId": "hkust",
+      "name": "Department of Chemical & Biological Engineering",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 41.49,
+        "lowerQuartile": 39.59
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "engineering"
+    },
+    {
+      "id": "hkust-js5230",
+      "jupasCode": "JS5230",
+      "universityId": "hkust",
+      "name": "Department of Civil & Environmental Engineering",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 39.7,
+        "lowerQuartile": 38.2
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "engineering"
+    },
+    {
+      "id": "hkust-js5240",
+      "jupasCode": "JS5240",
+      "universityId": "hkust",
+      "name": "Department of Computer Science & Engineering",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 48.45,
+        "lowerQuartile": 46.45
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5250",
+      "jupasCode": "JS5250",
+      "universityId": "hkust",
+      "name": "Department of Electronic & Computer Engineering Department of Industri",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 41.74,
+        "lowerQuartile": 40.78
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "it"
+    },
+    {
+      "id": "hkust-js5260",
+      "jupasCode": "JS5260",
+      "universityId": "hkust",
+      "name": "Analytics",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 36.28,
+        "lowerQuartile": 35.1
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "general"
+    },
+    {
+      "id": "hkust-js5270",
+      "jupasCode": "JS5270",
+      "universityId": "hkust",
+      "name": "Department of Mechanical & Aerospace Engineering Engineering with Exte",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 41.14,
+        "lowerQuartile": 39.72
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "engineering"
+    },
+    {
+      "id": "hkust-js5282",
+      "jupasCode": "JS5282",
+      "universityId": "hkust",
+      "name": "Intelligence",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 48.7,
+        "lowerQuartile": 46.48
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "general",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5411",
+      "jupasCode": "JS5411",
+      "universityId": "hkust",
+      "name": "BSc in Global China Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29.23,
+        "lowerQuartile": 28.8
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "science"
+    },
+    {
+      "id": "hkust-js5412",
+      "jupasCode": "JS5412",
+      "universityId": "hkust",
+      "name": "BSc in Quantitative Social Analysis subjects Biology, Chemistry",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 32.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "science"
+    },
+    {
+      "id": "hkust-js5711",
+      "jupasCode": "JS5711",
+      "universityId": "hkust",
+      "name": "BSc in Innovation, Design and Technology",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 36.36,
+        "lowerQuartile": 34.72
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "science"
+    },
+    {
+      "id": "hkust-js5812",
+      "jupasCode": "JS5812",
+      "universityId": "hkust",
+      "name": "BSc in Environmental Management and Technology BEng/BSc & BBA Dual Deg",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32.5,
+        "lowerQuartile": 31.05
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "engineering"
+    },
+    {
+      "id": "hkust-js5901",
+      "jupasCode": "JS5901",
+      "universityId": "hkust",
+      "name": "Management",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 62.48,
+        "lowerQuartile": 60.23
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5811",
+      "jupasCode": "JS5811",
+      "universityId": "hkust",
+      "name": "BSc in Biotechnology and Business",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38.63,
+        "lowerQuartile": 36.56
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
+    },
+    {
+      "id": "hkust-js5813",
+      "jupasCode": "JS5813",
+      "universityId": "hkust",
+      "name": "BSc in Mathematics and Economics",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 44.1,
+        "lowerQuartile": 39.2
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5300",
       "jupasCode": "JS5300",
       "universityId": "hkust",
-      "name": "工商管理學院",
-      "category": "business",
+      "name": "Business & Management",
       "method": "best5",
-      "weights": { "eng": 1.5, "math": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 32, "lowerQuartile": 29, "minScore": 26 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 33.9
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
     },
     {
-      "id": "hkust-sci",
-      "jupasCode": "JS5100",
+      "id": "hkust-js5311",
+      "jupasCode": "JS5311",
       "universityId": "hkust",
-      "name": "理學院",
-      "category": "science",
+      "name": "BBA in Economics",
       "method": "best5",
-      "weights": { "math": 1.5, "phys": 1.5, "chem": 1.5, "bio": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 28, "lowerQuartile": 25, "minScore": 22 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 36.55,
+        "lowerQuartile": 35.4
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
     },
     {
-      "id": "polyu-nursing",
+      "id": "hkust-js5312",
+      "jupasCode": "JS5312",
+      "universityId": "hkust",
+      "name": "BBA in Finance",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 43.31,
+        "lowerQuartile": 41.81
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5313",
+      "jupasCode": "JS5313",
+      "universityId": "hkust",
+      "name": "BBA in Global Busines s",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 52.43,
+        "lowerQuartile": 50.4
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5314",
+      "jupasCode": "JS5314",
+      "universityId": "hkust",
+      "name": "BBA in Information Systems",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35.93,
+        "lowerQuartile": 35.4
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "it"
+    },
+    {
+      "id": "hkust-js5315",
+      "jupasCode": "JS5315",
+      "universityId": "hkust",
+      "name": "BBA in Management",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33.9,
+        "lowerQuartile": 33.9
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
+    },
+    {
+      "id": "hkust-js5316",
+      "jupasCode": "JS5316",
+      "universityId": "hkust",
+      "name": "BBA in Marketing",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32.5,
+        "lowerQuartile": 32.4
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
+    },
+    {
+      "id": "hkust-js5317",
+      "jupasCode": "JS5317",
+      "universityId": "hkust",
+      "name": "BBA in Operations Management",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32.4,
+        "lowerQuartile": 32.05
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
+    },
+    {
+      "id": "hkust-js5318",
+      "jupasCode": "JS5318",
+      "universityId": "hkust",
+      "name": "BBA in Professional Ac c ounting",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 34.05,
+        "lowerQuartile": 33.55
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
+    },
+    {
+      "id": "hkust-js5331",
+      "jupasCode": "JS5331",
+      "universityId": "hkust",
+      "name": "BSc in Economics and Finance",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 48.19,
+        "lowerQuartile": 46.5
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5332",
+      "jupasCode": "JS5332",
+      "universityId": "hkust",
+      "name": "BSc in Quantitative Finance",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 58.13,
+        "lowerQuartile": 56.06
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5814",
+      "jupasCode": "JS5814",
+      "universityId": "hkust",
+      "name": "BSc in Risk Management and Business Intelligence",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 44.25,
+        "lowerQuartile": 43.5
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "approx-best5",
+      "category": "business",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hkust-js5822",
+      "jupasCode": "JS5822",
+      "universityId": "hkust",
+      "name": "BSc in Sustainable and Green Finance subjects Biology, Chemistry",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37.88,
+        "lowerQuartile": 37.13
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "approx-best5",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6004",
+      "jupasCode": "JS6004",
+      "universityId": "hku",
+      "name": "Bachelor of Arts in Architectural Studies",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 28
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "arts"
+    },
+    {
+      "id": "hku-js6016",
+      "jupasCode": "JS6016",
+      "universityId": "hku",
+      "name": "Bachelor of Science in Surveying",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 28
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering"
+    },
+    {
+      "id": "hku-js6028",
+      "jupasCode": "JS6028",
+      "universityId": "hku",
+      "name": "Bachelor of Arts in Landscape Studies",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 31
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "arts"
+    },
+    {
+      "id": "hku-js6042",
+      "jupasCode": "JS6042",
+      "universityId": "hku",
+      "name": "Bachelor of Arts in Urban Studies",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "arts"
+    },
+    {
+      "id": "hku-js6054",
+      "jupasCode": "JS6054",
+      "universityId": "hku",
+      "name": "Bachelor of Arts Bachelor of Arts in",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 34
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "arts"
+    },
+    {
+      "id": "hku-js6274",
+      "jupasCode": "JS6274",
+      "universityId": "hku",
+      "name": "Bachelor of Arts in Global Creative Industries Bachelor of Arts in",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 32
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "arts"
+    },
+    {
+      "id": "hku-js6286",
+      "jupasCode": "JS6286",
+      "universityId": "hku",
+      "name": "Bachelor of Arts in Humanities and Digital Technologies Bachelor of Ar",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 35
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "arts"
+    },
+    {
+      "id": "hku-js6298",
+      "jupasCode": "JS6298",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Bachelor of Engineering in Artificial Intelligenc",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 2,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 42,
+        "lowerQuartile": 42
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering"
+    },
+    {
+      "id": "hku-js6755",
+      "jupasCode": "JS6755",
+      "universityId": "hku",
+      "name": "Bachelor of Business Administration Bachelor of Economics /",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6767",
+      "jupasCode": "JS6767",
+      "universityId": "hku",
+      "name": "Bachelor of Economics / Bachelor of Economics and Finance Bachelor of",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 40,
+        "lowerQuartile": 39
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6781",
+      "jupasCode": "JS6781",
+      "universityId": "hku",
+      "name": "Accounting and Finance / Bachelor of Business Administration in Accoun",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 34
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6793",
+      "jupasCode": "JS6793",
+      "universityId": "hku",
+      "name": "Bachelor of Business Administration (Business Analytics) Bachelor of B",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 34
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6808",
+      "jupasCode": "JS6808",
+      "universityId": "hku",
+      "name": "Bachelor of Business Administration (Law) and Bachelor of Laws Bachelo",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 46,
+        "lowerQuartile": 45
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "law"
+    },
+    {
+      "id": "hku-js6846",
+      "jupasCode": "JS6846",
+      "universityId": "hku",
+      "name": "Bachelor of Science in Marketing Analytics and Technology Bachelor of",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 32
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6860",
+      "jupasCode": "JS6860",
+      "universityId": "hku",
+      "name": "Bachelor of Finance in Asset Management and Private Banking",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 47,
+        "lowerQuartile": 46
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6884",
+      "jupasCode": "JS6884",
+      "universityId": "hku",
+      "name": "Bachelor of Science in Quantitative Finance Bachelor of Business Admin",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.25
+          },
+          {
+            "subject": "m1",
+            "weight": 1.25
+          },
+          {
+            "subject": "m2",
+            "weight": 1.25
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 51,
+        "lowerQuartile": 50
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6896",
+      "jupasCode": "JS6896",
+      "universityId": "hku",
+      "name": "Bachelor of Business Administration in International Business and Glob",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          },
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0.2
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 54,
+        "lowerQuartile": 53
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "business"
+    },
+    {
+      "id": "hku-js6107",
+      "jupasCode": "JS6107",
+      "universityId": "hku",
+      "name": "Bachelor of Dental Surgery Bachelor of Arts and Bachelor of Education",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 48,
+        "lowerQuartile": 47
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "medical",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6066",
+      "jupasCode": "JS6066",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Bachelor of Education in Language Education – Eng",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32,
+        "lowerQuartile": 32
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "education"
+    },
+    {
+      "id": "hku-js6080",
+      "jupasCode": "JS6080",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Bachelor of Education in Language Education – Chi",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "chin",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 34
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "education"
+    },
+    {
+      "id": "hku-js6092",
+      "jupasCode": "JS6092",
+      "universityId": "hku",
+      "name": "Bachelor of Education in Early Childhood Education and Special Educati",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "education"
+    },
+    {
+      "id": "hku-js6119",
+      "jupasCode": "JS6119",
+      "universityId": "hku",
+      "name": "Bachelor of Education and Bachelor of Science Bachelor of Science in",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 2,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 44,
+        "lowerQuartile": 43
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "education",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6157",
+      "jupasCode": "JS6157",
+      "universityId": "hku",
+      "name": "Bachelor of Science in Speech - Language Pathology",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 34,
+        "lowerQuartile": 34
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6303",
+      "jupasCode": "JS6303",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering Elite Programme Bachelor of Engineering in",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 36,
+        "lowerQuartile": 35
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6315",
+      "jupasCode": "JS6315",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering in Data and Systems Engineering Bachelor of En",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 25
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6339",
+      "jupasCode": "JS6339",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering in Mechanical Engineering",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6353",
+      "jupasCode": "JS6353",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering in Civil Engineering Bachelor of Engineering a",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6377",
+      "jupasCode": "JS6377",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering and Master of Science in Engineering in Artifi",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 31
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6937",
+      "jupasCode": "JS6937",
+      "universityId": "hku",
+      "name": "Global Engineering and Business Programme Bachelor of Engineering in",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32,
+        "lowerQuartile": 30
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "engineering",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6987",
+      "jupasCode": "JS6987",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering in Computer Engineering / Electrical Engineeri",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 28
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6078",
+      "jupasCode": "JS6078",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Bachelor of Laws",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 38,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "law"
+    },
+    {
+      "id": "hku-js6406",
+      "jupasCode": "JS6406",
+      "universityId": "hku",
+      "name": "Bachelor of Laws Faculty of Medicine Bachelor of Arts and Sciences in",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 35
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6250",
+      "jupasCode": "JS6250",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Sciences in Global Health and Development Bachelo",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 28
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6418",
+      "jupasCode": "JS6418",
+      "universityId": "hku",
+      "name": "Bachelor of Nursing Advanced Leadership Track Bachelor of Medicine and",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6456",
+      "jupasCode": "JS6456",
+      "universityId": "hku",
+      "name": "Bachelor of Medicine and Bachelor of Surgery",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 6,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 44,
+        "lowerQuartile": 42
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6468",
+      "jupasCode": "JS6468",
+      "universityId": "hku",
+      "name": "Bachelor of Nursing",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 27,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6482",
+      "jupasCode": "JS6482",
+      "universityId": "hku",
+      "name": "Bachelor of Chinese Medicine",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0.5
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 31
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6494",
+      "jupasCode": "JS6494",
+      "universityId": "hku",
+      "name": "Bachelor of Pharmacy",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 6,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 39,
+        "lowerQuartile": 38
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6949",
+      "jupasCode": "JS6949",
+      "universityId": "hku",
+      "name": "Bachelor of Biomedical Sciences",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 6,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 40,
+        "lowerQuartile": 39
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6688",
+      "jupasCode": "JS6688",
+      "universityId": "hku",
+      "name": "Science Master Class",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          },
+          {
+            "subject": "math",
+            "weight": 2
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 34,
+        "lowerQuartile": 32
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6858",
+      "jupasCode": "JS6858",
+      "universityId": "hku",
+      "name": "Bachelor of Science and Bachelor of Laws",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          },
+          {
+            "subject": "math",
+            "weight": 2
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 54,
+        "lowerQuartile": 50
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "law"
+    },
+    {
+      "id": "hku-js6901",
+      "jupasCode": "JS6901",
+      "universityId": "hku",
+      "name": "Bachelor of Science",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 2,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "science",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6705",
+      "jupasCode": "JS6705",
+      "universityId": "hku",
+      "name": "Bachelor of Psychology",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31,
+        "lowerQuartile": 29
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "social"
+    },
+    {
+      "id": "hku-js6717",
+      "jupasCode": "JS6717",
+      "universityId": "hku",
+      "name": "Bachelor of Social Sciences",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 31,
+        "lowerQuartile": 29
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6731",
+      "jupasCode": "JS6731",
+      "universityId": "hku",
+      "name": "Bachelor of Social Work Bachelor of Social Sciences",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 5,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6810",
+      "jupasCode": "JS6810",
+      "universityId": "hku",
+      "name": "Bachelor of Social Sciences (Government and Laws) and Bachelor of Laws",
+      "method": "hku",
+      "formula": {
+        "fixed": [],
+        "bestN": 6,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 37,
+        "lowerQuartile": 36
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "law"
+    },
+    {
+      "id": "hku-js6822",
+      "jupasCode": "JS6822",
+      "universityId": "hku",
+      "name": "Bachelor of Journalism, Media and Artificial Intelligence Bachelor of",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 32,
+        "lowerQuartile": 31
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "it"
+    },
+    {
+      "id": "hku-js6925",
+      "jupasCode": "JS6925",
+      "universityId": "hku",
+      "name": "Bachelor of Engineering in Biomedical Engineering Bachelor of Arts and",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 29,
+        "lowerQuartile": 29
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "medical"
+    },
+    {
+      "id": "hku-js6224",
+      "jupasCode": "JS6224",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Sciences in Applied Artificial Intelligence Bache",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          },
+          {
+            "subject": "math",
+            "weight": 2
+          },
+          {
+            "subject": "m1",
+            "weight": 2
+          },
+          {
+            "subject": "m2",
+            "weight": 2
+          }
+        ],
+        "bestN": 2,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 53,
+        "lowerQuartile": 51
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "it"
+    },
+    {
+      "id": "hku-js6248",
+      "jupasCode": "JS6248",
+      "universityId": "hku",
+      "name": "Bachelor of Arts and Sciences in Financial Technology",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.2
+          }
+        ],
+        "bestN": 3,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 34,
+        "lowerQuartile": 32
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6729",
+      "jupasCode": "JS6729",
+      "universityId": "hku",
+      "name": "Bachelor of Science in Actuarial Science",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 1.2
+          },
+          {
+            "subject": "math",
+            "weight": 1.2
+          },
+          {
+            "subject": "m1",
+            "weight": 1.2
+          },
+          {
+            "subject": "m2",
+            "weight": 1.2
+          }
+        ],
+        "bestN": 2,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 35,
+        "lowerQuartile": 35
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6779",
+      "jupasCode": "JS6779",
+      "universityId": "hku",
+      "name": "Statistical Decision Sciences",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 33,
+        "lowerQuartile": 31
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "hku-js6999",
+      "jupasCode": "JS6999",
+      "universityId": "hku",
+      "name": "Computing and Data Science Bachelor of Science in Innovation and",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "math",
+            "weight": 1.5
+          }
+        ],
+        "bestN": 2,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 41,
+        "lowerQuartile": 39
+      },
+      "scoreComparable": false,
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "parsed-formula",
+      "category": "it",
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+    },
+    {
+      "id": "hku-js6602",
+      "jupasCode": "JS6602",
+      "universityId": "hku",
+      "name": "Bachelor of Science in Innovation and Technology",
+      "method": "hku",
+      "formula": {
+        "fixed": [
+          {
+            "subject": "eng",
+            "weight": 2
+          },
+          {
+            "subject": "math",
+            "weight": 2
+          }
+        ],
+        "bestN": 4,
+        "tailWeight": 0
+      },
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 55,
+        "lowerQuartile": 52
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "parsed-formula",
+      "category": "science"
+    },
+    {
+      "id": "polyu-js3060",
+      "jupasCode": "JS3060",
+      "universityId": "polyu",
+      "name": "Accounting and Finance - BBA (Hons) Scheme Applied Mathematics",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 185.5,
+        "lowerQuartile": 185
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "business"
+    },
+    {
+      "id": "polyu-js3220",
+      "jupasCode": "JS3220",
+      "universityId": "polyu",
+      "name": "Applied Mathematics and Finance Analytics - BSc (Hons) Scheme Applied",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 193.5,
+        "lowerQuartile": 189.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "business"
+    },
+    {
+      "id": "polyu-js3250",
+      "jupasCode": "JS3250",
+      "universityId": "polyu",
+      "name": "Applied Social Sciences - BA (Hons) Scheme Architectural Studies -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 171.5,
+        "lowerQuartile": 164.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "science"
+    },
+    {
+      "id": "polyu-js3214",
+      "jupasCode": "JS3214",
+      "universityId": "polyu",
+      "name": "Architectural Studies - BSc (Hons) Aviation Engineering -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 165.8,
+        "lowerQuartile": 163.1
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3140",
+      "jupasCode": "JS3140",
+      "universityId": "polyu",
+      "name": "Aviation Engineering - BEng (Hons) Scheme Biomedical Engineering -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 210,
+        "lowerQuartile": 205
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3150",
+      "jupasCode": "JS3150",
+      "universityId": "polyu",
+      "name": "Biomedical Engineering - BSc (Hons) Scheme Biotechnology and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 218,
+        "lowerQuartile": 213.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3011",
+      "jupasCode": "JS3011",
+      "universityId": "polyu",
+      "name": "Biotechnology and Chemical Technology - BSc (Hons) Scheme Building Eng",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 209,
+        "lowerQuartile": 203.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "science"
+    },
+    {
+      "id": "polyu-js3791",
+      "jupasCode": "JS3791",
+      "universityId": "polyu",
+      "name": "Building Engineering and Management - BSc (Hons) Building Sciences and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 188.1,
+        "lowerQuartile": 185.1
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3211",
+      "jupasCode": "JS3211",
+      "universityId": "polyu",
+      "name": "Building Sciences and Engineering - BEng (Hons) Business Administratio",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 181.5,
+        "lowerQuartile": 179.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3003",
+      "jupasCode": "JS3003",
+      "universityId": "polyu",
+      "name": "Business Administration - Bachelor’s Degree Scheme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 179,
+        "lowerQuartile": 177
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "business"
+    },
+    {
+      "id": "polyu-js3320",
+      "jupasCode": "JS3320",
+      "universityId": "polyu",
+      "name": "Chinese History and Culture - BA (Hons) Civil Engineering - BEng",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 223,
+        "lowerQuartile": 210
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3739",
+      "jupasCode": "JS3739",
+      "universityId": "polyu",
+      "name": "Civil Engineering - BEng (Hons) Computer and Mathematical Sciences -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 216.5,
+        "lowerQuartile": 205
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3006",
+      "jupasCode": "JS3006",
+      "universityId": "polyu",
+      "name": "Mathematical Sciences - Bachelor’s Degree Scheme Computing and AI - BS",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 215,
+        "lowerQuartile": 210
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3868",
+      "jupasCode": "JS3868",
+      "universityId": "polyu",
+      "name": "Computing and AI - BSc (Hons) Scheme Construction and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 230,
+        "lowerQuartile": 215
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3004",
+      "jupasCode": "JS3004",
+      "universityId": "polyu",
+      "name": "Construction and Environment - Bachelor’s Degree Scheme Data Science a",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 184,
+        "lowerQuartile": 181
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3223",
+      "jupasCode": "JS3223",
+      "universityId": "polyu",
+      "name": "Data Science and Artificial Intelligence - BSc (Hons) Scheme Design -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 220,
+        "lowerQuartile": 211
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3569",
+      "jupasCode": "JS3569",
+      "universityId": "polyu",
+      "name": "Design - BA (Hons) Scheme Electrical Engineering -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 190,
+        "lowerQuartile": 178
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3170",
+      "jupasCode": "JS3170",
+      "universityId": "polyu",
+      "name": "Electrical Engineering - BEng (Hons) Scheme Engineering - Bachelor’s",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 215,
+        "lowerQuartile": 210
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3005",
+      "jupasCode": "JS3005",
+      "universityId": "polyu",
+      "name": "Engineering - Bachelor’s Degree Scheme English and Applied",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 215,
+        "lowerQuartile": 205
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3240",
+      "jupasCode": "JS3240",
+      "universityId": "polyu",
+      "name": "English and Applied Linguistics - BA (Hons) Environmental Engineering",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 178,
+        "lowerQuartile": 175
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3375",
+      "jupasCode": "JS3375",
+      "universityId": "polyu",
+      "name": "Engineering and Sustainable Development - BEng (Hons)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 220,
+        "lowerQuartile": 218
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3050",
+      "jupasCode": "JS3050",
+      "universityId": "polyu",
+      "name": "Fashion - BA (Hons) Scheme Food Science and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 177,
+        "lowerQuartile": 164
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "science"
+    },
+    {
+      "id": "polyu-js3255",
+      "jupasCode": "JS3255",
+      "universityId": "polyu",
+      "name": "Food Science and Nutrition - BSc (Hons) Scheme Global Business and Log",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 203,
+        "lowerQuartile": 198.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3070",
+      "jupasCode": "JS3070",
+      "universityId": "polyu",
+      "name": "Logistics, Aviation, Maritime and Supply Chain Management - BBA (Hons)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 179,
+        "lowerQuartile": 175
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "business"
+    },
+    {
+      "id": "polyu-js3310",
+      "jupasCode": "JS3310",
+      "universityId": "polyu",
+      "name": "Hotel and Tourism Management - BSc (Hons) Scheme Humanities - Bachelor",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 166.5,
+        "lowerQuartile": 163
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "business"
+    },
+    {
+      "id": "polyu-js3007",
+      "jupasCode": "JS3007",
+      "universityId": "polyu",
+      "name": "Humanities - Bachelor’s Degree Scheme Information and Artificial Intel",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 185,
+        "lowerQuartile": 179
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "humanities"
+    },
+    {
+      "id": "polyu-js3180",
+      "jupasCode": "JS3180",
+      "universityId": "polyu",
+      "name": "Artificial Intelligence Engineering - BEng (Hons) / BSc (Hons) Scheme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 218,
+        "lowerQuartile": 210
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3237",
+      "jupasCode": "JS3237",
+      "universityId": "polyu",
+      "name": "and Engineering Management - BSc (Hons) Scheme Interdisciplinary Studi",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 195,
+        "lowerQuartile": 193
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3000",
+      "jupasCode": "JS3000",
+      "universityId": "polyu",
+      "name": "Interdisciplinary Studies - Bachelor’s Degree Scheme Management and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 193,
+        "lowerQuartile": 182.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "business"
+    },
+    {
+      "id": "polyu-js3080",
+      "jupasCode": "JS3080",
+      "universityId": "polyu",
+      "name": "Management and Marketing - BBA (Hons) Scheme Mechanical Engineering -",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 182.5,
+        "lowerQuartile": 179
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3741",
+      "jupasCode": "JS3741",
+      "universityId": "polyu",
+      "name": "Mechanical Engineering - BEng (Hons) Scheme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 208,
+        "lowerQuartile": 205
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3478",
+      "jupasCode": "JS3478",
+      "universityId": "polyu",
+      "name": "Medical Laboratory Science - BSc (Hons)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 309,
+        "lowerQuartile": 306.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3337",
+      "jupasCode": "JS3337",
+      "universityId": "polyu",
+      "name": "Mental Health Nursing - BSc (Hons)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 209,
+        "lowerQuartile": 206
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3648",
       "jupasCode": "JS3648",
       "universityId": "polyu",
-      "name": "護理學 (BSc Nursing)",
-      "category": "medical",
+      "name": "Nursing - BSc (Hons) Occupational Therapy -",
       "method": "best5",
-      "weights": { "bio": 1.5, "chem": 1.5, "eng": 1 },
-      "requiredCore": { "eng": 3, "chin": 3, "math": 2 },
-      "requireCsd": true,
-      "admission": { "median": 27, "lowerQuartile": 24, "minScore": 22 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 218,
+        "lowerQuartile": 213.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
     },
     {
-      "id": "cityu-cs",
-      "jupasCode": "JS1212",
-      "universityId": "cityu",
-      "name": "計算機科學 (Computer Science)",
-      "category": "it",
+      "id": "polyu-js3624",
+      "jupasCode": "JS3624",
+      "universityId": "polyu",
+      "name": "Occupational Therapy - BSc (Hons)",
       "method": "best5",
-      "weights": { "math": 2, "m1": 1.5, "m2": 1.5, "ict": 1.5 },
-      "requiredCore": { "eng": 3, "math": 3 },
-      "requireCsd": true,
-      "admission": { "median": 26, "lowerQuartile": 23, "minScore": 20 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 279.5,
+        "lowerQuartile": 278
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "science"
     },
     {
-      "id": "eduhk-edu",
-      "jupasCode": "JS8102",
+      "id": "polyu-js3290",
+      "jupasCode": "JS3290",
+      "universityId": "polyu",
+      "name": "Optometry - BSc (Hons) Physics with a Secondary Major in Artificial In",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 277.8,
+        "lowerQuartile": 247.8
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3030",
+      "jupasCode": "JS3030",
+      "universityId": "polyu",
+      "name": "Intelligence & Data Analytics (AIDA) / Innovation and Entrepreneurship",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 215,
+        "lowerQuartile": 205
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "general"
+    },
+    {
+      "id": "polyu-js3636",
+      "jupasCode": "JS3636",
+      "universityId": "polyu",
+      "name": "Physiotherapy - BSc (Hons) Product Innovation and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 320,
+        "lowerQuartile": 320
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3236",
+      "jupasCode": "JS3236",
+      "universityId": "polyu",
+      "name": "Product Innovation and Smart Manufacturing - BEng (Hons) Scheme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 195,
+        "lowerQuartile": 193
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3612",
+      "jupasCode": "JS3612",
+      "universityId": "polyu",
+      "name": "Radiography - BSc (Hons) Science - Bachelor’s",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 339,
+        "lowerQuartile": 328.5
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "medical"
+    },
+    {
+      "id": "polyu-js3008",
+      "jupasCode": "JS3008",
+      "universityId": "polyu",
+      "name": "Science - Bachelor’s Degree Scheme Spatial Data Science and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 208,
+        "lowerQuartile": 205
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3130",
+      "jupasCode": "JS3130",
+      "universityId": "polyu",
+      "name": "Spatial Data Science and Smart Cities - BSc (Hons) Scheme Speech Thera",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 206,
+        "lowerQuartile": 203
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "it"
+    },
+    {
+      "id": "polyu-js3242",
+      "jupasCode": "JS3242",
+      "universityId": "polyu",
+      "name": "Speech Therapy - BSc (Hons)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 264.3,
+        "lowerQuartile": 259.8
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "science"
+    },
+    {
+      "id": "polyu-js3789",
+      "jupasCode": "JS3789",
+      "universityId": "polyu",
+      "name": "Surveying - BSc (Hons)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 175.8,
+        "lowerQuartile": 165.3
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "engineering"
+    },
+    {
+      "id": "polyu-js3241",
+      "jupasCode": "JS3241",
+      "universityId": "polyu",
+      "name": "Sciences and Analytics - BA (Hons) / BSc (Hons) Scheme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "bonusTop",
+      "admission": {
+        "median": 189.5,
+        "lowerQuartile": 188.6
+      },
+      "scoreComparable": false,
+      "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
+      "dataStatus": "official-2025-noformula",
+      "weightsStatus": "n/a",
+      "category": "science"
+    },
+    {
+      "id": "lingnan-js7101",
+      "jupasCode": "JS7101",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in Chinese",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.27,
+        "lowerQuartile": 24
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7133",
+      "jupasCode": "JS7133",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in Animation and Digital Arts",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7204",
+      "jupasCode": "JS7204",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in Translation",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 27.05,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7503",
+      "jupasCode": "JS7503",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in English Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 26.2,
+        "lowerQuartile": 25.15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7606",
+      "jupasCode": "JS7606",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in Cultural Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 26.2,
+        "lowerQuartile": 24.15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7709",
+      "jupasCode": "JS7709",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in History",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7802",
+      "jupasCode": "JS7802",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in Philosophy",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7905",
+      "jupasCode": "JS7905",
+      "universityId": "lingnan",
+      "name": "Bachelor of Arts (Hons) in Film and Visual Arts",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "lingnan-js7211",
+      "jupasCode": "JS7211",
+      "universityId": "lingnan",
+      "name": "11 Bachelor of Business Administration (Hons) - Accounting and Corpora",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 27.05,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7212",
+      "jupasCode": "JS7212",
+      "universityId": "lingnan",
+      "name": "12 Bachelor of Business Administration (Hons) - Business Analytics and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 27,
+        "lowerQuartile": 25.05
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7213",
+      "jupasCode": "JS7213",
+      "universityId": "lingnan",
+      "name": "13 Bachelor of Business Administration (Hons) - Finance",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28.75,
+        "lowerQuartile": 27
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7214",
+      "jupasCode": "JS7214",
+      "universityId": "lingnan",
+      "name": "14 Bachelor of Business Administration (Hons) - Human Resource Managem",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28.5,
+        "lowerQuartile": 26.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7215",
+      "jupasCode": "JS7215",
+      "universityId": "lingnan",
+      "name": "15 Bachelor of Business Administration (Hons) - Marketing and Social M",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28.5,
+        "lowerQuartile": 27.05
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7216",
+      "jupasCode": "JS7216",
+      "universityId": "lingnan",
+      "name": "16 Bachelor of Business Administration (Hons) in Risk and Insurance Ma",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 27,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7301",
+      "jupasCode": "JS7301",
+      "universityId": "lingnan",
+      "name": "Bachelor of Social Sciences (Hons) in Economics",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 26.4,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "lingnan-js7302",
+      "jupasCode": "JS7302",
+      "universityId": "lingnan",
+      "name": "Bachelor of Social Sciences (Hons) in Government and International Aff",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 26.9
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "lingnan-js7303",
+      "jupasCode": "JS7303",
+      "universityId": "lingnan",
+      "name": "Bachelor of Social Sciences (Hons) in Psychology",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "lingnan-js7304",
+      "jupasCode": "JS7304",
+      "universityId": "lingnan",
+      "name": "Bachelor of Social Sciences (Hons) in Sociology",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "lingnan-js7305",
+      "jupasCode": "JS7305",
+      "universityId": "lingnan",
+      "name": "Bachelor of Social Sciences (Hons) in Health and Social Services Manag",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "medical"
+    },
+    {
+      "id": "lingnan-js7306",
+      "jupasCode": "JS7306",
+      "universityId": "lingnan",
+      "name": "Bachelor of Social Sciences (Hons) in Social and Public Policy Studies",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 23.9
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "eduhk-js8001",
+      "jupasCode": "JS8001",
       "universityId": "eduhk",
-      "name": "教育學士（小學）",
-      "category": "education",
+      "name": "and Digital Arts and BEd (Music) BA in Creative and Digital Arts",
       "method": "best5",
-      "weights": { "eng": 1.5, "chin": 1.5 },
-      "requiredCore": { "eng": 3, "chin": 3 },
-      "requireCsd": true,
-      "admission": { "median": 24, "lowerQuartile": 21, "minScore": 19 },
-      "dataStatus": "sample"
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21.3
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8002",
+      "jupasCode": "JS8002",
+      "universityId": "eduhk",
+      "name": "and Digital Arts and BEd (Visual Arts) BA in Digital Chinese Culture a",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 22
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8003",
+      "jupasCode": "JS8003",
+      "universityId": "eduhk",
+      "name": "and Communication and BEd (Chinese Language) BA in English Studies and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 27.5,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8004",
+      "jupasCode": "JS8004",
+      "universityId": "eduhk",
+      "name": "Digital Communication and BEd (English Language) BA in Heritage Educat",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 23.5,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8005",
+      "jupasCode": "JS8005",
+      "universityId": "eduhk",
+      "name": "Arts Management and BEd (Chinese History) BSocSc in Psychology and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 26.3,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8006",
+      "jupasCode": "JS8006",
+      "universityId": "eduhk",
+      "name": "BEd (Early Childhood Education) BA in Personal Finance and BEd",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 24,
+        "lowerQuartile": 23.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8007",
+      "jupasCode": "JS8007",
+      "universityId": "eduhk",
+      "name": "(Business, Accounting and Financial Studies)",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "eduhk-js8008",
+      "jupasCode": "JS8008",
+      "universityId": "eduhk",
+      "name": "BEd (Information and Communication Technology and Primary Science) BSc",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 26,
+        "lowerQuartile": 24.1
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8009",
+      "jupasCode": "JS8009",
+      "universityId": "eduhk",
+      "name": "Educational Technology and BEd (Primary Mathematics) BSc in Sports Sci",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.5,
+        "lowerQuartile": 25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8010",
+      "jupasCode": "JS8010",
+      "universityId": "eduhk",
+      "name": "Coaching and BEd (Physical Education) BSc in Integrated Environmental",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 20.8
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8011",
+      "jupasCode": "JS8011",
+      "universityId": "eduhk",
+      "name": "Environmental Management and BEd (Science) BSocSc in Sociology and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 24.6,
+        "lowerQuartile": 24
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8012",
+      "jupasCode": "JS8012",
+      "universityId": "eduhk",
+      "name": "Community Studies and BEd (Geography) BSocSc in Sociology and Communit",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.3,
+        "lowerQuartile": 25
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8013",
+      "jupasCode": "JS8013",
+      "universityId": "eduhk",
+      "name": "Community Studies and BEd (Primary Humanities) BSocSc in",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.3,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8651",
+      "jupasCode": "JS8651",
+      "universityId": "eduhk",
+      "name": "BSocSc in Psychology BA in Special",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20,
+        "lowerQuartile": 20
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "social"
+    },
+    {
+      "id": "eduhk-js8663",
+      "jupasCode": "JS8663",
+      "universityId": "eduhk",
+      "name": "BA in Special Education BA in Digital Chinese Culture",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 23.5,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8674",
+      "jupasCode": "JS8674",
+      "universityId": "eduhk",
+      "name": "Chinese Culture and Communication",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 23.8,
+        "lowerQuartile": 23.1
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "social"
+    },
+    {
+      "id": "eduhk-js8675",
+      "jupasCode": "JS8675",
+      "universityId": "eduhk",
+      "name": "Studies and Digital Communication BA in Creative",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.5,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "social"
+    },
+    {
+      "id": "eduhk-js8685",
+      "jupasCode": "JS8685",
+      "universityId": "eduhk",
+      "name": "and Digital Arts (Music) BA in Creative",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20.3,
+        "lowerQuartile": 19.3
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "eduhk-js8686",
+      "jupasCode": "JS8686",
+      "universityId": "eduhk",
+      "name": "and Digital Arts (Visual Arts) BA in Heritage",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21.8
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "eduhk-js8687",
+      "jupasCode": "JS8687",
+      "universityId": "eduhk",
+      "name": "Education and Arts Management BA in Personal",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.5,
+        "lowerQuartile": 25.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8688",
+      "jupasCode": "JS8688",
+      "universityId": "eduhk",
+      "name": "BA in Personal Finance BSc in Integrated",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 19,
+        "lowerQuartile": 18.8
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "eduhk-js8702",
+      "jupasCode": "JS8702",
+      "universityId": "eduhk",
+      "name": "Environmental Management BSc in Artificial Intelligence and",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 23.2,
+        "lowerQuartile": 23
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "eduhk-js8714",
+      "jupasCode": "JS8714",
+      "universityId": "eduhk",
+      "name": "Intelligence and Educational Technology BSc in Sports",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25,
+        "lowerQuartile": 24.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "eduhk-js8726",
+      "jupasCode": "JS8726",
+      "universityId": "eduhk",
+      "name": "Science and Coaching",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28.5,
+        "lowerQuartile": 27.5
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "eduhk-js8727",
+      "jupasCode": "JS8727",
+      "universityId": "eduhk",
+      "name": "Pathology and Rehabilitation HD in Early",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 28,
+        "lowerQuartile": 26
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "general"
+    },
+    {
+      "id": "eduhk-js8507",
+      "jupasCode": "JS8507",
+      "universityId": "eduhk",
+      "name": "Childhood Education overall mean score of the sum total of any best 5",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17.5,
+        "lowerQuartile": 16
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "hkbu-js2020",
+      "jupasCode": "JS2020",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) la: CS D 1 2 3 4 5* 3 4 5 4 5* 3 4 5 3 3",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.95,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "hkbu-js2025",
+      "jupasCode": "JS2025",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) in Religion, Philosophy and Ethics la: CS D 1",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "hkbu-js2060",
+      "jupasCode": "JS2060",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) / Bachelor of Music (Hons) (Music / Creative I",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20.68,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "hkbu-js2110",
+      "jupasCode": "JS2110",
+      "universityId": "hkbu",
+      "name": "Bachelor of Business Administration (Hons) - Accounting Concentration",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22.15,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "hkbu-js2120",
+      "jupasCode": "JS2120",
+      "universityId": "hkbu",
+      "name": "Bachelor of Business Administration (Hons) la: Best 5 CS D 1 2 3 4 3 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22.07,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "hkbu-js2310",
+      "jupasCode": "JS2310",
+      "universityId": "hkbu",
+      "name": "Bachelor of Communication (Hons) (Journalism and Digital Media / Publi",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22.99,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "social"
+    },
+    {
+      "id": "hkbu-js2330",
+      "jupasCode": "JS2330",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) in Film and Television la: CS D 1 2 3 4 4 4 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.83,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "hkbu-js2340",
+      "jupasCode": "JS2340",
+      "universityId": "hkbu",
+      "name": "Bachelor of Fine Arts (Hons) in Acting for Global Screen CS D 1 2 3 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 18.55,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "hkbu-js2370",
+      "jupasCode": "JS2370",
+      "universityId": "hkbu",
+      "name": "Bachelor of Communication (Hons) in Game Design and Animation CS D 1 2",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.85,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "social"
+    },
+    {
+      "id": "hkbu-js2410",
+      "jupasCode": "JS2410",
+      "universityId": "hkbu",
+      "name": "Best 5 CS D 1 2 3 4 4 4 5 5* 5 5 4 4 4 5* 5 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 32.27,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "general"
+    },
+    {
+      "id": "hkbu-js2420",
+      "jupasCode": "JS2420",
+      "universityId": "hkbu",
+      "name": "CS D 1 2 3 4 5 4 4 5 4 4 4 4 4 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 27.04,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "general"
+    },
+    {
+      "id": "hkbu-js2510",
+      "jupasCode": "JS2510",
+      "universityId": "hkbu",
+      "name": "Bachelor of Science (Hons) la: CS D 1 2 3 4 3 3 4 5 4 4 4 3 4 5 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20.15,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "hkbu-js2610",
+      "jupasCode": "JS2610",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) / Bachelor of Social Sciences (Hons) (European",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 24.88,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "hkbu-js2620",
+      "jupasCode": "JS2620",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) in Physical Education and Recreation Managemen",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 21.3,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "education"
+    },
+    {
+      "id": "hkbu-js2660",
+      "jupasCode": "JS2660",
+      "universityId": "hkbu",
+      "name": "Bachelor of Social Work (Hons) la: CS D 1 2 3 4 5 4 4 4 4 3 4 4 4 5 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.5,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "social"
+    },
+    {
+      "id": "hkbu-js2810",
+      "jupasCode": "JS2810",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) in Visual Arts la: CS D 1 2 3 4 5 3 2 4 4 4 4",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 19.34,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "arts"
+    },
+    {
+      "id": "hkbu-js2910",
+      "jupasCode": "JS2910",
+      "universityId": "hkbu",
+      "name": "Bachelor of Science (Hons) in Business Computing and Data Analytics la",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20.46,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "it"
+    },
+    {
+      "id": "hkbu-js2920",
+      "jupasCode": "JS2920",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts and Science (Hons) in Arts and Technology la: CS D 1",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 18.7,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "hkbu-js2930",
+      "jupasCode": "JS2930",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts (Hons) in Business Administration (Global Entertainme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 19.5,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "business"
+    },
+    {
+      "id": "hkbu-js2940",
+      "jupasCode": "JS2940",
+      "universityId": "hkbu",
+      "name": "Bachelor of Social Sciences (Hons) / Bachelor of Science (Hons) in Inn",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 25.54,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "hkbu-js2950",
+      "jupasCode": "JS2950",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts, Science and Technology (Hons) in Individualised Majo",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 19.73,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "hkbu-js2960",
+      "jupasCode": "JS2960",
+      "universityId": "hkbu",
+      "name": "Bachelor of Arts and Science (Hons) in Digital Futures and Humanities",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 18.9,
+        "lowerQuartile": null
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted",
+      "category": "science"
+    },
+    {
+      "id": "hkmu-js9011",
+      "jupasCode": "JS9011",
+      "universityId": "hkmu",
+      "name": "Bachelor of Arts with Honours in Chinese Bachelor of Arts with Honours",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "hkmu-js9013",
+      "jupasCode": "JS9013",
+      "universityId": "hkmu",
+      "name": "and Translation Bachelor of Arts with Honours in Creative Advertising",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20,
+        "lowerQuartile": 19
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "hkmu-js9016",
+      "jupasCode": "JS9016",
+      "universityId": "hkmu",
+      "name": "and Media Design Bachelor of Arts with Honours in English Language",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20,
+        "lowerQuartile": 18
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "arts"
+    },
+    {
+      "id": "hkmu-js9019",
+      "jupasCode": "JS9019",
+      "universityId": "hkmu",
+      "name": "and Culture Bachelor of Business Administration with Honours in",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9220",
+      "jupasCode": "JS9220",
+      "universityId": "hkmu",
+      "name": "Professional Accounting Bachelor of Business Administration with Honou",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 17
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9230",
+      "jupasCode": "JS9230",
+      "universityId": "hkmu",
+      "name": "Business Management Bachelor of Business Administration with Honours i",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 16,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9240",
+      "jupasCode": "JS9240",
+      "universityId": "hkmu",
+      "name": "Global Business Bachelor of Business Administration with Honours in Hu",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 18,
+        "lowerQuartile": 17
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9266",
+      "jupasCode": "JS9266",
+      "universityId": "hkmu",
+      "name": "Marketing Bachelor of Business Administration with Honours in",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 16,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9276",
+      "jupasCode": "JS9276",
+      "universityId": "hkmu",
+      "name": "Real Estate and Surveying Bachelor of Applied Psychology with Honours",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 16
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "engineering"
+    },
+    {
+      "id": "hkmu-js9280",
+      "jupasCode": "JS9280",
+      "universityId": "hkmu",
+      "name": "Bachelor of Business Management with Honours Bachelor of Business Admi",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 16,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9291",
+      "jupasCode": "JS9291",
+      "universityId": "hkmu",
+      "name": "Sustainable Tourism and Hospitality Management Bachelor of Business Ad",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 16,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9294",
+      "jupasCode": "JS9294",
+      "universityId": "hkmu",
+      "name": "Sports and eSports Management Bachelor of Education with Honours (Puto",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 16
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "hkmu-js9530",
+      "jupasCode": "JS9530",
+      "universityId": "hkmu",
+      "name": "Language Teaching and Bachelor of English Language Studies with Honour",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20,
+        "lowerQuartile": 19
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "hkmu-js9540",
+      "jupasCode": "JS9540",
+      "universityId": "hkmu",
+      "name": "Bachelor of English Language Studies with Honours Bachelor of Language",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 20,
+        "lowerQuartile": 18
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "humanities"
+    },
+    {
+      "id": "hkmu-js9550",
+      "jupasCode": "JS9550",
+      "universityId": "hkmu",
+      "name": "Chinese Language Studies) Bachelor of Language Studies with Honours in",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 19
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "humanities"
+    },
+    {
+      "id": "hkmu-js9560",
+      "jupasCode": "JS9560",
+      "universityId": "hkmu",
+      "name": "Studies with Honours (Applied Chinese Language Studies) Bachelor of Ed",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 22,
+        "lowerQuartile": 21
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "humanities"
+    },
+    {
+      "id": "hkmu-js9580",
+      "jupasCode": "JS9580",
+      "universityId": "hkmu",
+      "name": "Education (Leadership and Special Educational Needs) Bachelor of Scien",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 16,
+        "lowerQuartile": 14
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "education"
+    },
+    {
+      "id": "hkmu-js9719",
+      "jupasCode": "JS9719",
+      "universityId": "hkmu",
+      "name": "Computer Security Bachelor of Engineering with Honours in Electronic",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 15,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "hkmu-js9720",
+      "jupasCode": "JS9720",
+      "universityId": "hkmu",
+      "name": "and Computer Engineering Bachelor of Science with Honours in Environme",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 16
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "it"
+    },
+    {
+      "id": "hkmu-js9731",
+      "jupasCode": "JS9731",
+      "universityId": "hkmu",
+      "name": "Science and Green Management Bachelor of Science with Honours in Biome",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 16
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "business"
+    },
+    {
+      "id": "hkmu-js9732",
+      "jupasCode": "JS9732",
+      "universityId": "hkmu",
+      "name": "Sciences and Biotechnology",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 16
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
+    },
+    {
+      "id": "hkmu-js9733",
+      "jupasCode": "JS9733",
+      "universityId": "hkmu",
+      "name": "Bachelor of Science with Honours in Science (STE A M) Bachelor of Scie",
+      "method": "best5",
+      "weights": {},
+      "gradeScheme": "standard",
+      "admission": {
+        "median": 17,
+        "lowerQuartile": 15
+      },
+      "scoreComparable": true,
+      "dataStatus": "official-2025",
+      "weightsStatus": "unweighted-approx",
+      "category": "science"
     }
   ]
 }

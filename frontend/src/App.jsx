@@ -62,7 +62,8 @@ export default function App() {
       </header>
 
       <div className="notice">
-        ⚠️ 目前收生分數為<strong>示例數據</strong>，僅供功能展示，非官方真實分數，請勿用於實際升學決策。
+        ℹ️ 收生中位數／下四分位數來自 <strong>JUPAS 官方 2025 數據</strong>（5 所主要大學：HKU／CUHK／HKUST／PolyU／CityU）。
+        分數計算盡量還原各校公式，部分課程（標「僅供參考」）因計分較複雜未能精確比對。結果僅供參考，請以官方為準。
       </div>
 
       <main className="layout">
