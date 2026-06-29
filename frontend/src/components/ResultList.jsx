@@ -1,32 +1,17 @@
 import { useMemo, useState } from 'react';
+import { useLang } from '../i18n.jsx';
 
-const TIER_INFO = {
-  safe: { label: '穩陣', cls: 'safe', desc: '你的分數 ≥ 收生中位數' },
-  competitive: { label: '有機會', cls: 'competitive', desc: '介乎下四分位數與中位數之間' },
-  reach: { label: '衝刺', cls: 'reach', desc: '略低於下四分位數，可博一博' },
-  below: { label: '機會偏低', cls: 'below', desc: '低於收生分數' },
-  unqualified: { label: '未符要求', cls: 'unqualified', desc: '未達必修門檻' },
-  reference: { label: '僅供參考', cls: 'below', desc: '此校計分方式不同，未能精確比對' },
-};
 const TIER_ORDER = ['safe', 'competitive', 'reach', 'below', 'unqualified', 'reference'];
+const TIER_CLS = { safe: 'safe', competitive: 'competitive', reach: 'reach', below: 'below', unqualified: 'unqualified', reference: 'below' };
 
 const SCHEME_LABEL = {
-  bonusTop: '5**=8.5, 5*=7, 5=5.5, 4=4, 3=3, 2=2, 1=1（2025 新制）',
+  bonusTop: '5**=8.5, 5*=7, 5=5.5, 4=4, 3=3, 2=2, 1=1',
   standard: '5**=7, 5*=6, 5=5, 4=4, 3=3, 2=2, 1=1',
 };
 const schemeLabel = (s) => SCHEME_LABEL[s] || s;
 
-function methodLabel(r) {
-  if (r.method === 'hku' && r.formula) {
-    const f = r.formula;
-    const fixed = (f.fixed || []).map((x) => `${x.weight}×${x.subject}`).join(' + ');
-    return `${fixed} + 最佳 ${f.bestN} 科${f.tailWeight ? ` + ${f.tailWeight}×第 ${f.bestN + 1} 佳` : ''}`;
-  }
-  if (r.method === 'best6') return '最佳 6 科（加權後）';
-  return '最佳 5 科（加權後）';
-}
-
 export default function ResultList({ results }) {
+  const { t } = useLang();
   const [uniFilter, setUniFilter] = useState('all');
   const [hideOutOfReach, setHideOutOfReach] = useState(false);
   const [expanded, setExpanded] = useState(() => new Set());
@@ -35,6 +20,16 @@ export default function ResultList({ results }) {
     n.has(id) ? n.delete(id) : n.add(id);
     return n;
   });
+
+  function methodLabel(r) {
+    if (r.method === 'hku' && r.formula) {
+      const f = r.formula;
+      const fixed = (f.fixed || []).map((x) => `${x.weight}×${x.subject}`).join(' + ');
+      return `${fixed} + Best ${f.bestN}${f.tailWeight ? ` + ${f.tailWeight}×${f.bestN + 1}th` : ''}`;
+    }
+    if (r.method === 'best6') return 'Best 6';
+    return 'Best 5';
+  }
 
   const unis = useMemo(() => {
     const m = new Map();
@@ -48,8 +43,8 @@ export default function ResultList({ results }) {
     return c;
   }, [results]);
 
-  if (!results) return <div className="empty">填好成績後按「開始比對」，結果會顯示在這裡。</div>;
-  if (results.length === 0) return <div className="empty">沒有符合條件的專業，試試調整興趣或取消篩選。</div>;
+  if (!results) return <div className="empty">{t('emptyPrompt')}</div>;
+  if (results.length === 0) return <div className="empty">{t('emptyNoMatch')}</div>;
 
   let shown = results;
   if (uniFilter !== 'all') shown = shown.filter((r) => r.universityShort === uniFilter);
@@ -57,89 +52,96 @@ export default function ResultList({ results }) {
 
   return (
     <div className="results">
-      <h3>比對結果（{results.length} 個專業）</h3>
+      <h3>{t('resultsTitle')}（{results.length} {t('programmesUnit')}）</h3>
 
       {/* tier 統計 */}
       <div className="tier-summary">
-        {TIER_ORDER.filter((t) => tierCounts[t]).map((t) => (
-          <span key={t} className={`tier-pill ${TIER_INFO[t].cls}`}>
-            {TIER_INFO[t].label} {tierCounts[t]}
+        {TIER_ORDER.filter((tk) => tierCounts[tk]).map((tk) => (
+          <span key={tk} className={`tier-pill ${TIER_CLS[tk]}`}>
+            {t.tier(tk).label} {tierCounts[tk]}
           </span>
         ))}
       </div>
 
       {/* 院校篩選 */}
       <div className="uni-filter">
-        <button className={`chip ${uniFilter === 'all' ? 'active' : ''}`} onClick={() => setUniFilter('all')}>全部</button>
+        <button className={`chip ${uniFilter === 'all' ? 'active' : ''}`} onClick={() => setUniFilter('all')}>{t('filterAll')}</button>
         {unis.map(([u, n]) => (
           <button key={u} className={`chip ${uniFilter === u ? 'active' : ''}`} onClick={() => setUniFilter(u)}>{u} ({n})</button>
         ))}
       </div>
       <label className="checkbox">
         <input type="checkbox" checked={hideOutOfReach} onChange={(e) => setHideOutOfReach(e.target.checked)} />
-        只看有機會入到的（穩陣／有機會／衝刺）
+        {t('hideOutOfReach')}
       </label>
 
-      <div className="result-count">顯示 {shown.length} 個</div>
+      <div className="result-count">{t('showingN')} {shown.length}</div>
 
       {shown.map((r) => {
-        const t = TIER_INFO[r.tier] || TIER_INFO.below;
+        const tier = t.tier(r.tier);
+        const cls = TIER_CLS[r.tier] || 'below';
         return (
-          <div className={`card tier-${t.cls}`} key={r.programmeId}>
+          <div className={`card tier-${cls}`} key={r.programmeId}>
             <div className="card-head">
               <div>
                 <span className="uni">{r.universityShort}</span>
                 <span className="pname">{r.name}</span>
                 <span className="code">{r.jupasCode}</span>
               </div>
-              <span className={`badge ${t.cls}`}>{t.label}</span>
+              <span className={`badge ${cls}`}>{tier.label}</span>
             </div>
 
             <div className="scores">
               {r.scoreComparable !== false && (
                 <div className="score-box mine">
                   <span className="num">{r.yourScore}</span>
-                  <span className="cap">你的分數</span>
+                  <span className="cap">{t('yourScore')}</span>
+                </div>
+              )}
+              {r.admission?.upperQuartile != null && (
+                <div className="score-box">
+                  <span className="num">{r.admission.upperQuartile}</span>
+                  <span className="cap">{t('upperQuartile')}</span>
                 </div>
               )}
               <div className="score-box">
                 <span className="num">{r.admission?.median ?? '—'}</span>
-                <span className="cap">收生中位數</span>
+                <span className="cap">{t('median')}</span>
               </div>
               <div className="score-box">
                 <span className="num">{r.admission?.lowerQuartile ?? '—'}</span>
-                <span className="cap">下四分位數</span>
+                <span className="cap">{t('lowerQuartile')}</span>
               </div>
             </div>
 
             {!r.requirementOk && r.scoreComparable !== false && (
-              <div className="req-warn">⚠️ 未符要求：{r.requirementReasons.join('；')}</div>
+              <div className="req-warn">⚠️ {r.requirementReasons.join('；')}</div>
             )}
             {r.scaleNote && <div className="req-warn">ℹ️ {r.scaleNote}</div>}
 
             <div className="meta">
-              <span>{t.desc}</span>
+              <span>{tier.desc}</span>
               {r.scoreComparable !== false && r.gapToMedian != null && r.requirementOk && (
                 <span className={r.gapToMedian >= 0 ? 'pos' : 'neg'}>
-                  距中位數 {r.gapToMedian >= 0 ? '+' : ''}{r.gapToMedian}
+                  {t('distToMedian')} {r.gapToMedian >= 0 ? '+' : ''}{r.gapToMedian}
                 </span>
               )}
             </div>
             {r.scoreComparable !== false && r.breakdown?.length > 0 && (
               <button className="calc-btn" onClick={() => toggle(r.programmeId)}>
-                {expanded.has(r.programmeId) ? '▲ 收起計分明細' : '📊 查看計分明細'}
+                {expanded.has(r.programmeId) ? t('hideCalc') : t('viewCalc')}
               </button>
             )}
 
             {expanded.has(r.programmeId) && r.scoreComparable !== false && (
               <div className="calc-detail">
                 <div className="calc-method">
-                  計法：{methodLabel(r)}
-                  {r.weightsStatus === 'unweighted-approx' && <span className="approx">（加權近似，未完全還原）</span>}
+                  {t('calcMethod')}：{methodLabel(r)}
+                  {r.weightsStatus === 'unweighted-approx' && <span className="approx">{t('approxNote')}</span>}
                 </div>
                 <table className="calc-table">
                   <thead>
-                    <tr><th>科目</th><th>等級</th><th>換分</th><th>加成</th><th>得分</th></tr>
+                    <tr><th>{t('colSubject')}</th><th>{t('colGrade')}</th><th>{t('colPoints')}</th><th>{t('colWeight')}</th><th>{t('colScore')}</th></tr>
                   </thead>
                   <tbody>
                     {r.breakdown.map((b, i) => (
@@ -153,10 +155,10 @@ export default function ResultList({ results }) {
                     ))}
                   </tbody>
                   <tfoot>
-                    <tr><td colSpan="4">總分</td><td className="total">{r.yourScore}</td></tr>
+                    <tr><td colSpan="4">{t('totalRow')}</td><td className="total">{r.yourScore}</td></tr>
                   </tfoot>
                 </table>
-                <div className="calc-note">換分表：{schemeLabel(r.gradeScheme)}</div>
+                <div className="calc-note">{t('gradeTable')}：{schemeLabel(r.gradeScheme)}</div>
               </div>
             )}
           </div>

@@ -1,9 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { ADSENSE_CLIENT_ID } from '../config';
+import { useLang } from '../i18n.jsx';
 
 // AdSense 廣告版位。傳入 slot（版位 ID）。
 // 未設定 client/slot 時顯示佔位框，方便排版預覽，不會報錯。
 export default function AdUnit({ slot, label = '廣告' }) {
+  const { t } = useLang();
   const ref = useRef(null);
   const pushed = useRef(false);
 
@@ -16,7 +18,7 @@ export default function AdUnit({ slot, label = '廣告' }) {
   }, [slot]);
 
   if (!ADSENSE_CLIENT_ID || !slot) {
-    return <div className="ad-placeholder">{label}位（待 AdSense 審核通過後自動顯示）</div>;
+    return <div className="ad-placeholder">{label}{t('adPending')}</div>;
   }
 
   return (

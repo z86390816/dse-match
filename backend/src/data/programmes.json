@@ -984,7 +984,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24,
-        "lowerQuartile": 23
+        "lowerQuartile": 23,
+        "upperQuartile": 31.9
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1022,7 +1023,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.25,
-        "lowerQuartile": 26.5
+        "lowerQuartile": 26.5,
+        "upperQuartile": 27.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1039,7 +1041,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26,
-        "lowerQuartile": 24.5
+        "lowerQuartile": 24.5,
+        "upperQuartile": 28
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1073,7 +1076,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24.5,
-        "lowerQuartile": 23
+        "lowerQuartile": 23,
+        "upperQuartile": 24.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1090,7 +1094,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24.5,
-        "lowerQuartile": 24.5
+        "lowerQuartile": 24.5,
+        "upperQuartile": 27.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1107,7 +1112,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24.5,
-        "lowerQuartile": 22.5
+        "lowerQuartile": 22.5,
+        "upperQuartile": 25
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1124,7 +1130,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24.5,
-        "lowerQuartile": 23
+        "lowerQuartile": 23,
+        "upperQuartile": 24.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1158,7 +1165,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 21.5,
-        "lowerQuartile": 21
+        "lowerQuartile": 21,
+        "upperQuartile": 26
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1175,7 +1183,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 23,
-        "lowerQuartile": 23
+        "lowerQuartile": 23,
+        "upperQuartile": 24.75
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1194,7 +1203,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24.25,
-        "lowerQuartile": 24.25
+        "lowerQuartile": 24.25,
+        "upperQuartile": 27.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1347,7 +1357,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 37.5,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 38
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1407,7 +1418,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 34.75
+        "lowerQuartile": 34.75,
+        "upperQuartile": 37
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1424,7 +1436,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26,
-        "lowerQuartile": 24.5
+        "lowerQuartile": 24.5,
+        "upperQuartile": 29
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1772,7 +1785,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26.375,
-        "lowerQuartile": 24.625
+        "lowerQuartile": 24.625,
+        "upperQuartile": 29
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1813,7 +1827,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 44.25,
-        "lowerQuartile": 38.25
+        "lowerQuartile": 38.25,
+        "upperQuartile": 48
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1832,7 +1847,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 36,
-        "lowerQuartile": 34.5
+        "lowerQuartile": 34.5,
+        "upperQuartile": 37.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1849,7 +1865,8 @@
       "gradeScheme": "standard",
       "admission": {
         "median": 37,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 41.5
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -1887,7 +1904,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 28.6,
-        "lowerQuartile": 28.3
+        "lowerQuartile": 28.3,
+        "upperQuartile": 33.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -1907,7 +1925,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 32,
-        "lowerQuartile": 30.5
+        "lowerQuartile": 30.5,
+        "upperQuartile": 36.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2025,7 +2044,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 52.5,
-        "lowerQuartile": 51.75
+        "lowerQuartile": 51.75,
+        "upperQuartile": 52.75
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -2085,7 +2105,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.65,
-        "lowerQuartile": 26.6
+        "lowerQuartile": 26.6,
+        "upperQuartile": 28
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2105,7 +2126,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 28,
-        "lowerQuartile": 26.5
+        "lowerQuartile": 26.5,
+        "upperQuartile": 33.75
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2126,7 +2148,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 31.5,
-        "lowerQuartile": 30.75
+        "lowerQuartile": 30.75,
+        "upperQuartile": 35.25
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2165,7 +2188,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26,
-        "lowerQuartile": 24.5
+        "lowerQuartile": 24.5,
+        "upperQuartile": 28.625
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2185,7 +2209,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.5,
-        "lowerQuartile": 27.25
+        "lowerQuartile": 27.25,
+        "upperQuartile": 31.7
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2205,7 +2230,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 28.95,
-        "lowerQuartile": 27.8
+        "lowerQuartile": 27.8,
+        "upperQuartile": 31.55
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2224,7 +2250,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29.15,
-        "lowerQuartile": 27.2
+        "lowerQuartile": 27.2,
+        "upperQuartile": 36.75
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2261,7 +2288,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.5,
-        "lowerQuartile": 27.5
+        "lowerQuartile": 27.5,
+        "upperQuartile": 28
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2280,7 +2308,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26.5,
-        "lowerQuartile": 26.5
+        "lowerQuartile": 26.5,
+        "upperQuartile": 26.5
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2909,7 +2938,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29,
-        "lowerQuartile": 28
+        "lowerQuartile": 28,
+        "upperQuartile": 32
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2930,7 +2960,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29,
-        "lowerQuartile": 28
+        "lowerQuartile": 28,
+        "upperQuartile": 31
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2951,7 +2982,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 31
+        "lowerQuartile": 31,
+        "upperQuartile": 38
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2972,7 +3004,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29,
-        "lowerQuartile": 27
+        "lowerQuartile": 27,
+        "upperQuartile": 32
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -2998,7 +3031,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 34
+        "lowerQuartile": 34,
+        "upperQuartile": 37
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3024,7 +3058,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 33,
-        "lowerQuartile": 32
+        "lowerQuartile": 32,
+        "upperQuartile": 33
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3050,7 +3085,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 37,
-        "lowerQuartile": 35
+        "lowerQuartile": 35,
+        "upperQuartile": 41
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3080,7 +3116,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 42,
-        "lowerQuartile": 42
+        "lowerQuartile": 42,
+        "upperQuartile": 44
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3110,7 +3147,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 37,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 37
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3140,7 +3178,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 40,
-        "lowerQuartile": 39
+        "lowerQuartile": 39,
+        "upperQuartile": 40
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3170,7 +3209,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 34
+        "lowerQuartile": 34,
+        "upperQuartile": 36
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3200,7 +3240,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 34
+        "lowerQuartile": 34,
+        "upperQuartile": 36
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3230,7 +3271,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 46,
-        "lowerQuartile": 45
+        "lowerQuartile": 45,
+        "upperQuartile": 49
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3260,7 +3302,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 33,
-        "lowerQuartile": 32
+        "lowerQuartile": 32,
+        "upperQuartile": 34
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3290,7 +3333,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 47,
-        "lowerQuartile": 46
+        "lowerQuartile": 46,
+        "upperQuartile": 48
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3328,7 +3372,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 51,
-        "lowerQuartile": 50
+        "lowerQuartile": 50,
+        "upperQuartile": 55
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3358,7 +3403,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 54,
-        "lowerQuartile": 53
+        "lowerQuartile": 53,
+        "upperQuartile": 56
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3379,7 +3425,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 48,
-        "lowerQuartile": 47
+        "lowerQuartile": 47,
+        "upperQuartile": 50
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3406,7 +3453,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 32,
-        "lowerQuartile": 32
+        "lowerQuartile": 32,
+        "upperQuartile": 34
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3432,7 +3480,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 34
+        "lowerQuartile": 34,
+        "upperQuartile": 36
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3458,7 +3507,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27,
-        "lowerQuartile": 26
+        "lowerQuartile": 26,
+        "upperQuartile": 27
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3484,7 +3534,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 44,
-        "lowerQuartile": 43
+        "lowerQuartile": 43,
+        "upperQuartile": 46
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3506,7 +3557,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 34,
-        "lowerQuartile": 34
+        "lowerQuartile": 34,
+        "upperQuartile": 35
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3527,7 +3579,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 36,
-        "lowerQuartile": 35
+        "lowerQuartile": 35,
+        "upperQuartile": 38
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3549,7 +3602,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26,
-        "lowerQuartile": 25
+        "lowerQuartile": 25,
+        "upperQuartile": 28
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3571,7 +3625,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27,
-        "lowerQuartile": 26
+        "lowerQuartile": 26,
+        "upperQuartile": 28
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3593,7 +3648,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 28,
-        "lowerQuartile": 27
+        "lowerQuartile": 27,
+        "upperQuartile": 29
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3615,7 +3671,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 33,
-        "lowerQuartile": 31
+        "lowerQuartile": 31,
+        "upperQuartile": 34
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3637,7 +3694,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 32,
-        "lowerQuartile": 30
+        "lowerQuartile": 30,
+        "upperQuartile": 34
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3659,7 +3717,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29,
-        "lowerQuartile": 28
+        "lowerQuartile": 28,
+        "upperQuartile": 31
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3681,7 +3740,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 38,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 41
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3702,7 +3762,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 35
+        "lowerQuartile": 35,
+        "upperQuartile": 36
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3723,7 +3784,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29,
-        "lowerQuartile": 28
+        "lowerQuartile": 28,
+        "upperQuartile": 31
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3744,7 +3806,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 37,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 37
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3765,7 +3828,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 44,
-        "lowerQuartile": 42
+        "lowerQuartile": 42,
+        "upperQuartile": 47
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3786,7 +3850,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27,
-        "lowerQuartile": 26
+        "lowerQuartile": 26,
+        "upperQuartile": 28
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3807,7 +3872,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 33,
-        "lowerQuartile": 31
+        "lowerQuartile": 31,
+        "upperQuartile": 34
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3828,7 +3894,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 39,
-        "lowerQuartile": 38
+        "lowerQuartile": 38,
+        "upperQuartile": 41
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3849,7 +3916,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 40,
-        "lowerQuartile": 39
+        "lowerQuartile": 39,
+        "upperQuartile": 41
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3879,7 +3947,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 34,
-        "lowerQuartile": 32
+        "lowerQuartile": 32,
+        "upperQuartile": 36
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3909,7 +3978,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 54,
-        "lowerQuartile": 50
+        "lowerQuartile": 50,
+        "upperQuartile": 56
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3930,7 +4000,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 37,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 39
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -3952,7 +4023,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 31,
-        "lowerQuartile": 29
+        "lowerQuartile": 29,
+        "upperQuartile": 31
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3973,7 +4045,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 31,
-        "lowerQuartile": 29
+        "lowerQuartile": 29,
+        "upperQuartile": 34
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -3994,7 +4067,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 28,
-        "lowerQuartile": 26
+        "lowerQuartile": 26,
+        "upperQuartile": 28
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4015,7 +4089,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 37,
-        "lowerQuartile": 36
+        "lowerQuartile": 36,
+        "upperQuartile": 39
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4041,7 +4116,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 32,
-        "lowerQuartile": 31
+        "lowerQuartile": 31,
+        "upperQuartile": 35
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4067,7 +4143,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 29,
-        "lowerQuartile": 29
+        "lowerQuartile": 29,
+        "upperQuartile": 31
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4105,7 +4182,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 53,
-        "lowerQuartile": 51
+        "lowerQuartile": 51,
+        "upperQuartile": 57
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4131,7 +4209,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 34,
-        "lowerQuartile": 32
+        "lowerQuartile": 32,
+        "upperQuartile": 35
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4169,7 +4248,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
-        "lowerQuartile": 35
+        "lowerQuartile": 35,
+        "upperQuartile": 36
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4195,7 +4275,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 33,
-        "lowerQuartile": 31
+        "lowerQuartile": 31,
+        "upperQuartile": 33
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
@@ -4221,7 +4302,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 41,
-        "lowerQuartile": 39
+        "lowerQuartile": 39,
+        "upperQuartile": 44
       },
       "scoreComparable": false,
       "dataStatus": "official-2025-noformula",
@@ -4252,7 +4334,8 @@
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 55,
-        "lowerQuartile": 52
+        "lowerQuartile": 52,
+        "upperQuartile": 58
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",

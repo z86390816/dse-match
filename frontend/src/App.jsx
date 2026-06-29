@@ -7,14 +7,10 @@ import AdUnit from './components/AdUnit.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy.jsx';
 import { trackPageView, trackEvent } from './analytics';
 import { AD_SLOTS } from './config';
-
-const INTEREST_LABELS = {
-  science: '理科', business: '商科', medical: '醫科 / 護理', engineering: '工程',
-  it: '資訊科技', social: '社會科學', arts: '藝術', humanities: '人文',
-  education: '教育', law: '法律', language: '語言',
-};
+import { useLang } from './i18n.jsx';
 
 export default function App() {
+  const { lang, setLang, t } = useLang();
   const [subjects, setSubjects] = useState([]);
   const [gradeOptions, setGradeOptions] = useState([]);
   const [csdGrades, setCsdGrades] = useState([]);
@@ -27,7 +23,7 @@ export default function App() {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [view, setView] = useState('match'); // 'match' | 'browse' | 'results'
+  const [view, setView] = useState('match'); // 'match' | 'browse' | 'results' | 'privacy'
 
   useEffect(() => {
     api.getSubjects().then((d) => {
@@ -68,21 +64,21 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>🎓 DSE 收生分數比對</h1>
-        <p className="sub">輸入你的 DSE 成績，看看能配對哪些香港大學專業（2025 年數據）</p>
+        <button className="lang-toggle" onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}>
+          {lang === 'zh' ? 'EN' : '中'}
+        </button>
+        <h1>{t('appTitle')}</h1>
+        <p className="sub">{t('appSub')}</p>
       </header>
 
-      <div className="notice">
-        ℹ️ 收生中位數／下四分位數來自 <strong>JUPAS 官方 2025 數據</strong>（全 9 所院校）。
-        分數計算盡量還原各校公式，部分課程（標「僅供參考」）因計分較複雜未能精確比對。結果僅供參考，請以官方為準。
-      </div>
+      <div className="notice">ℹ️ {t('notice')}</div>
 
       <nav className="tabs">
         <button className={`tab ${view === 'match' || view === 'results' ? 'active' : ''}`} onClick={() => setView('match')}>
-          🎯 成績比對
+          {t('tabMatch')}
         </button>
         <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>
-          📚 瀏覽專業
+          {t('tabBrowse')}
         </button>
       </nav>
 
@@ -90,7 +86,7 @@ export default function App() {
 
       {view === 'browse' && (
       <>
-        <AdUnit slot={AD_SLOTS.browseTop} label="頂部廣告" />
+        <AdUnit slot={AD_SLOTS.browseTop} label={t('adLabel')} />
         <ProgrammeBrowser />
       </>
       )}
@@ -107,7 +103,7 @@ export default function App() {
           />
 
           <div className="interests">
-            <h3>興趣（可選，用作推薦）</h3>
+            <h3>{t('interestsTitle')}</h3>
             <div className="chips">
               {interests.map((i) => (
                 <button
@@ -116,7 +112,7 @@ export default function App() {
                   onClick={() => toggleInterest(i)}
                   type="button"
                 >
-                  {INTEREST_LABELS[i] || i}
+                  {t.cat(i)}
                 </button>
               ))}
             </div>
@@ -126,22 +122,25 @@ export default function App() {
                 checked={onlyAttainable}
                 onChange={(e) => setOnlyAttainable(e.target.checked)}
               />
-              只顯示我有機會入到的（穩陣 / 有機會 / 衝刺）
+              {t('onlyAttainable')}
             </label>
           </div>
-
-          <button className="submit" onClick={handleSubmit} disabled={loading}>
-            {loading ? '計算中…' : '開始比對'}
-          </button>
           {error && <div className="error">{error}</div>}
         </section>
+
+        {/* 浮動於頁面底部的開始比對按鈕 */}
+        <div className="submit-bar">
+          <button className="submit" onClick={handleSubmit} disabled={loading}>
+            {loading ? t('submitting') : t('submit')}
+          </button>
+        </div>
       </main>
       )}
 
       {view === 'results' && (
       <main className="layout">
-        <button className="back-link" onClick={() => setView('match')}>← 返回修改成績</button>
-        <AdUnit slot={AD_SLOTS.resultsTop} label="結果頁廣告" />
+        <button className="back-link" onClick={() => setView('match')}>{t('backToEdit')}</button>
+        <AdUnit slot={AD_SLOTS.resultsTop} label={t('adLabel')} />
         <section className="panel result-panel">
           <ResultList results={results} />
         </section>
@@ -149,8 +148,8 @@ export default function App() {
       )}
 
       <footer className="site-footer">
-        <button className="link-btn" onClick={() => setView('privacy')}>私隱政策</button>
-        <span>· 數據僅供參考，請以各院校官方公布為準 · © {new Date().getFullYear()} DSE Marks</span>
+        <button className="link-btn" onClick={() => setView('privacy')}>{t('privacyLink')}</button>
+        <span> {t('footerDisclaimer')} © {new Date().getFullYear()} DSE Marks</span>
       </footer>
     </div>
   );
