@@ -169,6 +169,12 @@ function DetailOverlay({ prog, year, onClose }) {
           )}
           <div><span className="dl">{t('median')}</span><span className="dv">{prog.admission?.median ?? '—'}</span></div>
           <div><span className="dl">{t('lowerQuartile')}</span><span className="dv">{prog.admission?.lowerQuartile ?? '—'}</span></div>
+          {prog.admitted2025 > 0 && (
+            <div><span className="dl">{t('admitted2025')}</span><span className="dv">{prog.admitted2025}</span></div>
+          )}
+          {prog.intake > 0 && (
+            <div><span className="dl">{t('intakeQuota')}</span><span className="dv">{prog.intake}</span></div>
+          )}
           <div><span className="dl">{t('colCategory')}</span><span className="dv" style={{ fontSize: 16 }}>{t.cat(prog.category)}</span></div>
         </div>
 

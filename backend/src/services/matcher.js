@@ -48,6 +48,8 @@ function matchAll(grades, programmes) {
       universityShortZh: university?.shortZh,
       universityName: university?.name,
       category: programme.category,
+      admitted2025: programme.admitted2025 ?? null,
+      intake: programme.intake ?? null,
       method: programme.method,
       gradeScheme: programme.gradeScheme || university?.gradeScheme || 'standard',
       weights: programme.weights || {},

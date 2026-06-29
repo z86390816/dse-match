@@ -123,6 +123,9 @@ export default function ResultList({ results }) {
 
             <div className="meta">
               <span>{tier.desc}</span>
+              {r.admitted2025 > 0 && (
+                <span className="admit-chip">{t('admitted2025')} {r.admitted2025}</span>
+              )}
               {r.scoreComparable !== false && r.gapToMedian != null && r.requirementOk && (
                 <span className={r.gapToMedian >= 0 ? 'pos' : 'neg'}>
                   {t('distToMedian')} {r.gapToMedian >= 0 ? '+' : ''}{r.gapToMedian}

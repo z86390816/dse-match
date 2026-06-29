@@ -38,6 +38,9 @@ const STRINGS = {
   median: { zh: '收生中位數', en: 'Median' },
   upperQuartile: { zh: '上四分位數', en: 'Upper Quartile' },
   lowerQuartile: { zh: '下四分位數', en: 'Lower Quartile' },
+  admitted2025: { zh: '2025 取錄人數', en: '2025 Admitted' },
+  admittedShort: { zh: '取錄', en: 'Adm' },
+  intakeQuota: { zh: '首年學額', en: 'Intake Quota' },
 
   // calc detail
   viewCalc: { zh: '📊 查看計分明細', en: '📊 View score breakdown' },
