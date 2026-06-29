@@ -64,23 +64,23 @@ function TrendChart({ bands, years }) {
           const v = Math.round(scale * (1 - i / gridLines));
           return (
             <g key={i}>
-              <line x1={PX} y1={y} x2={W - 12} y2={y} stroke="#2a3650" strokeWidth="1" />
-              <text x={PX - 6} y={y + 4} textAnchor="end" fill="#94a3b8" fontSize="10">{v}</text>
+              <line x1={PX} y1={y} x2={W - 12} y2={y} stroke="#e2e8f0" strokeWidth="1" />
+              <text x={PX - 6} y={y + 4} textAnchor="end" fill="#64748b" fontSize="10">{v}</text>
             </g>
           );
         })}
         {years.map((y, i) => {
           const x = PX + (years.length > 1 ? (i / (years.length - 1)) * cw : cw / 2);
           const show = years.length <= 8 || i % Math.ceil(years.length / 8) === 0 || i === years.length - 1;
-          return show ? <text key={y} x={x} y={H - 6} textAnchor="middle" fill="#94a3b8" fontSize="10">{y.slice(2)}</text> : null;
+          return show ? <text key={y} x={x} y={H - 6} textAnchor="middle" fill="#64748b" fontSize="10">{y.slice(2)}</text> : null;
         })}
-        <path d={line(totalPts)} fill="none" stroke="#38bdf8" strokeWidth="2" />
+        <path d={line(totalPts)} fill="none" stroke="#2563eb" strokeWidth="2" />
         {totalPts.map(([x, y, v, yr]) => (
-          <circle key={`t-${yr}`} cx={x} cy={y} r="3" fill="#38bdf8"><title>{yr}：總數 {v}</title></circle>
+          <circle key={`t-${yr}`} cx={x} cy={y} r="3" fill="#2563eb"><title>{yr}：總數 {v}</title></circle>
         ))}
-        <path d={line(bandAPts)} fill="none" stroke="#22c55e" strokeWidth="2" strokeDasharray="5,3" />
+        <path d={line(bandAPts)} fill="none" stroke="#16a34a" strokeWidth="2" strokeDasharray="5,3" />
         {bandAPts.map(([x, y, v, yr]) => (
-          <circle key={`a-${yr}`} cx={x} cy={y} r="3" fill="#22c55e"><title>{yr}：Band A {v}</title></circle>
+          <circle key={`a-${yr}`} cx={x} cy={y} r="3" fill="#16a34a"><title>{yr}：Band A {v}</title></circle>
         ))}
       </svg>
       <div className="trend-legend">

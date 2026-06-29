@@ -23,7 +23,7 @@ export default function App() {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [view, setView] = useState('match'); // 'match' | 'browse'
+  const [view, setView] = useState('match'); // 'match' | 'browse' | 'results'
 
   useEffect(() => {
     api.getSubjects().then((d) => {
@@ -49,6 +49,7 @@ export default function App() {
         ? await api.recommend(grades, selectedInterests, onlyAttainable)
         : await api.match(grades);
       setResults(data.results);
+      setView('results');
     } catch (e) {
       setError(e.message);
     } finally {
@@ -69,11 +70,11 @@ export default function App() {
       </div>
 
       <nav className="tabs">
-        <button className={`tab ${view === 'match' ? 'active' : ''}`} onClick={() => setView('match')}>
-          <span className="tab-icon">🎯</span><span className="tab-label">成績比對</span>
+        <button className={`tab ${view === 'match' || view === 'results' ? 'active' : ''}`} onClick={() => setView('match')}>
+          🎯 成績比對
         </button>
         <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>
-          <span className="tab-icon">📚</span><span className="tab-label">瀏覽專業</span>
+          📚 瀏覽專業
         </button>
       </nav>
 
@@ -119,7 +120,12 @@ export default function App() {
           </button>
           {error && <div className="error">{error}</div>}
         </section>
+      </main>
+      )}
 
+      {view === 'results' && (
+      <main className="layout">
+        <button className="back-link" onClick={() => setView('match')}>← 返回修改成績</button>
         <section className="panel result-panel">
           <ResultList results={results} />
         </section>
