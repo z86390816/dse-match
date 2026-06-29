@@ -18,7 +18,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "工學士(生物醫學工程) (特點: 醫療技術 / 生物儀器 / 細胞和組織工程 / 醫療機器人)"
     },
     {
       "id": "cityu-js1805",
@@ -35,7 +36,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "生物醫學 [主修: 理學士(生物科學) / 理學士(生物醫學)]"
     },
     {
       "id": "cityu-js1806",
@@ -52,7 +54,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(生物科學) (特點: 生物資訊學、生物化學、遺傳學、細胞與分子生物學、免疫學 / 參與不同研究項目提供實踐經驗)"
     },
     {
       "id": "cityu-js1807",
@@ -70,7 +73,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "unweighted-approx",
       "category": "medical",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士(生物醫學) (特點: 臨床化學、血液學、微生物學和病理學 / 臨床實習 / 密集實驗室經驗)"
     },
     {
       "id": "cityu-js1000",
@@ -87,7 +91,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士(計算金融及金融科技) (專修：計算金融 / 金融科技)"
     },
     {
       "id": "cityu-js1001",
@@ -104,7 +109,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(環球商業) (特點: 三次海外交流 / 美國哥倫比亞大學雙聯學士學位 / 海外暑期及遊學課程 / 商業諮詢課程 / 獎學金及資助)"
     },
     {
       "id": "cityu-js1002",
@@ -121,7 +127,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(會計) (專修: 專業會計 / 環境，社會，治理和科技)"
     },
     {
       "id": "cityu-js1005",
@@ -138,7 +145,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士 (管理學) (專修 : 人力資源管理 / 策略及國際管理 )"
     },
     {
       "id": "cityu-js1007",
@@ -155,7 +163,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(市場學) (專修: 環球市場營銷 / 營銷數據分析)"
     },
     {
       "id": "cityu-js1012",
@@ -172,7 +181,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "經濟及金融 [主修: 工商管理學士(商業經濟) / 工商管理學士(金融)]"
     },
     {
       "id": "cityu-js1013",
@@ -189,7 +199,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(商業經濟) (特點: 經濟理論 / 國際經濟 / 經濟與商業預測 / 定量分析)"
     },
     {
       "id": "cityu-js1014",
@@ -206,7 +217,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(金融) (特點: 投資分析 / 金融市場 / 公司金融/ 風險管理 / 交易室工作坊)"
     },
     {
       "id": "cityu-js1017",
@@ -223,7 +235,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "智能資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(商業人工智能)]"
     },
     {
       "id": "cityu-js1018",
@@ -240,7 +253,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(環球商業系統管理) (特點: 智能科技 / 環球商業 / 海外及内地交流)"
     },
     {
       "id": "cityu-js1019",
@@ -257,7 +271,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "工商管理學士 (商業人工智能) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)"
     },
     {
       "id": "cityu-js1026",
@@ -274,7 +289,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(商業決策分析) (專修: 決策分析學 / 數據信息學)"
     },
     {
       "id": "cityu-js1027",
@@ -291,7 +307,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(環球營運管理) (特點: 供應鏈管理 / 營運效率 / 流程改善 / 營運分析 / 資源規劃)"
     },
     {
       "id": "cityu-js1070",
@@ -308,7 +325,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "人工智能 ･ 計算 ･ 突破課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)"
     },
     {
       "id": "cityu-js1071",
@@ -325,7 +343,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "數據科學 [主修：理學士 (數據科學) / 理學士 (數據與系統工程)]"
     },
     {
       "id": "cityu-js1072",
@@ -342,7 +361,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士(數據科學) (特點: 數據科學 / 機器學習 / 數據挖掘 / 大數據分析)"
     },
     {
       "id": "cityu-js1074",
@@ -359,7 +379,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士(數據與系統工程) (特點: 數據科學 / 金融科技 / 工業人工智能 / 智慧城市)"
     },
     {
       "id": "cityu-js1204",
@@ -376,7 +397,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士(計算機科學) (專修: 人工智能 / 網絡安全 / 數據科學 / 多媒體計算 / 軟件工程與項目管理)"
     },
     {
       "id": "cityu-js1218",
@@ -393,7 +415,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士 (網絡安全) (特點: 系統安全 / 軟件安全 / 密碼學 / 隱私增強技術 / 網絡風險管理)"
     },
     {
       "id": "cityu-js1201",
@@ -411,7 +434,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "unweighted-approx",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "建築學及土木工程學 [主修:工學士(建築工程) / 工學士(土木工程) / 理學士(建築學及測量學)]"
     },
     {
       "id": "cityu-js1205",
@@ -428,7 +452,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "電機工程學 [主修: 工學士(電子計算機及數據工程學) ／工學士(電子及電機工程學) ／ 工學士(資訊工程學) ／ 工學士(微電子工程學)]"
     },
     {
       "id": "cityu-js1207",
@@ -445,7 +470,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "機械工程學 [主修: 工學士(航空航天工程) / 工學士(機械工程) / 工學士(核子及風險工程)]"
     },
     {
       "id": "cityu-js1210",
@@ -462,7 +488,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "工學士(材料科學及工程) (特點: 香港工程師學會認可 / 工業和科研實習 / 海外雙學位課程 / 知識到應用遷移 / 世界領先的研究)"
     },
     {
       "id": "cityu-js1216",
@@ -479,7 +506,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "工學士(智能製造工程學) (特點: 物聯網 / 工業大數據 / 機器人技術與自動化 / 物流與供應鏈 / 智慧城市工程)"
     },
     {
       "id": "cityu-js1217",
@@ -496,7 +524,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "研究、創新和環球工程課程 (特點: 工學院任何一個主修 十 海外經驗 / 跨學科 / 創業培訓)"
     },
     {
       "id": "cityu-js1219",
@@ -513,7 +542,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "工學士(創新與企業工程) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)"
     },
     {
       "id": "cityu-js1102",
@@ -530,7 +560,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "general"
+      "category": "general",
+      "nameZh": "社會科學學士(國際關係及全球事務) (專修: 亞洲研究 / 國際研究 / 發展研究)"
     },
     {
       "id": "cityu-js1103",
@@ -547,7 +578,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "文學士(中文及歷史) (專修: 中文 / 歷史及文化遺產)"
     },
     {
       "id": "cityu-js1104",
@@ -564,7 +596,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "social"
+      "category": "social",
+      "nameZh": "文學士(英語語言) (專修: 英語及專業傳意 / 語言及文學)"
     },
     {
       "id": "cityu-js1106",
@@ -581,7 +614,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "social"
+      "category": "social",
+      "nameZh": "媒體與傳播 [主修: 文學士(數碼電視與廣播) / 文學士(媒體與傳播)]"
     },
     {
       "id": "cityu-js1108",
@@ -598,7 +632,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "社會科學學士(公共事務與管理) (專修: 公共事務與管治 / 公共政策與管理)"
     },
     {
       "id": "cityu-js1109",
@@ -615,7 +650,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "文學士(語言學及語言應用) (特點: 普通語言學 / 計算語言學 / 語料庫語言學 / 實驗語言學 / 語言技術及應用)"
     },
     {
       "id": "cityu-js1111",
@@ -632,7 +668,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學學士 (犯罪科學) (特點: 犯罪預防 / 安保實務 / 全球警政 / 犯罪分析 / 科網與未來犯罪)"
     },
     {
       "id": "cityu-js1112",
@@ -649,7 +686,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "社會科學學士(心理學) (專修: 健康與人類發展 / 大腦與認知)"
     },
     {
       "id": "cityu-js1113",
@@ -666,7 +704,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "social"
+      "category": "social",
+      "nameZh": "社會科學學士(社會工作) (特點: 社會參與及人文關懷 – 健康與福祉 / 社會多元與持續 / 人在環境的專業介入)"
     },
     {
       "id": "cityu-js1200",
@@ -683,7 +722,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "環球精研與科創課程 [主修：理學士 (化學) / 理學士 (計算數學) / 理學士 (物理學) ＋ 環球精研與科創]"
     },
     {
       "id": "cityu-js1202",
@@ -700,7 +740,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(化學) (專修: 綜合化學 / 化妝品化學 / 鑑證化學 / 環球精研與科創)"
     },
     {
       "id": "cityu-js1206",
@@ -717,7 +758,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士 (計算數學) (專修範疇: 數學精研 / 金融數學 / 環球精研與科創)"
     },
     {
       "id": "cityu-js1208",
@@ -734,7 +776,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士 (物理學) (特點：經典物理 / 近代物理 / 實驗與電算物理 / 醫學物理 / 凝聚態物理 / 環球精研與科創)"
     },
     {
       "id": "cityu-js1801",
@@ -751,7 +794,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "獸醫學學士 (特點: 健康一體化 / 動物健康與福利 / 公共衞生 / 雙認證獸醫課程)"
     },
     {
       "id": "cityu-js1040",
@@ -768,7 +812,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "卓越創藝與科技課程 [選項: 創意媒體(校本課程)、 文學士(創意媒體)、理學士(創意媒體)、文理學士(新媒體)]"
     },
     {
       "id": "cityu-js1041",
@@ -785,7 +830,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "創意媒體 [主修: 文學士(創意媒體) / 理學士(創意媒體) / 文理學士(新媒體)]"
     },
     {
       "id": "cityu-js1042",
@@ -802,7 +848,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士(創意媒體) (特點: 動畫 / 電影及攝影 / 批判理論及實踐 / 遊戲及可玩媒體 / 新媒體藝術 / 聲音藝術)"
     },
     {
       "id": "cityu-js1043",
@@ -819,7 +866,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(創意媒體) (特點: 結合創意媒體及電腦科學課程 / 動畫 / 遊戲 / 裝置藝術 / 互動媒體)"
     },
     {
       "id": "cityu-js1044",
@@ -836,7 +884,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "文理學士(新媒體) (特點: 媒體藝術 / 機械人學及人工智能 / 藝術及科技 / 物料及數位製造)"
     },
     {
       "id": "cityu-js1050",
@@ -853,7 +902,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "general"
+      "category": "general",
+      "nameZh": "環球可持續發展科創課程 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)＋特點：環球視野]"
     },
     {
       "id": "cityu-js1051",
@@ -870,7 +920,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "能源及環境學 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)]"
     },
     {
       "id": "cityu-js1053",
@@ -887,7 +938,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "理學士(環境及可持續發展商業) [特點：環境科學 / 商業可持續發展 / 環境、社會和管治]"
     },
     {
       "id": "cityu-js1061",
@@ -904,7 +956,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "law"
+      "category": "law",
+      "nameZh": "法律學學士"
     },
     {
       "id": "cityu-js1052",
@@ -921,7 +974,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "工學士(環境科學及工程學)與工商管理學士(金融)[雙學位；特點：環境、社會和管治 / 綠色金融 / 環保技術 / 跨學科教育]"
     },
     {
       "id": "cityu-js1062",
@@ -938,7 +992,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "law"
+      "category": "law",
+      "nameZh": "法律學學士與工商管理學士(會計) (雙學位)"
     },
     {
       "id": "cityu-js1123",
@@ -955,7 +1010,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "law"
+      "category": "law",
+      "nameZh": "社會科學學士(犯罪科學)與法律學學士 (雙學位)"
     },
     {
       "id": "cityu-js1221",
@@ -972,7 +1028,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學士（計算機科學）與理學士（計算金融及金融科技）(雙學位；特點：企業會計與經濟 / 計算金融 / 高階統計 / 建模與演算法 / 金融科技軟件工程)"
     },
     {
       "id": "cuhk-js4006",
@@ -990,7 +1047,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "人類學"
     },
     {
       "id": "cuhk-js4018",
@@ -1009,7 +1067,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "中國語言及文學"
     },
     {
       "id": "cuhk-js4032",
@@ -1029,7 +1088,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "英文"
     },
     {
       "id": "cuhk-js4044",
@@ -1047,7 +1107,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "藝術"
     },
     {
       "id": "cuhk-js4056",
@@ -1064,7 +1125,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "歷史"
     },
     {
       "id": "cuhk-js4068",
@@ -1082,7 +1144,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "日本研究"
     },
     {
       "id": "cuhk-js4070",
@@ -1100,7 +1163,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "語言學"
     },
     {
       "id": "cuhk-js4082",
@@ -1118,7 +1182,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "音樂"
     },
     {
       "id": "cuhk-js4094",
@@ -1136,7 +1201,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "哲學"
     },
     {
       "id": "cuhk-js4100",
@@ -1153,7 +1219,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "公共人文學"
     },
     {
       "id": "cuhk-js4109",
@@ -1171,7 +1238,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "general"
+      "category": "general",
+      "nameZh": "宗教研究"
     },
     {
       "id": "cuhk-js4123",
@@ -1189,7 +1257,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "翻譯"
     },
     {
       "id": "cuhk-js4136",
@@ -1209,7 +1278,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "中國研究"
     },
     {
       "id": "cuhk-js4202",
@@ -1226,7 +1296,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士綜合課程"
     },
     {
       "id": "cuhk-js4214",
@@ -1243,7 +1314,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "環球商業學"
     },
     {
       "id": "cuhk-js4226",
@@ -1263,7 +1335,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "general"
+      "category": "general",
+      "nameZh": "酒店旅遊及房地產"
     },
     {
       "id": "cuhk-js4238",
@@ -1283,7 +1356,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "general"
+      "category": "general",
+      "nameZh": "保險、金融與精算學"
     },
     {
       "id": "cuhk-js4240",
@@ -1303,7 +1377,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "專業會計學"
     },
     {
       "id": "cuhk-js4252",
@@ -1323,7 +1398,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "計量金融學"
     },
     {
       "id": "cuhk-js4254",
@@ -1342,7 +1418,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "環球經濟與金融跨學科主修課程"
     },
     {
       "id": "cuhk-js4264",
@@ -1363,7 +1440,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士（工商管理學士綜合課程）及法律博士雙學位課程"
     },
     {
       "id": "cuhk-js4276",
@@ -1384,7 +1462,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "計量金融學及風險管理科學"
     },
     {
       "id": "cuhk-js4725",
@@ -1403,7 +1482,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "生物科技、創業與醫療管理"
     },
     {
       "id": "cuhk-js4760",
@@ -1424,7 +1504,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "general"
+      "category": "general",
+      "nameZh": "跨學科數據分析及Ｘ雙主修課程"
     },
     {
       "id": "cuhk-js4320",
@@ -1442,7 +1523,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "人體運動科學與健康研究"
     },
     {
       "id": "cuhk-js4329",
@@ -1461,7 +1543,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "健康與體育運動科學"
     },
     {
       "id": "cuhk-js4331",
@@ -1481,7 +1564,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "education"
+      "category": "education",
+      "nameZh": "文學士 (中國語文研究) 及教育學士 (中國語文教育)"
     },
     {
       "id": "cuhk-js4343",
@@ -1502,7 +1586,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "education"
+      "category": "education",
+      "nameZh": "文學士(英國語文研究)及教育學士(英國語文教育)"
     },
     {
       "id": "cuhk-js4361",
@@ -1523,7 +1608,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "education",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "教育學士(數學及數學教育)"
     },
     {
       "id": "cuhk-js4372",
@@ -1542,7 +1628,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "education"
+      "category": "education",
+      "nameZh": "教育學士(幼兒教育)"
     },
     {
       "id": "cuhk-js4386",
@@ -1561,7 +1648,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "理學士（學習設計與科技）"
     },
     {
       "id": "cuhk-js4408",
@@ -1582,7 +1670,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "it"
+      "category": "it",
+      "nameZh": "機械與自動化工程學"
     },
     {
       "id": "cuhk-js4412",
@@ -1602,7 +1691,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "it"
+      "category": "it",
+      "nameZh": "計算機科學與工程"
     },
     {
       "id": "cuhk-js4416",
@@ -1625,7 +1715,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "計算數據科學"
     },
     {
       "id": "cuhk-js4428",
@@ -1646,7 +1737,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "general",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "金融科技學"
     },
     {
       "id": "cuhk-js4434",
@@ -1666,7 +1758,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "電子工程學"
     },
     {
       "id": "cuhk-js4446",
@@ -1686,7 +1779,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "it"
+      "category": "it",
+      "nameZh": "信息工程學"
     },
     {
       "id": "cuhk-js4458",
@@ -1706,7 +1800,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "系統工程與工程管理"
     },
     {
       "id": "cuhk-js4460",
@@ -1726,7 +1821,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "生物醫學工程學"
     },
     {
       "id": "cuhk-js4462",
@@ -1748,7 +1844,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "it"
+      "category": "it",
+      "nameZh": "能源與環境工程學"
     },
     {
       "id": "cuhk-js4468",
@@ -1770,7 +1867,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "人工智能：系統與科技"
     },
     {
       "id": "cuhk-js4470",
@@ -1791,7 +1889,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "材料科學與工程學"
     },
     {
       "id": "cuhk-js4733",
@@ -1812,7 +1911,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "數學與信息工程學"
     },
     {
       "id": "cuhk-js4750",
@@ -1833,7 +1933,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "航天科學與地球信息學及Ｘ雙主修課程"
     },
     {
       "id": "cuhk-js4903",
@@ -1853,7 +1954,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "law"
+      "category": "law",
+      "nameZh": "法學士"
     },
     {
       "id": "cuhk-js4501",
@@ -1872,7 +1974,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "medical",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "內外全科醫學士課程"
     },
     {
       "id": "cuhk-js4502",
@@ -1890,7 +1993,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "medical",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "內外全科醫學士課程環球醫學領袖培訓專修組別"
     },
     {
       "id": "cuhk-js4513",
@@ -1910,7 +2014,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "護理學"
     },
     {
       "id": "cuhk-js4525",
@@ -1931,7 +2036,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "藥劑學"
     },
     {
       "id": "cuhk-js4537",
@@ -1950,7 +2056,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "公共衞生"
     },
     {
       "id": "cuhk-js4542",
@@ -1970,7 +2077,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "中醫學"
     },
     {
       "id": "cuhk-js4550",
@@ -1990,7 +2098,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "生物醫學"
     },
     {
       "id": "cuhk-js4601",
@@ -2010,7 +2119,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學"
     },
     {
       "id": "cuhk-js4648",
@@ -2030,7 +2140,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "science"
+      "category": "science",
+      "nameZh": "地球與環境科學"
     },
     {
       "id": "cuhk-js4682",
@@ -2051,7 +2162,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "auto-parsed",
       "category": "science",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "數學精研"
     },
     {
       "id": "cuhk-js4690",
@@ -2071,7 +2183,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理論物理精研"
     },
     {
       "id": "cuhk-js4719",
@@ -2091,7 +2204,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "風險管理科學"
     },
     {
       "id": "cuhk-js4801",
@@ -2111,7 +2225,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學"
     },
     {
       "id": "cuhk-js4812",
@@ -2132,7 +2247,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "general"
+      "category": "general",
+      "nameZh": "建築學"
     },
     {
       "id": "cuhk-js4824",
@@ -2154,7 +2270,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "經濟學"
     },
     {
       "id": "cuhk-js4836",
@@ -2174,7 +2291,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "business"
+      "category": "business",
+      "nameZh": "地理與資源管理學"
     },
     {
       "id": "cuhk-js4838",
@@ -2194,7 +2312,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "城市研究"
     },
     {
       "id": "cuhk-js4848",
@@ -2215,7 +2334,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "政治與行政學"
     },
     {
       "id": "cuhk-js4850",
@@ -2236,7 +2356,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "新聞與傳播學"
     },
     {
       "id": "cuhk-js4858",
@@ -2256,7 +2377,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "全球傳播"
     },
     {
       "id": "cuhk-js4862",
@@ -2276,7 +2398,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "心理學"
     },
     {
       "id": "cuhk-js4874",
@@ -2294,7 +2417,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "社會工作"
     },
     {
       "id": "cuhk-js4886",
@@ -2314,7 +2438,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "社會學"
     },
     {
       "id": "cuhk-js4892",
@@ -2333,7 +2458,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "social"
+      "category": "social",
+      "nameZh": "全球研究"
     },
     {
       "id": "cuhk-js4893",
@@ -2350,7 +2476,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "auto-parsed",
-      "category": "it"
+      "category": "it",
+      "nameZh": "數據科學與政策研究"
     },
     {
       "id": "hkust-js5101",
@@ -2367,7 +2494,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "general"
+      "category": "general",
+      "nameZh": "國際科研"
     },
     {
       "id": "hkust-js5102",
@@ -2384,7 +2512,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學Ａ組"
     },
     {
       "id": "hkust-js5103",
@@ -2401,7 +2530,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學Ｂ組"
     },
     {
       "id": "hkust-js5118",
@@ -2419,7 +2549,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "medical",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士（生物醫學及健康科學）"
     },
     {
       "id": "hkust-js5181",
@@ -2436,7 +2567,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "general"
+      "category": "general",
+      "nameZh": "理學Ａ組– 人工智能延伸主修"
     },
     {
       "id": "hkust-js5212",
@@ -2454,7 +2586,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學士（計算機工程學）"
     },
     {
       "id": "hkust-js5220",
@@ -2471,7 +2604,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "化學及生物工程學系"
     },
     {
       "id": "hkust-js5230",
@@ -2488,7 +2622,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "土木及環境工程學系"
     },
     {
       "id": "hkust-js5240",
@@ -2506,7 +2641,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "計算機科學及工程學系"
     },
     {
       "id": "hkust-js5250",
@@ -2523,7 +2659,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "it"
+      "category": "it",
+      "nameZh": "電子及計算機工程學系"
     },
     {
       "id": "hkust-js5260",
@@ -2540,7 +2677,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "general"
+      "category": "general",
+      "nameZh": "工業工程及決策分析學系"
     },
     {
       "id": "hkust-js5270",
@@ -2557,7 +2695,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "機械及航空航天工程學系"
     },
     {
       "id": "hkust-js5282",
@@ -2575,7 +2714,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "general",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工程學 – 人工智能延伸主修"
     },
     {
       "id": "hkust-js5411",
@@ -2592,7 +2732,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士（環球中國研究）"
     },
     {
       "id": "hkust-js5412",
@@ -2609,7 +2750,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士（定量社會數據分析）"
     },
     {
       "id": "hkust-js5711",
@@ -2626,7 +2768,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士（創新設計與科技）"
     },
     {
       "id": "hkust-js5812",
@@ -2643,7 +2786,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "理學士（環境管理及科技）"
     },
     {
       "id": "hkust-js5901",
@@ -2661,7 +2805,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "科技及管理學雙學位課程"
     },
     {
       "id": "hkust-js5811",
@@ -2678,7 +2823,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "理學士（生物科技及商學）"
     },
     {
       "id": "hkust-js5813",
@@ -2696,7 +2842,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士（數學與經濟學）"
     },
     {
       "id": "hkust-js5300",
@@ -2713,7 +2860,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理"
     },
     {
       "id": "hkust-js5311",
@@ -2730,7 +2878,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士（經濟學）"
     },
     {
       "id": "hkust-js5312",
@@ -2748,7 +2897,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工商管理學士（金融學）"
     },
     {
       "id": "hkust-js5313",
@@ -2766,7 +2916,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工商管理學士（環球商業管理）"
     },
     {
       "id": "hkust-js5314",
@@ -2783,7 +2934,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "it"
+      "category": "it",
+      "nameZh": "工商管理學士（資訊系統學）"
     },
     {
       "id": "hkust-js5315",
@@ -2800,7 +2952,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士（管理學）"
     },
     {
       "id": "hkust-js5316",
@@ -2817,7 +2970,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士（市場學）"
     },
     {
       "id": "hkust-js5317",
@@ -2834,7 +2988,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士（營運管理學）"
     },
     {
       "id": "hkust-js5318",
@@ -2851,7 +3006,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士（專業會計學）"
     },
     {
       "id": "hkust-js5331",
@@ -2869,7 +3025,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士（經濟及金融學）"
     },
     {
       "id": "hkust-js5332",
@@ -2887,7 +3044,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士（量化金融學）"
     },
     {
       "id": "hkust-js5814",
@@ -2905,7 +3063,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "approx-best5",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士（風險管理及商業智能學）"
     },
     {
       "id": "hkust-js5822",
@@ -2922,7 +3081,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "approx-best5",
-      "category": "business"
+      "category": "business",
+      "nameZh": "理學士（可持續發展及綠色金融）"
     },
     {
       "id": "hku-js6004",
@@ -2944,7 +3104,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "建築學文學士"
     },
     {
       "id": "hku-js6016",
@@ -2966,7 +3127,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "理學士(測量學)"
     },
     {
       "id": "hku-js6028",
@@ -2988,7 +3150,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "園境學文學士"
     },
     {
       "id": "hku-js6042",
@@ -3010,7 +3173,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士(城市研究)"
     },
     {
       "id": "hku-js6054",
@@ -3037,7 +3201,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士"
     },
     {
       "id": "hku-js6274",
@@ -3064,7 +3229,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士（全球創意產業）"
     },
     {
       "id": "hku-js6286",
@@ -3091,7 +3257,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士(人文及數碼科技)"
     },
     {
       "id": "hku-js6298",
@@ -3122,7 +3289,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "文學士及工學學士(人工智能及數據科學)"
     },
     {
       "id": "hku-js6755",
@@ -3153,7 +3321,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學學士"
     },
     {
       "id": "hku-js6767",
@@ -3184,7 +3353,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "經濟學學士 / 經濟金融學學士"
     },
     {
       "id": "hku-js6781",
@@ -3215,7 +3385,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學學士(會計及財務) / 工商管理學學士(會計數據分析)"
     },
     {
       "id": "hku-js6793",
@@ -3246,7 +3417,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學學士(商業分析)"
     },
     {
       "id": "hku-js6808",
@@ -3277,7 +3449,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "law"
+      "category": "law",
+      "nameZh": "工商管理學學士(法學)及法學士"
     },
     {
       "id": "hku-js6846",
@@ -3308,7 +3481,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "理學士(營銷分析及科技)"
     },
     {
       "id": "hku-js6860",
@@ -3339,7 +3513,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "金融學學士(資產管理及私人銀行)"
     },
     {
       "id": "hku-js6884",
@@ -3378,7 +3553,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "理學士(計量金融)"
     },
     {
       "id": "hku-js6896",
@@ -3409,7 +3585,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學學士(國際商業及環球管理)"
     },
     {
       "id": "hku-js6107",
@@ -3432,7 +3609,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "medical",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "牙醫學士"
     },
     {
       "id": "hku-js6066",
@@ -3459,7 +3637,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "education"
+      "category": "education",
+      "nameZh": "文學士及教育學士(語文教育) - 英文教育"
     },
     {
       "id": "hku-js6080",
@@ -3486,7 +3665,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "education"
+      "category": "education",
+      "nameZh": "文學士及教育學士(語文教育) - 中文教育"
     },
     {
       "id": "hku-js6092",
@@ -3513,7 +3693,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "education"
+      "category": "education",
+      "nameZh": "教育學士(幼兒教育及特殊教育)"
     },
     {
       "id": "hku-js6119",
@@ -3541,7 +3722,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "education",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "教育學士及理學士"
     },
     {
       "id": "hku-js6157",
@@ -3563,7 +3745,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(言語及語言病理學)"
     },
     {
       "id": "hku-js6303",
@@ -3586,7 +3769,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學學士精英課程"
     },
     {
       "id": "hku-js6315",
@@ -3609,7 +3793,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學學士(數據與系統工程)"
     },
     {
       "id": "hku-js6339",
@@ -3632,7 +3817,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學學士(機械工程)"
     },
     {
       "id": "hku-js6353",
@@ -3655,7 +3841,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學學士(土木工程)"
     },
     {
       "id": "hku-js6377",
@@ -3678,7 +3865,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學學士與人工智能理學碩士聯合課程"
     },
     {
       "id": "hku-js6937",
@@ -3701,7 +3889,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "engineering",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "環球工程與商業課程"
     },
     {
       "id": "hku-js6987",
@@ -3724,7 +3913,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "工學學士(計算機工程/電機工程/電子工程)"
     },
     {
       "id": "hku-js6078",
@@ -3746,7 +3936,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "law"
+      "category": "law",
+      "nameZh": "文學士及法學士"
     },
     {
       "id": "hku-js6406",
@@ -3768,7 +3959,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "法學士"
     },
     {
       "id": "hku-js6250",
@@ -3790,7 +3982,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "文理學士(環球衞生及發展)"
     },
     {
       "id": "hku-js6418",
@@ -3812,7 +4005,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "護理學學士菁英領袖培育專修組別"
     },
     {
       "id": "hku-js6456",
@@ -3834,7 +4028,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "內外全科醫學士"
     },
     {
       "id": "hku-js6468",
@@ -3856,7 +4051,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "護理學學士"
     },
     {
       "id": "hku-js6482",
@@ -3878,7 +4074,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "中醫全科學士"
     },
     {
       "id": "hku-js6494",
@@ -3900,7 +4097,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "藥劑學學士"
     },
     {
       "id": "hku-js6949",
@@ -3922,7 +4120,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "生物醫學學士"
     },
     {
       "id": "hku-js6688",
@@ -3953,7 +4152,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "科研專才啟導課程"
     },
     {
       "id": "hku-js6858",
@@ -3984,7 +4184,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "law"
+      "category": "law",
+      "nameZh": "理學士及法學士"
     },
     {
       "id": "hku-js6901",
@@ -4007,7 +4208,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "science",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "理學士"
     },
     {
       "id": "hku-js6705",
@@ -4029,7 +4231,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "social"
+      "category": "social",
+      "nameZh": "心理學學士"
     },
     {
       "id": "hku-js6717",
@@ -4051,7 +4254,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學學士"
     },
     {
       "id": "hku-js6731",
@@ -4073,7 +4277,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會工作學學士"
     },
     {
       "id": "hku-js6810",
@@ -4095,7 +4300,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "law"
+      "category": "law",
+      "nameZh": "社會科學學士(政治學與法學)及法學士"
     },
     {
       "id": "hku-js6822",
@@ -4122,7 +4328,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "it"
+      "category": "it",
+      "nameZh": "新聞媒體及人工智能學士"
     },
     {
       "id": "hku-js6925",
@@ -4149,7 +4356,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "工學學士(生物醫學工程)"
     },
     {
       "id": "hku-js6224",
@@ -4188,7 +4396,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "it"
+      "category": "it",
+      "nameZh": "文理學士(應用人工智能)"
     },
     {
       "id": "hku-js6248",
@@ -4215,7 +4424,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "文理學士(金融科技)"
     },
     {
       "id": "hku-js6729",
@@ -4254,7 +4464,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(精算學)"
     },
     {
       "id": "hku-js6779",
@@ -4281,7 +4492,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "統計決策科學"
     },
     {
       "id": "hku-js6999",
@@ -4309,7 +4521,8 @@
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "parsed-formula",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考"
+      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
+      "nameZh": "計算與數據科學"
     },
     {
       "id": "hku-js6602",
@@ -4340,7 +4553,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "parsed-formula",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(創新與科技)"
     },
     {
       "id": "polyu-js3060",
@@ -4358,7 +4572,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "business"
+      "category": "business",
+      "nameZh": "會計及金融(榮譽)工商管理學士組合課程 (會計學 / 會計及金融 / 數碼金融及投資學)"
     },
     {
       "id": "polyu-js3220",
@@ -4376,7 +4591,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "business"
+      "category": "business",
+      "nameZh": "應用數學及金融分析(榮譽)理學士組合課程 (應用數學 / 投資科學及金融分析 / 量化金融及金融科技)"
     },
     {
       "id": "polyu-js3250",
@@ -4394,7 +4610,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "science"
+      "category": "science",
+      "nameZh": "應用社會科學(榮譽)文學士組合課程 (社會工作 / 社會政策及社會創業)"
     },
     {
       "id": "polyu-js3214",
@@ -4412,7 +4629,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "建築學(榮譽)理學士"
     },
     {
       "id": "polyu-js3140",
@@ -4430,7 +4648,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "航空工程學(榮譽)工學士組合課程 (航空工程學 / 民航工程學)"
     },
     {
       "id": "polyu-js3150",
@@ -4448,7 +4667,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "生物醫學工程(榮譽)理學士"
     },
     {
       "id": "polyu-js3011",
@@ -4466,7 +4686,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "science"
+      "category": "science",
+      "nameZh": "生物科技及化學科技(榮譽)理學士組合課程"
     },
     {
       "id": "polyu-js3791",
@@ -4484,7 +4705,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "建築工程及管理學(榮譽)理學士"
     },
     {
       "id": "polyu-js3211",
@@ -4502,7 +4724,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "建築科學及工程學(榮譽)工學士"
     },
     {
       "id": "polyu-js3003",
@@ -4520,7 +4743,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理組合學士課程"
     },
     {
       "id": "polyu-js3320",
@@ -4538,7 +4762,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "中國歷史及文化(榮譽)文學士"
     },
     {
       "id": "polyu-js3739",
@@ -4556,7 +4781,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "土木工程學(榮譽)工學士"
     },
     {
       "id": "polyu-js3006",
@@ -4574,7 +4800,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "計算機及數學科學組合學士課程"
     },
     {
       "id": "polyu-js3868",
@@ -4592,7 +4819,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "電子計算及人工智能(榮譽)理學士組合課程 (計算機科學 / 企業信息管理)"
     },
     {
       "id": "polyu-js3004",
@@ -4610,7 +4838,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "建設及環境組合學士課程"
     },
     {
       "id": "polyu-js3223",
@@ -4628,7 +4857,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "數據科學及人工智能(榮譽)理學士組合課程 (人工智能 / 人工智能兼金融科技 / 數據科學及分析)"
     },
     {
       "id": "polyu-js3569",
@@ -4646,7 +4876,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "設計學(榮譽)文學士組合課程 (廣告設計/環境設計/沉浸式媒體與遊戲設計/信息設計/交互設計/室内設計/產品設計/服務創新設計/社會創新設計)"
     },
     {
       "id": "polyu-js3170",
@@ -4664,7 +4895,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "電機工程學(榮譽)工學士組合課程 (電機工程學 / 運輸系統工程學)"
     },
     {
       "id": "polyu-js3005",
@@ -4682,7 +4914,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "工程學科組合學士課程"
     },
     {
       "id": "polyu-js3240",
@@ -4700,7 +4933,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "英文及應用語言學(榮譽)文學士"
     },
     {
       "id": "polyu-js3375",
@@ -4718,7 +4952,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "環境工程及可持續發展學(榮譽)工學士"
     },
     {
       "id": "polyu-js3050",
@@ -4736,7 +4971,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "science"
+      "category": "science",
+      "nameZh": "時裝(榮譽)文學士組合課程 (時裝設計 / 針織時裝設計 / 內衣及運動服裝 / 時裝商務 / 時裝創新及科技)"
     },
     {
       "id": "polyu-js3255",
@@ -4754,7 +4990,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "食品科學及營養學(榮譽)理學士組合課程 (食品科技與食物安全 / 人類營養學及健康)"
     },
     {
       "id": "polyu-js3070",
@@ -4772,7 +5009,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "business"
+      "category": "business",
+      "nameZh": "環球商業及物流、航空、航運及供應鏈管理(榮譽)工商管理學士組合課程"
     },
     {
       "id": "polyu-js3310",
@@ -4790,7 +5028,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "business"
+      "category": "business",
+      "nameZh": "酒店及旅遊管理(榮譽)理學士組合課程 (酒店管理 / 智慧旅遊及酒店產業 / 會展及體驗管理)"
     },
     {
       "id": "polyu-js3007",
@@ -4808,7 +5047,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "人文學科組合學士課程"
     },
     {
       "id": "polyu-js3180",
@@ -4826,7 +5066,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "資訊及人工智能工程學(榮譽)工學士/理學士組合課程 (物聯網 / 人工智能 / 資訊安全)"
     },
     {
       "id": "polyu-js3237",
@@ -4844,7 +5085,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析 / 航空營運及系統學)"
     },
     {
       "id": "polyu-js3000",
@@ -4862,7 +5104,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "business"
+      "category": "business",
+      "nameZh": "跨學科組合學士課程"
     },
     {
       "id": "polyu-js3080",
@@ -4880,7 +5123,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "管理及市場學(榮譽)工商管理學士組合課程 (管理學 / 市場學)"
     },
     {
       "id": "polyu-js3741",
@@ -4898,7 +5142,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "機械工程學(榮譽)工學士組合課程 (智能機械人工程學 / 機械工程學)"
     },
     {
       "id": "polyu-js3478",
@@ -4916,7 +5161,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "醫療化驗科學(榮譽)理學士"
     },
     {
       "id": "polyu-js3337",
@@ -4934,7 +5180,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "精神健康護理學(榮譽)理學士"
     },
     {
       "id": "polyu-js3648",
@@ -4952,7 +5199,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "護理學(榮譽)理學士"
     },
     {
       "id": "polyu-js3624",
@@ -4970,7 +5218,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "science"
+      "category": "science",
+      "nameZh": "職業治療學(榮譽)理學士"
     },
     {
       "id": "polyu-js3290",
@@ -4988,7 +5237,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "眼科視光學(榮譽)理學士"
     },
     {
       "id": "polyu-js3030",
@@ -5006,7 +5256,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "general"
+      "category": "general",
+      "nameZh": "物理學(榮譽)理學士副主修人工智能及數據分析 / 創新及創業"
     },
     {
       "id": "polyu-js3636",
@@ -5024,7 +5275,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "物理治療學(榮譽)理學士"
     },
     {
       "id": "polyu-js3236",
@@ -5042,7 +5294,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "產品創新及智能製造(榮譽)工學士組合課程 (產品創新兼市場學 / 智能製造)"
     },
     {
       "id": "polyu-js3612",
@@ -5060,7 +5313,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "放射學(榮譽)理學士"
     },
     {
       "id": "polyu-js3008",
@@ -5078,7 +5332,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "理學組合學士課程"
     },
     {
       "id": "polyu-js3130",
@@ -5096,7 +5351,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "it"
+      "category": "it",
+      "nameZh": "空間數據科學及智慧城市(榮譽)理學士組合課程 (土地測量及地理資訊學 / 城市信息學及智慧城市)"
     },
     {
       "id": "polyu-js3242",
@@ -5114,7 +5370,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "science"
+      "category": "science",
+      "nameZh": "言語治療(榮譽)理學士"
     },
     {
       "id": "polyu-js3789",
@@ -5132,7 +5389,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "地產及建設測量學(榮譽)理學士"
     },
     {
       "id": "polyu-js3241",
@@ -5167,7 +5425,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "中文(榮譽)文學士(課程特色: 中國語言與文學/創意寫作/數字人文)"
     },
     {
       "id": "lingnan-js7133",
@@ -5184,7 +5443,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "動畫及數碼藝術(榮譽)文學士(專修: 數碼動畫/藝術與科技)"
     },
     {
       "id": "lingnan-js7204",
@@ -5201,7 +5461,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "翻譯(榮譽)文學士 (專修: 跨文化傳意/數碼企業傳訊)"
     },
     {
       "id": "lingnan-js7503",
@@ -5218,7 +5479,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "英語語言文學課程(榮譽)文學士 (可選專修: 文學/語言學)"
     },
     {
       "id": "lingnan-js7606",
@@ -5235,7 +5497,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文化研究(榮譽)文學士 (可選專修: 數碼文化與媒體實踐/文化共享、社會創新與創造力)"
     },
     {
       "id": "lingnan-js7709",
@@ -5252,7 +5515,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "歷史(榮譽)文學士 (可選專修: 亞洲史/全球史)"
     },
     {
       "id": "lingnan-js7802",
@@ -5269,7 +5533,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "哲學(榮譽)文學士 (課程特色:價值論/人工智能哲學/思考方法)"
     },
     {
       "id": "lingnan-js7905",
@@ -5286,7 +5551,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "電影與視覺藝術(榮譽)文學士(課程特色: 電影研究/環球媒體/藝術史/博物館學)"
     },
     {
       "id": "lingnan-js7211",
@@ -5303,7 +5569,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理(榮譽)學士-會計與企業管治 (專修: 專業會計/企業管治)(課程特色:學生精進計劃/業內實習)"
     },
     {
       "id": "lingnan-js7212",
@@ -5320,7 +5587,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理(榮譽)學士-商業分析與創新 (課程特色: 電子商務/信息系統/運營管理/數據科學/人工智能)"
     },
     {
       "id": "lingnan-js7213",
@@ -5337,7 +5605,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理(榮譽)學士-金融(課程特色: 特許金融分析師協會學生獎學金/多元選修科目: 投資學、公司財務、金融科技)"
     },
     {
       "id": "lingnan-js7214",
@@ -5354,7 +5623,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理(榮譽)學士-管理與分析 (專修:環球商業管理與分析/人力資源管理與分析)(課程特色:專業會員資格/實習與導師計劃)"
     },
     {
       "id": "lingnan-js7215",
@@ -5371,7 +5641,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理(榮譽)學士-市場學及社交媒體 (課程特色: 綜合行銷/社交媒體與數字行銷/消費者行為與市場調研)"
     },
     {
       "id": "lingnan-js7216",
@@ -5388,7 +5659,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理(榮譽)學士-風險及保險管理(可選專修: 保險科技)(課程特色: 專業國際資格認證/專屬師友計劃)"
     },
     {
       "id": "lingnan-js7301",
@@ -5405,7 +5677,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "社會科學(榮譽)學士-經濟學 (可選專修: 環球經濟與銀行)"
     },
     {
       "id": "lingnan-js7302",
@@ -5422,7 +5695,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學(榮譽)學士 - 政府與國際事務學"
     },
     {
       "id": "lingnan-js7303",
@@ -5439,7 +5713,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學(榮譽)學士-心理學 (可選專修: 輔導心理學/工業與組織心理學)"
     },
     {
       "id": "lingnan-js7304",
@@ -5456,7 +5731,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學(榮譽)學士-社會學 (可選專修: 社會創新與社會研究)"
     },
     {
       "id": "lingnan-js7305",
@@ -5473,7 +5749,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "medical"
+      "category": "medical",
+      "nameZh": "社會科學(榮譽)學士 - 健康及社會服務管理"
     },
     {
       "id": "lingnan-js7306",
@@ -5490,7 +5767,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "社會科學(榮譽)學士-社會與公共政策研究 (可選專修: 智慧城市與數碼社會)"
     },
     {
       "id": "eduhk-js8001",
@@ -5507,7 +5785,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士及音樂教育榮譽學士"
     },
     {
       "id": "eduhk-js8002",
@@ -5524,7 +5803,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士及視覺藝術教育榮譽學士"
     },
     {
       "id": "eduhk-js8003",
@@ -5541,7 +5821,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "數碼中國文化與傳意榮譽文學士及中文教育榮譽學士"
     },
     {
       "id": "eduhk-js8004",
@@ -5558,7 +5839,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "英語研究及數碼傳訊榮譽文學士及英文教育榮譽學士"
     },
     {
       "id": "eduhk-js8005",
@@ -5575,7 +5857,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "文化傳承教育與藝術管理榮譽文學士及中國歷史教育榮譽學士"
     },
     {
       "id": "eduhk-js8006",
@@ -5592,7 +5875,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "心理學榮譽社會科學學士及幼兒教育榮譽學士"
     },
     {
       "id": "eduhk-js8007",
@@ -5609,7 +5893,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "個人理財榮譽文學士及企業、會計與財務概論教育榮譽學士"
     },
     {
       "id": "eduhk-js8008",
@@ -5626,7 +5911,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "人工智能與教育科技榮譽理學士及資訊及通訊科技及小學科學教育榮譽學士"
     },
     {
       "id": "eduhk-js8009",
@@ -5643,7 +5929,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "人工智能與教育科技榮譽理學士及小學數學教育榮譽學士"
     },
     {
       "id": "eduhk-js8010",
@@ -5660,7 +5947,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "運動科學及教練榮譽理學士及體育教育榮譽學士"
     },
     {
       "id": "eduhk-js8011",
@@ -5677,7 +5965,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "綜合環境管理榮譽理學士及科學教育榮譽學士"
     },
     {
       "id": "eduhk-js8012",
@@ -5694,7 +5983,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "社會學與社區研究榮譽社會科學學士及地理教育榮譽學士"
     },
     {
       "id": "eduhk-js8013",
@@ -5711,7 +6001,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "社會學與社區研究榮譽社會科學學士及小學人文科教育榮譽學士"
     },
     {
       "id": "eduhk-js8651",
@@ -5728,7 +6019,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "social"
+      "category": "social",
+      "nameZh": "心理學榮譽社會科學學士"
     },
     {
       "id": "eduhk-js8663",
@@ -5745,7 +6037,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "特殊教育榮譽文學士"
     },
     {
       "id": "eduhk-js8674",
@@ -5762,7 +6055,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "social"
+      "category": "social",
+      "nameZh": "數碼中國文化與傳意榮譽文學士"
     },
     {
       "id": "eduhk-js8675",
@@ -5779,7 +6073,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "social"
+      "category": "social",
+      "nameZh": "英語研究及數碼傳訊榮譽文學士"
     },
     {
       "id": "eduhk-js8685",
@@ -5796,7 +6091,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士 (音樂)"
     },
     {
       "id": "eduhk-js8686",
@@ -5813,7 +6109,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "創意藝術與數碼藝術榮譽文學士 (視覺藝術)"
     },
     {
       "id": "eduhk-js8687",
@@ -5830,7 +6127,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "文化傳承教育與藝術管理榮譽文學士"
     },
     {
       "id": "eduhk-js8688",
@@ -5847,7 +6145,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "個人理財榮譽文學士"
     },
     {
       "id": "eduhk-js8702",
@@ -5864,7 +6163,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "綜合環境管理榮譽理學士"
     },
     {
       "id": "eduhk-js8714",
@@ -5881,7 +6181,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "人工智能與教育科技榮譽理學士"
     },
     {
       "id": "eduhk-js8726",
@@ -5898,7 +6199,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "運動科學及教練榮譽理學士"
     },
     {
       "id": "eduhk-js8727",
@@ -5915,7 +6217,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "general"
+      "category": "general",
+      "nameZh": "言語病理學及復康榮譽理學士"
     },
     {
       "id": "eduhk-js8507",
@@ -5932,7 +6235,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "幼兒教育高級文憑"
     },
     {
       "id": "hkbu-js2020",
@@ -5949,7 +6253,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士(榮譽) (中國語言文學 / 創意及專業寫作 / 英國語言文學 / 人文學 / 翻譯學)"
     },
     {
       "id": "hkbu-js2025",
@@ -5966,7 +6271,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "宗教、哲學及倫理文學士(榮譽)"
     },
     {
       "id": "hkbu-js2060",
@@ -5983,7 +6289,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "文學士(榮譽) / 音樂學士(榮譽) (音樂 / 創意產業)"
     },
     {
       "id": "hkbu-js2110",
@@ -6000,7 +6307,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(榮譽) - 會計學專修"
     },
     {
       "id": "hkbu-js2120",
@@ -6017,7 +6325,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理學士(榮譽)"
     },
     {
       "id": "hkbu-js2310",
@@ -6034,7 +6343,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "social"
+      "category": "social",
+      "nameZh": "傳理學學士(榮譽) (新聞與數碼媒體 / 公關及廣告)"
     },
     {
       "id": "hkbu-js2330",
@@ -6051,7 +6361,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "電影電視文學士(榮譽)"
     },
     {
       "id": "hkbu-js2340",
@@ -6068,7 +6379,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "環球螢幕演技藝術學士(榮譽)"
     },
     {
       "id": "hkbu-js2370",
@@ -6085,7 +6397,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "social"
+      "category": "social",
+      "nameZh": "傳理學學士(榮譽) - 遊戲設計與動畫主修"
     },
     {
       "id": "hkbu-js2410",
@@ -6102,7 +6415,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "general"
+      "category": "general",
+      "nameZh": "中醫學學士及生物醫學理學士(榮譽)"
     },
     {
       "id": "hkbu-js2420",
@@ -6119,7 +6433,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "general"
+      "category": "general",
+      "nameZh": "中藥學學士(榮譽)"
     },
     {
       "id": "hkbu-js2510",
@@ -6136,7 +6451,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "理學士(榮譽)"
     },
     {
       "id": "hkbu-js2610",
@@ -6153,7 +6469,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "文學士(榮譽) / 社會科學學士(榮譽) (歐洲研究 [法文/德文] / 地理 / 全球及中國研究 / 政治及國際關係學 / 歷史 / 社會學)"
     },
     {
       "id": "hkbu-js2620",
@@ -6170,7 +6487,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "education"
+      "category": "education",
+      "nameZh": "體育及康樂管理文學士(榮譽)"
     },
     {
       "id": "hkbu-js2660",
@@ -6187,7 +6505,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "social"
+      "category": "social",
+      "nameZh": "社會工作學士(榮譽)"
     },
     {
       "id": "hkbu-js2810",
@@ -6204,7 +6523,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "視覺藝術文學士(榮譽)"
     },
     {
       "id": "hkbu-js2910",
@@ -6221,7 +6541,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "it"
+      "category": "it",
+      "nameZh": "商業計算及數據分析理學士(榮譽)"
     },
     {
       "id": "hkbu-js2920",
@@ -6238,7 +6559,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "藝術及科技文理學士(榮譽)"
     },
     {
       "id": "hkbu-js2930",
@@ -6255,7 +6577,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "business"
+      "category": "business",
+      "nameZh": "工商管理文學士(榮譽)(全球娛樂)"
     },
     {
       "id": "hkbu-js2940",
@@ -6272,7 +6595,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "創新醫療及社會健康社會科學學士(榮譽) / 理學士(榮譽)"
     },
     {
       "id": "hkbu-js2950",
@@ -6289,7 +6613,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "文理及科技學士(榮譽)自訂主修"
     },
     {
       "id": "hkbu-js2960",
@@ -6306,7 +6631,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted",
-      "category": "science"
+      "category": "science",
+      "nameZh": "數位未來與人文學科文理學士(榮譽)"
     },
     {
       "id": "hkmu-js9011",
@@ -6323,7 +6649,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "中文榮譽文學士"
     },
     {
       "id": "hkmu-js9013",
@@ -6340,7 +6667,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "語言研究與翻譯榮譽文學士"
     },
     {
       "id": "hkmu-js9016",
@@ -6357,7 +6685,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "arts"
+      "category": "arts",
+      "nameZh": "創意廣告及媒體設計榮譽文學士"
     },
     {
       "id": "hkmu-js9019",
@@ -6374,7 +6703,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "英語及文化榮譽文學士"
     },
     {
       "id": "hkmu-js9220",
@@ -6391,7 +6721,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "專業會計榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9230",
@@ -6408,7 +6739,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "商業管理學榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9240",
@@ -6425,7 +6757,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "環球商業榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9266",
@@ -6442,7 +6775,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "市場學榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9276",
@@ -6459,7 +6793,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "engineering"
+      "category": "engineering",
+      "nameZh": "房地產及測量學榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9280",
@@ -6476,7 +6811,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "應用心理學榮譽學士，商業管理榮譽學士"
     },
     {
       "id": "hkmu-js9291",
@@ -6493,7 +6829,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "持續旅遊及款待管理榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9294",
@@ -6510,7 +6847,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "運動及電競運動管理榮譽工商管理學士"
     },
     {
       "id": "hkmu-js9530",
@@ -6527,7 +6865,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "英語教學榮譽教育學士及英語研究榮譽學士"
     },
     {
       "id": "hkmu-js9540",
@@ -6544,7 +6883,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "英語研究榮譽學士"
     },
     {
       "id": "hkmu-js9550",
@@ -6561,7 +6901,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "語言研究榮譽學士（應用中國語言）"
     },
     {
       "id": "hkmu-js9560",
@@ -6578,7 +6919,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "humanities"
+      "category": "humanities",
+      "nameZh": "教育榮譽學士（中國語文教學）及語言研究榮譽學士（應用中國語言）"
     },
     {
       "id": "hkmu-js9580",
@@ -6595,7 +6937,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "education"
+      "category": "education",
+      "nameZh": "教育榮譽學士（幼兒教育：領導及特殊教育需要）"
     },
     {
       "id": "hkmu-js9719",
@@ -6612,7 +6955,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "網路及電腦安全榮譽理學士"
     },
     {
       "id": "hkmu-js9720",
@@ -6629,7 +6973,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "it"
+      "category": "it",
+      "nameZh": "電子及電腦工程學榮譽工學士"
     },
     {
       "id": "hkmu-js9731",
@@ -6646,7 +6991,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "business"
+      "category": "business",
+      "nameZh": "環境科學與綠色管理榮譽理學士"
     },
     {
       "id": "hkmu-js9732",
@@ -6663,7 +7009,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "生物醫學與生物科技榮譽理學士"
     },
     {
       "id": "hkmu-js9733",
@@ -6680,7 +7027,8 @@
       "scoreComparable": true,
       "dataStatus": "official-2025",
       "weightsStatus": "unweighted-approx",
-      "category": "science"
+      "category": "science",
+      "nameZh": "科學（ＳＴＥＡＭ）榮譽理學士"
     }
   ]
 }

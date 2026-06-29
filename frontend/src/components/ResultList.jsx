@@ -11,7 +11,9 @@ const SCHEME_LABEL = {
 const schemeLabel = (s) => SCHEME_LABEL[s] || s;
 
 export default function ResultList({ results }) {
-  const { t } = useLang();
+  const { lang, t } = useLang();
+  const uniName = (r) => (lang === 'zh' ? (r.universityShortZh || r.universityShort) : r.universityShort);
+  const progName = (r) => (lang === 'zh' && r.nameZh ? r.nameZh : r.name);
   const [uniFilter, setUniFilter] = useState('all');
   const [hideOutOfReach, setHideOutOfReach] = useState(false);
   const [expanded, setExpanded] = useState(() => new Set());
@@ -84,8 +86,8 @@ export default function ResultList({ results }) {
           <div className={`card tier-${cls}`} key={r.programmeId}>
             <div className="card-head">
               <div>
-                <span className="uni">{r.universityShort}</span>
-                <span className="pname">{r.name}</span>
+                <span className="uni">{uniName(r)}</span>
+                <span className="pname">{progName(r)}</span>
                 <span className="code">{r.jupasCode}</span>
               </div>
               <span className={`badge ${cls}`}>{tier.label}</span>

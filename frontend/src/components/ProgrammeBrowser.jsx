@@ -160,7 +160,8 @@ function DetailOverlay({ prog, year, onClose }) {
           <h3>{prog.jupasCode}</h3>
         </div>
 
-        <h3 style={{ marginTop: 12, fontSize: 17 }}>{prog.name}</h3>
+        <h3 style={{ marginTop: 12, fontSize: 17 }}>{lang === 'zh' && prog.nameZh ? prog.nameZh : prog.name}</h3>
+        {lang === 'zh' && prog.nameZh && <p className="muted" style={{ margin: '2px 0 0' }}>{prog.name}</p>}
 
         <div className="detail-grid">
           {prog.admission?.upperQuartile != null && (
@@ -253,7 +254,7 @@ export default function ProgrammeBrowser() {
     let l = programmes.filter((p) => p.universityId === selUni);
     if (keyword.trim()) {
       const k = keyword.trim().toLowerCase();
-      l = l.filter((p) => p.name.toLowerCase().includes(k) || (p.jupasCode || '').toLowerCase().includes(k));
+      l = l.filter((p) => p.name.toLowerCase().includes(k) || (p.nameZh || '').includes(k) || (p.jupasCode || '').toLowerCase().includes(k));
     }
     return l.sort((a, b) => (a.jupasCode || '').localeCompare(b.jupasCode || ''));
   }, [programmes, selUni, keyword]);
@@ -295,7 +296,7 @@ export default function ProgrammeBrowser() {
                 <span className="c-idx">{idx + 1}</span>
                 <span className="c-code">{p.jupasCode}</span>
                 <span className="c-name">
-                  {p.name}
+                  {lang === 'zh' && p.nameZh ? p.nameZh : p.name}
                   {p.scoreComparable === false && <span className="ref-tag">{t.tier('reference').label}</span>}
                 </span>
                 <span className="c-cat">{t.cat(p.category)}</span>
