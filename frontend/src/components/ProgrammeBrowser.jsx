@@ -52,6 +52,97 @@ const BAND_LABEL = {
   en: { bandA: 'Band A (1st–3rd)', bandB: 'Band B (4–6)', bandC: 'Band C (7–9)', bandD: 'Band D (10–15)', bandE: 'Band E (16–20)' },
 };
 
+const CAREER_NOTE = {
+  medical: { zh: '醫護／生命科學範疇，出路穩定、專業認受性高，惟學額少、競爭最激烈。', en: 'Healthcare/life sciences — stable, well-recognised careers, but few places and the fiercest competition.' },
+  law: { zh: '法律範疇，多需經 PCLL 等專業階段，畢業生投身律師、法務及公共事務。', en: 'Law — usually via professional stages like PCLL; graduates enter legal practice, compliance and public affairs.' },
+  business: { zh: '商科範疇，出路廣（會計、金融、市場、管理），視乎實習與專業考試表現。', en: 'Business — broad paths (accounting, finance, marketing, management), shaped by internships and professional exams.' },
+  engineering: { zh: '工程範疇，與基建及科技產業掛鈎，部分可考取工程師專業資格。', en: 'Engineering — tied to infrastructure and tech; some lead to chartered-engineer qualifications.' },
+  it: { zh: '資訊科技範疇，需求持續上升，涵蓋軟件、數據、資訊保安等。', en: 'IT — steadily rising demand across software, data and cybersecurity.' },
+  science: { zh: '理學範疇，可走研究、教育，或轉向商科／資科等跨領域路向。', en: 'Science — research, education, or pivots into business/IT and other fields.' },
+  social: { zh: '社會科學範疇，出路多元（政策、研究、社福、傳媒、商界）。', en: 'Social science — diverse paths (policy, research, social work, media, business).' },
+  arts: { zh: '藝術／創意範疇，重視作品集與實務經驗，出路較彈性。', en: 'Arts/creative — portfolio and practical experience matter; flexible paths.' },
+  humanities: { zh: '人文範疇，培養語文、思辨與寫作，常見出路含教育、文化、傳媒。', en: 'Humanities — builds language, critical thinking and writing; education, culture, media.' },
+  education: { zh: '教育範疇，畢業多投身教學，部分需學科配搭及實習。', en: 'Education — most enter teaching; some require subject pairing and practicum.' },
+  general: { zh: '此範疇出路較廣，建議結合個人興趣與實習規劃。', en: 'Broad options; pair with your interests and internship planning.' },
+};
+
+// 由真實數據（報名、取錄、收生分、趨勢）自動生成的分析洞察。
+function buildAnalysis(prog, appData, lang) {
+  const en = lang === 'en';
+  const out = [];
+  const b25 = appData?.bands?.['2025'];
+  const adm = prog.admitted2025;
+  const apps = b25?.total;
+
+  // 1. 競爭程度 + 取錄率
+  if (apps && adm > 0) {
+    const ratio = apps / adm;
+    const rate = Math.round((adm / apps) * 100);
+    const lvZh = ratio >= 15 ? '競爭激烈' : ratio >= 6 ? '競爭頗大' : '競爭相對溫和';
+    const lvEn = ratio >= 15 ? 'highly competitive' : ratio >= 6 ? 'quite competitive' : 'relatively moderate';
+    out.push({
+      icon: '🔥',
+      text: en
+        ? `${apps} applicants for ${adm} offers — about ${Math.round(ratio)}:1 (offer rate ≈ ${rate}%), ${lvEn}.`
+        : `共 ${apps} 人報讀、正式遴選取錄 ${adm} 人，約 ${Math.round(ratio)} 人爭 1 個學位（取錄率約 ${rate}%），${lvZh}。`,
+    });
+  }
+
+  // 2. 首志願壓力
+  if (b25?.bandA != null && adm > 0) {
+    const over = b25.bandA > adm;
+    out.push({
+      icon: '🎯',
+      text: en
+        ? `${b25.bandA} applicants placed it in Band A (top-3 choices)${over ? ' — already more than the offers, so lower-priority applicants have slim chances.' : ', close to the number of offers.'}`
+        : `以首三志願（Band A）報讀有 ${b25.bandA} 人${over ? '，已多於取錄名額，非首志願者機會較微。' : '，與取錄人數相若。'}`,
+    });
+  }
+
+  // 3. 報名趨勢
+  if (appData?.bands) {
+    const ys = Object.keys(appData.bands).sort();
+    if (ys.length >= 2) {
+      const latest = ys[ys.length - 1];
+      const base = ys.find((y) => +y >= +latest - 4) || ys[0];
+      const t0 = appData.bands[base]?.total, t1 = appData.bands[latest]?.total;
+      if (t0 && t1) {
+        const pct = ((t1 - t0) / t0) * 100;
+        if (Math.abs(pct) >= 10) {
+          out.push({
+            icon: pct > 0 ? '📈' : '📉',
+            text: en
+              ? `Applications ${pct > 0 ? 'rose' : 'fell'} from ${t0} (${base}) to ${t1} (${latest}), ${pct > 0 ? '+' : ''}${Math.round(pct)}% — ${pct > 0 ? 'rising interest' : 'cooling demand'}.`
+              : `報讀人數由 ${base} 年 ${t0} 人${pct > 0 ? '上升' : '下跌'}至 ${latest} 年 ${t1} 人（${pct > 0 ? '+' : ''}${Math.round(pct)}%），${pct > 0 ? '熱度上升' : '報讀轉冷'}。`,
+          });
+        } else {
+          out.push({
+            icon: '➖',
+            text: en ? `Applications have been broadly stable in recent years (≈ ${t1}).` : `近年報讀人數大致平穩（約 ${t1} 人）。`,
+          });
+        }
+      }
+    }
+  }
+
+  // 4. 收生分數定位
+  if (prog.scoreComparable !== false && prog.admission?.median != null) {
+    const m = prog.admission.median;
+    out.push({
+      icon: '📊',
+      text: en
+        ? `2025 median admission score ${m}${prog.admission.lowerQuartile != null ? ` (lower quartile ${prog.admission.lowerQuartile})` : ''}.`
+        : `2025 收生中位數 ${m} 分${prog.admission.lowerQuartile != null ? `（下四分位 ${prog.admission.lowerQuartile} 分）` : ''}。`,
+    });
+  }
+
+  // 5. 出路概覽
+  const note = CAREER_NOTE[prog.category] || CAREER_NOTE.general;
+  out.push({ icon: '💼', text: en ? note.en : note.zh });
+
+  return out;
+}
+
 function TrendChart({ bands, years, t }) {
   const W = 600, H = 200, PX = 48, PY = 24, PB = 28;
   const cw = W - PX - 12, ch = H - PY - PB;
@@ -163,19 +254,41 @@ function DetailOverlay({ prog, year, onClose }) {
         <h3 style={{ marginTop: 12, fontSize: 17 }}>{lang === 'zh' && prog.nameZh ? prog.nameZh : prog.name}</h3>
         {lang === 'zh' && prog.nameZh && <p className="muted" style={{ margin: '2px 0 0' }}>{prog.name}</p>}
 
+        {prog.admitted2025 > 0 && (
+          <div className="admit-hero">
+            <div className="admit-hero-main">
+              <span className="admit-hero-num">{prog.admitted2025}</span>
+              <span className="admit-hero-label">{t('admitted2025')}</span>
+            </div>
+            {prog.intake > 0 && (
+              <div className="admit-hero-sub">
+                <span className="admit-hero-num2">{prog.intake}</span>
+                <span className="admit-hero-label">{t('intakeQuota')}</span>
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="detail-grid">
           {prog.admission?.upperQuartile != null && (
             <div><span className="dl">{t('upperQuartile')}</span><span className="dv">{prog.admission.upperQuartile}</span></div>
           )}
           <div><span className="dl">{t('median')}</span><span className="dv">{prog.admission?.median ?? '—'}</span></div>
           <div><span className="dl">{t('lowerQuartile')}</span><span className="dv">{prog.admission?.lowerQuartile ?? '—'}</span></div>
-          {prog.admitted2025 > 0 && (
-            <div><span className="dl">{t('admitted2025')}</span><span className="dv">{prog.admitted2025}</span></div>
-          )}
-          {prog.intake > 0 && (
-            <div><span className="dl">{t('intakeQuota')}</span><span className="dv">{prog.intake}</span></div>
-          )}
           <div><span className="dl">{t('colCategory')}</span><span className="dv" style={{ fontSize: 16 }}>{t.cat(prog.category)}</span></div>
+        </div>
+
+        <div className="detail-block">
+          <div className="trend-header">
+            <h4>{t('aiAnalysis')}</h4>
+            <span className="ai-badge">AI</span>
+          </div>
+          <ul className="ai-list">
+            {buildAnalysis(prog, appData, lang).map((ins, i) => (
+              <li key={i}><span className="ai-icon">{ins.icon}</span><span>{ins.text}</span></li>
+            ))}
+          </ul>
+          <p className="muted" style={{ fontSize: 11 }}>{t('aiNote')}</p>
         </div>
 
         <div className="detail-block">
@@ -293,9 +406,8 @@ export default function ProgrammeBrowser() {
               <span className="c-code">JS</span>
               <span className="c-name">{t('colName')}</span>
               <span className="c-cat">{t('colCategory')}</span>
-              <span className="c-num">{t('colUpperShort')}</span>
               <span className="c-num">{t('colMedianShort')}</span>
-              <span className="c-num">{t('colLowerShort')}</span>
+              <span className="c-num">{t('colAdmShort')}</span>
             </div>
             {list.map((p, idx) => (
               <div className={`prog-row clickable`} key={p.id} onClick={() => setSelProg(p)}>
@@ -306,9 +418,8 @@ export default function ProgrammeBrowser() {
                   {p.scoreComparable === false && <span className="ref-tag">{t.tier('reference').label}</span>}
                 </span>
                 <span className="c-cat">{t.cat(p.category)}</span>
-                <span className="c-num">{p.admission?.upperQuartile ?? '—'}</span>
-                <span className="c-num">{p.admission?.median ?? '—'}</span>
-                <span className="c-num">{p.admission?.lowerQuartile ?? '—'}</span>
+                <span className="c-num c-score">{p.admission?.median ?? '—'}</span>
+                <span className="c-num c-adm">{p.admitted2025 > 0 ? p.admitted2025 : '—'}</span>
               </div>
             ))}
           </div>
