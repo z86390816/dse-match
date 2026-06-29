@@ -3,6 +3,10 @@ import { api } from './api';
 import ScoreForm from './components/ScoreForm.jsx';
 import ResultList from './components/ResultList.jsx';
 import ProgrammeBrowser from './components/ProgrammeBrowser.jsx';
+import AdUnit from './components/AdUnit.jsx';
+import PrivacyPolicy from './components/PrivacyPolicy.jsx';
+import { trackPageView, trackEvent } from './analytics';
+import { AD_SLOTS } from './config';
 
 const INTEREST_LABELS = {
   science: '理科', business: '商科', medical: '醫科 / 護理', engineering: '工程',
@@ -34,6 +38,9 @@ export default function App() {
     api.getInterests().then((d) => setInterests(d.interests)).catch(() => {});
   }, []);
 
+  // 切換頁面時記錄一次 GA 瀏覽
+  useEffect(() => { trackPageView(view); }, [view]);
+
   function toggleInterest(i) {
     setSelectedInterests((prev) =>
       prev.includes(i) ? prev.filter((x) => x !== i) : [...prev, i]
@@ -50,6 +57,7 @@ export default function App() {
         : await api.match(grades);
       setResults(data.results);
       setView('results');
+      trackEvent('run_match', { interests: selectedInterests.length, count: data.results?.length || 0 });
     } catch (e) {
       setError(e.message);
     } finally {
@@ -78,7 +86,14 @@ export default function App() {
         </button>
       </nav>
 
-      {view === 'browse' && <ProgrammeBrowser />}
+      {view === 'privacy' && <PrivacyPolicy onBack={() => setView('match')} />}
+
+      {view === 'browse' && (
+      <>
+        <AdUnit slot={AD_SLOTS.browseTop} label="頂部廣告" />
+        <ProgrammeBrowser />
+      </>
+      )}
 
       {view === 'match' && (
       <main className="layout">
@@ -126,11 +141,17 @@ export default function App() {
       {view === 'results' && (
       <main className="layout">
         <button className="back-link" onClick={() => setView('match')}>← 返回修改成績</button>
+        <AdUnit slot={AD_SLOTS.resultsTop} label="結果頁廣告" />
         <section className="panel result-panel">
           <ResultList results={results} />
         </section>
       </main>
       )}
+
+      <footer className="site-footer">
+        <button className="link-btn" onClick={() => setView('privacy')}>私隱政策</button>
+        <span>· 數據僅供參考，請以各院校官方公布為準 · © {new Date().getFullYear()} DSE Marks</span>
+      </footer>
     </div>
   );
 }
