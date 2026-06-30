@@ -8,7 +8,7 @@ export const GA_MEASUREMENT_ID = '';
 
 // Google AdSense 發布商 ID，格式：ca-pub-XXXXXXXXXXXXXXXX
 // 申請：https://adsense.google.com → 加入網站審核通過後取得
-export const ADSENSE_CLIENT_ID = '';
+export const ADSENSE_CLIENT_ID = 'ca-pub-5080867077394268';
 
 // AdSense 廣告版位 ID（在 AdSense 後台「廣告 → 按廣告單元」建立後取得）
 // 沒有就先留空，會自動顯示佔位提示，不影響網站運作
