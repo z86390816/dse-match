@@ -170,6 +170,19 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 }
 .back-link:hover { border-color: var(--accent); background: var(--accent-light); }
 
+.results-bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.share-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--grad); color: #fff; border: none;
+  font-size: 14px; font-weight: 700; cursor: pointer;
+  padding: 10px 18px; min-height: 44px; border-radius: 999px;
+  box-shadow: var(--shadow-btn); transition: transform .12s, filter .12s;
+  white-space: nowrap;
+}
+.share-btn:hover { filter: brightness(1.05); }
+.share-btn:active { transform: translateY(1px) scale(.98); }
+.share-btn:disabled { opacity: .6; }
+
 /* ===== 廣告位 ===== */
 .ad-unit { display: block; margin: 12px 0; min-height: 90px; }
 .ad-placeholder {

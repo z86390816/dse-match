@@ -8,6 +8,7 @@ import PrivacyPolicy from './components/PrivacyPolicy.jsx';
 import { trackPageView, trackEvent } from './analytics';
 import { AD_SLOTS } from './config';
 import { useLang } from './i18n.jsx';
+import { shareResults } from './shareCard.js';
 
 export default function App() {
   const { lang, setLang, t } = useLang();
@@ -60,6 +61,24 @@ export default function App() {
     } finally {
       setLoading(false);
     }
+  }
+
+  const [sharing, setSharing] = useState(false);
+  async function handleShare() {
+    if (!results || sharing) return;
+    setSharing(true);
+    try {
+      const labels = {
+        title: t('shareTitle'),
+        cta: t('shareCta'),
+        domain: 'dsemarks.com',
+        tierLabel: (tk) => t.tier(tk).label,
+        uniName: (r) => (lang === 'zh' ? (r.universityShortZh || r.universityShort) : r.universityShort),
+        progName: (r) => (lang === 'zh' && r.nameZh ? r.nameZh : r.name),
+      };
+      const how = await shareResults(results, labels);
+      trackEvent('share_result', { how, count: results.length });
+    } catch (e) { /* 忽略 */ } finally { setSharing(false); }
   }
 
   return (
@@ -140,7 +159,12 @@ export default function App() {
 
       {view === 'results' && (
       <main className="layout">
-        <button className="back-link" onClick={() => setView('match')}>{t('backToEdit')}</button>
+        <div className="results-bar">
+          <button className="back-link" onClick={() => setView('match')}>{t('backToEdit')}</button>
+          <button className="share-btn" onClick={handleShare} disabled={sharing}>
+            {sharing ? '…' : t('shareBtn')}
+          </button>
+        </div>
         <AdUnit slot={AD_SLOTS.resultsTop} label={t('adLabel')} />
         <section className="panel result-panel">
           <ResultList results={results} />

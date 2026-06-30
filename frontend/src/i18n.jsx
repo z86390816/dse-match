@@ -25,6 +25,9 @@ const STRINGS = {
 
   // ---- results ----
   backToEdit: { zh: '← 返回修改成績', en: '← Back to edit grades' },
+  shareBtn: { zh: '📸 分享我的結果', en: '📸 Share my result' },
+  shareTitle: { zh: '我的 DSE 升學配對', en: 'My DSE Match' },
+  shareCta: { zh: '輸入你的成績，睇下你能入邊間 👉', en: 'See which programmes you can get into 👉' },
   resultsTitle: { zh: '比對結果', en: 'Match Results' },
   programmesUnit: { zh: '個專業', en: 'programmes' },
   filterAll: { zh: '全部', en: 'All' },
