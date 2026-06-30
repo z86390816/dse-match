@@ -21,7 +21,14 @@
       "category": "medical",
       "nameZh": "工學士(生物醫學工程) (特點: 醫療技術 / 生物儀器 / 細胞和組織工程 / 醫療機器人)",
       "admitted2025": 45,
-      "intake": 41
+      "intake": 41,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biomedical"
     },
     {
       "id": "cityu-js1805",
@@ -41,7 +48,14 @@
       "category": "medical",
       "nameZh": "生物醫學 [主修: 理學士(生物科學) / 理學士(生物醫學)]",
       "admitted2025": 23,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cityu-js1806",
@@ -61,7 +75,14 @@
       "category": "science",
       "nameZh": "理學士(生物科學) (特點: 生物資訊學、生物化學、遺傳學、細胞與分子生物學、免疫學 / 參與不同研究項目提供實踐經驗)",
       "admitted2025": 26,
-      "intake": 27
+      "intake": 27,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chemistry"
     },
     {
       "id": "cityu-js1807",
@@ -82,7 +103,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士(生物醫學) (特點: 臨床化學、血液學、微生物學和病理學 / 臨床實習 / 密集實驗室經驗)",
       "admitted2025": 27,
-      "intake": 26
+      "intake": 26,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cityu-js1000",
@@ -102,7 +130,14 @@
       "category": "it",
       "nameZh": "理學士(計算金融及金融科技) (專修：計算金融 / 金融科技)",
       "admitted2025": 7,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cityu-js1001",
@@ -122,7 +157,14 @@
       "category": "business",
       "nameZh": "工商管理學士(環球商業) (特點: 三次海外交流 / 美國哥倫比亞大學雙聯學士學位 / 海外暑期及遊學課程 / 商業諮詢課程 / 獎學金及資助)",
       "admitted2025": 13,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "business"
     },
     {
       "id": "cityu-js1002",
@@ -142,7 +184,14 @@
       "category": "business",
       "nameZh": "工商管理學士(會計) (專修: 專業會計 / 環境，社會，治理和科技)",
       "admitted2025": 122,
-      "intake": 148
+      "intake": 148,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "cityu-js1005",
@@ -162,7 +211,14 @@
       "category": "business",
       "nameZh": "工商管理學士 (管理學) (專修 : 人力資源管理 / 策略及國際管理 )",
       "admitted2025": 45,
-      "intake": 58
+      "intake": 58,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cityu-js1007",
@@ -182,7 +238,14 @@
       "category": "business",
       "nameZh": "工商管理學士(市場學) (專修: 環球市場營銷 / 營銷數據分析)",
       "admitted2025": 70,
-      "intake": 82
+      "intake": 82,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cityu-js1012",
@@ -202,7 +265,14 @@
       "category": "business",
       "nameZh": "經濟及金融 [主修: 工商管理學士(商業經濟) / 工商管理學士(金融)]",
       "admitted2025": 25,
-      "intake": 29
+      "intake": 29,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cityu-js1013",
@@ -222,7 +292,14 @@
       "category": "business",
       "nameZh": "工商管理學士(商業經濟) (特點: 經濟理論 / 國際經濟 / 經濟與商業預測 / 定量分析)",
       "admitted2025": 27,
-      "intake": 31
+      "intake": 31,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "economics"
     },
     {
       "id": "cityu-js1014",
@@ -242,7 +319,14 @@
       "category": "business",
       "nameZh": "工商管理學士(金融) (特點: 投資分析 / 金融市場 / 公司金融/ 風險管理 / 交易室工作坊)",
       "admitted2025": 88,
-      "intake": 96
+      "intake": 96,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cityu-js1017",
@@ -262,7 +346,14 @@
       "category": "it",
       "nameZh": "智能資訊系統學 [主修: 工商管理學士(環球商業系統管理) 、工商管理學士(商業人工智能)]",
       "admitted2025": 56,
-      "intake": 62
+      "intake": 62,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "information_tech"
     },
     {
       "id": "cityu-js1018",
@@ -282,7 +373,14 @@
       "category": "business",
       "nameZh": "工商管理學士(環球商業系統管理) (特點: 智能科技 / 環球商業 / 海外及内地交流)",
       "admitted2025": 6,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cityu-js1019",
@@ -302,7 +400,14 @@
       "category": "it",
       "nameZh": "工商管理學士 (商業人工智能) (專修: 商務智能 / 信息系統審計 / 互聯網服務及社交網絡 / 數據信息學)",
       "admitted2025": 9,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "cityu-js1026",
@@ -322,7 +427,14 @@
       "category": "business",
       "nameZh": "工商管理學士(商業決策分析) (專修: 決策分析學 / 數據信息學)",
       "admitted2025": 20,
-      "intake": 36
+      "intake": 36,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cityu-js1027",
@@ -342,7 +454,14 @@
       "category": "business",
       "nameZh": "工商管理學士(環球營運管理) (特點: 供應鏈管理 / 營運效率 / 流程改善 / 營運分析 / 資源規劃)",
       "admitted2025": 18,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cityu-js1070",
@@ -362,7 +481,14 @@
       "category": "it",
       "nameZh": "人工智能 ･ 計算 ･ 突破課程(特點: 自由選擇學院專業學科 / 一對一專業導師 / 精英學生實習培訓 / 專業導師指導計劃 / 頂尖海外大學交流)",
       "admitted2025": 6,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "cityu-js1071",
@@ -382,7 +508,14 @@
       "category": "it",
       "nameZh": "數據科學 [主修：理學士 (數據科學) / 理學士 (數據與系統工程)]",
       "admitted2025": 22,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cityu-js1072",
@@ -402,7 +535,14 @@
       "category": "it",
       "nameZh": "理學士(數據科學) (特點: 數據科學 / 機器學習 / 數據挖掘 / 大數據分析)",
       "admitted2025": 18,
-      "intake": 28
+      "intake": 28,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cityu-js1074",
@@ -422,7 +562,14 @@
       "category": "it",
       "nameZh": "理學士(數據與系統工程) (特點: 數據科學 / 金融科技 / 工業人工智能 / 智慧城市)",
       "admitted2025": 15,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cityu-js1204",
@@ -442,7 +589,14 @@
       "category": "it",
       "nameZh": "理學士(計算機科學) (專修: 人工智能 / 網絡安全 / 數據科學 / 多媒體計算 / 軟件工程與項目管理)",
       "admitted2025": 79,
-      "intake": 89
+      "intake": 89,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "cityu-js1218",
@@ -462,7 +616,14 @@
       "category": "it",
       "nameZh": "理學士 (網絡安全) (特點: 系統安全 / 軟件安全 / 密碼學 / 隱私增強技術 / 網絡風險管理)",
       "admitted2025": 22,
-      "intake": 29
+      "intake": 29,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "cityu-js1201",
@@ -483,7 +644,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "建築學及土木工程學 [主修:工學士(建築工程) / 工學士(土木工程) / 理學士(建築學及測量學)]",
       "admitted2025": 76,
-      "intake": 87
+      "intake": 87,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "architecture"
     },
     {
       "id": "cityu-js1205",
@@ -503,7 +671,14 @@
       "category": "it",
       "nameZh": "電機工程學 [主修: 工學士(電子計算機及數據工程學) ／工學士(電子及電機工程學) ／ 工學士(資訊工程學) ／ 工學士(微電子工程學)]",
       "admitted2025": 118,
-      "intake": 163
+      "intake": 163,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "cityu-js1207",
@@ -523,7 +698,14 @@
       "category": "engineering",
       "nameZh": "機械工程學 [主修: 工學士(航空航天工程) / 工學士(機械工程) / 工學士(核子及風險工程)]",
       "admitted2025": 91,
-      "intake": 87
+      "intake": 87,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "cityu-js1210",
@@ -543,7 +725,14 @@
       "category": "engineering",
       "nameZh": "工學士(材料科學及工程) (特點: 香港工程師學會認可 / 工業和科研實習 / 海外雙學位課程 / 知識到應用遷移 / 世界領先的研究)",
       "admitted2025": 26,
-      "intake": 24
+      "intake": 24,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "cityu-js1216",
@@ -563,7 +752,14 @@
       "category": "engineering",
       "nameZh": "工學士(智能製造工程學) (特點: 物聯網 / 工業大數據 / 機器人技術與自動化 / 物流與供應鏈 / 智慧城市工程)",
       "admitted2025": 16,
-      "intake": 24
+      "intake": 24,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "cityu-js1217",
@@ -583,7 +779,14 @@
       "category": "engineering",
       "nameZh": "研究、創新和環球工程課程 (特點: 工學院任何一個主修 十 海外經驗 / 跨學科 / 創業培訓)",
       "admitted2025": 15,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "cityu-js1219",
@@ -603,7 +806,14 @@
       "category": "engineering",
       "nameZh": "工學士(創新與企業工程) (特點: 工程學 / 科技 / 創新 / 企業 / 創業)",
       "admitted2025": 10,
-      "intake": 16
+      "intake": 16,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "cityu-js1102",
@@ -623,7 +833,14 @@
       "category": "general",
       "nameZh": "社會科學學士(國際關係及全球事務) (專修: 亞洲研究 / 國際研究 / 發展研究)",
       "admitted2025": 21,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "political_science"
     },
     {
       "id": "cityu-js1103",
@@ -643,7 +860,14 @@
       "category": "humanities",
       "nameZh": "文學士(中文及歷史) (專修: 中文 / 歷史及文化遺產)",
       "admitted2025": 32,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "cityu-js1104",
@@ -663,7 +887,14 @@
       "category": "social",
       "nameZh": "文學士(英語語言) (專修: 英語及專業傳意 / 語言及文學)",
       "admitted2025": 24,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cityu-js1106",
@@ -683,7 +914,14 @@
       "category": "social",
       "nameZh": "媒體與傳播 [主修: 文學士(數碼電視與廣播) / 文學士(媒體與傳播)]",
       "admitted2025": 43,
-      "intake": 45
+      "intake": 45,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cityu-js1108",
@@ -703,7 +941,14 @@
       "category": "business",
       "nameZh": "社會科學學士(公共事務與管理) (專修: 公共事務與管治 / 公共政策與管理)",
       "admitted2025": 60,
-      "intake": 63
+      "intake": 63,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cityu-js1109",
@@ -723,7 +968,14 @@
       "category": "humanities",
       "nameZh": "文學士(語言學及語言應用) (特點: 普通語言學 / 計算語言學 / 語料庫語言學 / 實驗語言學 / 語言技術及應用)",
       "admitted2025": 23,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "linguistics"
     },
     {
       "id": "cityu-js1111",
@@ -743,7 +995,14 @@
       "category": "science",
       "nameZh": "社會科學學士 (犯罪科學) (特點: 犯罪預防 / 安保實務 / 全球警政 / 犯罪分析 / 科網與未來犯罪)",
       "admitted2025": 20,
-      "intake": 21
+      "intake": 21,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "cityu-js1112",
@@ -763,7 +1022,14 @@
       "category": "medical",
       "nameZh": "社會科學學士(心理學) (專修: 健康與人類發展 / 大腦與認知)",
       "admitted2025": 20,
-      "intake": 26
+      "intake": 26,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "psychology"
     },
     {
       "id": "cityu-js1113",
@@ -783,7 +1049,14 @@
       "category": "social",
       "nameZh": "社會科學學士(社會工作) (特點: 社會參與及人文關懷 – 健康與福祉 / 社會多元與持續 / 人在環境的專業介入)",
       "admitted2025": 47,
-      "intake": 54
+      "intake": 54,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_work"
     },
     {
       "id": "cityu-js1200",
@@ -803,7 +1076,14 @@
       "category": "science",
       "nameZh": "環球精研與科創課程 [主修：理學士 (化學) / 理學士 (計算數學) / 理學士 (物理學) ＋ 環球精研與科創]",
       "admitted2025": 10,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cityu-js1202",
@@ -823,7 +1103,14 @@
       "category": "science",
       "nameZh": "理學士(化學) (專修: 綜合化學 / 化妝品化學 / 鑑證化學 / 環球精研與科創)",
       "admitted2025": 48,
-      "intake": 44
+      "intake": 44,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chemistry"
     },
     {
       "id": "cityu-js1206",
@@ -843,7 +1130,14 @@
       "category": "it",
       "nameZh": "理學士 (計算數學) (專修範疇: 數學精研 / 金融數學 / 環球精研與科創)",
       "admitted2025": 25,
-      "intake": 36
+      "intake": 36,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "cityu-js1208",
@@ -863,7 +1157,14 @@
       "category": "science",
       "nameZh": "理學士 (物理學) (特點：經典物理 / 近代物理 / 實驗與電算物理 / 醫學物理 / 凝聚態物理 / 環球精研與科創)",
       "admitted2025": 14,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "physics"
     },
     {
       "id": "cityu-js1801",
@@ -883,7 +1184,14 @@
       "category": "medical",
       "nameZh": "獸醫學學士 (特點: 健康一體化 / 動物健康與福利 / 公共衞生 / 雙認證獸醫課程)",
       "admitted2025": 17,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "6 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cityu-js1040",
@@ -903,7 +1211,14 @@
       "category": "arts",
       "nameZh": "卓越創藝與科技課程 [選項: 創意媒體(校本課程)、 文學士(創意媒體)、理學士(創意媒體)、文理學士(新媒體)]",
       "admitted2025": 6,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "cityu-js1041",
@@ -923,7 +1238,14 @@
       "category": "science",
       "nameZh": "創意媒體 [主修: 文學士(創意媒體) / 理學士(創意媒體) / 文理學士(新媒體)]",
       "admitted2025": 30,
-      "intake": 21
+      "intake": 21,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cityu-js1042",
@@ -943,7 +1265,14 @@
       "category": "arts",
       "nameZh": "文學士(創意媒體) (特點: 動畫 / 電影及攝影 / 批判理論及實踐 / 遊戲及可玩媒體 / 新媒體藝術 / 聲音藝術)",
       "admitted2025": 11,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cityu-js1043",
@@ -963,7 +1292,14 @@
       "category": "science",
       "nameZh": "理學士(創意媒體) (特點: 結合創意媒體及電腦科學課程 / 動畫 / 遊戲 / 裝置藝術 / 互動媒體)",
       "admitted2025": 24,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cityu-js1044",
@@ -983,7 +1319,14 @@
       "category": "it",
       "nameZh": "文理學士(新媒體) (特點: 媒體藝術 / 機械人學及人工智能 / 藝術及科技 / 物料及數位製造)",
       "admitted2025": 16,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cityu-js1050",
@@ -1003,7 +1346,14 @@
       "category": "general",
       "nameZh": "環球可持續發展科創課程 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)＋特點：環球視野]",
       "admitted2025": 10,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cityu-js1051",
@@ -1023,7 +1373,14 @@
       "category": "engineering",
       "nameZh": "能源及環境學 [主修: 工學士(能源科學及工程學) / 工學士(環境科學及工程學)]",
       "admitted2025": 25,
-      "intake": 32
+      "intake": 32,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "environmental"
     },
     {
       "id": "cityu-js1053",
@@ -1043,7 +1400,14 @@
       "category": "business",
       "nameZh": "理學士(環境及可持續發展商業) [特點：環境科學 / 商業可持續發展 / 環境、社會和管治]",
       "admitted2025": 25,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "cityu-js1061",
@@ -1063,7 +1427,14 @@
       "category": "law",
       "nameZh": "法律學學士",
       "admitted2025": 47,
-      "intake": 42
+      "intake": 42,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "cityu-js1052",
@@ -1083,7 +1454,14 @@
       "category": "engineering",
       "nameZh": "工學士(環境科學及工程學)與工商管理學士(金融)[雙學位；特點：環境、社會和管治 / 綠色金融 / 環保技術 / 跨學科教育]",
       "admitted2025": 10,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cityu-js1062",
@@ -1103,7 +1481,14 @@
       "category": "law",
       "nameZh": "法律學學士與工商管理學士(會計) (雙學位)",
       "admitted2025": 9,
-      "intake": 8
+      "intake": 8,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "cityu-js1123",
@@ -1123,7 +1508,14 @@
       "category": "law",
       "nameZh": "社會科學學士(犯罪科學)與法律學學士 (雙學位)",
       "admitted2025": 13,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "cityu-js1221",
@@ -1143,7 +1535,14 @@
       "category": "it",
       "nameZh": "理學士（計算機科學）與理學士（計算金融及金融科技）(雙學位；特點：企業會計與經濟 / 計算金融 / 高階統計 / 建模與演算法 / 金融科技軟件工程)",
       "admitted2025": 11,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "cuhk-js4006",
@@ -1164,7 +1563,14 @@
       "category": "humanities",
       "nameZh": "人類學",
       "admitted2025": 19,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "cuhk-js4018",
@@ -1186,7 +1592,14 @@
       "category": "humanities",
       "nameZh": "中國語言及文學",
       "admitted2025": 79,
-      "intake": 79
+      "intake": 79,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "cuhk-js4032",
@@ -1209,7 +1622,14 @@
       "category": "humanities",
       "nameZh": "英文",
       "admitted2025": 51,
-      "intake": 55
+      "intake": 55,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "cuhk-js4044",
@@ -1230,7 +1650,14 @@
       "category": "arts",
       "nameZh": "藝術",
       "admitted2025": 19,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "cuhk-js4056",
@@ -1250,7 +1677,14 @@
       "category": "humanities",
       "nameZh": "歷史",
       "admitted2025": 48,
-      "intake": 48
+      "intake": 48,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "history"
     },
     {
       "id": "cuhk-js4068",
@@ -1271,7 +1705,14 @@
       "category": "humanities",
       "nameZh": "日本研究",
       "admitted2025": 23,
-      "intake": 22
+      "intake": 22,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cuhk-js4070",
@@ -1292,7 +1733,14 @@
       "category": "humanities",
       "nameZh": "語言學",
       "admitted2025": 24,
-      "intake": 22
+      "intake": 22,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "linguistics"
     },
     {
       "id": "cuhk-js4082",
@@ -1313,7 +1761,14 @@
       "category": "arts",
       "nameZh": "音樂",
       "admitted2025": 21,
-      "intake": 26
+      "intake": 26,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "music"
     },
     {
       "id": "cuhk-js4094",
@@ -1334,7 +1789,14 @@
       "category": "humanities",
       "nameZh": "哲學",
       "admitted2025": 22,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "philosophy"
     },
     {
       "id": "cuhk-js4100",
@@ -1354,7 +1816,14 @@
       "category": "humanities",
       "nameZh": "公共人文學",
       "admitted2025": 28,
-      "intake": 37
+      "intake": 37,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cuhk-js4109",
@@ -1375,7 +1844,14 @@
       "category": "general",
       "nameZh": "宗教研究",
       "admitted2025": 16,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cuhk-js4123",
@@ -1396,7 +1872,14 @@
       "category": "humanities",
       "nameZh": "翻譯",
       "admitted2025": 24,
-      "intake": 32
+      "intake": 32,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "translation"
     },
     {
       "id": "cuhk-js4136",
@@ -1419,7 +1902,14 @@
       "category": "humanities",
       "nameZh": "中國研究",
       "admitted2025": 10,
-      "intake": 11
+      "intake": 11,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "cuhk-js4202",
@@ -1439,7 +1929,14 @@
       "category": "business",
       "nameZh": "工商管理學士綜合課程",
       "admitted2025": 194,
-      "intake": 212
+      "intake": 212,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cuhk-js4214",
@@ -1459,7 +1956,14 @@
       "category": "business",
       "nameZh": "環球商業學",
       "admitted2025": 13,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "business"
     },
     {
       "id": "cuhk-js4226",
@@ -1482,7 +1986,14 @@
       "category": "general",
       "nameZh": "酒店旅遊及房地產",
       "admitted2025": 53,
-      "intake": 58
+      "intake": 58,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cuhk-js4238",
@@ -1505,7 +2016,14 @@
       "category": "general",
       "nameZh": "保險、金融與精算學",
       "admitted2025": 39,
-      "intake": 43
+      "intake": 43,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "actuarial"
     },
     {
       "id": "cuhk-js4240",
@@ -1528,7 +2046,14 @@
       "category": "business",
       "nameZh": "專業會計學",
       "admitted2025": 111,
-      "intake": 122
+      "intake": 122,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "cuhk-js4252",
@@ -1551,7 +2076,14 @@
       "category": "business",
       "nameZh": "計量金融學",
       "admitted2025": 31,
-      "intake": 37
+      "intake": 37,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cuhk-js4254",
@@ -1573,7 +2105,14 @@
       "category": "business",
       "nameZh": "環球經濟與金融跨學科主修課程",
       "admitted2025": 16,
-      "intake": 23
+      "intake": 23,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cuhk-js4264",
@@ -1597,7 +2136,14 @@
       "category": "business",
       "nameZh": "工商管理學士（工商管理學士綜合課程）及法律博士雙學位課程",
       "admitted2025": 19,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cuhk-js4276",
@@ -1621,7 +2167,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "計量金融學及風險管理科學",
       "admitted2025": 17,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biotechnology"
     },
     {
       "id": "cuhk-js4725",
@@ -1643,7 +2196,14 @@
       "category": "medical",
       "nameZh": "生物科技、創業與醫療管理",
       "admitted2025": 11,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biotechnology"
     },
     {
       "id": "cuhk-js4760",
@@ -1667,7 +2227,14 @@
       "category": "general",
       "nameZh": "跨學科數據分析及Ｘ雙主修課程",
       "admitted2025": 28,
-      "intake": 28
+      "intake": 28,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cuhk-js4320",
@@ -1688,7 +2255,14 @@
       "category": "medical",
       "nameZh": "人體運動科學與健康研究",
       "admitted2025": 14,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "sports"
     },
     {
       "id": "cuhk-js4329",
@@ -1710,7 +2284,14 @@
       "category": "medical",
       "nameZh": "健康與體育運動科學",
       "admitted2025": 18,
-      "intake": 16
+      "intake": 16,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "cuhk-js4331",
@@ -1733,7 +2314,14 @@
       "category": "education",
       "nameZh": "文學士 (中國語文研究) 及教育學士 (中國語文教育)",
       "admitted2025": 12,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "cuhk-js4343",
@@ -1757,7 +2345,14 @@
       "category": "education",
       "nameZh": "文學士(英國語文研究)及教育學士(英國語文教育)",
       "admitted2025": 12,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "cuhk-js4361",
@@ -1781,7 +2376,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "教育學士(數學及數學教育)",
       "admitted2025": 14,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mathematics"
     },
     {
       "id": "cuhk-js4372",
@@ -1803,7 +2405,14 @@
       "category": "education",
       "nameZh": "教育學士(幼兒教育)",
       "admitted2025": 19,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "design"
     },
     {
       "id": "cuhk-js4386",
@@ -1825,7 +2434,14 @@
       "category": "engineering",
       "nameZh": "理學士（學習設計與科技）",
       "admitted2025": 16,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "cuhk-js4408",
@@ -1849,7 +2465,14 @@
       "category": "it",
       "nameZh": "機械與自動化工程學",
       "admitted2025": 43,
-      "intake": 51
+      "intake": 51,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "cuhk-js4412",
@@ -1872,7 +2495,14 @@
       "category": "it",
       "nameZh": "計算機科學與工程",
       "admitted2025": 117,
-      "intake": 113
+      "intake": 113,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "cuhk-js4416",
@@ -1898,7 +2528,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "計算數據科學",
       "admitted2025": 11,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "cuhk-js4428",
@@ -1922,7 +2559,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "金融科技學",
       "admitted2025": 35,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cuhk-js4434",
@@ -1945,7 +2589,14 @@
       "category": "engineering",
       "nameZh": "電子工程學",
       "admitted2025": 50,
-      "intake": 48
+      "intake": 48,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "cuhk-js4446",
@@ -1968,7 +2619,14 @@
       "category": "it",
       "nameZh": "信息工程學",
       "admitted2025": 63,
-      "intake": 67
+      "intake": 67,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "information_tech"
     },
     {
       "id": "cuhk-js4458",
@@ -1991,7 +2649,14 @@
       "category": "engineering",
       "nameZh": "系統工程與工程管理",
       "admitted2025": 50,
-      "intake": 50
+      "intake": 50,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cuhk-js4460",
@@ -2014,7 +2679,14 @@
       "category": "medical",
       "nameZh": "生物醫學工程學",
       "admitted2025": 20,
-      "intake": 42
+      "intake": 42,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biomedical"
     },
     {
       "id": "cuhk-js4462",
@@ -2039,7 +2711,14 @@
       "category": "it",
       "nameZh": "能源與環境工程學",
       "admitted2025": 22,
-      "intake": 26
+      "intake": 26,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "cuhk-js4468",
@@ -2064,7 +2743,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "人工智能：系統與科技",
       "admitted2025": 28,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "cuhk-js4470",
@@ -2088,7 +2774,14 @@
       "category": "engineering",
       "nameZh": "材料科學與工程學",
       "admitted2025": 10,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "design"
     },
     {
       "id": "cuhk-js4733",
@@ -2112,7 +2805,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "數學與信息工程學",
       "admitted2025": 5,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "information_tech"
     },
     {
       "id": "cuhk-js4750",
@@ -2136,7 +2836,14 @@
       "category": "engineering",
       "nameZh": "航天科學與地球信息學及Ｘ雙主修課程",
       "admitted2025": 17,
-      "intake": 27
+      "intake": 27,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "cuhk-js4903",
@@ -2159,7 +2866,14 @@
       "category": "law",
       "nameZh": "法學士",
       "admitted2025": 25,
-      "intake": 68
+      "intake": 68,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "cuhk-js4501",
@@ -2181,7 +2895,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "內外全科醫學士課程",
       "admitted2025": 173,
-      "intake": 300
+      "intake": 300,
+      "facts": {
+        "duration": "6 years (see remark 1)",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cuhk-js4502",
@@ -2201,7 +2922,14 @@
       "category": "medical",
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "內外全科醫學士課程環球醫學領袖培訓專修組別",
-      "admitted2025": 37
+      "admitted2025": 37,
+      "facts": {
+        "duration": "6 years (see remark 1)",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cuhk-js4513",
@@ -2224,7 +2952,14 @@
       "category": "medical",
       "nameZh": "護理學",
       "admitted2025": 228,
-      "intake": 217
+      "intake": 217,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "nursing"
     },
     {
       "id": "cuhk-js4525",
@@ -2248,7 +2983,14 @@
       "category": "medical",
       "nameZh": "藥劑學",
       "admitted2025": 59,
-      "intake": 58
+      "intake": 58,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "pharmacy"
     },
     {
       "id": "cuhk-js4537",
@@ -2270,7 +3012,14 @@
       "category": "medical",
       "nameZh": "公共衞生",
       "admitted2025": 19,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "public_health"
     },
     {
       "id": "cuhk-js4542",
@@ -2293,7 +3042,14 @@
       "category": "medical",
       "nameZh": "中醫學",
       "admitted2025": 27,
-      "intake": 23
+      "intake": 23,
+      "facts": {
+        "duration": "6 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cuhk-js4550",
@@ -2316,7 +3072,14 @@
       "category": "medical",
       "nameZh": "生物醫學",
       "admitted2025": 14,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "cuhk-js4601",
@@ -2339,7 +3102,14 @@
       "category": "science",
       "nameZh": "理學",
       "admitted2025": 344,
-      "intake": 335
+      "intake": 335,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "environmental"
     },
     {
       "id": "cuhk-js4648",
@@ -2362,7 +3132,14 @@
       "category": "science",
       "nameZh": "地球與環境科學",
       "admitted2025": 35,
-      "intake": 33
+      "intake": 33,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "environmental"
     },
     {
       "id": "cuhk-js4682",
@@ -2386,7 +3163,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "數學精研",
       "admitted2025": 30,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mathematics"
     },
     {
       "id": "cuhk-js4690",
@@ -2409,7 +3193,14 @@
       "category": "science",
       "nameZh": "理論物理精研",
       "admitted2025": 19,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "physics"
     },
     {
       "id": "cuhk-js4719",
@@ -2432,7 +3223,14 @@
       "category": "business",
       "nameZh": "風險管理科學",
       "admitted2025": 27,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "cuhk-js4801",
@@ -2455,7 +3253,14 @@
       "category": "science",
       "nameZh": "社會科學",
       "admitted2025": 55,
-      "intake": 47
+      "intake": 47,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_science"
     },
     {
       "id": "cuhk-js4812",
@@ -2479,7 +3284,14 @@
       "category": "general",
       "nameZh": "建築學",
       "admitted2025": 26,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "architecture"
     },
     {
       "id": "cuhk-js4824",
@@ -2504,7 +3316,14 @@
       "category": "business",
       "nameZh": "經濟學",
       "admitted2025": 55,
-      "intake": 62
+      "intake": 62,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "economics"
     },
     {
       "id": "cuhk-js4836",
@@ -2527,7 +3346,14 @@
       "category": "business",
       "nameZh": "地理與資源管理學",
       "admitted2025": 47,
-      "intake": 41
+      "intake": 41,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cuhk-js4838",
@@ -2550,7 +3376,14 @@
       "category": "social",
       "nameZh": "城市研究",
       "admitted2025": 23,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "political_science"
     },
     {
       "id": "cuhk-js4848",
@@ -2574,7 +3407,14 @@
       "category": "social",
       "nameZh": "政治與行政學",
       "admitted2025": 36,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "cuhk-js4850",
@@ -2598,7 +3438,14 @@
       "category": "social",
       "nameZh": "新聞與傳播學",
       "admitted2025": 40,
-      "intake": 42
+      "intake": 42,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "journalism"
     },
     {
       "id": "cuhk-js4858",
@@ -2621,7 +3468,14 @@
       "category": "social",
       "nameZh": "全球傳播",
       "admitted2025": 5,
-      "intake": 8
+      "intake": 8,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "cuhk-js4862",
@@ -2644,7 +3498,14 @@
       "category": "social",
       "nameZh": "心理學",
       "admitted2025": 52,
-      "intake": 55
+      "intake": 55,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "psychology"
     },
     {
       "id": "cuhk-js4874",
@@ -2665,7 +3526,14 @@
       "category": "social",
       "nameZh": "社會工作",
       "admitted2025": 39,
-      "intake": 47
+      "intake": 47,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_work"
     },
     {
       "id": "cuhk-js4886",
@@ -2688,7 +3556,14 @@
       "category": "social",
       "nameZh": "社會學",
       "admitted2025": 35,
-      "intake": 37
+      "intake": 37,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "sociology"
     },
     {
       "id": "cuhk-js4892",
@@ -2710,7 +3585,14 @@
       "category": "social",
       "nameZh": "全球研究",
       "admitted2025": 17,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "cuhk-js4893",
@@ -2730,7 +3612,14 @@
       "category": "it",
       "nameZh": "數據科學與政策研究",
       "admitted2025": 19,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "hkust-js5101",
@@ -2750,7 +3639,14 @@
       "category": "general",
       "nameZh": "國際科研",
       "admitted2025": 17,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkust-js5102",
@@ -2770,7 +3666,14 @@
       "category": "science",
       "nameZh": "理學Ａ組",
       "admitted2025": 145,
-      "intake": 402
+      "intake": 402,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hkust-js5103",
@@ -2790,7 +3693,14 @@
       "category": "science",
       "nameZh": "理學Ｂ組",
       "admitted2025": 199,
-      "intake": 402
+      "intake": 402,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hkust-js5118",
@@ -2811,7 +3721,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士（生物醫學及健康科學）",
       "admitted2025": 13,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biomedical"
     },
     {
       "id": "hkust-js5181",
@@ -2831,7 +3748,14 @@
       "category": "general",
       "nameZh": "理學Ａ組– 人工智能延伸主修",
       "admitted2025": 34,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkust-js5212",
@@ -2852,7 +3776,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學士（計算機工程學）",
       "admitted2025": 50,
-      "intake": 91
+      "intake": 91,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "hkust-js5220",
@@ -2872,7 +3803,14 @@
       "category": "engineering",
       "nameZh": "化學及生物工程學系",
       "admitted2025": 20,
-      "intake": 46
+      "intake": 46,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chemistry"
     },
     {
       "id": "hkust-js5230",
@@ -2892,7 +3830,14 @@
       "category": "engineering",
       "nameZh": "土木及環境工程學系",
       "admitted2025": 107,
-      "intake": 118
+      "intake": 118,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "environmental"
     },
     {
       "id": "hkust-js5240",
@@ -2913,7 +3858,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "計算機科學及工程學系",
       "admitted2025": 76,
-      "intake": 117
+      "intake": 117,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "hkust-js5250",
@@ -2933,7 +3885,14 @@
       "category": "it",
       "nameZh": "電子及計算機工程學系",
       "admitted2025": 52,
-      "intake": 70
+      "intake": 70,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "hkust-js5260",
@@ -2953,7 +3912,14 @@
       "category": "general",
       "nameZh": "工業工程及決策分析學系",
       "admitted2025": 35,
-      "intake": 36
+      "intake": 36,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "hkust-js5270",
@@ -2973,7 +3939,14 @@
       "category": "engineering",
       "nameZh": "機械及航空航天工程學系",
       "admitted2025": 46,
-      "intake": 77
+      "intake": 77,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "hkust-js5282",
@@ -2994,7 +3967,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工程學 – 人工智能延伸主修",
       "admitted2025": 51,
-      "intake": 114
+      "intake": 114,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkust-js5411",
@@ -3014,7 +3994,14 @@
       "category": "science",
       "nameZh": "理學士（環球中國研究）",
       "admitted2025": 47,
-      "intake": 50
+      "intake": 50,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkust-js5412",
@@ -3034,7 +4021,14 @@
       "category": "science",
       "nameZh": "理學士（定量社會數據分析）",
       "admitted2025": 33,
-      "intake": 26
+      "intake": 26,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chemistry"
     },
     {
       "id": "hkust-js5711",
@@ -3054,7 +4048,14 @@
       "category": "science",
       "nameZh": "理學士（創新設計與科技）",
       "admitted2025": 14,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "design"
     },
     {
       "id": "hkust-js5812",
@@ -3074,7 +4075,14 @@
       "category": "engineering",
       "nameZh": "理學士（環境管理及科技）",
       "admitted2025": 25,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkust-js5901",
@@ -3095,7 +4103,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "科技及管理學雙學位課程",
       "admitted2025": 13,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkust-js5811",
@@ -3115,7 +4130,14 @@
       "category": "business",
       "nameZh": "理學士（生物科技及商學）",
       "admitted2025": 16,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biotechnology"
     },
     {
       "id": "hkust-js5813",
@@ -3136,7 +4158,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士（數學與經濟學）",
       "admitted2025": 17,
-      "intake": 21
+      "intake": 21,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "economics"
     },
     {
       "id": "hkust-js5300",
@@ -3156,7 +4185,14 @@
       "category": "business",
       "nameZh": "工商管理",
       "admitted2025": 160,
-      "intake": 298
+      "intake": 298,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkust-js5311",
@@ -3176,7 +4212,14 @@
       "category": "business",
       "nameZh": "工商管理學士（經濟學）",
       "admitted2025": 30,
-      "intake": 150
+      "intake": 150,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "economics"
     },
     {
       "id": "hkust-js5312",
@@ -3197,7 +4240,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工商管理學士（金融學）",
       "admitted2025": 45,
-      "intake": 45
+      "intake": 45,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hkust-js5313",
@@ -3218,7 +4268,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工商管理學士（環球商業管理）",
       "admitted2025": 17,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkust-js5314",
@@ -3238,7 +4295,14 @@
       "category": "it",
       "nameZh": "工商管理學士（資訊系統學）",
       "admitted2025": 25,
-      "intake": 150
+      "intake": 150,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "information_tech"
     },
     {
       "id": "hkust-js5315",
@@ -3258,7 +4322,14 @@
       "category": "business",
       "nameZh": "工商管理學士（管理學）",
       "admitted2025": 15,
-      "intake": 150
+      "intake": 150,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkust-js5316",
@@ -3278,7 +4349,14 @@
       "category": "business",
       "nameZh": "工商管理學士（市場學）",
       "admitted2025": 15,
-      "intake": 150
+      "intake": 150,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "marketing"
     },
     {
       "id": "hkust-js5317",
@@ -3298,7 +4376,14 @@
       "category": "business",
       "nameZh": "工商管理學士（營運管理學）",
       "admitted2025": 15,
-      "intake": 150
+      "intake": 150,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkust-js5318",
@@ -3318,7 +4403,14 @@
       "category": "business",
       "nameZh": "工商管理學士（專業會計學）",
       "admitted2025": 45,
-      "intake": 60
+      "intake": 60,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkust-js5331",
@@ -3339,7 +4431,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士（經濟及金融學）",
       "admitted2025": 32,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hkust-js5332",
@@ -3360,7 +4459,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士（量化金融學）",
       "admitted2025": 17,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hkust-js5814",
@@ -3381,7 +4487,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士（風險管理及商業智能學）",
       "admitted2025": 23,
-      "intake": 22
+      "intake": 22,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkust-js5822",
@@ -3401,7 +4514,14 @@
       "category": "business",
       "nameZh": "理學士（可持續發展及綠色金融）",
       "admitted2025": 13,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hku-js6004",
@@ -3426,7 +4546,14 @@
       "category": "arts",
       "nameZh": "建築學文學士",
       "admitted2025": 33,
-      "intake": 54
+      "intake": 54,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "architecture"
     },
     {
       "id": "hku-js6016",
@@ -3451,7 +4578,14 @@
       "category": "engineering",
       "nameZh": "理學士(測量學)",
       "admitted2025": 67,
-      "intake": 43
+      "intake": 43,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "surveying"
     },
     {
       "id": "hku-js6028",
@@ -3476,7 +4610,14 @@
       "category": "arts",
       "nameZh": "園境學文學士",
       "admitted2025": 3,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hku-js6042",
@@ -3501,7 +4642,14 @@
       "category": "arts",
       "nameZh": "文學士(城市研究)",
       "admitted2025": 12,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "urban_planning"
     },
     {
       "id": "hku-js6054",
@@ -3531,7 +4679,14 @@
       "category": "arts",
       "nameZh": "文學士",
       "admitted2025": 143,
-      "intake": 217
+      "intake": 217,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hku-js6274",
@@ -3561,7 +4716,14 @@
       "category": "arts",
       "nameZh": "文學士（全球創意產業）",
       "admitted2025": 14,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hku-js6286",
@@ -3591,7 +4753,14 @@
       "category": "arts",
       "nameZh": "文學士(人文及數碼科技)",
       "admitted2025": 12,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hku-js6298",
@@ -3625,7 +4794,14 @@
       "category": "engineering",
       "nameZh": "文學士及工學學士(人工智能及數據科學)",
       "admitted2025": 12,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "hku-js6755",
@@ -3659,7 +4835,14 @@
       "category": "business",
       "nameZh": "工商管理學學士",
       "admitted2025": 38,
-      "intake": 226
+      "intake": 226,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "economics"
     },
     {
       "id": "hku-js6767",
@@ -3693,7 +4876,14 @@
       "category": "business",
       "nameZh": "經濟學學士 / 經濟金融學學士",
       "admitted2025": 37,
-      "intake": 226
+      "intake": 226,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hku-js6781",
@@ -3727,7 +4917,14 @@
       "category": "business",
       "nameZh": "工商管理學學士(會計及財務) / 工商管理學學士(會計數據分析)",
       "admitted2025": 80,
-      "intake": 226
+      "intake": 226,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "hku-js6793",
@@ -3761,7 +4958,14 @@
       "category": "business",
       "nameZh": "工商管理學學士(商業分析)",
       "admitted2025": 19,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "hku-js6808",
@@ -3795,7 +4999,14 @@
       "category": "law",
       "nameZh": "工商管理學學士(法學)及法學士",
       "admitted2025": 64,
-      "intake": 80
+      "intake": 80,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "hku-js6846",
@@ -3829,7 +5040,14 @@
       "category": "business",
       "nameZh": "理學士(營銷分析及科技)",
       "admitted2025": 23,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "hku-js6860",
@@ -3863,7 +5081,14 @@
       "category": "business",
       "nameZh": "金融學學士(資產管理及私人銀行)",
       "admitted2025": 20,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hku-js6884",
@@ -3905,7 +5130,14 @@
       "category": "business",
       "nameZh": "理學士(計量金融)",
       "admitted2025": 18,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hku-js6896",
@@ -3939,7 +5171,14 @@
       "category": "business",
       "nameZh": "工商管理學學士(國際商業及環球管理)",
       "admitted2025": 19,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hku-js6107",
@@ -3965,7 +5204,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "牙醫學士",
       "admitted2025": 54,
-      "intake": 90
+      "intake": 90,
+      "facts": {
+        "duration": "6 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "dentistry"
     },
     {
       "id": "hku-js6066",
@@ -3995,7 +5241,14 @@
       "category": "education",
       "nameZh": "文學士及教育學士(語文教育) - 英文教育",
       "admitted2025": 15,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "education"
     },
     {
       "id": "hku-js6080",
@@ -4025,7 +5278,14 @@
       "category": "education",
       "nameZh": "文學士及教育學士(語文教育) - 中文教育",
       "admitted2025": 14,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "education"
     },
     {
       "id": "hku-js6092",
@@ -4055,7 +5315,14 @@
       "category": "education",
       "nameZh": "教育學士(幼兒教育及特殊教育)",
       "admitted2025": 9,
-      "intake": 16
+      "intake": 16,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "education"
     },
     {
       "id": "hku-js6119",
@@ -4086,7 +5353,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "教育學士及理學士",
       "admitted2025": 15,
-      "intake": 16
+      "intake": 16,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "education"
     },
     {
       "id": "hku-js6157",
@@ -4111,7 +5385,14 @@
       "category": "science",
       "nameZh": "理學士(言語及語言病理學)",
       "admitted2025": 42,
-      "intake": 48
+      "intake": 48,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hku-js6303",
@@ -4137,7 +5418,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學學士精英課程",
       "admitted2025": 18,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "hku-js6315",
@@ -4163,7 +5451,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學學士(數據與系統工程)",
       "admitted2025": 24,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "hku-js6339",
@@ -4189,7 +5484,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學學士(機械工程)",
       "admitted2025": 26,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "hku-js6353",
@@ -4215,7 +5517,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學學士(土木工程)",
       "admitted2025": 70,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "civil_eng"
     },
     {
       "id": "hku-js6377",
@@ -4241,7 +5550,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學學士與人工智能理學碩士聯合課程",
       "admitted2025": 13,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "4+1 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "hku-js6937",
@@ -4267,7 +5583,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "環球工程與商業課程",
       "admitted2025": 16,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "hku-js6987",
@@ -4293,7 +5616,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "工學學士(計算機工程/電機工程/電子工程)",
       "admitted2025": 26,
-      "intake": 327
+      "intake": 327,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "hku-js6078",
@@ -4318,7 +5648,14 @@
       "category": "law",
       "nameZh": "文學士及法學士",
       "admitted2025": 21,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "hku-js6406",
@@ -4343,7 +5680,14 @@
       "category": "medical",
       "nameZh": "法學士",
       "admitted2025": 66,
-      "intake": 92
+      "intake": 92,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "hku-js6250",
@@ -4368,7 +5712,14 @@
       "category": "medical",
       "nameZh": "文理學士(環球衞生及發展)",
       "admitted2025": 11,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hku-js6418",
@@ -4393,7 +5744,14 @@
       "category": "medical",
       "nameZh": "護理學學士菁英領袖培育專修組別",
       "admitted2025": 10,
-      "intake": 210
+      "intake": 210,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "hku-js6456",
@@ -4418,7 +5776,14 @@
       "category": "medical",
       "nameZh": "內外全科醫學士",
       "admitted2025": 170,
-      "intake": 300
+      "intake": 300,
+      "facts": {
+        "duration": "6 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "hku-js6468",
@@ -4443,7 +5808,14 @@
       "category": "medical",
       "nameZh": "護理學學士",
       "admitted2025": 220,
-      "intake": 210
+      "intake": 210,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "nursing"
     },
     {
       "id": "hku-js6482",
@@ -4468,7 +5840,14 @@
       "category": "medical",
       "nameZh": "中醫全科學士",
       "admitted2025": 25,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "6 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "hku-js6494",
@@ -4493,7 +5872,14 @@
       "category": "medical",
       "nameZh": "藥劑學學士",
       "admitted2025": 27,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "pharmacy"
     },
     {
       "id": "hku-js6949",
@@ -4518,7 +5904,14 @@
       "category": "medical",
       "nameZh": "生物醫學學士",
       "admitted2025": 33,
-      "intake": 53
+      "intake": 53,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "medicine"
     },
     {
       "id": "hku-js6688",
@@ -4552,7 +5945,14 @@
       "category": "science",
       "nameZh": "科研專才啟導課程",
       "admitted2025": 20,
-      "intake": 26
+      "intake": 26,
+      "facts": {
+        "duration": "4.5 - 5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hku-js6858",
@@ -4586,7 +5986,14 @@
       "category": "law",
       "nameZh": "理學士及法學士",
       "admitted2025": 18,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "hku-js6901",
@@ -4612,7 +6019,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "理學士",
       "admitted2025": 164,
-      "intake": 253
+      "intake": 253,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hku-js6705",
@@ -4637,7 +6051,14 @@
       "category": "social",
       "nameZh": "心理學學士",
       "admitted2025": 38,
-      "intake": 70
+      "intake": 70,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "psychology"
     },
     {
       "id": "hku-js6717",
@@ -4662,7 +6083,14 @@
       "category": "science",
       "nameZh": "社會科學學士",
       "admitted2025": 22,
-      "intake": 72
+      "intake": 72,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_science"
     },
     {
       "id": "hku-js6731",
@@ -4687,7 +6115,14 @@
       "category": "science",
       "nameZh": "社會工作學學士",
       "admitted2025": 28,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_work"
     },
     {
       "id": "hku-js6810",
@@ -4712,7 +6147,14 @@
       "category": "law",
       "nameZh": "社會科學學士(政治學與法學)及法學士",
       "admitted2025": 32,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "law"
     },
     {
       "id": "hku-js6822",
@@ -4742,7 +6184,14 @@
       "category": "it",
       "nameZh": "新聞媒體及人工智能學士",
       "admitted2025": 8,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "hku-js6925",
@@ -4772,7 +6221,14 @@
       "category": "medical",
       "nameZh": "工學學士(生物醫學工程)",
       "admitted2025": 50,
-      "intake": 75
+      "intake": 75,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biomedical"
     },
     {
       "id": "hku-js6224",
@@ -4814,7 +6270,14 @@
       "category": "it",
       "nameZh": "文理學士(應用人工智能)",
       "admitted2025": 23,
-      "intake": 37
+      "intake": 37,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "hku-js6248",
@@ -4844,7 +6307,14 @@
       "category": "science",
       "nameZh": "文理學士(金融科技)",
       "admitted2025": 22,
-      "intake": 24
+      "intake": 24,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "hku-js6729",
@@ -4886,7 +6356,14 @@
       "category": "science",
       "nameZh": "理學士(精算學)",
       "admitted2025": 44,
-      "intake": 50
+      "intake": 50,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "actuarial"
     },
     {
       "id": "hku-js6779",
@@ -4916,7 +6393,14 @@
       "category": "science",
       "nameZh": "統計決策科學",
       "admitted2025": 38,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "statistics"
     },
     {
       "id": "hku-js6999",
@@ -4947,7 +6431,14 @@
       "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "計算與數據科學",
       "admitted2025": 68,
-      "intake": 91
+      "intake": 91,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "hku-js6602",
@@ -4981,7 +6472,14 @@
       "category": "science",
       "nameZh": "理學士(創新與科技)",
       "admitted2025": 23,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "polyu-js3060",
@@ -5001,7 +6499,14 @@
       "weightsStatus": "n/a",
       "category": "business",
       "nameZh": "會計及金融(榮譽)工商管理學士組合課程 (會計學 / 會計及金融 / 數碼金融及投資學)",
-      "admitted2025": 63
+      "admitted2025": 63,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "polyu-js3220",
@@ -5021,7 +6526,14 @@
       "weightsStatus": "n/a",
       "category": "business",
       "nameZh": "應用數學及金融分析(榮譽)理學士組合課程 (應用數學 / 投資科學及金融分析 / 量化金融及金融科技)",
-      "admitted2025": 23
+      "admitted2025": 23,
+      "facts": {
+        "duration": "4 years (including 1 year with common curriculum)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "polyu-js3250",
@@ -5041,7 +6553,14 @@
       "weightsStatus": "n/a",
       "category": "science",
       "nameZh": "應用社會科學(榮譽)文學士組合課程 (社會工作 / 社會政策及社會創業)",
-      "admitted2025": 45
+      "admitted2025": 45,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "architecture"
     },
     {
       "id": "polyu-js3214",
@@ -5061,7 +6580,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "建築學(榮譽)理學士",
-      "admitted2025": 26
+      "admitted2025": 26,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "architecture"
     },
     {
       "id": "polyu-js3140",
@@ -5081,7 +6607,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "航空工程學(榮譽)工學士組合課程 (航空工程學 / 民航工程學)",
-      "admitted2025": 36
+      "admitted2025": 36,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biomedical"
     },
     {
       "id": "polyu-js3150",
@@ -5101,7 +6634,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "生物醫學工程(榮譽)理學士",
-      "admitted2025": 29
+      "admitted2025": 29,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biomedical"
     },
     {
       "id": "polyu-js3011",
@@ -5121,7 +6661,14 @@
       "weightsStatus": "n/a",
       "category": "science",
       "nameZh": "生物科技及化學科技(榮譽)理學士組合課程",
-      "admitted2025": 36
+      "admitted2025": 36,
+      "facts": {
+        "duration": "4 years (including 1 year with common curriculum)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biotechnology"
     },
     {
       "id": "polyu-js3791",
@@ -5141,7 +6688,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "建築工程及管理學(榮譽)理學士",
-      "admitted2025": 16
+      "admitted2025": 16,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "polyu-js3211",
@@ -5161,7 +6715,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "建築科學及工程學(榮譽)工學士",
-      "admitted2025": 29
+      "admitted2025": 29,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "polyu-js3003",
@@ -5181,7 +6742,14 @@
       "weightsStatus": "n/a",
       "category": "business",
       "nameZh": "工商管理組合學士課程",
-      "admitted2025": 14
+      "admitted2025": 14,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "polyu-js3320",
@@ -5201,7 +6769,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "中國歷史及文化(榮譽)文學士",
-      "admitted2025": 13
+      "admitted2025": 13,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "civil_eng"
     },
     {
       "id": "polyu-js3739",
@@ -5221,7 +6796,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "土木工程學(榮譽)工學士",
-      "admitted2025": 71
+      "admitted2025": 71,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "civil_eng"
     },
     {
       "id": "polyu-js3006",
@@ -5241,7 +6823,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "計算機及數學科學組合學士課程",
-      "admitted2025": 13
+      "admitted2025": 13,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "polyu-js3868",
@@ -5261,7 +6850,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "電子計算及人工智能(榮譽)理學士組合課程 (計算機科學 / 企業信息管理)",
-      "admitted2025": 53
+      "admitted2025": 53,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "polyu-js3004",
@@ -5281,7 +6877,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "建設及環境組合學士課程",
-      "admitted2025": 27
+      "admitted2025": 27,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "polyu-js3223",
@@ -5301,7 +6904,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "數據科學及人工智能(榮譽)理學士組合課程 (人工智能 / 人工智能兼金融科技 / 數據科學及分析)",
-      "admitted2025": 26
+      "admitted2025": 26,
+      "facts": {
+        "duration": "4 years (including 1 year with common curriculum)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "polyu-js3569",
@@ -5321,7 +6931,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "設計學(榮譽)文學士組合課程 (廣告設計/環境設計/沉浸式媒體與遊戲設計/信息設計/交互設計/室内設計/產品設計/服務創新設計/社會創新設計)",
-      "admitted2025": 60
+      "admitted2025": 60,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "polyu-js3170",
@@ -5341,7 +6958,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "電機工程學(榮譽)工學士組合課程 (電機工程學 / 運輸系統工程學)",
-      "admitted2025": 36
+      "admitted2025": 36,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "polyu-js3005",
@@ -5361,7 +6985,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "工程學科組合學士課程",
-      "admitted2025": 27
+      "admitted2025": 27,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "polyu-js3240",
@@ -5381,7 +7012,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "英文及應用語言學(榮譽)文學士",
-      "admitted2025": 24
+      "admitted2025": 24,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "linguistics"
     },
     {
       "id": "polyu-js3375",
@@ -5401,7 +7039,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "環境工程及可持續發展學(榮譽)工學士",
-      "admitted2025": 13
+      "admitted2025": 13,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "engineering"
     },
     {
       "id": "polyu-js3050",
@@ -5421,7 +7066,14 @@
       "weightsStatus": "n/a",
       "category": "science",
       "nameZh": "時裝(榮譽)文學士組合課程 (時裝設計 / 針織時裝設計 / 內衣及運動服裝 / 時裝商務 / 時裝創新及科技)",
-      "admitted2025": 69
+      "admitted2025": 69,
+      "facts": {
+        "duration": "4 years (including 1 year with common curriculum)",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "food_science"
     },
     {
       "id": "polyu-js3255",
@@ -5441,7 +7093,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "食品科學及營養學(榮譽)理學士組合課程 (食品科技與食物安全 / 人類營養學及健康)",
-      "admitted2025": 43
+      "admitted2025": 43,
+      "facts": {
+        "duration": "4 years (including 1 year with common curriculum)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "food_science"
     },
     {
       "id": "polyu-js3070",
@@ -5461,7 +7120,14 @@
       "weightsStatus": "n/a",
       "category": "business",
       "nameZh": "環球商業及物流、航空、航運及供應鏈管理(榮譽)工商管理學士組合課程",
-      "admitted2025": 32
+      "admitted2025": 32,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "polyu-js3310",
@@ -5481,7 +7147,14 @@
       "weightsStatus": "n/a",
       "category": "business",
       "nameZh": "酒店及旅遊管理(榮譽)理學士組合課程 (酒店管理 / 智慧旅遊及酒店產業 / 會展及體驗管理)",
-      "admitted2025": 55
+      "admitted2025": 55,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "hospitality"
     },
     {
       "id": "polyu-js3007",
@@ -5501,7 +7174,14 @@
       "weightsStatus": "n/a",
       "category": "humanities",
       "nameZh": "人文學科組合學士課程",
-      "admitted2025": 8
+      "admitted2025": 8,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "polyu-js3180",
@@ -5521,7 +7201,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "資訊及人工智能工程學(榮譽)工學士/理學士組合課程 (物聯網 / 人工智能 / 資訊安全)",
-      "admitted2025": 41
+      "admitted2025": 41,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "polyu-js3237",
@@ -5541,7 +7228,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "智能供應鏈及工程管理(榮譽)理學士組合課程 (智能供應鏈 / 工程管理兼數據分析 / 航空營運及系統學)",
-      "admitted2025": 21
+      "admitted2025": 21,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "polyu-js3000",
@@ -5561,7 +7255,14 @@
       "weightsStatus": "n/a",
       "category": "business",
       "nameZh": "跨學科組合學士課程",
-      "admitted2025": 0
+      "admitted2025": 0,
+      "facts": {
+        "duration": "Minimum 4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "polyu-js3080",
@@ -5581,7 +7282,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "管理及市場學(榮譽)工商管理學士組合課程 (管理學 / 市場學)",
-      "admitted2025": 37
+      "admitted2025": 37,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "polyu-js3741",
@@ -5601,7 +7309,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "機械工程學(榮譽)工學士組合課程 (智能機械人工程學 / 機械工程學)",
-      "admitted2025": 37
+      "admitted2025": 37,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mechanical_eng"
     },
     {
       "id": "polyu-js3478",
@@ -5621,7 +7336,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "醫療化驗科學(榮譽)理學士",
-      "admitted2025": 52
+      "admitted2025": 52,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "polyu-js3337",
@@ -5641,7 +7363,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "精神健康護理學(榮譽)理學士",
-      "admitted2025": 58
+      "admitted2025": 58,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "nursing"
     },
     {
       "id": "polyu-js3648",
@@ -5661,7 +7390,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "護理學(榮譽)理學士",
-      "admitted2025": 179
+      "admitted2025": 179,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "nursing"
     },
     {
       "id": "polyu-js3624",
@@ -5681,7 +7417,14 @@
       "weightsStatus": "n/a",
       "category": "science",
       "nameZh": "職業治療學(榮譽)理學士",
-      "admitted2025": 95
+      "admitted2025": 95,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "physiotherapy"
     },
     {
       "id": "polyu-js3290",
@@ -5701,7 +7444,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "眼科視光學(榮譽)理學士",
-      "admitted2025": 61
+      "admitted2025": 61,
+      "facts": {
+        "duration": "5 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "physics"
     },
     {
       "id": "polyu-js3030",
@@ -5721,7 +7471,14 @@
       "weightsStatus": "n/a",
       "category": "general",
       "nameZh": "物理學(榮譽)理學士副主修人工智能及數據分析 / 創新及創業",
-      "admitted2025": 15
+      "admitted2025": 15,
+      "facts": {
+        "duration": "4 years (including 1 year with common curriculum)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "polyu-js3636",
@@ -5741,7 +7498,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "物理治療學(榮譽)理學士",
-      "admitted2025": 127
+      "admitted2025": 127,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "physiotherapy"
     },
     {
       "id": "polyu-js3236",
@@ -5761,7 +7525,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "產品創新及智能製造(榮譽)工學士組合課程 (產品創新兼市場學 / 智能製造)",
-      "admitted2025": 23
+      "admitted2025": 23,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "polyu-js3612",
@@ -5781,7 +7552,14 @@
       "weightsStatus": "n/a",
       "category": "medical",
       "nameZh": "放射學(榮譽)理學士",
-      "admitted2025": 85
+      "admitted2025": 85,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "polyu-js3008",
@@ -5801,7 +7579,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "理學組合學士課程",
-      "admitted2025": 9
+      "admitted2025": 9,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "polyu-js3130",
@@ -5821,7 +7606,14 @@
       "weightsStatus": "n/a",
       "category": "it",
       "nameZh": "空間數據科學及智慧城市(榮譽)理學士組合課程 (土地測量及地理資訊學 / 城市信息學及智慧城市)",
-      "admitted2025": 22
+      "admitted2025": 22,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "polyu-js3242",
@@ -5841,7 +7633,14 @@
       "weightsStatus": "n/a",
       "category": "science",
       "nameZh": "言語治療(榮譽)理學士",
-      "admitted2025": 35
+      "admitted2025": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "polyu-js3789",
@@ -5861,7 +7660,14 @@
       "weightsStatus": "n/a",
       "category": "engineering",
       "nameZh": "地產及建設測量學(榮譽)理學士",
-      "admitted2025": 66
+      "admitted2025": 66,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "surveying"
     },
     {
       "id": "polyu-js3241",
@@ -5879,7 +7685,8 @@
       "scaleNote": "PolyU 用 ~200-300 百分位尺度，計分公式不在公開 PDF，暫僅供參考",
       "dataStatus": "official-2025-noformula",
       "weightsStatus": "n/a",
-      "category": "science"
+      "category": "science",
+      "discipline": "data_science"
     },
     {
       "id": "lingnan-js7101",
@@ -5899,7 +7706,14 @@
       "category": "arts",
       "nameZh": "中文(榮譽)文學士(課程特色: 中國語言與文學/創意寫作/數字人文)",
       "admitted2025": 45,
-      "intake": 42
+      "intake": 42,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "lingnan-js7133",
@@ -5919,7 +7733,14 @@
       "category": "arts",
       "nameZh": "動畫及數碼藝術(榮譽)文學士(專修: 數碼動畫/藝術與科技)",
       "admitted2025": 13,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "lingnan-js7204",
@@ -5939,7 +7760,14 @@
       "category": "arts",
       "nameZh": "翻譯(榮譽)文學士 (專修: 跨文化傳意/數碼企業傳訊)",
       "admitted2025": 37,
-      "intake": 31
+      "intake": 31,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "translation"
     },
     {
       "id": "lingnan-js7503",
@@ -5959,7 +7787,14 @@
       "category": "arts",
       "nameZh": "英語語言文學課程(榮譽)文學士 (可選專修: 文學/語言學)",
       "admitted2025": 29,
-      "intake": 19
+      "intake": 19,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "lingnan-js7606",
@@ -5979,7 +7814,14 @@
       "category": "arts",
       "nameZh": "文化研究(榮譽)文學士 (可選專修: 數碼文化與媒體實踐/文化共享、社會創新與創造力)",
       "admitted2025": 29,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "lingnan-js7709",
@@ -5999,7 +7841,14 @@
       "category": "arts",
       "nameZh": "歷史(榮譽)文學士 (可選專修: 亞洲史/全球史)",
       "admitted2025": 31,
-      "intake": 31
+      "intake": 31,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "history"
     },
     {
       "id": "lingnan-js7802",
@@ -6019,7 +7868,14 @@
       "category": "arts",
       "nameZh": "哲學(榮譽)文學士 (課程特色:價值論/人工智能哲學/思考方法)",
       "admitted2025": 30,
-      "intake": 24
+      "intake": 24,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "philosophy"
     },
     {
       "id": "lingnan-js7905",
@@ -6039,7 +7895,14 @@
       "category": "arts",
       "nameZh": "電影與視覺藝術(榮譽)文學士(課程特色: 電影研究/環球媒體/藝術史/博物館學)",
       "admitted2025": 8,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "lingnan-js7211",
@@ -6059,7 +7922,14 @@
       "category": "business",
       "nameZh": "工商管理(榮譽)學士-會計與企業管治 (專修: 專業會計/企業管治)(課程特色:學生精進計劃/業內實習)",
       "admitted2025": 52,
-      "intake": 41
+      "intake": 41,
+      "facts": {
+        "duration": "4 Years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "lingnan-js7212",
@@ -6079,7 +7949,14 @@
       "category": "business",
       "nameZh": "工商管理(榮譽)學士-商業分析與創新 (課程特色: 電子商務/信息系統/運營管理/數據科學/人工智能)",
       "admitted2025": 5,
-      "intake": 7
+      "intake": 7,
+      "facts": {
+        "duration": "4 Years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "lingnan-js7213",
@@ -6099,7 +7976,14 @@
       "category": "business",
       "nameZh": "工商管理(榮譽)學士-金融(課程特色: 特許金融分析師協會學生獎學金/多元選修科目: 投資學、公司財務、金融科技)",
       "admitted2025": 37,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 Years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "lingnan-js7214",
@@ -6119,7 +8003,14 @@
       "category": "business",
       "nameZh": "工商管理(榮譽)學士-管理與分析 (專修:環球商業管理與分析/人力資源管理與分析)(課程特色:專業會員資格/實習與導師計劃)",
       "admitted2025": 17,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "4 Years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "lingnan-js7215",
@@ -6139,7 +8030,14 @@
       "category": "business",
       "nameZh": "工商管理(榮譽)學士-市場學及社交媒體 (課程特色: 綜合行銷/社交媒體與數字行銷/消費者行為與市場調研)",
       "admitted2025": 44,
-      "intake": 36
+      "intake": 36,
+      "facts": {
+        "duration": "4 Years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "marketing"
     },
     {
       "id": "lingnan-js7216",
@@ -6159,7 +8057,14 @@
       "category": "business",
       "nameZh": "工商管理(榮譽)學士-風險及保險管理(可選專修: 保險科技)(課程特色: 專業國際資格認證/專屬師友計劃)",
       "admitted2025": 43,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "lingnan-js7301",
@@ -6179,7 +8084,14 @@
       "category": "business",
       "nameZh": "社會科學(榮譽)學士-經濟學 (可選專修: 環球經濟與銀行)",
       "admitted2025": 18,
-      "intake": 14
+      "intake": 14,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "economics"
     },
     {
       "id": "lingnan-js7302",
@@ -6199,7 +8111,14 @@
       "category": "science",
       "nameZh": "社會科學(榮譽)學士 - 政府與國際事務學",
       "admitted2025": 15,
-      "intake": 14
+      "intake": 14,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_science"
     },
     {
       "id": "lingnan-js7303",
@@ -6219,7 +8138,14 @@
       "category": "science",
       "nameZh": "社會科學(榮譽)學士-心理學 (可選專修: 輔導心理學/工業與組織心理學)",
       "admitted2025": 24,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "psychology"
     },
     {
       "id": "lingnan-js7304",
@@ -6239,7 +8165,14 @@
       "category": "science",
       "nameZh": "社會科學(榮譽)學士-社會學 (可選專修: 社會創新與社會研究)",
       "admitted2025": 23,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "sociology"
     },
     {
       "id": "lingnan-js7305",
@@ -6259,7 +8192,14 @@
       "category": "medical",
       "nameZh": "社會科學(榮譽)學士 - 健康及社會服務管理",
       "admitted2025": 18,
-      "intake": 8
+      "intake": 8,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_science"
     },
     {
       "id": "lingnan-js7306",
@@ -6279,7 +8219,14 @@
       "category": "science",
       "nameZh": "社會科學(榮譽)學士-社會與公共政策研究 (可選專修: 智慧城市與數碼社會)",
       "admitted2025": 22,
-      "intake": 16
+      "intake": 16,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "political_science"
     },
     {
       "id": "eduhk-js8001",
@@ -6299,7 +8246,14 @@
       "category": "education",
       "nameZh": "創意藝術與數碼藝術榮譽文學士及音樂教育榮譽學士",
       "admitted2025": 20,
-      "intake": 32
+      "intake": 32,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "music"
     },
     {
       "id": "eduhk-js8002",
@@ -6319,7 +8273,14 @@
       "category": "education",
       "nameZh": "創意藝術與數碼藝術榮譽文學士及視覺藝術教育榮譽學士",
       "admitted2025": 26,
-      "intake": 32
+      "intake": 32,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "eduhk-js8003",
@@ -6339,7 +8300,14 @@
       "category": "education",
       "nameZh": "數碼中國文化與傳意榮譽文學士及中文教育榮譽學士",
       "admitted2025": 36,
-      "intake": 64
+      "intake": 64,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "eduhk-js8004",
@@ -6359,7 +8327,14 @@
       "category": "education",
       "nameZh": "英語研究及數碼傳訊榮譽文學士及英文教育榮譽學士",
       "admitted2025": 19,
-      "intake": 33
+      "intake": 33,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "eduhk-js8005",
@@ -6379,7 +8354,14 @@
       "category": "education",
       "nameZh": "文化傳承教育與藝術管理榮譽文學士及中國歷史教育榮譽學士",
       "admitted2025": 11,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "eduhk-js8006",
@@ -6399,7 +8381,14 @@
       "category": "education",
       "nameZh": "心理學榮譽社會科學學士及幼兒教育榮譽學士",
       "admitted2025": 34,
-      "intake": 45
+      "intake": 45,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "eduhk-js8007",
@@ -6419,7 +8408,14 @@
       "category": "business",
       "nameZh": "個人理財榮譽文學士及企業、會計與財務概論教育榮譽學士",
       "admitted2025": 6,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "eduhk-js8008",
@@ -6439,7 +8435,14 @@
       "category": "education",
       "nameZh": "人工智能與教育科技榮譽理學士及資訊及通訊科技及小學科學教育榮譽學士",
       "admitted2025": 15,
-      "intake": 13
+      "intake": 13,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "eduhk-js8009",
@@ -6459,7 +8462,14 @@
       "category": "education",
       "nameZh": "人工智能與教育科技榮譽理學士及小學數學教育榮譽學士",
       "admitted2025": 25,
-      "intake": 44
+      "intake": 44,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "mathematics"
     },
     {
       "id": "eduhk-js8010",
@@ -6479,7 +8489,14 @@
       "category": "education",
       "nameZh": "運動科學及教練榮譽理學士及體育教育榮譽學士",
       "admitted2025": 21,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "environmental"
     },
     {
       "id": "eduhk-js8011",
@@ -6499,7 +8516,14 @@
       "category": "education",
       "nameZh": "綜合環境管理榮譽理學士及科學教育榮譽學士",
       "admitted2025": 17,
-      "intake": 29
+      "intake": 29,
+      "facts": {
+        "duration": "5 Years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "eduhk-js8012",
@@ -6519,7 +8543,14 @@
       "category": "education",
       "nameZh": "社會學與社區研究榮譽社會科學學士及地理教育榮譽學士",
       "admitted2025": 11,
-      "intake": 12
+      "intake": 12,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "sociology"
     },
     {
       "id": "eduhk-js8013",
@@ -6539,7 +8570,14 @@
       "category": "education",
       "nameZh": "社會學與社區研究榮譽社會科學學士及小學人文科教育榮譽學士",
       "admitted2025": 18,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "5 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "eduhk-js8651",
@@ -6559,7 +8597,14 @@
       "category": "social",
       "nameZh": "心理學榮譽社會科學學士",
       "admitted2025": 19,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "psychology"
     },
     {
       "id": "eduhk-js8663",
@@ -6579,7 +8624,14 @@
       "category": "education",
       "nameZh": "特殊教育榮譽文學士",
       "admitted2025": 14,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "education"
     },
     {
       "id": "eduhk-js8674",
@@ -6599,7 +8651,14 @@
       "category": "social",
       "nameZh": "數碼中國文化與傳意榮譽文學士",
       "admitted2025": 12,
-      "intake": 21
+      "intake": 21,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "eduhk-js8675",
@@ -6619,7 +8678,14 @@
       "category": "social",
       "nameZh": "英語研究及數碼傳訊榮譽文學士",
       "admitted2025": 24,
-      "intake": 17
+      "intake": 17,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "eduhk-js8685",
@@ -6639,7 +8705,14 @@
       "category": "arts",
       "nameZh": "創意藝術與數碼藝術榮譽文學士 (音樂)",
       "admitted2025": 9,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "music"
     },
     {
       "id": "eduhk-js8686",
@@ -6659,7 +8732,14 @@
       "category": "arts",
       "nameZh": "創意藝術與數碼藝術榮譽文學士 (視覺藝術)",
       "admitted2025": 9,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "eduhk-js8687",
@@ -6679,7 +8759,14 @@
       "category": "education",
       "nameZh": "文化傳承教育與藝術管理榮譽文學士",
       "admitted2025": 24,
-      "intake": 22
+      "intake": 22,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "eduhk-js8688",
@@ -6699,7 +8786,14 @@
       "category": "business",
       "nameZh": "個人理財榮譽文學士",
       "admitted2025": 7,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 Years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "finance"
     },
     {
       "id": "eduhk-js8702",
@@ -6719,7 +8813,14 @@
       "category": "it",
       "nameZh": "綜合環境管理榮譽理學士",
       "admitted2025": 14,
-      "intake": 21
+      "intake": 21,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "ai"
     },
     {
       "id": "eduhk-js8714",
@@ -6739,7 +8840,14 @@
       "category": "education",
       "nameZh": "人工智能與教育科技榮譽理學士",
       "admitted2025": 20,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "sports"
     },
     {
       "id": "eduhk-js8726",
@@ -6759,7 +8867,14 @@
       "category": "science",
       "nameZh": "運動科學及教練榮譽理學士",
       "admitted2025": 31,
-      "intake": 29
+      "intake": 29,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "eduhk-js8727",
@@ -6779,7 +8894,14 @@
       "category": "general",
       "nameZh": "言語病理學及復康榮譽理學士",
       "admitted2025": 13,
-      "intake": 10
+      "intake": 10,
+      "facts": {
+        "duration": "4 Years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "eduhk-js8507",
@@ -6799,7 +8921,14 @@
       "category": "education",
       "nameZh": "幼兒教育高級文憑",
       "admitted2025": 298,
-      "intake": 264
+      "intake": 264,
+      "facts": {
+        "duration": "2 years",
+        "interview": true,
+        "funding": null,
+        "level": "Higher Diploma"
+      },
+      "discipline": "education"
     },
     {
       "id": "hkbu-js2020",
@@ -6819,7 +8948,14 @@
       "category": "arts",
       "nameZh": "文學士(榮譽) (中國語言文學 / 創意及專業寫作 / 英國語言文學 / 人文學 / 翻譯學)",
       "admitted2025": 76,
-      "intake": 87
+      "intake": 87,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkbu-js2025",
@@ -6839,7 +8975,14 @@
       "category": "arts",
       "nameZh": "宗教、哲學及倫理文學士(榮譽)",
       "admitted2025": 11,
-      "intake": 11
+      "intake": 11,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "philosophy"
     },
     {
       "id": "hkbu-js2060",
@@ -6859,7 +9002,14 @@
       "category": "arts",
       "nameZh": "文學士(榮譽) / 音樂學士(榮譽) (音樂 / 創意產業)",
       "admitted2025": 23,
-      "intake": 38
+      "intake": 38,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "music"
     },
     {
       "id": "hkbu-js2110",
@@ -6879,7 +9029,14 @@
       "category": "business",
       "nameZh": "工商管理學士(榮譽) - 會計學專修",
       "admitted2025": 50,
-      "intake": 49
+      "intake": 49,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "hkbu-js2120",
@@ -6899,7 +9056,14 @@
       "category": "business",
       "nameZh": "工商管理學士(榮譽)",
       "admitted2025": 190,
-      "intake": 185
+      "intake": 185,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkbu-js2310",
@@ -6919,7 +9083,14 @@
       "category": "social",
       "nameZh": "傳理學學士(榮譽) (新聞與數碼媒體 / 公關及廣告)",
       "admitted2025": 65,
-      "intake": 70
+      "intake": 70,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "journalism"
     },
     {
       "id": "hkbu-js2330",
@@ -6939,7 +9110,14 @@
       "category": "arts",
       "nameZh": "電影電視文學士(榮譽)",
       "admitted2025": 17,
-      "intake": 18
+      "intake": 18,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkbu-js2340",
@@ -6959,7 +9137,14 @@
       "category": "arts",
       "nameZh": "環球螢幕演技藝術學士(榮譽)",
       "admitted2025": 10,
-      "intake": 8
+      "intake": 8,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "hkbu-js2370",
@@ -6979,7 +9164,14 @@
       "category": "social",
       "nameZh": "傳理學學士(榮譽) - 遊戲設計與動畫主修",
       "admitted2025": 14,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "hkbu-js2410",
@@ -6999,7 +9191,14 @@
       "category": "general",
       "nameZh": "中醫學學士及生物醫學理學士(榮譽)",
       "admitted2025": 34,
-      "intake": 37
+      "intake": 37,
+      "facts": {
+        "duration": "6 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkbu-js2420",
@@ -7019,7 +9218,14 @@
       "category": "general",
       "nameZh": "中藥學學士(榮譽)",
       "admitted2025": 19,
-      "intake": 23
+      "intake": 23,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkbu-js2510",
@@ -7039,7 +9245,14 @@
       "category": "science",
       "nameZh": "理學士(榮譽)",
       "admitted2025": 202,
-      "intake": 197
+      "intake": 197,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hkbu-js2610",
@@ -7059,7 +9272,14 @@
       "category": "science",
       "nameZh": "文學士(榮譽) / 社會科學學士(榮譽) (歐洲研究 [法文/德文] / 地理 / 全球及中國研究 / 政治及國際關係學 / 歷史 / 社會學)",
       "admitted2025": 115,
-      "intake": 122
+      "intake": 122,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_science"
     },
     {
       "id": "hkbu-js2620",
@@ -7079,7 +9299,14 @@
       "category": "education",
       "nameZh": "體育及康樂管理文學士(榮譽)",
       "admitted2025": 28,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "sports"
     },
     {
       "id": "hkbu-js2660",
@@ -7099,7 +9326,14 @@
       "category": "social",
       "nameZh": "社會工作學士(榮譽)",
       "admitted2025": 22,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_work"
     },
     {
       "id": "hkbu-js2810",
@@ -7119,7 +9353,14 @@
       "category": "arts",
       "nameZh": "視覺藝術文學士(榮譽)",
       "admitted2025": 31,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "fine_arts"
     },
     {
       "id": "hkbu-js2910",
@@ -7139,7 +9380,14 @@
       "category": "it",
       "nameZh": "商業計算及數據分析理學士(榮譽)",
       "admitted2025": 13,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "data_science"
     },
     {
       "id": "hkbu-js2920",
@@ -7159,7 +9407,14 @@
       "category": "science",
       "nameZh": "藝術及科技文理學士(榮譽)",
       "admitted2025": 32,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hkbu-js2930",
@@ -7179,7 +9434,14 @@
       "category": "business",
       "nameZh": "工商管理文學士(榮譽)(全球娛樂)",
       "admitted2025": 22,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkbu-js2940",
@@ -7199,7 +9461,14 @@
       "category": "science",
       "nameZh": "創新醫療及社會健康社會科學學士(榮譽) / 理學士(榮譽)",
       "admitted2025": 41,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "social_science"
     },
     {
       "id": "hkbu-js2950",
@@ -7219,7 +9488,14 @@
       "category": "science",
       "nameZh": "文理及科技學士(榮譽)自訂主修",
       "admitted2025": 15,
-      "intake": 15
+      "intake": 15,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hkbu-js2960",
@@ -7239,7 +9515,14 @@
       "category": "science",
       "nameZh": "數位未來與人文學科文理學士(榮譽)",
       "admitted2025": 30,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     },
     {
       "id": "hkmu-js9011",
@@ -7259,7 +9542,14 @@
       "category": "arts",
       "nameZh": "中文榮譽文學士",
       "admitted2025": 150,
-      "intake": 50
+      "intake": 50,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "humanities"
     },
     {
       "id": "hkmu-js9013",
@@ -7279,7 +9569,14 @@
       "category": "arts",
       "nameZh": "語言研究與翻譯榮譽文學士",
       "admitted2025": 91,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "translation"
     },
     {
       "id": "hkmu-js9016",
@@ -7299,7 +9596,14 @@
       "category": "arts",
       "nameZh": "創意廣告及媒體設計榮譽文學士",
       "admitted2025": 189,
-      "intake": 70
+      "intake": 70,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "communication"
     },
     {
       "id": "hkmu-js9019",
@@ -7319,7 +9623,14 @@
       "category": "business",
       "nameZh": "英語及文化榮譽文學士",
       "admitted2025": 51,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkmu-js9220",
@@ -7339,7 +9650,14 @@
       "category": "business",
       "nameZh": "專業會計榮譽工商管理學士",
       "admitted2025": 182,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "accounting"
     },
     {
       "id": "hkmu-js9230",
@@ -7359,7 +9677,14 @@
       "category": "business",
       "nameZh": "商業管理學榮譽工商管理學士",
       "admitted2025": 200,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkmu-js9240",
@@ -7379,7 +9704,14 @@
       "category": "business",
       "nameZh": "環球商業榮譽工商管理學士",
       "admitted2025": 190,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkmu-js9266",
@@ -7399,7 +9731,14 @@
       "category": "business",
       "nameZh": "市場學榮譽工商管理學士",
       "admitted2025": 120,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "marketing"
     },
     {
       "id": "hkmu-js9276",
@@ -7419,7 +9758,14 @@
       "category": "engineering",
       "nameZh": "房地產及測量學榮譽工商管理學士",
       "admitted2025": 30,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "surveying"
     },
     {
       "id": "hkmu-js9280",
@@ -7439,7 +9785,14 @@
       "category": "business",
       "nameZh": "應用心理學榮譽學士，商業管理榮譽學士",
       "admitted2025": 150,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkmu-js9291",
@@ -7459,7 +9812,14 @@
       "category": "business",
       "nameZh": "持續旅遊及款待管理榮譽工商管理學士",
       "admitted2025": 115,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "hospitality"
     },
     {
       "id": "hkmu-js9294",
@@ -7479,7 +9839,14 @@
       "category": "education",
       "nameZh": "運動及電競運動管理榮譽工商管理學士",
       "admitted2025": 88,
-      "intake": 25
+      "intake": 25,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkmu-js9530",
@@ -7499,7 +9866,14 @@
       "category": "education",
       "nameZh": "英語教學榮譽教育學士及英語研究榮譽學士",
       "admitted2025": 57,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "hkmu-js9540",
@@ -7519,7 +9893,14 @@
       "category": "humanities",
       "nameZh": "英語研究榮譽學士",
       "admitted2025": 50,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "english"
     },
     {
       "id": "hkmu-js9550",
@@ -7539,7 +9920,14 @@
       "category": "humanities",
       "nameZh": "語言研究榮譽學士（應用中國語言）",
       "admitted2025": 37,
-      "intake": 20
+      "intake": 20,
+      "facts": {
+        "duration": "4 years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "hkmu-js9560",
@@ -7559,7 +9947,14 @@
       "category": "humanities",
       "nameZh": "教育榮譽學士（中國語文教學）及語言研究榮譽學士（應用中國語言）",
       "admitted2025": 55,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "chinese"
     },
     {
       "id": "hkmu-js9580",
@@ -7579,7 +9974,14 @@
       "category": "education",
       "nameZh": "教育榮譽學士（幼兒教育：領導及特殊教育需要）",
       "admitted2025": 33,
-      "intake": 40
+      "intake": 40,
+      "facts": {
+        "duration": "4 Years",
+        "interview": true,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "education"
     },
     {
       "id": "hkmu-js9719",
@@ -7599,7 +10001,14 @@
       "category": "it",
       "nameZh": "網路及電腦安全榮譽理學士",
       "admitted2025": 76,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 Years",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "electrical_eng"
     },
     {
       "id": "hkmu-js9720",
@@ -7619,7 +10028,14 @@
       "category": "it",
       "nameZh": "電子及電腦工程學榮譽工學士",
       "admitted2025": 68,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "computer_science"
     },
     {
       "id": "hkmu-js9731",
@@ -7639,7 +10055,14 @@
       "category": "business",
       "nameZh": "環境科學與綠色管理榮譽理學士",
       "admitted2025": 100,
-      "intake": 35
+      "intake": 35,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "management"
     },
     {
       "id": "hkmu-js9732",
@@ -7659,7 +10082,14 @@
       "category": "science",
       "nameZh": "生物醫學與生物科技榮譽理學士",
       "admitted2025": 102,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "biotechnology"
     },
     {
       "id": "hkmu-js9733",
@@ -7679,7 +10109,14 @@
       "category": "science",
       "nameZh": "科學（ＳＴＥＡＭ）榮譽理學士",
       "admitted2025": 51,
-      "intake": 30
+      "intake": 30,
+      "facts": {
+        "duration": "4 years (summer terms included)",
+        "interview": false,
+        "funding": null,
+        "level": "Bachelor's Degree"
+      },
+      "discipline": "science"
     }
   ]
 }

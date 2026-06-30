@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const {
-  SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, GRADE_OPTIONS, CSD_GRADES, APPLICATIONS,
+  SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, GRADE_OPTIONS, CSD_GRADES, APPLICATIONS, DISCIPLINES,
 } = require('../data');
 const { GRADE_SCHEMES } = require('../data/subjects');
 const { matchAll } = require('../services/matcher');
@@ -23,6 +23,11 @@ router.get('/programmes', (req, res) => {
 
 router.get('/interests', (req, res) => {
   res.json({ interests: Object.keys(INTEREST_TO_CATEGORY) });
+});
+
+// 學科領域簡介（維基百科）map：{ key: { nameZh, nameEn, zh, en } }
+router.get('/disciplines', (req, res) => {
+  res.json({ disciplines: DISCIPLINES });
 });
 
 // 某專業的申請統計（Band A-E 報名人數）+ 科目要求

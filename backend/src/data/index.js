@@ -17,6 +17,12 @@ try {
   APPLICATIONS = JSON.parse(fs.readFileSync(path.join(__dirname, 'applications.json'), 'utf-8'));
 } catch { /* 尚未抓取時為空 */ }
 
+// 學科領域簡介（維基百科），由 data-pipeline/build_disciplines.mjs 產生
+let DISCIPLINES = {};
+try {
+  DISCIPLINES = JSON.parse(fs.readFileSync(path.join(__dirname, 'disciplines.json'), 'utf-8'));
+} catch { /* 尚未產生時為空 */ }
+
 module.exports = {
   SUBJECTS,
   SUBJECT_MAP,
@@ -27,4 +33,5 @@ module.exports = {
   PROGRAMMES,
   DATA_YEAR,
   APPLICATIONS,
+  DISCIPLINES,
 };

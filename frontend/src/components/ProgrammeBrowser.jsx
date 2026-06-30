@@ -74,6 +74,15 @@ function buildAnalysis(prog, appData, lang) {
   const adm = prog.admitted2025;
   const apps = b25?.total;
 
+  // 0. 課程事實（學制／面試／資助）
+  if (prog.facts && (prog.facts.duration || prog.facts.interview != null || prog.facts.funding)) {
+    const f = prog.facts; const parts = [];
+    if (f.duration) parts.push(en ? f.duration : f.duration.replace(/years?/i, '年'));
+    if (f.interview != null) parts.push(en ? (f.interview ? 'interview required' : 'no interview') : (f.interview ? '需面試' : '免面試'));
+    if (f.funding) parts.push(en ? f.funding : f.funding.replace(/UGC-funded/i, '政府資助 (UGC)').replace(/Self-financ\w*/i, '自資'));
+    out.push({ icon: '🎓', text: parts.join(' · ') });
+  }
+
   // 1. 競爭程度 + 取錄率
   if (apps && adm > 0) {
     const ratio = apps / adm;
@@ -216,11 +225,13 @@ function TrendTable({ bands, years }) {
   );
 }
 
-function DetailOverlay({ prog, year, onClose }) {
+function DetailOverlay({ prog, year, disciplines, onClose }) {
   const { lang, t } = useLang();
   const [appData, setAppData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showTrend, setShowTrend] = useState(false);
+  const disc = disciplines?.[prog.discipline];
+  const discText = disc ? (lang === 'en' ? disc.en : disc.zh) : null;
 
   useEffect(() => {
     setLoading(true);
@@ -283,6 +294,12 @@ function DetailOverlay({ prog, year, onClose }) {
             <h4>{t('aiAnalysis')}</h4>
             <span className="ai-badge">AI</span>
           </div>
+          {discText && (
+            <div className="ai-overview">
+              <span className="ai-overview-tag">{lang === 'en' ? disc.nameEn : disc.nameZh}</span>
+              <span>{discText}</span>
+            </div>
+          )}
           <ul className="ai-list">
             {buildAnalysis(prog, appData, lang).map((ins, i) => (
               <li key={i}><span className="ai-icon">{ins.icon}</span><span>{ins.text}</span></li>
@@ -353,6 +370,7 @@ export default function ProgrammeBrowser() {
   const [keyword, setKeyword] = useState('');
   const [year, setYear] = useState(null);
   const [selProg, setSelProg] = useState(null);
+  const [disciplines, setDisciplines] = useState(null);
 
   useEffect(() => {
     api.getProgrammes().then((d) => { setProgrammes(d.programmes); setYear(d.year); });
@@ -360,6 +378,7 @@ export default function ProgrammeBrowser() {
       setUniversities(d.universities);
       if (d.universities[0]) setSelUni(d.universities[0].id);
     });
+    api.getDisciplines().then((d) => setDisciplines(d.disciplines)).catch(() => {});
   }, []);
 
   const countByUni = useMemo(() => {
@@ -428,7 +447,7 @@ export default function ProgrammeBrowser() {
       )}
 
       {selProg && (
-        <DetailOverlay prog={selProg} year={year} onClose={() => setSelProg(null)} />
+        <DetailOverlay prog={selProg} year={year} disciplines={disciplines} onClose={() => setSelProg(null)} />
       )}
     </div>
   );

@@ -429,6 +429,17 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
   letter-spacing: .5px; padding: 3px 9px; border-radius: 999px;
   box-shadow: 0 2px 6px rgba(37,99,235,.3);
 }
+.ai-overview {
+  margin: 10px 0; padding: 12px 14px;
+  background: linear-gradient(135deg, #eff6ff, #e6efff);
+  border: 1px solid #c7dbff; border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm); font-size: 13.5px; line-height: 1.6; color: #1e3a5f;
+}
+.ai-overview-tag {
+  display: inline-block; margin-right: 6px; padding: 1px 8px;
+  background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; border-radius: 999px;
+  vertical-align: middle;
+}
 .ai-list { list-style: none; margin: 10px 0 8px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .ai-list li {
   display: flex; gap: 10px; align-items: flex-start;

@@ -67,7 +67,7 @@ const STRINGS = {
   colLowerShort: { zh: '下四分', en: 'LQ' },
   colAdmShort: { zh: '取錄', en: 'Adm' },
   aiAnalysis: { zh: 'AI 智能分析', en: 'AI Analysis' },
-  aiNote: { zh: '＊由報名、取錄及收生分數據自動分析，僅供參考', en: '* Auto-generated from application, offer and score data — for reference' },
+  aiNote: { zh: '＊整合 JUPAS 報名／取錄／收生分數據與維基百科學科簡介自動分析，僅供參考', en: '* Auto-generated from JUPAS application/offer/score data and Wikipedia field summaries — for reference' },
   careerHeading: { zh: '出路概覽', en: 'Career outlook' },
   scoreScale: { zh: '計分換算', en: 'Grade conversion' },
   tapForDetail: { zh: '點專業看詳情', en: 'tap a programme for details' },
