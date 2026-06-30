@@ -1,33 +1,36 @@
-// 與後端 API 溝通的薄封裝。
-const BASE = (import.meta.env.VITE_API_URL || '') + '/api';
+// 全靜態前端：資料與計分引擎都在瀏覽器，無需後端（消除 Render 冷啟動）。
+// 重型資料（programmes / disciplines / applications）採惰性載入並快取。
+import { SUBJECTS, GRADE_OPTIONS, CSD_GRADES, GRADE_SCHEMES } from './engine/subjects.js';
+import { UNIVERSITIES } from './engine/universities.js';
+import { matchAll } from './engine/matcher.js';
+import { recommend, INTEREST_TO_CATEGORY } from './engine/recommender.js';
 
-async function get(path) {
-  const res = await fetch(BASE + path);
-  if (!res.ok) throw new Error(`GET ${path} 失敗: ${res.status}`);
-  return res.json();
-}
-
-async function post(path, body) {
-  const res = await fetch(BASE + path, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    throw new Error(err.error || `POST ${path} 失敗: ${res.status}`);
-  }
-  return res.json();
-}
+let _prog, _disc, _apps;
+const loadProgrammes = () => (_prog ||= import('./data/programmes.json').then((m) => m.default));
+const loadDisciplines = () => (_disc ||= import('./data/disciplines.json').then((m) => m.default));
+const loadApplications = () => (_apps ||= fetch('/applications.json').then((r) => r.json()));
 
 export const api = {
-  getSubjects: () => get('/subjects'),
-  getInterests: () => get('/interests'),
-  getProgrammes: () => get('/programmes'),
-  getUniversities: () => get('/universities'),
-  getDisciplines: () => get('/disciplines'),
-  getApplications: (code) => get(`/applications/${code}`),
-  match: (grades) => post('/match', { grades }),
-  recommend: (grades, interests, onlyAttainable) =>
-    post('/recommend', { grades, interests, onlyAttainable }),
+  getSubjects: async () => ({ subjects: SUBJECTS, gradeOptions: GRADE_OPTIONS, csdGrades: CSD_GRADES, gradeSchemes: GRADE_SCHEMES }),
+  getInterests: async () => ({ interests: Object.keys(INTEREST_TO_CATEGORY) }),
+  getUniversities: async () => ({ universities: UNIVERSITIES }),
+  getProgrammes: async () => {
+    const p = await loadProgrammes();
+    return { year: p.year, count: p.programmes.length, programmes: p.programmes };
+  },
+  getDisciplines: async () => ({ disciplines: await loadDisciplines() }),
+  getApplications: async (code) => {
+    const a = await loadApplications();
+    return { code, application: a[code] || null };
+  },
+  match: async (grades) => {
+    const p = await loadProgrammes();
+    return { year: p.year, results: matchAll(grades, p.programmes) };
+  },
+  recommend: async (grades, interests, onlyAttainable) => {
+    const p = await loadProgrammes();
+    return { year: p.year, results: recommend(grades, interests, p.programmes, { onlyAttainable: !!onlyAttainable }) };
+  },
+  // 首屏後背景預載，讓首次比對/瀏覽即時
+  prefetch: () => { loadProgrammes(); loadDisciplines(); },
 };
