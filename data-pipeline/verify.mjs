@@ -43,7 +43,10 @@ for (const p of PROGRAMMES) {
   const { median, lowerQuartile } = p.admission;
   if (median == null) fail(`${p.jupasCode} 無 median`);
   if (lowerQuartile != null && median != null && lowerQuartile > median + 0.01) fail(`${p.jupasCode} LQ(${lowerQuartile}) > median(${median})`);
-  if (p.scoreComparable !== false && (median > 60 || median < 8)) warn(`${p.jupasCode} median ${median} 超出常理範圍(可比較校)`);
+  // PolyU 為官方 200~350 尺度，常理範圍另計（80~360）；其餘校 8~60
+  const polyu = p.weightsStatus === 'official-polyu';
+  const hiBound = polyu ? 360 : 60, loBound = polyu ? 80 : 8;
+  if (p.scoreComparable !== false && (median > hiBound || median < loBound)) warn(`${p.jupasCode} median ${median} 超出常理範圍(可比較校)`);
 }
 console.log(`  專業 ${PROGRAMMES.length} 筆，median/LQ 一致性檢查完成`);
 
@@ -99,8 +102,11 @@ for (const p of PROGRAMMES) {
   const hi = calculateScore(perfect, p, uni).score;
   const lo = calculateScore(weak, p, uni).score;
   if (lo > hi) fail(`${p.jupasCode} 弱生(${lo}) > 完美生(${hi})`);
-  // 完美生分數理論上限：HKU 線性公式可達 ~70（1.5E+1.5M+best5+0.2tail），其餘 best5/6 ≤51；超 75 才示警
-  if (hi > 75) warn(`${p.jupasCode} 完美生分數 ${hi} 偏高（疑加權異常）method=${p.method} w=${JSON.stringify(p.weights)}`);
+  // 完美生分數理論上限：HKU 線性公式可達 ~70；其餘 best5/6 ≤51；超 75 才示警。
+  // PolyU 為官方 200~350 尺度（best5 × 權重 5-10 × 7），上限 ~350，不適用此檢查。
+  const polyuScale = p.weightsStatus === 'official-polyu';
+  if (!polyuScale && hi > 75) warn(`${p.jupasCode} 完美生分數 ${hi} 偏高（疑加權異常）method=${p.method} w=${JSON.stringify(p.weights)}`);
+  if (polyuScale && hi > 360) warn(`${p.jupasCode} PolyU 完美生分數 ${hi} 超出尺度上限`);
   // 完美生應該對絕大多數專業 "safe"
   if (hi < p.admission.median) warn(`${p.jupasCode} 完美生分數 ${hi} < median ${p.admission.median}（疑尺度不符）`);
 }

@@ -32,7 +32,11 @@ const TIER_ORDER = { safe: 0, competitive: 1, reach: 2, below: 3, unqualified: 4
  * @returns {Array} 已排序的配對結果
  */
 function matchAll(grades, programmes) {
-  const results = programmes.map((programme) => {
+  // 只比對「可精確計分」的專業；計分公式太複雜／難讀（scoreComparable:false，
+  // 如醫科特殊公式、重加權課程）不納入比對結果，避免顯示無法比較的雜訊。
+  const results = programmes
+    .filter((programme) => programme.scoreComparable !== false)
+    .map((programme) => {
     const university = UNIVERSITY_MAP[programme.universityId];
     const { score, breakdown, requirement } = calculateScore(grades, programme, university);
     const tier = classify(score, programme, requirement.ok);

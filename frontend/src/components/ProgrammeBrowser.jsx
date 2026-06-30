@@ -37,6 +37,15 @@ function describeScoring(p, lang) {
   }
   const n = p.method === 'best6' ? 6 : 5;
   const ws = Object.entries(p.weights || {});
+  // PolyU 官方加權：科目眾多，只列最高權重的科目
+  if (p.weightsStatus === 'official-polyu' && ws.length) {
+    const maxW = Math.max(...ws.map(([, w]) => w));
+    const topSubs = ws.filter(([, w]) => w === maxW).map(([s]) => sn(s));
+    const top = topSubs.slice(0, 6).join(isEn ? ', ' : '、') + (topSubs.length > 6 ? (isEn ? '…' : '等') : '');
+    return isEn
+      ? `Weighted best ${n} (official, ~350 scale); highest weight ×${maxW}: ${top}`
+      : `官方加權最佳 ${n} 科（約 350 滿分）；最高權重 ×${maxW}：${top}`;
+  }
   if (ws.length) {
     const wstr = ws.map(([s, w]) => `${sn(s)}×${w}`).join(isEn ? ', ' : '、');
     return isEn ? `Best ${n}; weighted: ${wstr}` : `最佳 ${n} 科；加重：${wstr}`;
