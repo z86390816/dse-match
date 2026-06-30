@@ -14,7 +14,7 @@ export default function PrivacyPolicy({ onBack }) {
         {en ? (
           <>
             <h3>1. Information We Collect</h3>
-            <p>DSE Marks is a free university admission-score matching tool. The DSE results you enter are used
+            <p>JUPAS Calculator is a free university admission-score matching tool. The DSE results you enter are used
             only in your browser for instant calculation — we do <strong>not store or upload</strong> your
             personal results to any database.</p>
 
@@ -41,7 +41,7 @@ export default function PrivacyPolicy({ onBack }) {
         ) : (
           <>
             <h3>1. 我們收集的資料</h3>
-            <p>本網站（DSE Marks）是一個免費的大學收生分數比對工具。你輸入的 DSE 成績只在你的瀏覽器內用作即時計算，
+            <p>本網站（JUPAS Calculator）是一個免費的大學收生分數比對工具。你輸入的 DSE 成績只在你的瀏覽器內用作即時計算，
             我們<strong>不會儲存、不會上傳</strong>你的個人成績到任何資料庫。</p>
 
             <h3>2. Cookie 與分析</h3>

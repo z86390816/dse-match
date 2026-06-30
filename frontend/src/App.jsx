@@ -150,7 +150,7 @@ export default function App() {
 
       <footer className="site-footer">
         <button className="link-btn" onClick={() => setView('privacy')}>{t('privacyLink')}</button>
-        <span> {t('footerDisclaimer')} © {new Date().getFullYear()} DSE Marks</span>
+        <span> {t('footerDisclaimer')} © {new Date().getFullYear()} JUPAS Calculator</span>
       </footer>
     </div>
   );

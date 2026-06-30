@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 // 雙語字典。key 為穩定語意鍵；院校/科目/專業名直接用資料內的 en 欄位。
 const STRINGS = {
   // ---- header / chrome ----
-  appTitle: { zh: '🎓 DSE 收生分數比對', en: '🎓 DSE Score Match' },
+  appTitle: { zh: '🎓 JUPAS Calculator', en: '🎓 JUPAS Calculator' },
   appSub: {
     zh: '輸入你的 DSE 成績，看看能配對哪些香港大學專業（2025 年數據）',
     en: 'Enter your DSE results to see which university programmes you match (2025 data)',
