@@ -328,14 +328,14 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
             <h4>{t('coreReq')}</h4>
             <div className="req-list">
               {appData.requirements.map((r, i) => (
-                <span key={i} className="req-chip">{r.subject}：{reqMinLabel(r.subject, r.min, lang)}</span>
+                <span key={i} className="req-chip">{r.subject}{t.sep}{reqMinLabel(r.subject, r.min, lang)}</span>
               ))}
             </div>
           </div>
         )}
 
         <div className="detail-block">
-          <h4>{t('applicants')}（{year} · {t('afterModify')}）</h4>
+          <h4>{lang === 'en' ? `${t('applicants')} (${year} · ${t('afterModify')})` : `${t('applicants')}（${year} · ${t('afterModify')}）`}</h4>
           {loading && <p className="muted">{t('loading')}</p>}
           {!loading && !bands2025 && <p className="muted">{t('noAppData')}</p>}
           {bands2025 && (
@@ -347,7 +347,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
                   <span className="band-num">{bands2025[b]}</span>
                 </div>
               ))}
-              <div className="band-total">{t('totalApplicants')}：{bands2025.total} {t('people')}</div>
+              <div className="band-total">{t('totalApplicants')}{t.sep}{bands2025.total} {t('people')}</div>
             </div>
           )}
         </div>
@@ -365,7 +365,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           </div>
         )}
 
-        <div className="scheme-note">{t('scoreScale')}：{SCHEME_LABEL[prog.gradeScheme] || prog.gradeScheme}</div>
+        <div className="scheme-note">{t('scoreScale')}{t.sep}{SCHEME_LABEL[prog.gradeScheme] || prog.gradeScheme}</div>
       </div>
     </div>
   );

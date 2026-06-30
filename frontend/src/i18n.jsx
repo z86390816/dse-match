@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 // 雙語字典。key 為穩定語意鍵；院校/科目/專業名直接用資料內的 en 欄位。
 const STRINGS = {
   // ---- header / chrome ----
-  appTitle: { zh: '🎓 DSE 收生分數比對', en: '🎓 DSE Admission Score Match' },
+  appTitle: { zh: '🎓 DSE 收生分數比對', en: '🎓 DSE Score Match' },
   appSub: {
     zh: '輸入你的 DSE 成績，看看能配對哪些香港大學專業（2025 年數據）',
     en: 'Enter your DSE results to see which university programmes you match (2025 data)',
@@ -13,24 +13,24 @@ const STRINGS = {
     en: 'Median / upper & lower quartile scores are from official JUPAS 2025 data (all 9 institutions). Scores replicate each institution’s formula where possible; some programmes (marked “reference”) cannot be compared precisely. For reference only — always verify with official sources.',
   },
   tabMatch: { zh: '🎯 成績比對', en: '🎯 Match' },
-  tabBrowse: { zh: '📚 專業錄取分析', en: '📚 Admissions' },
+  tabBrowse: { zh: '📚 專業錄取分析', en: '📚 Programmes' },
 
   // ---- score form ----
   coreSubjects: { zh: '必修科目', en: 'Core Subjects' },
-  electiveSubjects: { zh: '選修科目（填你有報考的）', en: 'Elective Subjects (fill those you sat)' },
-  interestsTitle: { zh: '興趣（可選，用作推薦）', en: 'Interests (optional, for recommendation)' },
-  onlyAttainable: { zh: '只顯示我有機會入到的（穩陣 / 有機會 / 衝刺）', en: 'Only show reachable ones (Safe / Likely / Reach)' },
+  electiveSubjects: { zh: '選修科目（只填你有報考的）', en: 'Electives (only those you took)' },
+  interestsTitle: { zh: '興趣（可選，用於推薦）', en: 'Interests (optional, for recommendations)' },
+  onlyAttainable: { zh: '只顯示有機會入到的（穩陣 / 有機會 / 衝刺）', en: 'Show only attainable (Safe / Likely / Reach)' },
   submit: { zh: '開始比對', en: 'Start Matching' },
   submitting: { zh: '計算中…', en: 'Calculating…' },
 
   // ---- results ----
-  backToEdit: { zh: '← 返回修改成績', en: '← Back to edit results' },
+  backToEdit: { zh: '← 返回修改成績', en: '← Back to edit grades' },
   resultsTitle: { zh: '比對結果', en: 'Match Results' },
   programmesUnit: { zh: '個專業', en: 'programmes' },
   filterAll: { zh: '全部', en: 'All' },
-  hideOutOfReach: { zh: '只看有機會入到的（穩陣／有機會／衝刺）', en: 'Hide out-of-reach (keep Safe / Likely / Reach)' },
+  hideOutOfReach: { zh: '只看有機會入到的（穩陣／有機會／衝刺）', en: 'Show only attainable (Safe / Likely / Reach)' },
   showingN: { zh: '顯示', en: 'Showing' },
-  emptyPrompt: { zh: '填好成績後按「開始比對」，結果會顯示在這裡。', en: 'Fill in your results and tap “Start Matching” — results appear here.' },
+  emptyPrompt: { zh: '填好成績後按「開始比對」，結果會顯示在這裡。', en: 'Enter your grades and tap “Start Matching” — results will appear here.' },
   emptyNoMatch: { zh: '沒有符合條件的專業，試試調整興趣或取消篩選。', en: 'No matching programmes. Try adjusting interests or clearing filters.' },
 
   // score boxes
@@ -38,20 +38,20 @@ const STRINGS = {
   median: { zh: '收生中位數', en: 'Median' },
   upperQuartile: { zh: '上四分位數', en: 'Upper Quartile' },
   lowerQuartile: { zh: '下四分位數', en: 'Lower Quartile' },
-  admitted2025: { zh: '2025 取錄人數', en: '2025 Admitted' },
-  admittedShort: { zh: '取錄', en: 'Adm' },
-  intakeQuota: { zh: '首年學額', en: 'Intake Quota' },
+  admitted2025: { zh: '2025 取錄人數', en: 'Admitted 2025' },
+  admittedShort: { zh: '取錄', en: 'Admit' },
+  intakeQuota: { zh: '首年學額', en: 'First-year Intake' },
 
   // calc detail
-  viewCalc: { zh: '📊 查看計分明細', en: '📊 View score breakdown' },
-  hideCalc: { zh: '▲ 收起計分明細', en: '▲ Hide score breakdown' },
+  viewCalc: { zh: '📊 查看計分明細', en: '📊 Score breakdown' },
+  hideCalc: { zh: '▲ 收起計分明細', en: '▲ Hide breakdown' },
   detailBtn: { zh: '📋 專業詳細資訊', en: '📋 Programme details' },
-  calcMethod: { zh: '計法', en: 'Method' },
+  calcMethod: { zh: '計分方法', en: 'Method' },
   approxNote: { zh: '（加權近似，未完全還原）', en: ' (approx. weighting)' },
   colSubject: { zh: '科目', en: 'Subject' },
   colGrade: { zh: '等級', en: 'Grade' },
-  colPoints: { zh: '換分', en: 'Points' },
-  colWeight: { zh: '加成', en: 'Weight' },
+  colPoints: { zh: '基本分', en: 'Points' },
+  colWeight: { zh: '權重', en: 'Weight' },
   colScore: { zh: '得分', en: 'Score' },
   totalRow: { zh: '總分', en: 'Total' },
   gradeTable: { zh: '換分表', en: 'Grade scale' },
@@ -68,20 +68,20 @@ const STRINGS = {
   colLowerShort: { zh: '下四分', en: 'LQ' },
   colAdmShort: { zh: '錄取人數', en: 'Adm' },
   aiAnalysis: { zh: 'AI 智能分析', en: 'AI Analysis' },
-  aiNote: { zh: '＊整合 JUPAS 報名／取錄／收生分數據與維基百科學科簡介自動分析，僅供參考', en: '* Auto-generated from JUPAS application/offer/score data and Wikipedia field summaries — for reference' },
-  careerHeading: { zh: '出路概覽', en: 'Career outlook' },
-  scoreScale: { zh: '計分換算', en: 'Grade conversion' },
+  aiNote: { zh: '＊綜合 JUPAS 報名／取錄／收生分數據及維基百科學科簡介自動生成，僅供參考', en: '* Auto-generated from JUPAS application / offer / score data and Wikipedia field summaries — for reference only' },
+  careerHeading: { zh: '出路概覽', en: 'Career Outlook' },
+  scoreScale: { zh: '等級換分', en: 'Grade-to-score conversion' },
   tapForDetail: { zh: '點專業看詳情', en: 'tap a programme for details' },
-  scoringMethod: { zh: '計分方式 / 學科比重', en: 'Scoring method / subject weights' },
-  weightApproxNote: { zh: '＊原校有科目加權，此處未完全還原，僅供參考。', en: '* This institution applies subject weighting not fully replicated here — reference only.' },
-  coreReq: { zh: '核心科目最低要求', en: 'Core subject minimum requirements' },
+  scoringMethod: { zh: '計分方法 / 科目權重', en: 'Scoring method / subject weights' },
+  weightApproxNote: { zh: '＊此校設有科目加權，此處未完全還原，分數僅供參考。', en: '* This institution weights some subjects; not fully replicated here, so scores are indicative only.' },
+  coreReq: { zh: '核心科目最低要求', en: 'Minimum core-subject requirements' },
   applicants: { zh: '報名人數', en: 'Applicants' },
-  afterModify: { zh: '改選後', en: 'after modification' },
+  afterModify: { zh: '改選後', en: 'after choice modification' },
   loading: { zh: '載入中…', en: 'Loading…' },
-  noAppData: { zh: '暫無申請統計數據。', en: 'No application statistics available.' },
+  noAppData: { zh: '暫無報名統計數據。', en: 'No application statistics available.' },
   totalApplicants: { zh: '總報名', en: 'Total applicants' },
   people: { zh: '人', en: '' },
-  trendTitle: { zh: '歷年報名趨勢', en: 'Applicant Trend' },
+  trendTitle: { zh: '歷年報名趨勢', en: 'Applicant Trend Over Years' },
   expandTable: { zh: '展開表格', en: 'Show table' },
   collapseTable: { zh: '收起表格', en: 'Hide table' },
   trendTotal: { zh: '總報名', en: 'Total' },
@@ -90,9 +90,9 @@ const STRINGS = {
 
   // ---- footer / ads / legal ----
   privacyLink: { zh: '私隱政策', en: 'Privacy Policy' },
-  footerDisclaimer: { zh: '· 數據僅供參考，請以各院校官方公布為準 ·', en: '· Data for reference only; verify with official sources ·' },
-  adLabel: { zh: '廣告', en: 'Ad' },
-  adPending: { zh: '位（待 AdSense 審核通過後自動顯示）', en: ' slot (shows automatically once AdSense is approved)' },
+  footerDisclaimer: { zh: '· 數據僅供參考，一切以各院校官方公布為準 ·', en: '· For reference only; official institution announcements always prevail ·' },
+  adLabel: { zh: '廣告', en: 'Advertisement' },
+  adPending: { zh: '版位（設定後自動顯示廣告）', en: ' slot (ads appear here once configured)' },
 };
 
 const CATS = {
@@ -127,6 +127,7 @@ export function LangProvider({ children }) {
   const t = (key) => (STRINGS[key]?.[lang] ?? STRINGS[key]?.zh ?? key);
   t.cat = (c) => (CATS[c]?.[lang] ?? c);
   t.tier = (tier) => ({ label: TIERS[tier]?.label?.[lang] ?? tier, desc: TIERS[tier]?.desc?.[lang] ?? '' });
+  t.sep = lang === 'en' ? ': ' : '：'; // 標籤分隔符（英文用半形冒號）
   return <LangContext.Provider value={{ lang, setLang, t }}>{children}</LangContext.Provider>;
 }
 

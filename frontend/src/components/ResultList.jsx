@@ -63,7 +63,7 @@ export default function ResultList({ results }) {
 
   return (
     <div className="results">
-      <h3>{t('resultsTitle')}（{results.length} {t('programmesUnit')}）</h3>
+      <h3>{t('resultsTitle')}{lang === 'en' ? ` (${results.length} ${t('programmesUnit')})` : `（${results.length} ${t('programmesUnit')}）`}</h3>
 
       {/* tier 統計 */}
       <div className="tier-summary">
@@ -158,7 +158,7 @@ export default function ResultList({ results }) {
             {expanded.has(r.programmeId) && r.scoreComparable !== false && (
               <div className="calc-detail">
                 <div className="calc-method">
-                  {t('calcMethod')}：{methodLabel(r)}
+                  {t('calcMethod')}{t.sep}{methodLabel(r)}
                   {r.weightsStatus === 'unweighted-approx' && <span className="approx">{t('approxNote')}</span>}
                 </div>
                 <table className="calc-table">
@@ -180,7 +180,7 @@ export default function ResultList({ results }) {
                     <tr><td colSpan="4">{t('totalRow')}</td><td className="total">{r.yourScore}</td></tr>
                   </tfoot>
                 </table>
-                <div className="calc-note">{t('gradeTable')}：{schemeLabel(r.gradeScheme)}</div>
+                <div className="calc-note">{t('gradeTable')}{t.sep}{schemeLabel(r.gradeScheme)}</div>
               </div>
             )}
           </div>

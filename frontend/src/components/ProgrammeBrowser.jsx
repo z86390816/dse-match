@@ -57,7 +57,7 @@ export default function ProgrammeBrowser() {
       {uni && (
         <div className="panel">
           <div className="browse-head">
-            <h3>{lang === 'en' ? uni.en : uni.name}（{uni.short}）</h3>
+            <h3>{lang === 'en' ? `${uni.en} (${uni.short})` : `${uni.name}（${uni.short}）`}</h3>
             <span className="muted">{list.length} {t('programmesUnit')} · {year}</span>
           </div>
           <div className="prog-table">
@@ -83,7 +83,7 @@ export default function ProgrammeBrowser() {
               </div>
             ))}
           </div>
-          <div className="scheme-note">{t('scoreScale')}：{SCHEME_LABEL[uni.gradeScheme] || uni.gradeScheme}</div>
+          <div className="scheme-note">{t('scoreScale')}{t.sep}{SCHEME_LABEL[uni.gradeScheme] || uni.gradeScheme}</div>
         </div>
       )}
 
