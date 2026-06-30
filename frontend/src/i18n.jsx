@@ -45,6 +45,7 @@ const STRINGS = {
   // calc detail
   viewCalc: { zh: '📊 查看計分明細', en: '📊 View score breakdown' },
   hideCalc: { zh: '▲ 收起計分明細', en: '▲ Hide score breakdown' },
+  detailBtn: { zh: '📋 專業詳細資訊', en: '📋 Programme details' },
   calcMethod: { zh: '計法', en: 'Method' },
   approxNote: { zh: '（加權近似，未完全還原）', en: ' (approx. weighting)' },
   colSubject: { zh: '科目', en: 'Subject' },

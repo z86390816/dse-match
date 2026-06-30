@@ -144,11 +144,16 @@ export default function ResultList({ results }) {
                 </span>
               )}
             </div>
-            {r.scoreComparable !== false && r.breakdown?.length > 0 && (
-              <button className="calc-btn" onClick={() => toggle(r.programmeId)}>
-                {expanded.has(r.programmeId) ? t('hideCalc') : t('viewCalc')}
+            <div className="card-actions">
+              <button className="calc-btn detail-btn" onClick={() => setSelProg(r)}>
+                {t('detailBtn')}
               </button>
-            )}
+              {r.scoreComparable !== false && r.breakdown?.length > 0 && (
+                <button className="calc-btn" onClick={() => toggle(r.programmeId)}>
+                  {expanded.has(r.programmeId) ? t('hideCalc') : t('viewCalc')}
+                </button>
+              )}
+            </div>
 
             {expanded.has(r.programmeId) && r.scoreComparable !== false && (
               <div className="calc-detail">

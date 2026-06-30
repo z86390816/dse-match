@@ -16,7 +16,8 @@ export default function App() {
   const [csdGrades, setCsdGrades] = useState([]);
   const [interests, setInterests] = useState([]);
 
-  const [grades, setGrades] = useState({});
+  // 公民與社會發展預設「達標」（多數考生達標）
+  const [grades, setGrades] = useState({ csd: '達標' });
   const [selectedInterests, setSelectedInterests] = useState([]);
   const [onlyAttainable, setOnlyAttainable] = useState(false);
 
