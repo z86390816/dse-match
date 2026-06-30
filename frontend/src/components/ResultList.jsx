@@ -40,8 +40,12 @@ export default function ResultList({ results }) {
 
   const unis = useMemo(() => {
     const m = new Map();
-    (results || []).forEach((r) => m.set(r.universityShort, (m.get(r.universityShort) || 0) + 1));
-    return [...m.entries()];
+    (results || []).forEach((r) => {
+      const e = m.get(r.universityShort) || { n: 0, zh: r.universityShortZh };
+      e.n += 1;
+      m.set(r.universityShort, e);
+    });
+    return [...m.entries()]; // [short, { n, zh }]
   }, [results]);
 
   const tierCounts = useMemo(() => {
@@ -73,8 +77,10 @@ export default function ResultList({ results }) {
       {/* 院校篩選 */}
       <div className="uni-filter">
         <button className={`chip ${uniFilter === 'all' ? 'active' : ''}`} onClick={() => setUniFilter('all')}>{t('filterAll')}</button>
-        {unis.map(([u, n]) => (
-          <button key={u} className={`chip ${uniFilter === u ? 'active' : ''}`} onClick={() => setUniFilter(u)}>{u} ({n})</button>
+        {unis.map(([u, info]) => (
+          <button key={u} className={`chip ${uniFilter === u ? 'active' : ''}`} onClick={() => setUniFilter(u)}>
+            {(lang === 'zh' ? (info.zh || u) : u)} ({info.n})
+          </button>
         ))}
       </div>
       <label className="checkbox">
