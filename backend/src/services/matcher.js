@@ -53,6 +53,7 @@ function matchAll(grades, programmes) {
       universityName: university?.name,
       category: programme.category,
       discipline: programme.discipline ?? null,
+      facts: programme.facts ?? null,
       admitted2025: programme.admitted2025 ?? null,
       intake: programme.intake ?? null,
       method: programme.method,

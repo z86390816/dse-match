@@ -1,5 +1,7 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useLang } from '../i18n.jsx';
+import { api } from '../api';
+import { DetailOverlay } from './ProgrammeDetail.jsx';
 
 const TIER_ORDER = ['safe', 'competitive', 'reach', 'below', 'unqualified', 'reference'];
 const TIER_CLS = { safe: 'safe', competitive: 'competitive', reach: 'reach', below: 'below', unqualified: 'unqualified', reference: 'below' };
@@ -17,6 +19,9 @@ export default function ResultList({ results }) {
   const [uniFilter, setUniFilter] = useState('all');
   const [hideOutOfReach, setHideOutOfReach] = useState(false);
   const [expanded, setExpanded] = useState(() => new Set());
+  const [selProg, setSelProg] = useState(null);
+  const [disciplines, setDisciplines] = useState(null);
+  useEffect(() => { api.getDisciplines().then((d) => setDisciplines(d.disciplines)).catch(() => {}); }, []);
   const toggle = (id) => setExpanded((prev) => {
     const n = new Set(prev);
     n.has(id) ? n.delete(id) : n.add(id);
@@ -84,11 +89,12 @@ export default function ResultList({ results }) {
         const cls = TIER_CLS[r.tier] || 'below';
         return (
           <div className={`card tier-${cls}`} key={r.programmeId}>
-            <div className="card-head">
+            <div className="card-head card-head-click" onClick={() => setSelProg(r)}>
               <div>
                 <span className="uni">{uniName(r)}</span>
                 <span className="pname">{progName(r)}</span>
                 <span className="code">{r.jupasCode}</span>
+                <span className="detail-hint">›</span>
               </div>
               <span className={`badge ${cls}`}>{tier.label}</span>
             </div>
@@ -169,6 +175,10 @@ export default function ResultList({ results }) {
           </div>
         );
       })}
+
+      {selProg && (
+        <DetailOverlay prog={selProg} year={2025} disciplines={disciplines} onClose={() => setSelProg(null)} />
+      )}
     </div>
   );
 }

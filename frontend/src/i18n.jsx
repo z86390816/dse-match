@@ -13,7 +13,7 @@ const STRINGS = {
     en: 'Median / upper & lower quartile scores are from official JUPAS 2025 data (all 9 institutions). Scores replicate each institution’s formula where possible; some programmes (marked “reference”) cannot be compared precisely. For reference only — always verify with official sources.',
   },
   tabMatch: { zh: '🎯 成績比對', en: '🎯 Match' },
-  tabBrowse: { zh: '📚 專業資訊', en: '📚 Programmes' },
+  tabBrowse: { zh: '📚 專業錄取分析', en: '📚 Admissions' },
 
   // ---- score form ----
   coreSubjects: { zh: '必修科目', en: 'Core Subjects' },
@@ -62,10 +62,10 @@ const STRINGS = {
   colIdx: { zh: '#', en: '#' },
   colName: { zh: '專業', en: 'Programme' },
   colCategory: { zh: '類別', en: 'Category' },
-  colMedianShort: { zh: '中位', en: 'Med' },
+  colMedianShort: { zh: '中位數', en: 'Med' },
   colUpperShort: { zh: '上四分', en: 'UQ' },
   colLowerShort: { zh: '下四分', en: 'LQ' },
-  colAdmShort: { zh: '取錄', en: 'Adm' },
+  colAdmShort: { zh: '錄取人數', en: 'Adm' },
   aiAnalysis: { zh: 'AI 智能分析', en: 'AI Analysis' },
   aiNote: { zh: '＊整合 JUPAS 報名／取錄／收生分數據與維基百科學科簡介自動分析，僅供參考', en: '* Auto-generated from JUPAS application/offer/score data and Wikipedia field summaries — for reference' },
   careerHeading: { zh: '出路概覽', en: 'Career outlook' },

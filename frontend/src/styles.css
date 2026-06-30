@@ -258,6 +258,9 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .card.tier-unqualified { border-left-color: var(--unqualified); opacity: .85; }
 
 .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.card-head-click { cursor: pointer; }
+.card-head-click:active { opacity: .7; }
+.detail-hint { color: var(--accent); font-weight: 700; margin-left: 6px; font-size: 16px; }
 .uni { font-weight: 700; color: var(--accent); margin-right: 6px; }
 .pname { font-weight: 600; font-size: 14.5px; }
 .code { color: var(--muted); font-size: 12px; margin-left: 6px; }
@@ -330,8 +333,9 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .muted { color: var(--muted); font-size: 13px; }
 
 .prog-table { margin-top: 10px; font-size: 13px; }
-.prog-row { display: grid; grid-template-columns: 28px 54px 1fr 50px 48px; gap: 6px; padding: 11px 6px; border-bottom: 1px solid var(--border); align-items: center; }
-.prog-th { font-weight: 700; color: var(--accent); border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--panel); z-index: 2; }
+.prog-row { display: grid; grid-template-columns: 26px 50px 1fr 46px 54px; gap: 5px; padding: 11px 5px; border-bottom: 1px solid var(--border); align-items: center; }
+.prog-th { font-weight: 700; color: var(--accent); border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--panel); z-index: 2; font-size: 11.5px; }
+.prog-th .c-num { white-space: nowrap; }
 .prog-row .c-idx { color: var(--muted); font-variant-numeric: tabular-nums; }
 .prog-row .c-code { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
 .prog-row .c-num { text-align: right; font-variant-numeric: tabular-nums; }
@@ -344,7 +348,7 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .prog-row.clickable:active { background: var(--accent-light); }
 .prog-row.sel { background: var(--accent-light); }
 @media (min-width: 768px) {
-  .prog-row { grid-template-columns: 36px 60px 1fr 90px 60px 56px; }
+  .prog-row { grid-template-columns: 36px 60px 1fr 90px 64px 64px; }
   .prog-row .c-cat { display: block; color: var(--muted); font-size: 12px; }
 }
 
