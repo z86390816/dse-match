@@ -3,348 +3,464 @@
     "nameEn": "Medicine",
     "nameZh": "醫學",
     "en": "Medicine is the science and practice of caring for patients, managing the diagnosis, prognosis, prevention, treatment and palliation of their injury or disease, while promoting their health.",
-    "zh": "醫學，是以預防、診斷、治疗生理和心理疾病及保護人類健康、提高身體和心理素质为目的和研究內容的應用科學。狹義的醫學只是疾病的治療，但也有說法稱預防醫學為第一醫學，臨床醫學為第二醫學，復健醫學為第三醫學。醫學的科學面是應用基礎醫學的理論與發現，例如生化、生理、微生物學、解剖、病理學、藥理學、統計學、流行病學、營養學等，來治療疾病與促進健康。然而，医学也具有人文與藝術的一面，它關注的不僅是人体的器官和疾病，而是人的健康和生命。"
+    "zh": "醫學，是以預防、診斷、治疗生理和心理疾病及保護人類健康、提高身體和心理素质为目的和研究內容的應用科學。狹義的醫學只是疾病的治療，但也有說法稱預防醫學為第一醫學，臨床醫學為第二醫學，復健醫學為第三醫學。醫學的科學面是應用基礎醫學的理論與發現，例如生化、生理、微生物學、解剖、病理學、藥理學、統計學、流行病學、營養學等，來治療疾病與促進健康。然而，医学也具有人文與藝術的一面，它關注的不僅是人体的器官和疾病，而是人的健康和生命。",
+    "careerZh": "香港醫生長期短缺、需求極穩定，公私營醫院、診所皆求才若渴，起薪與社會地位高。人口老化令醫療需求持續上升，前景明朗；惟培訓年期長、競爭最激烈，須有長線投入的準備。",
+    "careerEn": "Hong Kong faces a chronic doctor shortage; demand is extremely stable across public and private hospitals, with high starting pay and status. An ageing population keeps demand rising, so prospects are excellent — but training is long and entry is the most competitive of all fields."
   },
   "dentistry": {
     "nameEn": "Dentistry",
     "nameZh": "牙醫學",
     "en": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth.",
-    "zh": "牙医学 是一门关于诊断、预防和治疗的口腔疾病、不适及状况的医学研究分支，一般处理牙列疾病，但也可包括口腔黏膜以及相邻相关结构和组织，特别是颌面部（下巴和面部）区域疾病。尽管对于普通大众来说牙医学主要处理与牙齿相关的问题，但牙科领域并不限于齿科学 ——关于研究牙齿结构，发育和畸形的学科。因为在概念上有很多重叠的领域，牙科学也经常被理解为包含现已基本上不存在的口腔科学（关于研究口腔相关的不适和疾病学科），因此这两个术语在某些地区可以互用。"
+    "zh": "牙医学 是一门关于诊断、预防和治疗的口腔疾病、不适及状况的医学研究分支，一般处理牙列疾病，但也可包括口腔黏膜以及相邻相关结构和组织，特别是颌面部（下巴和面部）区域疾病。尽管对于普通大众来说牙医学主要处理与牙齿相关的问题，但牙科领域并不限于齿科学 ——关于研究牙齿结构，发育和畸形的学科。因为在概念上有很多重叠的领域，牙科学也经常被理解为包含现已基本上不存在的口腔科学（关于研究口腔相关的不适和疾病学科），因此这两个术语在某些地区可以互用。",
+    "careerZh": "牙醫在港供應少、需求穩定，私人執業收入高，公營與社區牙科亦有職位。人口老化及口腔保健意識上升支撐長遠需求，屬穩陣而回報高的專業。",
+    "careerEn": "Dentists are in limited supply and steady demand; private practice pays very well, with public and community roles too. Ageing and rising oral-health awareness support long-term demand — a stable, high-return profession."
   },
   "chinese_medicine": {
     "nameEn": "Traditional Chinese medicine",
     "nameZh": "中醫學",
     "en": "Traditional Chinese medicine (TCM) is an alternative medical practice drawn from traditional medicine in China.",
-    "zh": "中醫學，俗称“中医”，是一種起源於漢族且至今已有千年歷史的中國傳統醫學。與現代醫學相比較时，其常被歸入傳統醫學的範疇。"
+    "zh": "中醫學，俗称“中医”，是一種起源於漢族且至今已有千年歷史的中國傳統醫學。與現代醫學相比較时，其常被歸入傳統醫學的範疇。",
+    "careerZh": "隨首間中醫醫院啟用及政府逐步將中醫納入公營體系，中醫發展空間擴大，惟目前多為自僱或私人診所、收入分化較大，宜結合專科或科研提升競爭力。",
+    "careerEn": "With Hong Kong’s first Chinese-medicine hospital and gradual integration into the public system, prospects are broadening; however most practise privately or self-employed with varied income — specialising or research can boost competitiveness."
   },
   "nursing": {
     "nameEn": "Nursing",
     "nameZh": "護理學",
     "en": "Nursing is a health care profession that \"integrates the art and science of caring and focuses on the protection, promotion, and optimization of health and human functioning; prevention of illness and injury; facilitatio",
-    "zh": "護理學 是一門醫療保健專業，也是一種關懷的藝術與科學，主要目的在專注於保護、促進和優化健康與人類功能、預防疾病與傷害、促進癒合以及以慈悲的態度陪伴病人減輕痛苦。護理人員在多個專業領域中工作，具有不同的認證和職責範疇。護理人員是大多數醫療環境中最主要的專業群體。許多國家面臨合格護理人員短缺的挑戰。"
+    "zh": "護理學 是一門醫療保健專業，也是一種關懷的藝術與科學，主要目的在專注於保護、促進和優化健康與人類功能、預防疾病與傷害、促進癒合以及以慈悲的態度陪伴病人減輕痛苦。護理人員在多個專業領域中工作，具有不同的認證和職責範疇。護理人員是大多數醫療環境中最主要的專業群體。許多國家面臨合格護理人員短缺的挑戰。",
+    "careerZh": "護士是全港最搶手的專業之一，公立醫院長期人手短缺，就業幾近百分百，且晉升與海外發展機會多。人口老化令需求只增不減，屬最穩陣、最易就業的醫療出路。",
+    "careerEn": "Nurses are among Hong Kong’s most sought-after professionals; public hospitals face persistent shortages, giving near-100% employment plus promotion and overseas options. Ageing guarantees rising demand — one of the safest, most employable healthcare paths."
   },
   "pharmacy": {
     "nameEn": "Pharmacy",
     "nameZh": "藥學",
     "en": "Pharmacy is the science and practice of discovering, producing, preparing, dispensing, reviewing and monitoring medications, aiming to ensure the safe, effective, and affordable use of medicines.",
-    "zh": "藥學 是一門研究藥物的科學與臨床實務之學科，涵蓋藥物的發現、研製、製備、品質控制、作用機制、適應症、安全性、使用方法與臨床應用等內容。藥學結合了化學、生物學、醫學等多項科學領域，最終目標是確保病患獲得安全、有效且適當的藥物治療。"
+    "zh": "藥學 是一門研究藥物的科學與臨床實務之學科，涵蓋藥物的發現、研製、製備、品質控制、作用機制、適應症、安全性、使用方法與臨床應用等內容。藥學結合了化學、生物學、醫學等多項科學領域，最終目標是確保病患獲得安全、有效且適當的藥物治療。",
+    "careerZh": "藥劑師在醫院、社區藥房及製藥業均有需求，人口老化及慢性病增加帶動長遠需求，收入穩定；香港註冊藥劑師人數偏少，就業前景良好。",
+    "careerEn": "Pharmacists are needed in hospitals, community pharmacies and industry; ageing and chronic illness drive long-term demand with stable pay. Registered pharmacists remain relatively few, so employment prospects are good."
   },
   "physiotherapy": {
     "nameEn": "Physical therapy",
     "nameZh": "物理治療",
     "en": "Physical therapy (PT), also known as physiotherapy, is a healthcare profession, as well as the care provided by physical therapists.",
-    "zh": "物理治療，是以一種預防、治療及處理因疾病或傷害所帶來的動作以及疼痛問題的治療專業，實證醫學之非藥物以及非侵入性治療。英語中的「physical」是「身體、肉體」的意思，也有「按自然法則」以及「物理」的意思，所以在中文裡雖然被翻譯稱作「物理」治療，但其實這是囊括整個人體的治療及處置的治療專業，不僅止於物理因子 的治療而已。"
+    "zh": "物理治療，是以一種預防、治療及處理因疾病或傷害所帶來的動作以及疼痛問題的治療專業，實證醫學之非藥物以及非侵入性治療。英語中的「physical」是「身體、肉體」的意思，也有「按自然法則」以及「物理」的意思，所以在中文裡雖然被翻譯稱作「物理」治療，但其實這是囊括整個人體的治療及處置的治療專業，不僅止於物理因子 的治療而已。",
+    "careerZh": "物理治療、職業治療隨人口老化與康復服務擴張需求上升，公私營、安老及運動復康市場皆有機會，屬穩定成長的醫療專職。",
+    "careerEn": "Physiotherapy and occupational therapy demand is rising with ageing and expanding rehab services — opportunities span public, private, elderly-care and sports rehab. A steadily growing allied-health field."
   },
   "public_health": {
     "nameEn": "Public health",
     "nameZh": "公共衞生",
     "en": "Public health is \"the science of preventing disease, prolonging life and promoting health through the organized efforts and informed choices of society, organizations, public and private, communities and individuals\".",
-    "zh": "公共衛生是研究如何「預防疾病、延長壽命、促進健康」的一門科學。這門學科透過社會、組織、社區和個人的共同努力與明智選擇來達成目標。公共衛生的基礎在於分析影響人口健康的各種因素及其潛在威脅。這裡所說的「公眾」，可以小至幾個人，也可以大至一個村莊或一座城市；在發生大規模傳染病時，甚至可能涵蓋全球多個大洲。"
+    "zh": "公共衛生是研究如何「預防疾病、延長壽命、促進健康」的一門科學。這門學科透過社會、組織、社區和個人的共同努力與明智選擇來達成目標。公共衛生的基礎在於分析影響人口健康的各種因素及其潛在威脅。這裡所說的「公眾」，可以小至幾個人，也可以大至一個村莊或一座城市；在發生大規模傳染病時，甚至可能涵蓋全球多個大洲。",
+    "careerZh": "公共衞生於疫後更受重視，出路包括政府衞生部門、醫管局、NGO、國際衞生組織及數據分析；適合有志於政策與人群健康者，惟需配合數據或專科技能。",
+    "careerEn": "Public health gained prominence post-pandemic; paths include government health units, the Hospital Authority, NGOs, international bodies and health-data analytics. Best paired with data or specialist skills for those keen on policy and population health."
   },
   "biomedical": {
     "nameEn": "Biomedical sciences",
     "nameZh": "生物醫學",
     "en": "Biomedical sciences are a set of sciences applying portions of natural science or formal science, or both, to develop knowledge, interventions, or technology that are of use in healthcare or public health.",
-    "zh": "生物医学 是医学的分支，负责将生物技术和其他自然科学理论应用于临床实践。 生物医学主要运用生物学和生理学的知识。"
+    "zh": "生物医学 是医学的分支，负责将生物技术和其他自然科学理论应用于临床实践。 生物医学主要运用生物学和生理学的知识。",
+    "careerZh": "生物醫學結合科研與臨床應用，出路涵蓋醫療科技、藥廠、實驗室及研究；配合香港與大灣區生物科技投資（科學園、河套區），發展空間漸擴，惟起步多需研究生資歷。",
+    "careerEn": "Biomedical science bridges research and clinical application — medtech, pharma, labs and research. With Hong Kong/Greater Bay Area biotech investment (Science Park, Loop), scope is widening, though many roles need postgraduate qualifications."
   },
   "biotechnology": {
     "nameEn": "Biotechnology",
     "nameZh": "生物技術",
     "en": "Biotechnology is a multidisciplinary field that involves the integration of natural sciences and engineering sciences to achieve the application of organisms and parts thereof for products and services.",
-    "zh": "生物技术，又稱為生物科技、生物工程，指利用生物體（含動物、植物及微生物的細胞）來生產有用的物質或改進製程，改良生物的特性，以降低成本及創新物種的科學技術。根據不同的工具和應用，它往往與生物工程和生物醫學工程的（相關）領域重疊。"
+    "zh": "生物技术，又稱為生物科技、生物工程，指利用生物體（含動物、植物及微生物的細胞）來生產有用的物質或改進製程，改良生物的特性，以降低成本及創新物種的科學技術。根據不同的工具和應用，它往往與生物工程和生物醫學工程的（相關）領域重疊。",
+    "careerZh": "生物科技是香港「創新科技」重點方向之一，科學園與河套深港科技園吸引藥廠與初創進駐，長遠潛力大；現階段本地職位仍在成長，研究或大灣區發展機會較多。",
+    "careerEn": "Biotech is a pillar of Hong Kong’s innovation-and-tech push; Science Park and the HK–Shenzhen Loop attract pharma and start-ups, giving strong long-term potential. Local roles are still growing, with more opportunity in research or across the Greater Bay Area."
   },
   "law": {
     "nameEn": "Law",
     "nameZh": "法律",
     "en": "Law is a set of rules that are created and enforced by governmental or societal institutions to regulate behavior, with its precise definition a matter of longstanding debate.",
-    "zh": "法律，是由憲法明文授權国家制定的一套具有強制力的社會規範，以實現憲法旨意，達成約束國家權力、保障人民權利的目標。法律由各種抽象的規範所組成，通常需要由人來實施，最常見的形式為由政府行使公權力來執法。但在不同的地方，法律體系會以不同的方式來闡述人民的權利與義務。其中一種區分法，便是分為大陸法系和英美法系兩種。部分國家則會以該國的宗教法為其法律的基礎。"
+    "zh": "法律，是由憲法明文授權国家制定的一套具有強制力的社會規範，以實現憲法旨意，達成約束國家權力、保障人民權利的目標。法律由各種抽象的規範所組成，通常需要由人來實施，最常見的形式為由政府行使公權力來執法。但在不同的地方，法律體系會以不同的方式來闡述人民的權利與義務。其中一種區分法，便是分為大陸法系和英美法系兩種。部分國家則會以該國的宗教法為其法律的基礎。",
+    "careerZh": "法律屬高地位、高回報行業，商業、金融、仲裁與跨境法律在港需求強。惟入行須過 PCLL 及實習「樽頸」，競爭激烈；非執業出路（合規、法務、公職）亦廣。",
+    "careerEn": "Law is prestigious and well-paid, with strong demand in commercial, finance, arbitration and cross-border work. Entry faces the PCLL and training-contract bottleneck and is highly competitive; non-practising paths (compliance, in-house, civil service) are also broad."
   },
   "architecture": {
     "nameEn": "Architecture",
     "nameZh": "建築學",
     "en": "Architecture is the study and practice of designing structures, especially habitable ones. It utilizes civil engineering techniques, but is considered a visual art.",
-    "zh": "建筑学，从广义上来说，是研究建筑及其环境的学科。"
+    "zh": "建筑学，从广义上来说，是研究建筑及其环境的学科。",
+    "careerZh": "建築師出路與地產及基建周期掛鈎，北部都會區與大型發展帶來機遇，惟需長時間考取專業資格。設計、項目管理、可持續建築為增長方向。",
+    "careerEn": "Architecture tracks the property and infrastructure cycle; the Northern Metropolis and major developments bring opportunity, though professional qualification takes years. Design, project management and sustainable building are growth areas."
   },
   "surveying": {
     "nameEn": "Surveying",
     "nameZh": "測量學",
     "en": "Surveying or land surveying is the technique, profession, art, and science of determining the terrestrial positions of points based on the distances and angles between them.",
-    "zh": "測量學 又称测绘学，是一門以地球形狀、大小以及地表上各物體的幾何形狀與空間位置為研究對象的學科。其利用適當方法和儀器對空間中的物體進行搜集、分析、加值、整合、管理等方法，讓人理解其空間上的關係，以利規劃與利用。"
+    "zh": "測量學 又称测绘学，是一門以地球形狀、大小以及地表上各物體的幾何形狀與空間位置為研究對象的學科。其利用適當方法和儀器對空間中的物體進行搜集、分析、加值、整合、管理等方法，讓人理解其空間上的關係，以利規劃與利用。",
+    "careerZh": "測量師（產業、工料、土地）在地產、建造與政府部門需求穩定，專業資格認受性高、收入良好；與北部都會區及基建工程關係密切。",
+    "careerEn": "Surveyors (general practice, quantity, land) enjoy steady demand in property, construction and government, with a well-recognised qualification and good pay — closely tied to the Northern Metropolis and infrastructure works."
   },
   "civil_eng": {
     "nameEn": "Civil engineering",
     "nameZh": "土木工程",
     "en": "Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals,",
-    "zh": "土木工程 指一切和土、木有關的基礎建設的計劃、建造和維修。現時一般的土木工作項目包括：能源、水利及交通設施等。過去曾經將一切非軍事用途的民用工程項目，歸入本類，但隨著工程科學日益廣闊，不少原來屬於土木工程範圍的內容都已經獨立成科。"
+    "zh": "土木工程 指一切和土、木有關的基礎建設的計劃、建造和維修。現時一般的土木工作項目包括：能源、水利及交通設施等。過去曾經將一切非軍事用途的民用工程項目，歸入本類，但隨著工程科學日益廣闊，不少原來屬於土木工程範圍的內容都已經獨立成科。",
+    "careerZh": "土木工程受惠於北部都會區、交通及基建大型項目，需求穩定；可考取工程師專業資格，晉升清晰。屬回報穩健、社會需求持續的工程主流。",
+    "careerEn": "Civil engineering benefits from the Northern Metropolis and major transport/infrastructure projects, with steady demand and a clear chartered-engineer path — a mainstream field with reliable returns and lasting need."
   },
   "mechanical_eng": {
     "nameEn": "Mechanical engineering",
     "nameZh": "機械工程",
     "en": "Mechanical engineering is the study of physical machines and mechanisms that may involve force and movement.",
-    "zh": "機械工程 是一門涉及利用物理定律為機械系統作分析、設計、生產及維修的工程學科。"
+    "zh": "機械工程 是一門涉及利用物理定律為機械系統作分析、設計、生產及維修的工程學科。",
+    "careerZh": "機械工程出路涵蓋屋宇設備（MEP）、製造、機電與能源，建造業及大灣區製造升級提供機會；屋宇裝備工程師在港需求尤其穩定。",
+    "careerEn": "Mechanical engineering spans building services (MEP), manufacturing, and energy; construction and Greater Bay Area manufacturing upgrades create demand, with building-services engineers especially sought after in Hong Kong."
   },
   "electrical_eng": {
     "nameEn": "Electrical engineering",
     "nameZh": "電機工程",
     "en": "Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism.",
-    "zh": "电气工程是以電子學、電磁學等物理学分支为基础，涵盖電子學、電子計算機、電力工程、电信、控制工程、訊號處理、机械电子学等子领域的一門工程學。十九世紀後半期以來，隨著電報、電話、電能在供應與使用方面的商業化，該學科逐漸發展為相對獨立的專業領域。"
+    "zh": "电气工程是以電子學、電磁學等物理学分支为基础，涵盖電子學、電子計算機、電力工程、电信、控制工程、訊號處理、机械电子学等子领域的一門工程學。十九世紀後半期以來，隨著電報、電話、電能在供應與使用方面的商業化，該學科逐漸發展為相對獨立的專業領域。",
+    "careerZh": "電機／電子工程於屋宇設備、電力、電訊及半導體皆有需求，配合智慧城市與新能源發展前景良好；MEP 與電力工程師就業穩定。",
+    "careerEn": "Electrical/electronic engineering is needed in building services, power, telecoms and semiconductors, with good prospects from smart-city and clean-energy development; MEP and power engineers enjoy stable employment."
   },
   "ai": {
     "nameEn": "Artificial intelligence",
     "nameZh": "人工智能",
     "en": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
-    "zh": "人工智能，是指计算机系统执行通常与人类智慧相关的任务的能力，例如学习、推理、解决问题、感知和决策。它是工程学、数学和计算机科学的一个研究领域，旨在开发和研究方法及软件，使机器能够感知其环境，并利用机器学习和智能采取行动，以最大化实现既定目标的机会。"
+    "zh": "人工智能，是指计算机系统执行通常与人类智慧相关的任务的能力，例如学习、推理、解决问题、感知和决策。它是工程学、数学和计算机科学的一个研究领域，旨在开发和研究方法及软件，使机器能够感知其环境，并利用机器学习和智能采取行动，以最大化实现既定目标的机会。",
+    "careerZh": "人工智能是香港「創科」核心，金融科技、Web3、智慧城市與 InnoHK 帶動需求，薪酬高、人才短缺，前景最被看好之一。建議累積實作項目與數據能力提升競爭力。",
+    "careerEn": "AI is central to Hong Kong’s innovation drive — fintech, Web3, smart city and InnoHK fuel demand, with high pay and a talent shortage, making it among the brightest prospects. Build hands-on projects and data skills to stand out."
   },
   "data_science": {
     "nameEn": "Data science",
     "nameZh": "數據科學",
     "en": "Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms, coding, and systems to extract or extrapolate knowledg",
-    "zh": "数据科学 又称资料科学，是一门利用数据（资料）学习知识的學科，其目标是透过从数据中提取出有价值的部分来生产数据产品，学科范围涵盖了：数据取得、数据处理、数据分析等过程，举凡与數據有关的科学均属数据科学。"
+    "zh": "数据科学 又称资料科学，是一门利用数据（资料）学习知识的學科，其目标是透过从数据中提取出有价值的部分来生产数据产品，学科范围涵盖了：数据取得、数据处理、数据分析等过程，举凡与數據有关的科学均属数据科学。",
+    "careerZh": "數據科學跨金融、電商、醫療與政府，需求持續上升、薪酬優厚，是最具轉工彈性的技能之一。香港金融與創科發展令數據人才長期供不應求。",
+    "careerEn": "Data science spans finance, e-commerce, healthcare and government, with rising demand and strong pay — one of the most transferable skill sets. Hong Kong’s finance and tech growth keeps data talent in short supply."
   },
   "computer_science": {
     "nameEn": "Computer science",
     "nameZh": "計算機科學",
     "en": "Computer science is the study of computation, information, and automation. Included broadly in the sciences, computer science spans theoretical disciplines to applied disciplines.",
-    "zh": "计算机科学 是系统性研究信息与计算的理论基础以及它们在计算机系统中如何实现与应用的实用技术的学科。它通常被形容为对那些创造、描述以及转换信息的算法处理的系统研究。"
+    "zh": "计算机科学 是系统性研究信息与计算的理论基础以及它们在计算机系统中如何实现与应用的实用技术的学科。它通常被形容为对那些创造、描述以及转换信息的算法处理的系统研究。",
+    "careerZh": "電腦科學就業廣且薪高，軟件、資訊保安、金融科技、雲端與 AI 均缺人。香港與大灣區創科投資持續，長遠需求強勁，是最穩健的理科出路之一。",
+    "careerEn": "Computer science offers broad, high-paying work — software, cybersecurity, fintech, cloud and AI all face shortages. Ongoing Hong Kong/Greater Bay Area tech investment keeps demand strong — one of the most reliable science paths."
   },
   "information_tech": {
     "nameEn": "Information technology",
     "nameZh": "資訊科技",
     "en": "Information technology (IT) is the study or use of computers, telecommunication systems and other devices to create, process, store, retrieve and transmit information.",
-    "zh": "信息技术 是主要用于管理和處理信息所採用的各種技術總稱，主要是應用计算机科学和通信技術来設計、開發、安装和部署信息系統及應用軟件。依照存儲和處理信息的不同，可以將信息技術的發展分為幾個不同的階段：前機械時期（公元前3000–公元1450）、機械時期（1450–1840）、機電時期（1840–1940）及電子時期（1940–現時）。"
+    "zh": "信息技术 是主要用于管理和處理信息所採用的各種技術總稱，主要是應用计算机科学和通信技術来設計、開發、安装和部署信息系統及應用軟件。依照存儲和處理信息的不同，可以將信息技術的發展分為幾個不同的階段：前機械時期（公元前3000–公元1450）、機械時期（1450–1840）、機電時期（1840–1940）及電子時期（1940–現時）。",
+    "careerZh": "資訊科技（系統、資訊管理、網絡保安）於各行各業皆有需求，數碼轉型與資訊保安帶動職位增長，入行門檻與薪酬俱佳，就業穩定。",
+    "careerEn": "IT (systems, information management, cybersecurity) is needed across every sector; digital transformation and security drive job growth, with accessible entry, good pay and stable employment."
   },
   "accounting": {
     "nameEn": "Accounting",
     "nameZh": "會計學",
     "en": "Accounting, also known as accountancy, is the process of recording and processing information about economic entities, such as businesses and corporations.",
-    "zh": "会计 是经济实体資訊的處理過程，包括对企业及法人團體的财务及非财务資訊之计量、处理與交流。会计被称为“商业语言”，通常衡量一个组织的经济活动结果，并将这些信息传达给各种利益相关者，包括投資人、债权人、管理层及监管者。会计的从业人员称作「會計（人員）」，獲得法定專業資格者為「會計師」。会计的知識主體「会计學」是一门应用学科，是一门重要的管理学科，也是社会科学的一部分。"
+    "zh": "会计 是经济实体資訊的處理過程，包括对企业及法人團體的财务及非财务資訊之计量、处理與交流。会计被称为“商业语言”，通常衡量一个组织的经济活动结果，并将这些信息传达给各种利益相关者，包括投資人、债权人、管理层及监管者。会计的从业人员称作「會計（人員）」，獲得法定專業資格者為「會計師」。会计的知識主體「会计學」是一门应用学科，是一门重要的管理学科，也是社会科学的一部分。",
+    "careerZh": "會計出路穩定，四大會計師行、企業財務及審計持續招聘，考取 HKICPA 認受性高。惟基礎核數受自動化影響，宜向財務分析、稅務諮詢、ESG 等增值方向發展。",
+    "careerEn": "Accounting offers stable careers — the Big Four, corporate finance and audit hire steadily, and the HKICPA qualification is highly regarded. Routine audit faces automation, so lean toward financial analysis, tax advisory and ESG."
   },
   "actuarial": {
     "nameEn": "Actuarial science",
     "nameZh": "精算學",
     "en": "Actuarial science is the discipline that applies mathematical and statistical methods to assess risk in insurance, pension, finance, investment, psychology, medicine, and other industries and professions.",
-    "zh": "精算學 是一門應用科學，於財務和保險行業應用數學和統計方法，主要用來評估長期風險。從事精算的專業人員稱為精算師。"
+    "zh": "精算學 是一門應用科學，於財務和保險行業應用數學和統計方法，主要用來評估長期風險。從事精算的專業人員稱為精算師。",
+    "careerZh": "香港是保險樞紐，精算師薪酬高、需求穩定，但須通過一系列專業考試、屬窄而精的路。風險管理、財務科技擴闊了出路。",
+    "careerEn": "As an insurance hub, Hong Kong pays actuaries well with steady demand, though it requires passing a series of professional exams — a narrow but deep path. Risk management and fintech broaden the options."
   },
   "finance": {
     "nameEn": "Finance",
     "nameZh": "金融學",
     "en": "Finance refers to resources and the discipline that studies such resources, allowing an entity to gain the consumption and saving opportunity within a specified timeframe, with related concepts such as income, money, cur",
-    "zh": "金融学 是从经济学分化出来的应用经济学科，是以「金融」，融通货币和货币资金的经济活动为研究对象。研究公司、个人、政府与其他机构如何募集和投资资金的学科。传统的金融学研究领域大致有两个方向：宏观层面的金融市场运行理论和微观层面的公司投资理论。"
+    "zh": "金融学 是从经济学分化出来的应用经济学科，是以「金融」，融通货币和货币资金的经济活动为研究对象。研究公司、个人、政府与其他机构如何募集和投资资金的学科。传统的金融学研究领域大致有两个方向：宏观层面的金融市场运行理论和微观层面的公司投资理论。",
+    "careerZh": "香港為國際金融中心，投資銀行、資產管理、私人銀行與金融科技機會多、回報高，但入行競爭激烈。合規、風險、量化與 ESG 金融為增長領域；大灣區財富管理帶來新機遇。",
+    "careerEn": "As an international financial centre, Hong Kong offers plentiful, high-reward roles in investment banking, asset and private wealth management, and fintech — but entry is fiercely competitive. Compliance, risk, quant and ESG finance are growing, with Greater Bay Area wealth management adding openings."
   },
   "economics": {
     "nameEn": "Economics",
     "nameZh": "經濟學",
     "en": "Economics is a social science that studies the production, distribution, and consumption of goods and services.",
-    "zh": "經濟學，為研究商品和服務關係的社會科學，包括其中所有的生產、分配和消費等行為。"
+    "zh": "經濟學，為研究商品和服務關係的社會科學，包括其中所有的生產、分配和消費等行為。",
+    "careerZh": "經濟學訓練分析與量化思維，出路廣：金融、諮詢、政府、研究與數據分析皆可。配合統計、程式或財務技能，轉工彈性極高。",
+    "careerEn": "Economics builds analytical and quantitative thinking with broad exits — finance, consulting, government, research and data analytics. Paired with statistics, coding or finance skills, it is highly versatile."
   },
   "marketing": {
     "nameEn": "Marketing",
     "nameZh": "市場營銷",
     "en": "Marketing is the act of acquiring, satisfying and retaining customers. It is one of the primary components of business management and commerce.",
-    "zh": "市场营销，又称为市场学、市场营销學、或行銷學。它是指个人或群体通过创造并同他人交换產品和價值，以满足需求与慾望的一個社会和管理过程。"
+    "zh": "市场营销，又称为市场学、市场营销學、或行銷學。它是指个人或群体通过创造并同他人交换產品和價值，以满足需求与慾望的一個社会和管理过程。",
+    "careerZh": "市場營銷出路廣，數碼營銷、社交媒體、電商與品牌管理需求上升；行業重實戰與作品，累積實習與數據分析能力有助突圍。",
+    "careerEn": "Marketing offers wide paths, with rising demand in digital marketing, social media, e-commerce and brand management; the field rewards practical work — internships and data-analytics skills help you stand out."
   },
   "hospitality": {
     "nameEn": "Hospitality management studies",
     "nameZh": "酒店管理",
     "en": "Hospitality management studies is the study of the hospitality industry.",
-    "zh": "酒店管理学，也称酒店经营学，是指关于酒店，餐馆和旅行与旅游业相关事务的学术研究。"
+    "zh": "酒店管理学，也称酒店经营学，是指关于酒店，餐馆和旅行与旅游业相关事务的学术研究。",
+    "careerZh": "旅遊與款待隨旅遊業復甦及盛事經濟回暖，酒店、會展、主題公園需人；起薪一般但晉升快、國際化，管理層與大灣區／內地市場機會較佳。",
+    "careerEn": "Tourism and hospitality recover with the return of visitors and the events economy — hotels, MICE and theme parks need staff; entry pay is modest but progression is fast and international, with better prospects in management and the Greater Bay/mainland market."
   },
   "management": {
     "nameEn": "Management",
     "nameZh": "管理學",
     "en": "Management is the administration of organizations, whether businesses, nonprofit organizations, or government bodies through business administration, nonprofit management, or the political science sub-field of public adm",
-    "zh": "管理学是研究人類管理活動及其应用科学。它偏重于用一些工具和方法来解决管理上的问题，如用运筹学、统计学等来定量定性分析。管理的定義為管理者和他人及透過他人有效率且有效能地完成活動的程序。以前管理学主要用运筹学来解决管理中碰到的问题。"
+    "zh": "管理学是研究人類管理活動及其应用科学。它偏重于用一些工具和方法来解决管理上的问题，如用运筹学、统计学等来定量定性分析。管理的定義為管理者和他人及透過他人有效率且有效能地完成活動的程序。以前管理学主要用运筹学来解决管理中碰到的问题。",
+    "careerZh": "管理／工商行政出路廣但較「通才」，實際發展視乎所選專長（營運、人力、供應鏈等）與實習經驗。宜及早鎖定專長並累積實務。",
+    "careerEn": "Management/business administration is broad but generalist; outcomes depend on your chosen specialism (operations, HR, supply chain) and internship experience. Pick a focus early and build practical exposure."
   },
   "psychology": {
     "nameEn": "Psychology",
     "nameZh": "心理學",
     "en": "Psychology is the scientific study of the mind and behavior. Its subject matter includes the behavior of humans and nonhumans, both conscious and unconscious phenomena, and mental processes such as thoughts, feelings, an",
-    "zh": "心理学是一门研究人类和动物的心理现象、意识和行为的科学。它既是一门理论学科，也是一门应用学科，包括理论心理学与应用心理学两大领域。"
+    "zh": "心理学是一门研究人类和动物的心理现象、意识和行为的科学。它既是一门理论学科，也是一门应用学科，包括理论心理学与应用心理学两大领域。",
+    "careerZh": "社會對精神健康日益重視，臨床、教育及工業組織心理學需求上升；惟臨床／教育心理學家須修讀碩士並考取資格，本科生多先入人力資源、研究或社福等相關崗位。",
+    "careerEn": "Rising mental-health awareness lifts demand in clinical, educational and organisational psychology; however clinical/educational psychologists need a master’s and registration, so graduates often start in HR, research or social services."
   },
   "social_work": {
     "nameEn": "Social work",
     "nameZh": "社會工作",
     "en": "Social work is an academic discipline and practice-based profession concerned with meeting the basic needs of individuals, families, groups, communities, and society as a whole to enhance their individual and collective",
-    "zh": "社会工作 是一個旨在促进社会变革与发展、增強社会凝聚力、以及為人们的賦能和解放的專業。 社会正义，人权，集体责任和尊重多样性的原则对于社会工作至关重要。 以社会工作，社会科学，人文和原住民知识，社会工作理论为基础 吸引人们和结构来应对生活挑战并提高福祉。"
+    "zh": "社会工作 是一個旨在促进社会变革与发展、增強社会凝聚力、以及為人们的賦能和解放的專業。 社会正义，人权，集体责任和尊重多样性的原则对于社会工作至关重要。 以社会工作，社会科学，人文和原住民知识，社会工作理论为基础 吸引人们和结构来应对生活挑战并提高福祉。",
+    "careerZh": "社工需求穩定，政府、NGO 與社福機構持續招聘，人口老化與家庭服務需求上升。註冊社工就業穩健，屬助人而有保障的出路。",
+    "careerEn": "Social work sees steady demand; government, NGOs and welfare bodies hire continuously, with ageing and family-service needs rising. Registered social workers enjoy stable employment — a secure, people-centred path."
   },
   "sociology": {
     "nameEn": "Sociology",
     "nameZh": "社會學",
     "en": "Sociology is the scientific study of human society that focuses on society, human social behavior, patterns of social relationships, social interaction, and aspects of culture associated with everyday life.",
-    "zh": "社會學 起源於19世紀末期，是一門研究社會的學科。社會學使用各種研究方法進行實證調查和批判分析，以發展及完善一套有關人類社會結構、社會行動或社會關係的知識體系，並會運用這些知識，以尋求或改善社會福利、深入社會與公眾進行對話與溝通、將人類從不平等及壓迫的物質條件下解放出來，等等為目標。"
+    "zh": "社會學 起源於19世紀末期，是一門研究社會的學科。社會學使用各種研究方法進行實證調查和批判分析，以發展及完善一套有關人類社會結構、社會行動或社會關係的知識體系，並會運用這些知識，以尋求或改善社會福利、深入社會與公眾進行對話與溝通、將人類從不平等及壓迫的物質條件下解放出來，等等為目標。",
+    "careerZh": "社會學培養研究、政策與人本分析能力，出路含政府、研究、社福、傳媒、人力資源與市場研究；宜結合數據或專業技能提升就業競爭力。",
+    "careerEn": "Sociology builds research, policy and people-centred analysis, leading to government, research, welfare, media, HR and market research; pairing with data or professional skills strengthens employability."
   },
   "political_science": {
     "nameEn": "Political science",
     "nameZh": "政治學",
     "en": "Political science is a field which aims to study the scientific aspect of politics.",
-    "zh": "政治學，或稱政治科學等，是一門对政治、治理和權力體系进行科學研究，分析政治活動、政治制度、政治思想和行為以及相關憲法和法律的社會科學。 政治學涉及政治過程、結構和內容以及政治現象等主題的科學教學和研究。"
+    "zh": "政治學，或稱政治科學等，是一門对政治、治理和權力體系进行科學研究，分析政治活動、政治制度、政治思想和行為以及相關憲法和法律的社會科學。 政治學涉及政治過程、結構和內容以及政治現象等主題的科學教學和研究。",
+    "careerZh": "政治與公共行政出路含公務員、政策研究、國際關係、NGO 與傳媒；適合關心公共事務者，配合語文與分析能力，亦可轉商界或諮詢。",
+    "careerEn": "Politics and public administration lead to the civil service, policy research, international affairs, NGOs and media; suited to those keen on public affairs, and — with language and analytical skills — transferable to business or consulting."
   },
   "journalism": {
     "nameEn": "Journalism",
     "nameZh": "新聞學",
     "en": "Journalism is the production and distribution of reports on events, facts, ideas, and people that constitute the \"news of the day\" and inform society with a commitment to accuracy and verification.",
-    "zh": "新聞學，或译为报道学（日译）或言論學（韩译），是一種包含搜集、撰寫及報導新聞的學科。在廣義上，它亦包含了編輯和演示新聞專題的過程。新聞學在報業、電視、電台以及网络新媒体等各種傳播媒介上均起著重要的作用。多數的傳媒機構皆希望「先發制人」，爭先發佈資訊，而處於這種壓力下，傳媒機構通常會先對新聞進行編輯和校對，以使其內容符合該機構在準確性、素質和式樣等方面的標準。"
+    "zh": "新聞學，或译为报道学（日译）或言論學（韩译），是一種包含搜集、撰寫及報導新聞的學科。在廣義上，它亦包含了編輯和演示新聞專題的過程。新聞學在報業、電視、電台以及网络新媒体等各種傳播媒介上均起著重要的作用。多數的傳媒機構皆希望「先發制人」，爭先發佈資訊，而處於這種壓力下，傳媒機構通常會先對新聞進行編輯和校對，以使其內容符合該機構在準確性、素質和式樣等方面的標準。",
+    "careerZh": "新聞業面對數碼轉型，傳統媒體收縮但內容、公關、企業傳訊與社交媒體需求增加；記者訓練的採寫與溝通力可靈活轉向多元傳播崗位。",
+    "careerEn": "Journalism faces digital disruption; traditional media shrinks while content, PR, corporate communications and social media grow — the reporting and communication skills transfer flexibly across media roles."
   },
   "communication": {
     "nameEn": "Communication studies",
     "nameZh": "傳播學",
     "en": "Communication studies is an academic discipline that deals with processes of human communication and behavior, patterns of communication in interpersonal relationships, social interactions and communication in different",
-    "zh": "传播学 的研究对象有着多种表达，概况的说，传播学是研究人际与社会信息的传递、社会信息系统运行的学科。传播的概念同样有着来自不同学科视角和不同侧重的表达，传播的定义主要概况为六种：传播是传递，传播是共享与互动，传播是控制，传播是撒播，传播是权力，传播是游戏。通过话语研究可以探究这六种定义的原因以及这些定义蕴含的几种传播概念。"
+    "zh": "传播学 的研究对象有着多种表达，概况的说，传播学是研究人际与社会信息的传递、社会信息系统运行的学科。传播的概念同样有着来自不同学科视角和不同侧重的表达，传播的定义主要概况为六种：传播是传递，传播是共享与互动，传播是控制，传播是撒播，传播是权力，传播是游戏。通过话语研究可以探究这六种定义的原因以及这些定义蕴含的几种传播概念。",
+    "careerZh": "傳播出路多元：公關、廣告、企業傳訊、社交媒體與內容製作。數碼與影音內容需求上升，重作品集與實戰經驗，適合善於溝通與創意者。",
+    "careerEn": "Communication offers varied paths — PR, advertising, corporate comms, social media and content production. Digital and video content demand is rising; the field values portfolios and hands-on experience, ideal for creative communicators."
   },
   "translation": {
     "nameEn": "Translation",
     "nameZh": "翻譯",
     "en": "In language, translation is the communication of the meaning of a source-language text by means of an equivalent target-language text.",
-    "zh": "翻译，是指把一种语言的文本或話語等信息转变成另一种语言的行為。"
+    "zh": "翻译，是指把一种语言的文本或話語等信息转变成另一种语言的行為。",
+    "careerZh": "翻譯出路含商業、法律、政府、傳媒與本地化；AI 翻譯令基礎工作受壓，但高階、專業（法律／醫學／會議傳譯）及中英雙語人才仍具價值。",
+    "careerEn": "Translation spans business, legal, government, media and localisation; AI pressures basic work, but high-level, specialist (legal/medical/conference interpreting) and strong bilingual talent remain valuable."
   },
   "linguistics": {
     "nameEn": "Linguistics",
     "nameZh": "語言學",
     "en": "Linguistics is the scientific study of language. The areas of linguistic analysis are syntax, semantics (meaning), morphology, phonetics, phonology, and pragmatics.",
-    "zh": "语言学 是研究语言的科学，隶属于人文学科，涉及了對語言的形式、含義、用词、历史、来源和語境等内容的研究，同时也会寻找其中的规律。"
+    "zh": "语言学 是研究语言的科学，隶属于人文学科，涉及了對語言的形式、含義、用词、历史、来源和語境等内容的研究，同时也会寻找其中的规律。",
+    "careerZh": "語言學出路含語言教育、語言科技（NLP）、言語治療（需進修）、出版與研究；結合程式或數據技能可切入科技與 AI 語言領域。",
+    "careerEn": "Linguistics leads to language education, language technology (NLP), speech therapy (with further study), publishing and research; coding or data skills open doors into tech and AI-language work."
   },
   "chinese": {
     "nameEn": "Chinese language",
     "nameZh": "漢語",
     "en": "Chinese is an umbrella term for all Sinitic languages, widely recognized as a collection of language varieties, spoken natively by the ethnic Han Chinese majority and many minority ethnic groups in Greater China, as well",
-    "zh": "漢語又稱中文、華語、中國語或中國話，是源自东亚的一类分析语，为汉民族的母语，也是汉藏语系中规模最大、复杂度最高的一支。若把整个汉语族的所有汉语方言都視為單一語言的不同地方变种，则汉语为世界上母语使用者人数最多的语言，目前全世界有近五分之一人口将其作为母语或日常使用的第二語言。"
+    "zh": "漢語又稱中文、華語、中國語或中國話，是源自东亚的一类分析语，为汉民族的母语，也是汉藏语系中规模最大、复杂度最高的一支。若把整个汉语族的所有汉语方言都視為單一語言的不同地方变种，则汉语为世界上母语使用者人数最多的语言，目前全世界有近五分之一人口将其作为母语或日常使用的第二語言。",
+    "careerZh": "中文出路以教育、出版、傳媒、公關與公職為主，中文根基紮實者於企業傳訊與內容創作亦具優勢；宜輔以第二專長擴闊就業面。",
+    "careerEn": "Chinese-language study mainly leads to education, publishing, media, PR and the civil service; strong writers also thrive in corporate communications and content. A second specialism widens options."
   },
   "english": {
     "nameEn": "English studies",
     "nameZh": "英語",
     "en": "English studies is an academic discipline taught in primary, secondary, and post-secondary education in English-speaking countries.",
-    "zh": "英語（English）是目前全球使用最廣、最具影響力的通用語，屬西日耳曼語支，源自中世紀早期的英格蘭。英語是世界上母語人口第三多的語言（僅次於漢語和西班牙語），近六十個國家以英語為唯一或主要的官方語言，居世界之冠。英語作為當今的世界語言，是聯合國、歐盟、國際民航組織等眾多國際組織的官方語言、互联网的法通语，也是學習人數最多的外語。"
+    "zh": "英語（English）是目前全球使用最廣、最具影響力的通用語，屬西日耳曼語支，源自中世紀早期的英格蘭。英語是世界上母語人口第三多的語言（僅次於漢語和西班牙語），近六十個國家以英語為唯一或主要的官方語言，居世界之冠。英語作為當今的世界語言，是聯合國、歐盟、國際民航組織等眾多國際組織的官方語言、互联网的法通语，也是學習人數最多的外語。",
+    "careerZh": "英文出路含教育、商業傳訊、公關、出版與國際企業，雙語能力在港是明顯優勢；配合專業（商、法、傳媒）或教學資格更具競爭力。",
+    "careerEn": "English study leads to education, business communication, PR, publishing and multinationals, where bilingual ability is a clear Hong Kong advantage; pairing with a profession (business, law, media) or teaching credentials boosts competitiveness."
   },
   "history": {
     "nameEn": "History",
     "nameZh": "歷史學",
     "en": "History is the systematic study of the past, focusing primarily on the human past. As an academic discipline, it analyses and interprets evidence to construct narratives about what happened and explain why it happened.",
-    "zh": "歷史學，簡稱史學，是研究包括人类社会一切问题在内的科学。历史学不是信条、教义、文学。历史科学的目的就是尽可能地逼近真实情况。"
+    "zh": "歷史學，簡稱史學，是研究包括人类社会一切问题在内的科学。历史学不是信条、教义、文学。历史科学的目的就是尽可能地逼近真实情况。",
+    "careerZh": "歷史培養研究、分析與寫作能力，出路含教育、公職、文博、出版與傳媒；屬「可轉移技能」型學科，宜結合實習或第二專長。",
+    "careerEn": "History builds research, analysis and writing skills, leading to education, civil service, museums/heritage, publishing and media — a transferable-skills discipline best paired with internships or a second specialism."
   },
   "philosophy": {
     "nameEn": "Philosophy",
     "nameZh": "哲學",
     "en": "Philosophy is a systematic study of general and fundamental questions concerning topics like existence, knowledge, mind, reason, language, and value.",
-    "zh": "哲學是研究普遍、基本问题的領域，包括存在、知识、价值、理智、心灵、语言、人生、道德等领域。哲学獨特之處在於其思考方式，例如批判性思维、系统化的方法，并以理性论证為基礎。縱觀历史，许多独立的学科如物理学、生物学等自然科学，或法学、政治学、心理学等社会科学，都曾被视作哲学的一部分或其分支。直到后续发展才逐漸被视作今日意义上的独立学科。"
+    "zh": "哲學是研究普遍、基本问题的領域，包括存在、知识、价值、理智、心灵、语言、人生、道德等领域。哲学獨特之處在於其思考方式，例如批判性思维、系统化的方法，并以理性论证為基礎。縱觀历史，许多独立的学科如物理学、生物学等自然科学，或法学、政治学、心理学等社会科学，都曾被视作哲学的一部分或其分支。直到后续发展才逐漸被视作今日意义上的独立学科。",
+    "careerZh": "哲學鍛鍊思辨與論證，出路廣而不限一途：教育、公職、出版、法律（進修）、諮詢與科技倫理等；重在配合實務技能發揮分析優勢。",
+    "careerEn": "Philosophy sharpens reasoning and argument, with broad rather than fixed exits — education, civil service, publishing, law (with further study), consulting and tech ethics; pair it with practical skills to leverage its analytical edge."
   },
   "geography": {
     "nameEn": "Geography",
     "nameZh": "地理學",
     "en": "Geography is the study of the lands, features, inhabitants, and phenomena of planet Earth.",
-    "zh": "地理學 是探索地球及其特徵、居民和現象的學問，研究地球表層各圈層相互作用關係，及其空間差異與變化過程的學科體系。"
+    "zh": "地理學 是探索地球及其特徵、居民和現象的學問，研究地球表層各圈層相互作用關係，及其空間差異與變化過程的學科體系。",
+    "careerZh": "地理連結環境、城市規劃、地理資訊系統（GIS）與 ESG，出路含規劃、環保、測繪與政府部門；GIS 與數據技能令就業前景更佳。",
+    "careerEn": "Geography links environment, urban planning, GIS and ESG, leading to planning, conservation, mapping and government; GIS and data skills notably improve prospects."
   },
   "anthropology": {
     "nameEn": "Anthropology",
     "nameZh": "人類學",
     "en": "Anthropology is the scientific study of humanity that crosses biology and sociology, concerned with human behavior, human biology, cultures, societies, and linguistics, in both the present and past, including archaic hum",
-    "zh": "人类学 一词，起源于古希腊语“ἄνθρωπος ”以及“λόγος ”，意思是研究人的學科。這個學科名稱首次出現於德國哲學家马格努斯·洪特在1501年的作品《人類學——關於人的優點、本質和特性、以及人的成分、部位和要素》，當時人類學這個字指的是人的體質構造。"
+    "zh": "人类学 一词，起源于古希腊语“ἄνθρωπος ”以及“λόγος ”，意思是研究人的學科。這個學科名稱首次出現於德國哲學家马格努斯·洪特在1501年的作品《人類學——關於人的優點、本質和特性、以及人的成分、部位和要素》，當時人類學這個字指的是人的體質構造。",
+    "careerZh": "人類學培養跨文化與質性研究能力，出路含研究、NGO、文化與博物館、用戶研究（UX）與市場研究；配合數據或設計思維可切入商業與科技。",
+    "careerEn": "Anthropology builds cross-cultural and qualitative research skills, leading to research, NGOs, culture/museums, user (UX) research and market research; data or design-thinking skills open business and tech routes."
   },
   "chemistry": {
     "nameEn": "Chemistry",
     "nameZh": "化學",
     "en": "Chemistry is the scientific study of the properties and behavior of matter.",
-    "zh": "化學是在原子、分子層次上研究物質的組成、結構、性質以及變化規律的科學。化學研究的對象涉及物質之間的相互關係，或物質和能量之間的關聯。傳統的化學常常都是關於兩種或以上的物質之間的接觸和其後的變化，即化學反應，又或者是一種物質變成另一種物質的過程。這些變化有時會需要使用電磁波，當中電磁波負責激發化學作用。不過有時化學並不一定要關於物質之間的反應。光譜學研究物質與光之間的關係，而這些關係並不涉及化學反應。"
+    "zh": "化學是在原子、分子層次上研究物質的組成、結構、性質以及變化規律的科學。化學研究的對象涉及物質之間的相互關係，或物質和能量之間的關聯。傳統的化學常常都是關於兩種或以上的物質之間的接觸和其後的變化，即化學反應，又或者是一種物質變成另一種物質的過程。這些變化有時會需要使用電磁波，當中電磁波負責激發化學作用。不過有時化學並不一定要關於物質之間的反應。光譜學研究物質與光之間的關係，而這些關係並不涉及化學反應。",
+    "careerZh": "化學出路含製藥、檢測認證、質量控制、環保與教育；本地研發職位有限，惟檢測、藥業與轉向數據／專利等領域仍具機會。",
+    "careerEn": "Chemistry leads to pharma, testing and certification, quality control, environmental work and education; local R&D roles are limited, but testing, pharma and pivots into data or patents offer openings."
   },
   "physics": {
     "nameEn": "Physics",
     "nameZh": "物理學",
     "en": "Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
-    "zh": "物理學 是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。"
+    "zh": "物理學 是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。",
+    "careerZh": "物理訓練嚴謹的量化與解難能力，出路含科研、工程、教育，以及金融量化、數據科學與科技——高度可轉移，理科尖子常轉進高薪金融／科技。",
+    "careerEn": "Physics trains rigorous quantitative and problem-solving skills, leading to research, engineering, education, and quant finance, data science and tech — highly transferable, with top students often moving into high-paying finance/tech."
   },
   "mathematics": {
     "nameEn": "Mathematics",
     "nameZh": "數學",
     "en": "Mathematics is a field of knowledge concerned with abstract concepts such as numbers, geometric shapes, sets, functions, and probabilities.",
-    "zh": "数学是研究數量、结构以及空间等概念及其变化的一門学科，屬於形式科學的一種。數學利用抽象化和邏輯推理，從計數、計算、量度、對物體形狀及運動的觀察發展而成。數學家們拓展這些概念，以公式化新的猜想，以及從選定的公理及定義出發，嚴謹地推導出一些定理。"
+    "zh": "数学是研究數量、结构以及空间等概念及其变化的一門学科，屬於形式科學的一種。數學利用抽象化和邏輯推理，從計數、計算、量度、對物體形狀及運動的觀察發展而成。數學家們拓展這些概念，以公式化新的猜想，以及從選定的公理及定義出發，嚴謹地推導出一些定理。",
+    "careerZh": "數學是最「保值」的學科之一，量化金融、精算、數據科學、AI 與教育皆搶手，薪酬優厚。純數學能力配合程式技能，轉工彈性與競爭力極高。",
+    "careerEn": "Mathematics is among the most future-proof disciplines — quant finance, actuarial, data science, AI and education all seek it, with strong pay. Combined with coding, it offers exceptional versatility and competitiveness."
   },
   "statistics": {
     "nameEn": "Statistics",
     "nameZh": "統計學",
     "en": "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.",
-    "zh": "统计学是一门收集数据、分析数据，并根据数据进行推断的艺术和科学。最初与政府收集的数据有关，现在包括了范围广泛的方法和理论。該学科自17世纪中叶产生并逐步发展起来，廣泛地應用在各門學科，從自然科学、社會科學到人文學科，甚至被用於工商業及政府的情報決策。隨著大数据時代來臨，統計的面貌也逐漸改變，與資訊、計算等領域密切結合，是數據科學中的重要主軸之一。"
+    "zh": "统计学是一门收集数据、分析数据，并根据数据进行推断的艺术和科学。最初与政府收集的数据有关，现在包括了范围广泛的方法和理论。該学科自17世纪中叶产生并逐步发展起来，廣泛地應用在各門學科，從自然科学、社會科學到人文學科，甚至被用於工商業及政府的情報決策。隨著大数据時代來臨，統計的面貌也逐漸改變，與資訊、計算等領域密切結合，是數據科學中的重要主軸之一。",
+    "careerZh": "統計於金融、保險、醫療、市場研究與科技需求殷切，是數據時代最實用的技能之一。香港金融與創科發展令統計人才持續供不應求，前景優。",
+    "careerEn": "Statistics is in strong demand across finance, insurance, healthcare, market research and tech — one of the most practical skills of the data age. Hong Kong’s finance and tech growth keeps statisticians in short supply, with excellent prospects."
   },
   "environmental": {
     "nameEn": "Environmental science",
     "nameZh": "環境科學",
     "en": "Environmental science is an academic field that integrates the physical, biological, and mathematical sciences to study the environment and solve environmental problems.",
-    "zh": "环境科学为跨学科领域专业，既包含像物理，化学，生物，地质学，地理，资源技术、工程的科学，也含有像资源管理和保护，人口统计学，经济学，政治和伦理学等社会科学。环境科学包含了影响人类和其他有机体的周边环境的学科。自然与人类资源是相互依赖的，其中一方所作出的任何动作，正确或错误，都会对另外一方产生影响。此学科年代较短，直到20世纪60年代才成为正式学科。"
+    "zh": "环境科学为跨学科领域专业，既包含像物理，化学，生物，地质学，地理，资源技术、工程的科学，也含有像资源管理和保护，人口统计学，经济学，政治和伦理学等社会科学。环境科学包含了影响人类和其他有机体的周边环境的学科。自然与人类资源是相互依赖的，其中一方所作出的任何动作，正确或错误，都会对另外一方产生影响。此学科年代较短，直到20世纪60年代才成为正式学科。",
+    "careerZh": "環境科學受惠於 ESG、碳中和與綠色金融興起，出路含環保諮詢、可持續發展、政府與企業 ESG 崗位，屬成長中的新興領域。",
+    "careerEn": "Environmental science benefits from ESG, carbon-neutrality and green-finance momentum, leading to environmental consulting, sustainability, and government/corporate ESG roles — a growing, emerging field."
   },
   "food_science": {
     "nameEn": "Food science",
     "nameZh": "食品科學",
     "en": "Food science is the study of food and its chemical properties.",
-    "zh": "食品科學是一门把科学知识用于食品加工和生产的跨學科的應用科學。 食品科學内容包括食品化學、食品微生物學、食品加工和食品工程等學科。"
+    "zh": "食品科學是一门把科学知识用于食品加工和生产的跨學科的應用科學。 食品科學内容包括食品化學、食品微生物學、食品加工和食品工程等學科。",
+    "careerZh": "食品科學出路含食品安全、檢測認證、研發與品質管理，食安監管與健康飲食趨勢帶動需求，屬穩定而實用的應用科學。",
+    "careerEn": "Food science leads to food safety, testing and certification, R&D and quality management; food-safety regulation and healthy-eating trends drive demand — a stable, practical applied science."
   },
   "biology": {
     "nameEn": "Biology",
     "nameZh": "生物學",
     "en": "Biology is the scientific study of life and living organisms. It is a broad natural science that encompasses a wide range of fields and unifying principles that explain the structure, function, growth, origin, evolution,",
-    "zh": "生物學 或稱生物科學 、生命科學，是自然科學的一大門類，由經驗主義出發，廣泛研究生命的所有方面，包括生命起源、演化、分佈、構造、發育、功能、行为、與環境的互動關系，以及生物分類學等。現代生物學是一個龐大而兼收並蓄的領域，由許多分支和分支學科組成。然而，儘管生物學的範圍很廣，在它裡面有某些一般和統一概念支配一切的學習和研究，把它整合成單一的、連貫的領域。"
+    "zh": "生物學 或稱生物科學 、生命科學，是自然科學的一大門類，由經驗主義出發，廣泛研究生命的所有方面，包括生命起源、演化、分佈、構造、發育、功能、行为、與環境的互動關系，以及生物分類學等。現代生物學是一個龐大而兼收並蓄的領域，由許多分支和分支學科組成。然而，儘管生物學的範圍很廣，在它裡面有某些一般和統一概念支配一切的學習和研究，把它整合成單一的、連貫的領域。",
+    "careerZh": "生物出路含科研、醫療相關、環保、教育及生物科技；本地純研究職位有限，惟配合生物科技投資、數據或醫療方向可拓闊發展。",
+    "careerEn": "Biology leads to research, healthcare-related roles, environment, education and biotech; pure-research jobs are limited locally, but biotech investment, data or healthcare directions widen prospects."
   },
   "music": {
     "nameEn": "Music",
     "nameZh": "音樂",
     "en": "Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.",
-    "zh": "音樂，廣義而言，就是指任何以聲音組成的藝術。英文Music一詞源於古希臘語的μουσική（mousike），意即缪斯（muse）女神的藝術。而中文的音樂二字，東漢許慎《說文解字》解釋為「音，聲也。生於心，有節於外，謂之音。」認為音樂和聲音的區別，在於音樂需要透過人心去想像和創造。"
+    "zh": "音樂，廣義而言，就是指任何以聲音組成的藝術。英文Music一詞源於古希臘語的μουσική（mousike），意即缪斯（muse）女神的藝術。而中文的音樂二字，東漢許慎《說文解字》解釋為「音，聲也。生於心，有節於外，謂之音。」認為音樂和聲音的區別，在於音樂需要透過人心去想像和創造。",
+    "careerZh": "音樂出路含表演、教學、製作與藝術行政，西九文化區與 M+ 等帶動文化產業；行業競爭大、多為自由工作，宜多元技能與人脈並重。",
+    "careerEn": "Music leads to performance, teaching, production and arts administration, with the West Kowloon Cultural District and M+ boosting the sector; it is competitive and often freelance, so diverse skills and networks matter."
   },
   "design": {
     "nameEn": "Design",
     "nameZh": "設計",
     "en": "A design is the concept or proposal for an object, process, or system.",
-    "zh": "所謂設計，即「设想和计划，设想是目的，计划是过程安排」，通常是指有目標和計劃的創作行為及活动。"
+    "zh": "所謂設計，即「设想和计划，设想是目的，计划是过程安排」，通常是指有目標和計劃的創作行為及活动。",
+    "careerZh": "設計（平面、產品、UX/UI、數碼）需求隨數碼經濟上升，UX/UI 尤其搶手、薪酬佳。重作品集與實戰，跨界科技與商業者最具競爭力。",
+    "careerEn": "Design (graphic, product, UX/UI, digital) demand rises with the digital economy, with UX/UI especially sought after and well-paid; portfolios and hands-on work matter, and those bridging tech and business fare best."
   },
   "fine_arts": {
     "nameEn": "Fine art",
     "nameZh": "美術",
     "en": "In European academic traditions, fine art is considered a kind of high art and is made primarily for aesthetics or creative expression, distinguishing it from popular art, decorative art or applied art, which also either",
-    "zh": "美術 是指讓人直接在視覺上獲得美感的藝術，主要指繪畫和雕塑，也可以指工藝美術和建築藝術，現代還可以指攝影和與藝術有關的設計，是各種視覺藝術的總稱。"
+    "zh": "美術 是指讓人直接在視覺上獲得美感的藝術，主要指繪畫和雕塑，也可以指工藝美術和建築藝術，現代還可以指攝影和與藝術有關的設計，是各種視覺藝術的總稱。",
+    "careerZh": "視覺藝術出路含創作、策展、藝術教育、文化行政與創意產業，西九與藝術市場帶來機遇；多為自由或項目制，宜結合設計或數碼技能增加穩定收入。",
+    "careerEn": "Fine arts leads to creation, curation, arts education, cultural administration and creative industries, with West Kowloon and the art market offering opportunity; work is often freelance or project-based, so design or digital skills help stabilise income."
   },
   "sports": {
     "nameEn": "Exercise physiology",
     "nameZh": "運動科學",
     "en": "Exercise physiology is the physiology of physical exercise. It is one of the allied health professions, and involves the study of the acute responses and chronic adaptations to exercise.",
-    "zh": "運動科學，又譯為競技運動科學，對於人類競技運動進行科學化分析的一個綜合性學科，這與健身運動 有所不同。"
+    "zh": "運動科學，又譯為競技運動科學，對於人類競技運動進行科學化分析的一個綜合性學科，這與健身運動 有所不同。",
+    "careerZh": "運動科學受惠於健康與運動風氣，出路含體育教學、運動教練、體適能、運動治療與體育管理；政府推動體育發展令相關職位漸增。",
+    "careerEn": "Sports science benefits from the wellness and fitness trend, leading to PE teaching, coaching, fitness, sports therapy and sports management; government promotion of sport is expanding related roles."
   },
   "urban_planning": {
     "nameEn": "Urban planning",
     "nameZh": "城市規劃",
     "en": "Urban planning is the process of developing and designing plans for land use and the built environment, including air, water, and the infrastructure passing into and out of urban areas, such as transportation, communicat",
-    "zh": "城市规划 是处理城市及其邻近区域的工程建设、經濟、社会、土地利用布局以及对未来发展预测的專門學問或技術。它的对象偏重于城市物质形态的部分，涉及城市中产业的区域布局、建筑物的区域布局和分類管制、道路及运输设施的设置、公共設施的規劃建設及城市工程的安排，主要内容有空间规划、道路交通规划、绿化植被和水体规划等内容。城市規劃是城市建設及管理的依據，位於城市管理之規劃、建設、運作三個階段之首，是城市管理的龍頭。"
+    "zh": "城市规划 是处理城市及其邻近区域的工程建设、經濟、社会、土地利用布局以及对未来发展预测的專門學問或技術。它的对象偏重于城市物质形态的部分，涉及城市中产业的区域布局、建筑物的区域布局和分類管制、道路及运输设施的设置、公共設施的規劃建設及城市工程的安排，主要内容有空间规划、道路交通规划、绿化植被和水体规划等内容。城市規劃是城市建設及管理的依據，位於城市管理之規劃、建設、運作三個階段之首，是城市管理的龍頭。",
+    "careerZh": "城市規劃與北部都會區、土地供應及可持續發展密切相關，政府與顧問公司需求穩定，屬與香港長遠發展直接掛鈎的專業。",
+    "careerEn": "Urban planning ties directly to the Northern Metropolis, land supply and sustainable development, with steady demand from government and consultancies — a profession linked to Hong Kong’s long-term growth."
   },
   "education": {
     "nameEn": "Education",
     "nameZh": "教育學",
     "en": "Education is the transmission of knowledge and skills and the development of character traits. Formal education happens in a complex institutional framework, like public schools.",
-    "zh": "教育学是研究教育现象和教育问题，揭示教育规律的一门学科，是一门研究如何培养人的科学。"
+    "zh": "教育学是研究教育现象和教育问题，揭示教育规律的一门学科，是一门研究如何培养人的科学。",
+    "careerZh": "教育出路以教學為主，惟出生率下降令中小學學位收縮、教席競爭加劇；幼教、特殊教育及國際學校需求相對較好，具專科（STEM／英文）者更佔優。",
+    "careerEn": "Education leads mainly to teaching, but a falling birth rate is shrinking school places and intensifying competition for posts; kindergarten, special education and international schools fare better, and subject specialists (STEM/English) have an edge."
   },
   "engineering": {
     "nameEn": "Engineering",
     "nameZh": "工程學",
     "en": "Engineering is the practice of systematically applying natural science and mathematics to design and improve systems, devices, or processes that solve problems under constraints.",
-    "zh": "工程學、工程科學、工學，是通過研究、實踐應用數學、自然科學、社會學等基礎學科的知識，以達到改良各行業中現有材料、土木建築、機械、電機電子、電子通訊、儀器、系統、化學加工步驟的設計、應用方式的學科，而實踐、研究工程學的人稱為工程師。在高等學府中，將自然科學原理應用至服務業、工業、農業等各個生產部門所形成的諸多工程學科也稱為工科、工學。"
+    "zh": "工程學、工程科學、工學，是通過研究、實踐應用數學、自然科學、社會學等基礎學科的知識，以達到改良各行業中現有材料、土木建築、機械、電機電子、電子通訊、儀器、系統、化學加工步驟的設計、應用方式的學科，而實踐、研究工程學的人稱為工程師。在高等學府中，將自然科學原理應用至服務業、工業、農業等各個生產部門所形成的諸多工程學科也稱為工科、工學。",
+    "careerZh": "工程整體受惠於基建、創科與大灣區發展，需求穩定、可考專業資格；不同分支冷熱有別，屋宇設備、土木與電機電子較穩，宜按興趣選定專長。",
+    "careerEn": "Engineering broadly benefits from infrastructure, innovation and Greater Bay Area development, with stable demand and a chartered path; branches vary — building services, civil and electrical/electronic are steadier — so choose a specialism by interest."
   },
   "business": {
     "nameEn": "Business administration",
     "nameZh": "工商管理",
     "en": "Business administration, also known as business management is the administration of a commercial enterprise. It includes all aspects of overseeing and supervising the business operations of an organization.",
-    "zh": "工商管理 是指对组织、企业或其他商业实体的运营、管理和战略规划的全过程进行有效协调、控制和决策的学科。它涉及多方面的职能和领域，包括财务管理、市场营销、人力资源管理、运营管理、战略管理和信息技术等。工商管理的目标是通过科学的管理方法，提升企业的效率、竞争力和可持续发展能力。"
+    "zh": "工商管理 是指对组织、企业或其他商业实体的运营、管理和战略规划的全过程进行有效协调、控制和决策的学科。它涉及多方面的职能和领域，包括财务管理、市场营销、人力资源管理、运营管理、战略管理和信息技术等。工商管理的目标是通过科学的管理方法，提升企业的效率、竞争力和可持续发展能力。",
+    "careerZh": "商科出路最廣（會計、金融、市場、管理、營運等），實際發展視乎所選專長與實習表現。香港作為商業樞紐機會多，但入門競爭大，宜及早累積實務與專業資格。",
+    "careerEn": "Business offers the widest range (accounting, finance, marketing, management, operations), with outcomes shaped by your specialism and internships. As a business hub Hong Kong offers many openings, but entry is competitive — build experience and credentials early."
   },
   "social_science": {
     "nameEn": "Social science",
     "nameZh": "社會科學",
     "en": "Social science is one of the branches of science, devoted to the study of societies and the relationships among members within those societies.",
-    "zh": "社会科学 是研究社会及其成员间关系的科学分支。狭义的社会科学是对人类社会组织、结构与活动进行描述、解释和预测的实证科学研究，如社会学研究当代人类社会，政治学研究政治、政策和有关的活动，经济学研究资源分配。广义的社会科学则包含了对所有以人和社会为研究对象的实证与跨学科研究及人文学科。「社会科学」这一术语的现代用法源于1930年出版的《社会科学百科全书》。"
+    "zh": "社会科学 是研究社会及其成员间关系的科学分支。狭义的社会科学是对人类社会组织、结构与活动进行描述、解释和预测的实证科学研究，如社会学研究当代人类社会，政治学研究政治、政策和有关的活动，经济学研究资源分配。广义的社会科学则包含了对所有以人和社会为研究对象的实证与跨学科研究及人文学科。「社会科学」这一术语的现代用法源于1930年出版的《社会科学百科全书》。",
+    "careerZh": "社會科學培養研究、分析與溝通等可轉移技能，出路涵蓋政策、研究、社福、傳媒與商界；宜結合數據、語文或專業資格提升就業競爭力。",
+    "careerEn": "Social science builds transferable research, analysis and communication skills, leading to policy, research, welfare, media and business; pair with data, language or professional credentials to boost employability."
   },
   "science": {
     "nameEn": "Science",
     "nameZh": "科學",
     "en": "Science is a systematic discipline that builds and organises knowledge in the form of testable explanations about nature and society.",
-    "zh": "科学 是一個要求確實遵守其基本原則且立基於客觀事實的系統性研究領域，以可被檢驗的假說與預測為形式，進行知識的建構與組織工作。 科学强调预测结果的具体性、可证伪性；其他與科学對應的方法，有許多在更大程度上基於純粹且主觀的思考活動，而更少基於客觀事實。科学不在於寻求绝对无误的真理，而是在现有基础上，以科學方法不斷嘗試揭露和確認客觀世界的運作法則和原理等。"
+    "zh": "科学 是一個要求確實遵守其基本原則且立基於客觀事實的系統性研究領域，以可被檢驗的假說與預測為形式，進行知識的建構與組織工作。 科学强调预测结果的具体性、可证伪性；其他與科学對應的方法，有許多在更大程度上基於純粹且主觀的思考活動，而更少基於客觀事實。科学不在於寻求绝对无误的真理，而是在现有基础上，以科學方法不斷嘗試揭露和確認客觀世界的運作法則和原理等。",
+    "careerZh": "理學出路可走科研、教育，或憑量化與解難能力轉向金融、數據與科技等高薪領域。純研究本地職位有限，跨領域（數據／金融／科技）發展空間最大。",
+    "careerEn": "Science leads to research and education, or — via quantitative and problem-solving skills — into higher-paying finance, data and tech. Pure-research roles are limited locally, so cross-disciplinary (data/finance/tech) moves offer the most room."
   },
   "humanities": {
     "nameEn": "Humanities",
     "nameZh": "人文學科",
     "en": "Humanities are academic disciplines that study aspects of human society and culture, including certain fundamental questions asked by humans.",
-    "zh": "人文学科 又称人文學，是以觀察、分析及理性批判來探讨人类情感、道德和理智的各门学科文学、哲学、宗教、艺术、史學、人類學、語言学等和知识的总称。在人文主義興起後，人文學科常與神學學科相對。其拉丁語源為studia humanitatis（「人文研究」），文藝復興時期的學者（umanisti）以此稱呼對古希臘羅馬經典的研究，藉以區別於中世紀的經院哲學。"
+    "zh": "人文学科 又称人文學，是以觀察、分析及理性批判來探讨人类情感、道德和理智的各门学科文学、哲学、宗教、艺术、史學、人類學、語言学等和知识的总称。在人文主義興起後，人文學科常與神學學科相對。其拉丁語源為studia humanitatis（「人文研究」），文藝復興時期的學者（umanisti）以此稱呼對古希臘羅馬經典的研究，藉以區別於中世紀的經院哲學。",
+    "careerZh": "人文培養語文、思辨與寫作等可轉移能力，常見出路含教育、文化、傳媒、公關與公職；建議及早結合實習與第二專長，把軟技能轉化為就業優勢。",
+    "careerEn": "Humanities builds transferable language, critical-thinking and writing skills, with common paths in education, culture, media, PR and the civil service; pairing early internships with a second specialism turns soft skills into an employment edge."
   }
 }

@@ -9,6 +9,7 @@ import { trackPageView, trackEvent } from './analytics';
 import { AD_SLOTS } from './config';
 import { useLang } from './i18n.jsx';
 import { shareResults } from './shareCard.js';
+import Countdown from './components/Countdown.jsx';
 
 export default function App() {
   const { lang, setLang, t } = useLang();
@@ -84,6 +85,8 @@ export default function App() {
 
   return (
     <div className="app">
+      <Countdown />
+
       <header className="header">
         <button className="lang-toggle" onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}>
           {lang === 'zh' ? 'EN' : '中'}
@@ -91,8 +94,6 @@ export default function App() {
         <h1>{t('appTitle')}</h1>
         <p className="sub">{t('appSub')}</p>
       </header>
-
-      <div className="notice">ℹ️ {t('notice')}</div>
 
       <nav className="tabs">
         <button className={`tab ${view === 'match' || view === 'results' ? 'active' : ''}`} onClick={() => setView('match')}>

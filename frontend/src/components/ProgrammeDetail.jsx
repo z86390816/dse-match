@@ -61,20 +61,6 @@ const BAND_LABEL = {
   en: { bandA: 'Band A (1st–3rd)', bandB: 'Band B (4–6)', bandC: 'Band C (7–9)', bandD: 'Band D (10–15)', bandE: 'Band E (16–20)' },
 };
 
-const CAREER_NOTE = {
-  medical: { zh: '醫護／生命科學範疇，出路穩定、專業認受性高，惟學額少、競爭最激烈。', en: 'Healthcare/life sciences — stable, well-recognised careers, but few places and the fiercest competition.' },
-  law: { zh: '法律範疇，多需經 PCLL 等專業階段，畢業生投身律師、法務及公共事務。', en: 'Law — usually via professional stages like PCLL; graduates enter legal practice, compliance and public affairs.' },
-  business: { zh: '商科範疇，出路廣（會計、金融、市場、管理），視乎實習與專業考試表現。', en: 'Business — broad paths (accounting, finance, marketing, management), shaped by internships and professional exams.' },
-  engineering: { zh: '工程範疇，與基建及科技產業掛鈎，部分可考取工程師專業資格。', en: 'Engineering — tied to infrastructure and tech; some lead to chartered-engineer qualifications.' },
-  it: { zh: '資訊科技範疇，需求持續上升，涵蓋軟件、數據、資訊保安等。', en: 'IT — steadily rising demand across software, data and cybersecurity.' },
-  science: { zh: '理學範疇，可走研究、教育，或轉向商科／資科等跨領域路向。', en: 'Science — research, education, or pivots into business/IT and other fields.' },
-  social: { zh: '社會科學範疇，出路多元（政策、研究、社福、傳媒、商界）。', en: 'Social science — diverse paths (policy, research, social work, media, business).' },
-  arts: { zh: '藝術／創意範疇，重視作品集與實務經驗，出路較彈性。', en: 'Arts/creative — portfolio and practical experience matter; flexible paths.' },
-  humanities: { zh: '人文範疇，培養語文、思辨與寫作，常見出路含教育、文化、傳媒。', en: 'Humanities — builds language, critical thinking and writing; education, culture, media.' },
-  education: { zh: '教育範疇，畢業多投身教學，部分需學科配搭及實習。', en: 'Education — most enter teaching; some require subject pairing and practicum.' },
-  general: { zh: '此範疇出路較廣，建議結合個人興趣與實習規劃。', en: 'Broad options; pair with your interests and internship planning.' },
-};
-
 // 由真實數據（報名、取錄、收生分、趨勢）自動生成的分析洞察。
 function buildAnalysis(prog, appData, lang) {
   const en = lang === 'en';
@@ -153,10 +139,6 @@ function buildAnalysis(prog, appData, lang) {
         : `2025 收生中位數 ${m} 分${prog.admission.lowerQuartile != null ? `（下四分位 ${prog.admission.lowerQuartile} 分）` : ''}。`,
     });
   }
-
-  // 5. 出路概覽
-  const note = CAREER_NOTE[prog.category] || CAREER_NOTE.general;
-  out.push({ icon: '💼', text: en ? note.en : note.zh });
 
   return out;
 }
@@ -241,6 +223,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const [showTrend, setShowTrend] = useState(false);
   const disc = disciplines?.[prog.discipline];
   const discText = disc ? (lang === 'en' ? disc.en : disc.zh) : null;
+  const careerText = disc ? (lang === 'en' ? disc.careerEn : disc.careerZh) : null;
 
   useEffect(() => {
     setLoading(true);
@@ -314,6 +297,12 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
               <li key={i}><span className="ai-icon">{ins.icon}</span><span>{ins.text}</span></li>
             ))}
           </ul>
+          {careerText && (
+            <div className="ai-career">
+              <div className="ai-career-head">💼 {t('careerOutlook')}</div>
+              <p>{careerText}</p>
+            </div>
+          )}
           <p className="muted" style={{ fontSize: 11 }}>{t('aiNote')}</p>
         </div>
 

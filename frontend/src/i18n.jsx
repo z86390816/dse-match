@@ -73,6 +73,7 @@ const STRINGS = {
   aiAnalysis: { zh: 'AI 智能分析', en: 'AI Analysis' },
   aiNote: { zh: '＊綜合 JUPAS 報名／取錄／收生分數據及維基百科學科簡介自動生成，僅供參考', en: '* Auto-generated from JUPAS application / offer / score data and Wikipedia field summaries — for reference only' },
   careerHeading: { zh: '出路概覽', en: 'Career Outlook' },
+  careerOutlook: { zh: '香港就業前景與方向', en: 'HK Career Outlook & Advice' },
   scoreScale: { zh: '等級換分', en: 'Grade-to-score conversion' },
   tapForDetail: { zh: '點專業看詳情', en: 'tap a programme for details' },
   scoringMethod: { zh: '計分方法 / 科目權重', en: 'Scoring method / subject weights' },
