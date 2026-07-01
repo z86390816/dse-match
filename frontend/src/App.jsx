@@ -176,6 +176,8 @@ export default function App() {
       )}
 
       <footer className="site-footer">
+        <a className="link-btn" href="/programmes/">{lang === 'zh' ? '所有院校／專業' : 'All programmes'}</a>
+        {' · '}
         <button className="link-btn" onClick={() => setView('privacy')}>{t('privacyLink')}</button>
         <span> {t('footerDisclaimer')} © {new Date().getFullYear()} JUPAS Calculator</span>
       </footer>
