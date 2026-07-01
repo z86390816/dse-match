@@ -4,7 +4,7 @@
 
 // Google Analytics 4 量度 ID，格式：G-XXXXXXXXXX
 // 申請：https://analytics.google.com → 建立資源 → 取得「評估 ID」
-export const GA_MEASUREMENT_ID = '';
+export const GA_MEASUREMENT_ID = 'G-HQYWS4PMBT';
 
 // Google AdSense 發布商 ID，格式：ca-pub-XXXXXXXXXXXXXXXX
 // 申請：https://adsense.google.com → 加入網站審核通過後取得
