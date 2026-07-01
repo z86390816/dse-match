@@ -85,8 +85,6 @@ export default function App() {
 
   return (
     <div className="app">
-      <Countdown />
-
       <header className="header">
         <button className="lang-toggle" onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}>
           {lang === 'zh' ? 'EN' : '中'}
@@ -95,14 +93,17 @@ export default function App() {
         <p className="sub">{t('appSub')}</p>
       </header>
 
-      <nav className="tabs">
-        <button className={`tab ${view === 'match' || view === 'results' ? 'active' : ''}`} onClick={() => setView('match')}>
-          {t('tabMatch')}
-        </button>
-        <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>
-          {t('tabBrowse')}
-        </button>
-      </nav>
+      <div className="sticky-nav">
+        <nav className="tabs">
+          <button className={`tab ${view === 'match' || view === 'results' ? 'active' : ''}`} onClick={() => setView('match')}>
+            {t('tabMatch')}
+          </button>
+          <button className={`tab ${view === 'browse' ? 'active' : ''}`} onClick={() => setView('browse')}>
+            {t('tabBrowse')}
+          </button>
+        </nav>
+        <Countdown />
+      </div>
 
       {view === 'privacy' && <PrivacyPolicy onBack={() => setView('match')} />}
 
