@@ -1559,7 +1559,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "人類學",
       "admitted2025": 19,
@@ -1588,7 +1588,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "中國語言及文學",
       "admitted2025": 79,
@@ -1607,9 +1607,7 @@
       "universityId": "cuhk",
       "name": "English",
       "method": "best5",
-      "weights": {
-        "eng": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.25,
@@ -1618,7 +1616,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "英文",
       "admitted2025": 51,
@@ -1646,7 +1644,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "arts",
       "nameZh": "藝術",
       "admitted2025": 19,
@@ -1673,7 +1671,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "歷史",
       "admitted2025": 48,
@@ -1692,7 +1690,9 @@
       "universityId": "cuhk",
       "name": "Japanese Studies",
       "method": "best5",
-      "weights": {},
+      "weights": {
+        "eng": 1.5
+      },
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 24.5,
@@ -1701,7 +1701,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "日本研究",
       "admitted2025": 23,
@@ -1729,7 +1729,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "語言學",
       "admitted2025": 24,
@@ -1757,7 +1757,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "arts",
       "nameZh": "音樂",
       "admitted2025": 21,
@@ -1785,7 +1785,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "哲學",
       "admitted2025": 22,
@@ -1812,7 +1812,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "公共人文學",
       "admitted2025": 28,
@@ -1840,7 +1840,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "general",
       "nameZh": "宗教研究",
       "admitted2025": 16,
@@ -1868,7 +1868,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "翻譯",
       "admitted2025": 24,
@@ -1898,7 +1898,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "humanities",
       "nameZh": "中國研究",
       "admitted2025": 10,
@@ -1925,7 +1925,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "工商管理學士綜合課程",
       "admitted2025": 194,
@@ -1952,7 +1952,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "環球商業學",
       "admitted2025": 13,
@@ -1971,10 +1971,7 @@
       "universityId": "cuhk",
       "name": "Hospitality and Real Estate Insurance, Financial and",
       "method": "best5",
-      "weights": {
-        "eng": 1.25,
-        "math": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 23.5,
@@ -1982,7 +1979,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "general",
       "nameZh": "酒店旅遊及房地產",
       "admitted2025": 53,
@@ -2002,8 +1999,14 @@
       "name": "Insurance, Financial and Actuarial Analysis",
       "method": "best5",
       "weights": {
+        "eng": 1.25,
         "math": 1.5,
-        "econ": 1.25
+        "m1": 1.5,
+        "m2": 1.5,
+        "chem": 1.25,
+        "phys": 1.25,
+        "econ": 1.25,
+        "ict": 1.25
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2012,7 +2015,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "general",
       "nameZh": "保險、金融與精算學",
       "admitted2025": 39,
@@ -2031,10 +2034,7 @@
       "universityId": "cuhk",
       "name": "Professional Accountancy",
       "method": "best5",
-      "weights": {
-        "eng": 2,
-        "math": 2
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 26,
@@ -2042,7 +2042,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "專業會計學",
       "admitted2025": 111,
@@ -2062,8 +2062,13 @@
       "name": "Quantitative Finance Interdisciplinary Major",
       "method": "best5",
       "weights": {
+        "eng": 2,
         "math": 2,
-        "phys": 1.5
+        "m1": 1.5,
+        "m2": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
+        "econ": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2072,7 +2077,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "計量金融學",
       "admitted2025": 31,
@@ -2091,9 +2096,7 @@
       "universityId": "cuhk",
       "name": "Interdisciplinary Major Programme in Global Economics and Finance BBA(",
       "method": "best5",
-      "weights": {
-        "eng": 2
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 35,
@@ -2101,7 +2104,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "環球經濟與金融跨學科主修課程",
       "admitted2025": 16,
@@ -2121,8 +2124,7 @@
       "name": "BBA(IBBA) – JD Double Degree Programme Quantitative Finance and Risk",
       "method": "best5",
       "weights": {
-        "eng": 2,
-        "math": 2
+        "eng": 2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2132,7 +2134,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "工商管理學士（工商管理學士綜合課程）及法律博士雙學位課程",
       "admitted2025": 19,
@@ -2152,19 +2154,23 @@
       "name": "Quantitative Finance and Risk Management Science Biotechnology, Entrep",
       "method": "best5",
       "weights": {
+        "eng": 2,
         "math": 2,
-        "phys": 1.5
+        "m1": 1.5,
+        "m2": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
+        "econ": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 57.75,
         "lowerQuartile": 54.75
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "計量金融學及風險管理科學",
       "admitted2025": 17,
       "intake": 20,
@@ -2182,9 +2188,7 @@
       "universityId": "cuhk",
       "name": "Biotechnology, Entrepreneurship and Healthcare Management Interdiscipl",
       "method": "best5",
-      "weights": {
-        "math": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.5,
@@ -2192,7 +2196,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "生物科技、創業與醫療管理",
       "admitted2025": 11,
@@ -2213,7 +2217,10 @@
       "method": "best5",
       "weights": {
         "math": 1.5,
-        "econ": 1.5
+        "m1": 2,
+        "m2": 2,
+        "econ": 1.5,
+        "ict": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2223,7 +2230,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "general",
       "nameZh": "跨學科數據分析及Ｘ雙主修課程",
       "admitted2025": 28,
@@ -2251,7 +2258,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "人體運動科學與健康研究",
       "admitted2025": 14,
@@ -2270,9 +2277,7 @@
       "universityId": "cuhk",
       "name": "Physical Education, Exercise Science and Health BA (Chinese Language S",
       "method": "best5",
-      "weights": {
-        "chin": 2
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 27.5,
@@ -2280,7 +2285,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "健康與體育運動科學",
       "admitted2025": 18,
@@ -2300,8 +2305,7 @@
       "name": "BA (Chinese Language Studies) and BEd (Chinese Language Education) BA",
       "method": "best5",
       "weights": {
-        "chin": 2,
-        "eng": 2
+        "chin": 2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2310,7 +2314,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "education",
       "nameZh": "文學士 (中國語文研究) 及教育學士 (中國語文教育)",
       "admitted2025": 12,
@@ -2330,9 +2334,7 @@
       "name": "BA (English Studies) and BEd (English Language Education) BEd in Mathe",
       "method": "best5",
       "weights": {
-        "eng": 2,
-        "math": 2,
-        "chin": 1.5
+        "eng": 2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2341,7 +2343,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "education",
       "nameZh": "文學士(英國語文研究)及教育學士(英國語文教育)",
       "admitted2025": 12,
@@ -2361,19 +2363,24 @@
       "name": "BEd in Mathematics and Mathematics Education",
       "method": "best5",
       "weights": {
+        "math": 2,
+        "m1": 2,
+        "m2": 2,
+        "eng": 1.5,
         "chin": 1.5,
-        "econ": 1.5
+        "phys": 1.5,
+        "econ": 1.5,
+        "ict": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 53.75,
         "lowerQuartile": 53
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "education",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "教育學士(數學及數學教育)",
       "admitted2025": 14,
       "intake": 12,
@@ -2391,9 +2398,7 @@
       "universityId": "cuhk",
       "name": "BEd in Early Childhood Education BSc in Learning Design and",
       "method": "best5",
-      "weights": {
-        "math": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 22,
@@ -2401,7 +2406,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "education",
       "nameZh": "教育學士(幼兒教育)",
       "admitted2025": 19,
@@ -2421,7 +2426,9 @@
       "name": "BSc in Learning Design and Technology Mechanical and Automation",
       "method": "best5",
       "weights": {
-        "math": 1.5
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2430,7 +2437,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "engineering",
       "nameZh": "理學士（學習設計與科技）",
       "admitted2025": 16,
@@ -2450,9 +2457,14 @@
       "name": "Mechanical and Automation Engineering Computer Science and",
       "method": "best5",
       "weights": {
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
         "phys": 1.5,
+        "bio": 1.25,
+        "chem": 1.25,
         "ict": 1.25,
-        "math": 1.5
+        "dat": 1.25
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2461,7 +2473,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
       "nameZh": "機械與自動化工程學",
       "admitted2025": 43,
@@ -2481,8 +2493,14 @@
       "name": "Computer Science and Engineering",
       "method": "best5",
       "weights": {
+        "math": 1.5,
+        "m1": 1.75,
+        "m2": 1.75,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
         "ict": 1.5,
-        "math": 2
+        "dat": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2491,7 +2509,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
       "nameZh": "計算機科學與工程",
       "admitted2025": 117,
@@ -2511,21 +2529,24 @@
       "name": "Computational Data Science",
       "method": "best5",
       "weights": {
-        "ict": 1.5,
-        "eng": 1.25,
-        "chin": 1.25,
-        "math": 1.75
+        "math": 2,
+        "m1": 2,
+        "m2": 2,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
+        "econ": 1.5,
+        "ict": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 54.5,
         "lowerQuartile": 53
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "計算數據科學",
       "admitted2025": 11,
       "intake": 19,
@@ -2544,7 +2565,16 @@
       "name": "Financial Technology",
       "method": "best5",
       "weights": {
-        "math": 1.5,
+        "eng": 1.25,
+        "chin": 1.25,
+        "math": 1.75,
+        "m1": 1.75,
+        "m2": 1.75,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
+        "econ": 1.5,
+        "bafs": 1.5,
         "ict": 1.5
       },
       "gradeScheme": "bonusTop",
@@ -2552,11 +2582,10 @@
         "median": 47.375,
         "lowerQuartile": 45.625
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "general",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "金融科技學",
       "admitted2025": 35,
       "intake": 30,
@@ -2575,7 +2604,9 @@
       "name": "Electronic Engineering",
       "method": "best5",
       "weights": {
-        "math": 2,
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
         "phys": 1.5
       },
       "gradeScheme": "bonusTop",
@@ -2585,7 +2616,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "engineering",
       "nameZh": "電子工程學",
       "admitted2025": 50,
@@ -2605,8 +2636,14 @@
       "name": "Information Engineering Systems Engineering and",
       "method": "best5",
       "weights": {
+        "math": 2,
+        "m1": 1.75,
+        "m2": 1.75,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
         "ict": 1.5,
-        "math": 1.5
+        "dat": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2615,7 +2652,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
       "nameZh": "信息工程學",
       "admitted2025": 63,
@@ -2635,8 +2672,15 @@
       "name": "Systems Engineering and Engineering Management",
       "method": "best5",
       "weights": {
-        "ict": 1.5,
-        "eng": 1.5
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
+        "econ": 1.5,
+        "bafs": 1.5,
+        "ict": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2645,7 +2689,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "engineering",
       "nameZh": "系統工程與工程管理",
       "admitted2025": 50,
@@ -2665,8 +2709,13 @@
       "name": "Biomedical Engineering Energy and Environmental",
       "method": "best5",
       "weights": {
-        "phys": 1.5,
-        "math": 1.5
+        "eng": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
+        "math": 1.5,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2675,7 +2724,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "生物醫學工程學",
       "admitted2025": 20,
@@ -2695,10 +2744,16 @@
       "name": "Energy and Environmental Engineering Artificial Intelligence: Systems",
       "method": "best5",
       "weights": {
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
         "ict": 1.5,
-        "phys": 1.2,
-        "eng": 1.25,
-        "chin": 1.25
+        "dat": 1.5,
+        "econ": 1.2,
+        "geog": 1.2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2707,7 +2762,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
       "nameZh": "能源與環境工程學",
       "admitted2025": 22,
@@ -2727,8 +2782,14 @@
       "name": "Artificial Intelligence: Systems and Technologies Materials Science an",
       "method": "best5",
       "weights": {
+        "eng": 1.25,
         "chin": 1.25,
-        "math": 1.25,
+        "math": 1.75,
+        "m1": 1.75,
+        "m2": 1.75,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
         "ict": 1.5
       },
       "gradeScheme": "bonusTop",
@@ -2736,11 +2797,10 @@
         "median": 52.375,
         "lowerQuartile": 50.375
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "人工智能：系統與科技",
       "admitted2025": 28,
       "intake": 30,
@@ -2759,7 +2819,10 @@
       "name": "Materials Science and Engineering BSc in Learning Design and",
       "method": "best5",
       "weights": {
-        "math": 1.5,
+        "math": 1.25,
+        "m1": 1.25,
+        "m2": 1.25,
+        "chem": 1.25,
         "phys": 1.25
       },
       "gradeScheme": "bonusTop",
@@ -2770,7 +2833,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "engineering",
       "nameZh": "材料科學與工程學",
       "admitted2025": 10,
@@ -2790,7 +2853,12 @@
       "name": "Mathematics and Information Engineering Aerospace Science and Earth",
       "method": "best5",
       "weights": {
-        "math": 1.5,
+        "math": 2,
+        "m1": 2,
+        "m2": 2,
+        "bio": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
         "ict": 1.5
       },
       "gradeScheme": "bonusTop",
@@ -2798,11 +2866,10 @@
         "median": 63.5,
         "lowerQuartile": 52
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "數學與信息工程學",
       "admitted2025": 5,
       "intake": 12,
@@ -2822,7 +2889,10 @@
       "method": "best5",
       "weights": {
         "math": 1.5,
-        "phys": 2
+        "m1": 2,
+        "m2": 2,
+        "phys": 2,
+        "geog": 2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -2832,7 +2902,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "engineering",
       "nameZh": "航天科學與地球信息學及Ｘ雙主修課程",
       "admitted2025": 17,
@@ -2862,7 +2932,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "law",
       "nameZh": "法學士",
       "admitted2025": 25,
@@ -2938,6 +3008,8 @@
       "name": "Nursing",
       "method": "best5",
       "weights": {
+        "bio": 1.2,
+        "chem": 1.2,
         "phys": 1.2
       },
       "gradeScheme": "bonusTop",
@@ -2948,7 +3020,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "護理學",
       "admitted2025": 228,
@@ -2967,10 +3039,7 @@
       "universityId": "cuhk",
       "name": "Pharmacy",
       "method": "best5",
-      "weights": {
-        "eng": 1.5,
-        "math": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 32,
@@ -2979,7 +3048,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "藥劑學",
       "admitted2025": 59,
@@ -2999,7 +3068,12 @@
       "name": "Public Health",
       "method": "best5",
       "weights": {
-        "math": 1.5
+        "eng": 1.5,
+        "math": 1.5,
+        "bio": 1.5,
+        "chem": 1.5,
+        "econ": 1.5,
+        "hmsc": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3008,7 +3082,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "公共衞生",
       "admitted2025": 19,
@@ -3027,10 +3101,7 @@
       "universityId": "cuhk",
       "name": "Chinese Medicine",
       "method": "best5",
-      "weights": {
-        "eng": 1.5,
-        "bio": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 30.5,
@@ -3038,7 +3109,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "中醫學",
       "admitted2025": 27,
@@ -3058,6 +3129,7 @@
       "name": "Biomedical Sciences Biotechnology, Entrepreneurship",
       "method": "best5",
       "weights": {
+        "eng": 1.5,
         "bio": 1.5,
         "chem": 1.5
       },
@@ -3068,7 +3140,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "medical",
       "nameZh": "生物醫學",
       "admitted2025": 14,
@@ -3088,8 +3160,13 @@
       "name": "Science (broad-based) Earth and Environmental",
       "method": "best5",
       "weights": {
-        "eng": 2,
-        "math": 2
+        "math": 1.5,
+        "eng": 1.5,
+        "m1": 2,
+        "m2": 2,
+        "bio": 2,
+        "chem": 2,
+        "phys": 2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3098,7 +3175,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "science",
       "nameZh": "理學",
       "admitted2025": 344,
@@ -3118,8 +3195,14 @@
       "name": "Earth and Environmental Sciences",
       "method": "best5",
       "weights": {
+        "eng": 2,
         "math": 2,
-        "phys": 1.5
+        "m1": 2,
+        "m2": 2,
+        "bio": 2,
+        "chem": 2,
+        "phys": 2,
+        "geog": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3128,7 +3211,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "science",
       "nameZh": "地球與環境科學",
       "admitted2025": 35,
@@ -3148,7 +3231,8 @@
       "name": "Enrichment Mathematics Enrichment Stream in",
       "method": "best5",
       "weights": {
-        "math": 1.5
+        "m1": 3.5,
+        "m2": 3.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3156,11 +3240,10 @@
         "lowerQuartile": 51.75,
         "upperQuartile": 52.75
       },
-      "scoreComparable": false,
+      "scoreComparable": true,
       "dataStatus": "official-2025-noformula",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "science",
-      "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
       "nameZh": "數學精研",
       "admitted2025": 30,
       "intake": 30,
@@ -3179,7 +3262,9 @@
       "name": "Enrichment Stream in Theoretical Physics",
       "method": "best5",
       "weights": {
-        "math": 2,
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
         "phys": 2
       },
       "gradeScheme": "bonusTop",
@@ -3189,7 +3274,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "science",
       "nameZh": "理論物理精研",
       "admitted2025": 19,
@@ -3210,7 +3295,8 @@
       "method": "best5",
       "weights": {
         "math": 2,
-        "eng": 2
+        "m1": 2,
+        "m2": 2
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3219,7 +3305,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "風險管理科學",
       "admitted2025": 27,
@@ -3249,7 +3335,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "science",
       "nameZh": "社會科學",
       "admitted2025": 55,
@@ -3269,8 +3355,7 @@
       "name": "Architectural Studies",
       "method": "best5",
       "weights": {
-        "eng": 1.5,
-        "math": 1.5
+        "eng": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3280,7 +3365,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "general",
       "nameZh": "建築學",
       "admitted2025": 26,
@@ -3299,11 +3384,7 @@
       "universityId": "cuhk",
       "name": "Economics Geography and Resource",
       "method": "best5",
-      "weights": {
-        "math": 1.5,
-        "phys": 1.5,
-        "eng": 1.5
-      },
+      "weights": {},
       "gradeScheme": "bonusTop",
       "admission": {
         "median": 31.5,
@@ -3312,7 +3393,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "經濟學",
       "admitted2025": 55,
@@ -3333,7 +3414,7 @@
       "method": "best5",
       "weights": {
         "eng": 1.5,
-        "phys": 1.5
+        "geog": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3342,7 +3423,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "business",
       "nameZh": "地理與資源管理學",
       "admitted2025": 47,
@@ -3362,7 +3443,12 @@
       "name": "Urban Studies Government and Public",
       "method": "best5",
       "weights": {
-        "eng": 1.5
+        "math": 1.5,
+        "m1": 1.5,
+        "m2": 1.5,
+        "chem": 1.5,
+        "phys": 1.5,
+        "econ": 1.5
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3372,7 +3458,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "城市研究",
       "admitted2025": 23,
@@ -3392,7 +3478,7 @@
       "name": "Government and Public Administration",
       "method": "best5",
       "weights": {
-        "eng": 1.3,
+        "eng": 1.5,
         "chin": 1.25
       },
       "gradeScheme": "bonusTop",
@@ -3403,7 +3489,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "政治與行政學",
       "admitted2025": 36,
@@ -3434,7 +3520,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "新聞與傳播學",
       "admitted2025": 40,
@@ -3454,7 +3540,7 @@
       "name": "Global Communication",
       "method": "best5",
       "weights": {
-        "eng": 1.5
+        "eng": 1.3
       },
       "gradeScheme": "bonusTop",
       "admission": {
@@ -3464,7 +3550,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "全球傳播",
       "admitted2025": 5,
@@ -3494,7 +3580,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "心理學",
       "admitted2025": 52,
@@ -3522,7 +3608,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "社會工作",
       "admitted2025": 39,
@@ -3552,7 +3638,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "社會學",
       "admitted2025": 35,
@@ -3581,7 +3667,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "social",
       "nameZh": "全球研究",
       "admitted2025": 17,
@@ -3608,7 +3694,7 @@
       },
       "scoreComparable": true,
       "dataStatus": "official-2025",
-      "weightsStatus": "auto-parsed",
+      "weightsStatus": "official-cuhk",
       "category": "it",
       "nameZh": "數據科學與政策研究",
       "admitted2025": 19,
