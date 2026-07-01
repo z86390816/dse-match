@@ -107,7 +107,8 @@ for (const p of PROGRAMMES) {
   // PolyU 官方 200~350 尺度不適用；CUHK 官方加權 best5 × 權重至 2 × 8.5 可達 ~90。
   const polyuScale = p.weightsStatus === 'official-polyu';
   const cuhkScale = p.weightsStatus === 'official-cuhk';
-  const cap = cuhkScale ? 90 : 75;
+  const hkuScale = p.weightsStatus === 'official-hku'; // HKU 官方加權（2×科 + 組加權）可達 ~100
+  const cap = cuhkScale ? 90 : hkuScale ? 105 : 75;
   if (!polyuScale && hi > cap) warn(`${p.jupasCode} 完美生分數 ${hi} 偏高（疑加權異常）method=${p.method} w=${JSON.stringify(p.weights)}`);
   if (polyuScale && hi > 360) warn(`${p.jupasCode} PolyU 完美生分數 ${hi} 超出尺度上限`);
   // 完美生應該對絕大多數專業 "safe"

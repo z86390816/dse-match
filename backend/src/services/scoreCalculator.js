@@ -55,47 +55,57 @@ function checkRequirements(grades, programme) {
  * @returns {{ score:number, breakdown:Array, requirement:{ok,reasons} }}
  */
 /**
- * HKU 計分：programme.formula = { fixed:[{subject,weight}], bestN, tailWeight }
- * 分數 = Σ(固定科加權) + 最佳 N 科（其餘科，權重 1） + tailWeight × 第(N+1)佳其餘科
+ * HKU 計分：programme.formula = {
+ *   fixed:[{subject,weight}],          指定科（英/數等），必計
+ *   groups:[{subjects:[id],weight}],   組內最佳一科 × weight（如「2×最佳理科」「2×Math/M1/M2」）
+ *   weights:{ id:weight },             其餘科的個別加權（如程式指定 [Weighting N]）
+ *   bestN, tailWeight
+ * }
+ * 分數 = Σ指定科 + Σ組內最佳科 + 最佳 N 科（其餘、按加權）+ tail×第(N+1)佳
  */
 function calculateHku(grades, programme, university, scheme) {
   const f = programme.formula || { fixed: [], bestN: 5, tailWeight: 0 };
   const breakdown = [];
-  const fixedIds = new Set(f.fixed.map((x) => x.subject));
+  const used = new Set();
+  let total = 0;
+  const has = (id) => grades[id] && grades[id] !== 'U';
+  const push = (id, weight, role) => {
+    const pts = gradeToPoints(grades[id], scheme);
+    total += pts * weight;
+    used.add(id);
+    breakdown.push({ subject: id, name: SUBJECT_MAP[id]?.name || id, grade: grades[id], basePoints: pts, weight, weightedPoints: +(pts * weight).toFixed(2), role });
+  };
 
-  let fixedScore = 0;
-  for (const { subject, weight } of f.fixed) {
-    const g = grades[subject];
-    if (!g || g === 'U') continue;
-    const pts = gradeToPoints(g, scheme);
-    fixedScore += pts * weight;
-    breakdown.push({ subject, name: SUBJECT_MAP[subject]?.name || subject, grade: g, basePoints: pts, weight, weightedPoints: +(pts * weight).toFixed(2), role: '指定科' });
+  // 1. 指定科（必計）
+  for (const { subject, weight } of f.fixed || []) if (has(subject)) push(subject, weight, '指定科');
+
+  // 2. 組內最佳一科
+  for (const grp of f.groups || []) {
+    const cand = (grp.subjects || []).filter((id) => has(id) && !used.has(id))
+      .map((id) => ({ id, pts: gradeToPoints(grades[id], scheme) })).sort((a, b) => b.pts - a.pts);
+    if (cand.length) push(cand[0].id, grp.weight, '組內最佳');
   }
 
-  // 其餘科（排除固定科、公民），按分數高低
+  // 3. 其餘科按加權取最佳 N
+  const W = f.weights || {};
   const remaining = Object.entries(grades)
-    .filter(([id, g]) => id !== 'csd' && g && g !== 'U' && !fixedIds.has(id))
-    .map(([id, g]) => ({ subject: id, name: SUBJECT_MAP[id]?.name || id, grade: g, points: gradeToPoints(g, scheme) }))
-    .sort((a, b) => b.points - a.points);
+    .filter(([id, g]) => id !== 'csd' && g && g !== 'U' && !used.has(id))
+    .map(([id, g]) => ({ subject: id, name: SUBJECT_MAP[id]?.name || id, grade: g, points: gradeToPoints(g, scheme), w: W[id] || 1 }))
+    .map((r) => ({ ...r, val: r.points * r.w }))
+    .sort((a, b) => b.val - a.val);
 
-  let bestSum = 0;
   remaining.slice(0, f.bestN).forEach((r) => {
-    bestSum += r.points;
-    breakdown.push({ subject: r.subject, name: r.name, grade: r.grade, basePoints: r.points, weight: 1, weightedPoints: +r.points.toFixed(2), role: `最佳 ${f.bestN} 科` });
+    total += r.val;
+    breakdown.push({ subject: r.subject, name: r.name, grade: r.grade, basePoints: r.points, weight: r.w, weightedPoints: +r.val.toFixed(2), role: `最佳 ${f.bestN} 科` });
   });
 
-  let tailScore = 0;
   const tailSubj = remaining[f.bestN];
   if (f.tailWeight && tailSubj) {
-    tailScore = tailSubj.points * f.tailWeight;
-    breakdown.push({ subject: tailSubj.subject, name: tailSubj.name, grade: tailSubj.grade, basePoints: tailSubj.points, weight: f.tailWeight, weightedPoints: +tailScore.toFixed(2), role: `第 ${f.bestN + 1} 佳` });
+    total += tailSubj.points * f.tailWeight;
+    breakdown.push({ subject: tailSubj.subject, name: tailSubj.name, grade: tailSubj.grade, basePoints: tailSubj.points, weight: f.tailWeight, weightedPoints: +(tailSubj.points * f.tailWeight).toFixed(2), role: `第 ${f.bestN + 1} 佳` });
   }
 
-  return {
-    score: +(fixedScore + bestSum + tailScore).toFixed(2),
-    breakdown,
-    requirement: checkRequirements(grades, programme),
-  };
+  return { score: +total.toFixed(2), breakdown, requirement: checkRequirements(grades, programme) };
 }
 
 function calculateScore(grades, programme, university) {
