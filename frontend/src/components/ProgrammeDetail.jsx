@@ -353,6 +353,9 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
             {showTrend && <TrendTable bands={appData.bands} years={trendYears} />}
           </div>
         )}
+        {!loading && bands2025 && trendYears.length <= 1 && (
+          <p className="muted" style={{ fontSize: 12, marginTop: 4 }}>{t('newCodeNote')}</p>
+        )}
 
         <div className="scheme-note">{t('scoreScale')}{t.sep}{SCHEME_LABEL[prog.gradeScheme] || prog.gradeScheme}</div>
       </div>

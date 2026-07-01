@@ -86,6 +86,7 @@ const STRINGS = {
   totalApplicants: { zh: '總報名', en: 'Total applicants' },
   people: { zh: '人', en: '' },
   trendTitle: { zh: '歷年報名趨勢', en: 'Applicant Trend Over Years' },
+  newCodeNote: { zh: 'ℹ️ 此為 2025 年新／重編課程編號，JUPAS 暫無往年數據可作趨勢比較。', en: 'ℹ️ This is a new/restructured 2025 programme code; JUPAS has no earlier-year data for trend comparison.' },
   expandTable: { zh: '展開表格', en: 'Show table' },
   collapseTable: { zh: '收起表格', en: 'Hide table' },
   trendTotal: { zh: '總報名', en: 'Total' },

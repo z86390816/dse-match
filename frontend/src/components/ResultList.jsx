@@ -17,7 +17,7 @@ export default function ResultList({ results }) {
   const uniName = (r) => (lang === 'zh' ? (r.universityShortZh || r.universityShort) : r.universityShort);
   const progName = (r) => (lang === 'zh' && r.nameZh ? r.nameZh : r.name);
   const [uniFilter, setUniFilter] = useState('all');
-  const [hideOutOfReach, setHideOutOfReach] = useState(false);
+  const [hideOutOfReach, setHideOutOfReach] = useState(true); // 預設只顯示有機會入到的
   const [expanded, setExpanded] = useState(() => new Set());
   const [selProg, setSelProg] = useState(null);
   const [disciplines, setDisciplines] = useState(null);
@@ -65,13 +65,14 @@ export default function ResultList({ results }) {
     <div className="results">
       <h3>{t('resultsTitle')}{lang === 'en' ? ` (${results.length} ${t('programmesUnit')})` : `（${results.length} ${t('programmesUnit')}）`}</h3>
 
-      {/* tier 統計 */}
+      {/* tier 統計：預設只顯示「有機會」三級，避免大量無法達標的專業拉低觀感 */}
       <div className="tier-summary">
-        {TIER_ORDER.filter((tk) => tierCounts[tk]).map((tk) => (
-          <span key={tk} className={`tier-pill ${TIER_CLS[tk]}`}>
-            {t.tier(tk).label} {tierCounts[tk]}
-          </span>
-        ))}
+        {(hideOutOfReach ? ['safe', 'competitive', 'reach'] : TIER_ORDER)
+          .filter((tk) => tierCounts[tk]).map((tk) => (
+            <span key={tk} className={`tier-pill ${TIER_CLS[tk]}`}>
+              {t.tier(tk).label} {tierCounts[tk]}
+            </span>
+          ))}
       </div>
 
       {/* 院校篩選 */}
