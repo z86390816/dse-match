@@ -18,6 +18,7 @@ export default function ResultList({ results }) {
   const progName = (r) => (lang === 'zh' && r.nameZh ? r.nameZh : r.name);
   const [uniFilter, setUniFilter] = useState('all');
   const [hideOutOfReach, setHideOutOfReach] = useState(true); // 預設只顯示有機會入到的
+  const [keyword, setKeyword] = useState('');
   const [expanded, setExpanded] = useState(() => new Set());
   const [selProg, setSelProg] = useState(null);
   const [disciplines, setDisciplines] = useState(null);
@@ -59,11 +60,28 @@ export default function ResultList({ results }) {
 
   let shown = results;
   if (uniFilter !== 'all') shown = shown.filter((r) => r.universityShort === uniFilter);
-  if (hideOutOfReach) shown = shown.filter((r) => ['safe', 'competitive', 'reach'].includes(r.tier));
+  const kw = keyword.trim();
+  if (kw) {
+    // 關鍵字搜尋：中／英文名、JS code、院校，跨全部結果（即使超出分數也搵到）
+    const k = kw.toLowerCase();
+    shown = shown.filter((r) =>
+      (r.name || '').toLowerCase().includes(k) ||
+      (r.nameZh || '').includes(kw) ||
+      (r.jupasCode || '').toLowerCase().includes(k) ||
+      (r.universityShort || '').toLowerCase().includes(k) ||
+      (r.universityShortZh || '').includes(kw) ||
+      (r.universityName || '').includes(kw));
+  } else if (hideOutOfReach) {
+    shown = shown.filter((r) => ['safe', 'competitive', 'reach'].includes(r.tier));
+  }
 
   return (
     <div className="results">
       <h3>{t('resultsTitle')}{lang === 'en' ? ` (${results.length} ${t('programmesUnit')})` : `（${results.length} ${t('programmesUnit')}）`}</h3>
+
+      <input className="search result-search" placeholder={t('searchResultPlaceholder')}
+        value={keyword} onChange={(e) => setKeyword(e.target.value)} />
+      {kw && <div className="search-hint">{t('searchAllHint')}</div>}
 
       {/* tier 統計：預設只顯示「有機會」三級，避免大量無法達標的專業拉低觀感 */}
       <div className="tier-summary">

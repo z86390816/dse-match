@@ -32,6 +32,8 @@ const STRINGS = {
   programmesUnit: { zh: '個專業', en: 'programmes' },
   filterAll: { zh: '全部', en: 'All' },
   hideOutOfReach: { zh: '只看有機會入到的（穩陣／有機會／衝刺）', en: 'Show only attainable (Safe / Likely / Reach)' },
+  searchResultPlaceholder: { zh: '🔍 搜尋你想讀的專業（中／英文關鍵字）…', en: '🔍 Search programmes you like (keyword)…' },
+  searchAllHint: { zh: 'ℹ️ 搜尋會顯示全部符合的專業（包括超出你分數的）', en: 'ℹ️ Search shows all matches, including out-of-reach ones' },
   showingN: { zh: '顯示', en: 'Showing' },
   emptyPrompt: { zh: '填好成績後按「開始比對」，結果會顯示在這裡。', en: 'Enter your grades and tap “Start Matching” — results will appear here.' },
   emptyNoMatch: { zh: '沒有符合條件的專業，試試調整興趣或取消篩選。', en: 'No matching programmes. Try adjusting interests or clearing filters.' },
