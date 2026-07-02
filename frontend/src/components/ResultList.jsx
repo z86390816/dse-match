@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useLang } from '../i18n.jsx';
 import { api } from '../api';
 import { DetailOverlay } from './ProgrammeDetail.jsx';
+import ReportModal from './ReportModal.jsx';
 
 const TIER_ORDER = ['safe', 'competitive', 'reach', 'below', 'unqualified', 'reference'];
 const TIER_CLS = { safe: 'safe', competitive: 'competitive', reach: 'reach', below: 'below', unqualified: 'unqualified', reference: 'below' };
@@ -21,6 +22,7 @@ export default function ResultList({ results }) {
   const [keyword, setKeyword] = useState('');
   const [expanded, setExpanded] = useState(() => new Set());
   const [selProg, setSelProg] = useState(null);
+  const [reportFor, setReportFor] = useState(null); // 計分明細內「計分有誤」上報
   const [disciplines, setDisciplines] = useState(null);
   useEffect(() => { api.getDisciplines().then((d) => setDisciplines(d.disciplines)).catch(() => {}); }, []);
   const toggle = (id) => setExpanded((prev) => {
@@ -39,15 +41,34 @@ export default function ResultList({ results }) {
     return 'Best 5';
   }
 
+  // 先按關鍵字／只看有機會 過濾（不含院校選擇）——院校 chip 的數字與實際顯示一致
+  const kw = keyword.trim();
+  const base = useMemo(() => {
+    let l = results || [];
+    if (kw) {
+      const k = kw.toLowerCase();
+      l = l.filter((r) =>
+        (r.name || '').toLowerCase().includes(k) ||
+        (r.nameZh || '').includes(kw) ||
+        (r.jupasCode || '').toLowerCase().includes(k) ||
+        (r.universityShort || '').toLowerCase().includes(k) ||
+        (r.universityShortZh || '').includes(kw) ||
+        (r.universityName || '').includes(kw));
+    } else if (hideOutOfReach) {
+      l = l.filter((r) => ['safe', 'competitive', 'reach'].includes(r.tier));
+    }
+    return l;
+  }, [results, kw, hideOutOfReach]);
+
   const unis = useMemo(() => {
     const m = new Map();
-    (results || []).forEach((r) => {
+    base.forEach((r) => {
       const e = m.get(r.universityShort) || { n: 0, zh: r.universityShortZh };
       e.n += 1;
       m.set(r.universityShort, e);
     });
     return [...m.entries()]; // [short, { n, zh }]
-  }, [results]);
+  }, [base]);
 
   const tierCounts = useMemo(() => {
     const c = {};
@@ -58,22 +79,9 @@ export default function ResultList({ results }) {
   if (!results) return <div className="empty">{t('emptyPrompt')}</div>;
   if (results.length === 0) return <div className="empty">{t('emptyNoMatch')}</div>;
 
-  let shown = results;
+  // 顯示 = base（關鍵字／只看有機會）再按院校篩選
+  let shown = base;
   if (uniFilter !== 'all') shown = shown.filter((r) => r.universityShort === uniFilter);
-  const kw = keyword.trim();
-  if (kw) {
-    // 關鍵字搜尋：中／英文名、JS code、院校，跨全部結果（即使超出分數也搵到）
-    const k = kw.toLowerCase();
-    shown = shown.filter((r) =>
-      (r.name || '').toLowerCase().includes(k) ||
-      (r.nameZh || '').includes(kw) ||
-      (r.jupasCode || '').toLowerCase().includes(k) ||
-      (r.universityShort || '').toLowerCase().includes(k) ||
-      (r.universityShortZh || '').includes(kw) ||
-      (r.universityName || '').includes(kw));
-  } else if (hideOutOfReach) {
-    shown = shown.filter((r) => ['safe', 'competitive', 'reach'].includes(r.tier));
-  }
 
   return (
     <div className="results">
@@ -95,7 +103,7 @@ export default function ResultList({ results }) {
 
       {/* 院校篩選 */}
       <div className="uni-filter">
-        <button className={`chip ${uniFilter === 'all' ? 'active' : ''}`} onClick={() => setUniFilter('all')}>{t('filterAll')}</button>
+        <button className={`chip ${uniFilter === 'all' ? 'active' : ''}`} onClick={() => setUniFilter('all')}>{t('filterAll')} ({base.length})</button>
         {unis.map(([u, info]) => (
           <button key={u} className={`chip ${uniFilter === u ? 'active' : ''}`} onClick={() => setUniFilter(u)}>
             {(lang === 'en' ? u : t.s(info.zh || u))} ({info.n})
@@ -200,6 +208,7 @@ export default function ResultList({ results }) {
                   </tfoot>
                 </table>
                 <div className="calc-note">{t('gradeTable')}{t.sep}{schemeLabel(r.gradeScheme)}</div>
+                <button className="report-link-btn" onClick={() => setReportFor(r)}>{t('reportOnCalc')}</button>
               </div>
             )}
           </div>
@@ -208,6 +217,12 @@ export default function ResultList({ results }) {
 
       {selProg && (
         <DetailOverlay prog={selProg} year={2025} disciplines={disciplines} onClose={() => setSelProg(null)} />
+      )}
+      {reportFor && (
+        <ReportModal
+          onClose={() => setReportFor(null)}
+          initialProgramme={`${reportFor.jupasCode} ${progName(reportFor)}（計分明細）`}
+        />
       )}
     </div>
   );

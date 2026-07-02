@@ -104,6 +104,7 @@ export default function App() {
         <p className="sub">{t('appSub')}</p>
       </header>
 
+      <Countdown />
       <div className="sticky-nav">
         <nav className="tabs">
           <button className={`tab ${view === 'match' || view === 'results' ? 'active' : ''}`} onClick={() => setView('match')}>
@@ -113,7 +114,6 @@ export default function App() {
             {t('tabBrowse')}
           </button>
         </nav>
-        <Countdown />
       </div>
 
       {view === 'privacy' && <PrivacyPolicy onBack={() => setView('match')} />}

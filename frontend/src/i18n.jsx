@@ -78,7 +78,7 @@ const STRINGS = {
   descTitle: { zh: '課程簡介（官方）', en: 'Official Programme Description' },
   officialSite: { zh: '🔗 課程官方網頁', en: '🔗 Official programme website' },
   remarksLabel: { zh: '備註', en: 'Remarks' },
-  descSource: { zh: '＊來源：JUPAS／院校官方課程簡介（原文為英文）', en: '* Source: official JUPAS / institution programme description' },
+  descSource: { zh: '＊來源：JUPAS／院校官方課程簡介；中文為機器翻譯，僅供參考，以英文原文為準', en: '* Source: official JUPAS / institution programme description' },
   expandDesc: { zh: '展開全文 ▾', en: 'Read more ▾' },
   collapseDesc: { zh: '收起 ▴', en: 'Show less ▴' },
   aiAnalysis: { zh: 'AI 智能分析', en: 'AI Analysis' },
@@ -116,6 +116,9 @@ const STRINGS = {
   reportFail: { zh: '送出失敗，請改用電郵：', en: 'Failed to send — please email:' },
   reportEmpty: { zh: '請先填寫問題描述', en: 'Please describe the issue first' },
   reportOnDetail: { zh: '🚩 這個專業資料有誤？回報', en: '🚩 Data wrong? Report it' },
+  reportOnCalc: { zh: '🚩 發現計分有誤？話我哋知（上報）', sc: '🚩 发现计分有误？告诉我们（上报）', en: '🚩 Scoring looks wrong? Report it' },
+  viewOriginal: { zh: '查看英文原文', en: 'View original (EN)' },
+  viewTranslated: { zh: '返回中文翻譯', en: 'Back to Chinese' },
 
   // ---- footer / ads / legal ----
   allProgrammes: { zh: '所有院校／專業', en: 'All programmes' },

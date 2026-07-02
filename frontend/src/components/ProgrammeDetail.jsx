@@ -225,13 +225,14 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const [showReport, setShowReport] = useState(false);
   const [desc, setDesc] = useState(null);       // 官方課程簡介
   const [descOpen, setDescOpen] = useState(false);
+  const [showOrig, setShowOrig] = useState(false); // 中文模式下切看英文原文
   const disc = disciplines?.[prog.discipline];
   const discText = disc ? (lang === 'en' ? disc.en : t.s(disc.zh)) : null;
   const careerText = disc ? (lang === 'en' ? disc.careerEn : t.s(disc.careerZh)) : null;
 
   useEffect(() => {
     setLoading(true);
-    setDesc(null); setDescOpen(false);
+    setDesc(null); setDescOpen(false); setShowOrig(false);
     api.track(prog.discipline, prog.jupasCode); // 記錄學科/專業點擊
     api.getApplications(prog.jupasCode)
       .then((d) => setAppData(d.application))
@@ -288,24 +289,37 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           <div><span className="dl">{t('colCategory')}</span><span className="dv" style={{ fontSize: 16 }}>{t.cat(prog.category)}</span></div>
         </div>
 
-        {desc && desc.d?.length > 0 && (
-          <div className="detail-block">
-            <h4>{t('descTitle')}</h4>
-            <div className="desc-text">
-              {(descOpen ? desc.d : desc.d.slice(0, 2)).map((p, i) => <p key={i}>{p}</p>)}
+        {desc && desc.d?.length > 0 && (() => {
+          // 中文（繁/簡）預設顯示翻譯（z），可切英文原文；英文介面直接顯示原文
+          const useZh = lang !== 'en' && desc.z?.length && !showOrig;
+          const paras = useZh ? desc.z : desc.d;
+          const remarks = useZh ? (desc.zr || desc.r) : desc.r;
+          return (
+            <div className="detail-block">
+              <div className="trend-header">
+                <h4>{t('descTitle')}</h4>
+                {lang !== 'en' && desc.z?.length > 0 && (
+                  <button className="chip" onClick={() => setShowOrig(!showOrig)}>
+                    {showOrig ? t('viewTranslated') : t('viewOriginal')}
+                  </button>
+                )}
+              </div>
+              <div className="desc-text">
+                {(descOpen ? paras : paras.slice(0, 2)).map((p, i) => <p key={i}>{t.s(p)}</p>)}
+              </div>
+              {paras.length > 2 && (
+                <button className="desc-toggle" onClick={() => setDescOpen(!descOpen)}>
+                  {descOpen ? t('collapseDesc') : t('expandDesc')}
+                </button>
+              )}
+              {remarks && descOpen && <p className="desc-remarks"><strong>{t('remarksLabel')}{t.sep}</strong>{t.s(remarks)}</p>}
+              {desc.w && (
+                <a className="desc-site" href={desc.w} target="_blank" rel="noopener noreferrer">{t('officialSite')}</a>
+              )}
+              <p className="muted" style={{ fontSize: 11, marginTop: 6 }}>{t('descSource')}</p>
             </div>
-            {desc.d.length > 2 && (
-              <button className="desc-toggle" onClick={() => setDescOpen(!descOpen)}>
-                {descOpen ? t('collapseDesc') : t('expandDesc')}
-              </button>
-            )}
-            {desc.r && descOpen && <p className="desc-remarks"><strong>{t('remarksLabel')}{t.sep}</strong>{desc.r}</p>}
-            {desc.w && (
-              <a className="desc-site" href={desc.w} target="_blank" rel="noopener noreferrer">{t('officialSite')}</a>
-            )}
-            <p className="muted" style={{ fontSize: 11, marginTop: 6 }}>{t('descSource')}</p>
-          </div>
-        )}
+          );
+        })()}
 
         <div className="detail-block">
           <div className="trend-header">
