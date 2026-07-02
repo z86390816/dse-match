@@ -1,6 +1,9 @@
 import { createContext, useContext, useEffect, useState } from 'react';
+import { ensureT2S, t2sReady, toSimplified } from './engine/t2s.js';
 
-// 雙語字典。key 為穩定語意鍵；院校/科目/專業名直接用資料內的 en 欄位。
+// 三語字典：zh=繁體、en=英文、sc=簡體。
+// sc 若未提供，會由 zh 自動繁→簡轉換（見 pick()）；只有廣東話口語句子才手寫 sc。
+// 院校/科目/專業名直接用資料內欄位，簡體模式下由 t.s() 即時轉換。
 const STRINGS = {
   // ---- header / chrome ----
   appTitle: { zh: '🎓 JUPAS Calculator', en: '🎓 JUPAS Calculator' },
@@ -27,7 +30,7 @@ const STRINGS = {
   backToEdit: { zh: '← 返回修改成績', en: '← Back to edit grades' },
   shareBtn: { zh: '📸 分享我的結果', en: '📸 Share my result' },
   shareTitle: { zh: '我的 DSE 升學配對', en: 'My DSE Match' },
-  shareCta: { zh: '輸入你的成績，睇下你能入邊間 👉', en: 'See which programmes you can get into 👉' },
+  shareCta: { zh: '輸入你的成績，睇下你能入邊間 👉', en: 'See which programmes you can get into 👉', sc: '输入你的成绩，看看你能进哪些专业 👉' },
   resultsTitle: { zh: '比對結果', en: 'Match Results' },
   programmesUnit: { zh: '個專業', en: 'programmes' },
   filterAll: { zh: '全部', en: 'All' },
@@ -96,7 +99,9 @@ const STRINGS = {
   back: { zh: '← 返回', en: '← Back' },
 
   // ---- footer / ads / legal ----
+  allProgrammes: { zh: '所有院校／專業', en: 'All programmes' },
   privacyLink: { zh: '私隱政策', en: 'Privacy Policy' },
+  feedbackPrompt: { zh: '📮 發現數據不準？歡迎反饋', en: '📮 Spotted inaccurate data? Send feedback', sc: '📮 发现数据不准？欢迎反馈' },
   footerDisclaimer: { zh: '· 數據僅供參考，一切以各院校官方公布為準 ·', en: '· For reference only; official institution announcements always prevail ·' },
   adLabel: { zh: '廣告', en: 'Advertisement' },
   adPending: { zh: '版位（設定後自動顯示廣告）', en: ' slot (ads appear here once configured)' },
@@ -126,14 +131,34 @@ const TIERS = {
   reference: { label: { zh: '僅供參考', en: 'Reference' }, desc: { zh: '此校計分方式不同，未能精確比對', en: 'Different scoring — cannot compare precisely' } },
 };
 
+export const LANGS = ['zh', 'sc', 'en']; // 繁 / 簡 / 英
+const LANG_LABEL = { zh: '繁', sc: '简', en: 'EN' };
+export { LANG_LABEL };
+
 const LangContext = createContext({ lang: 'zh', t: (k) => k, setLang: () => {} });
+
+// 依語言從 {zh,en,sc} 詞條取字；sc 缺省時由 zh 繁→簡轉換。
+function pick(entry, lang) {
+  if (!entry) return undefined;
+  if (lang === 'en') return entry.en ?? entry.zh;
+  if (lang === 'sc') return entry.sc ?? toSimplified(entry.zh ?? '');
+  return entry.zh;
+}
 
 export function LangProvider({ children }) {
   const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'zh');
-  useEffect(() => { localStorage.setItem('lang', lang); document.documentElement.lang = lang === 'zh' ? 'zh-HK' : 'en'; }, [lang]);
-  const t = (key) => (STRINGS[key]?.[lang] ?? STRINGS[key]?.zh ?? key);
-  t.cat = (c) => (CATS[c]?.[lang] ?? c);
-  t.tier = (tier) => ({ label: TIERS[tier]?.label?.[lang] ?? tier, desc: TIERS[tier]?.desc?.[lang] ?? '' });
+  const [, forceReady] = useState(t2sReady()); // 簡體字表載入後強制重繪
+  useEffect(() => {
+    localStorage.setItem('lang', lang);
+    document.documentElement.lang = lang === 'en' ? 'en' : lang === 'sc' ? 'zh-CN' : 'zh-HK';
+    if (lang === 'sc' && !t2sReady()) ensureT2S().then(() => forceReady(true));
+  }, [lang]);
+
+  const t = (key) => pick(STRINGS[key], lang) ?? key;
+  t.cat = (c) => pick(CATS[c], lang) ?? c;
+  t.tier = (tier) => ({ label: pick(TIERS[tier]?.label, lang) ?? tier, desc: pick(TIERS[tier]?.desc, lang) ?? '' });
+  t.s = (txt) => (lang === 'sc' ? toSimplified(txt) : txt); // 動態中文（資料/內嵌）即時轉簡
+  t.clang = lang === 'en' ? 'en' : 'zh'; // 內容語言：內嵌繁體建構函式用 zh，再由 t.s 轉簡
   t.sep = lang === 'en' ? ': ' : '：'; // 標籤分隔符（英文用半形冒號）
   return <LangContext.Provider value={{ lang, setLang, t }}>{children}</LangContext.Provider>;
 }

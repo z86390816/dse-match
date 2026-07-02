@@ -78,14 +78,20 @@ body {
 .header h1 { margin: 0 0 5px; font-size: 21px; font-weight: 800; letter-spacing: -.3px; color: #fff; }
 .header .sub { margin: 0; color: rgba(255,255,255,.85); font-size: 12.5px; line-height: 1.45; }
 @media (min-width: 768px) { .header h1 { font-size: 28px; } .header .sub { font-size: 14px; } }
-.lang-toggle {
+.lang-switch {
   position: absolute; top: 16px; right: 16px; z-index: 1;
-  background: rgba(255,255,255,.18); color: #fff;
-  border: 1px solid rgba(255,255,255,.4); border-radius: 999px;
-  width: 42px; height: 32px; font-size: 13px; font-weight: 700;
-  cursor: pointer; backdrop-filter: blur(4px); transition: background .15s;
+  display: inline-flex; gap: 2px; padding: 2px;
+  background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.4);
+  border-radius: 999px; backdrop-filter: blur(4px);
 }
-.lang-toggle:hover { background: rgba(255,255,255,.3); }
+.lang-toggle {
+  background: transparent; color: rgba(255,255,255,.85);
+  border: none; border-radius: 999px;
+  min-width: 30px; height: 26px; padding: 0 8px;
+  font-size: 12.5px; font-weight: 700; cursor: pointer; transition: background .15s, color .15s;
+}
+.lang-toggle:hover { color: #fff; }
+.lang-toggle.active { background: #fff; color: #4338ca; }
 
 .notice {
   margin: 12px 0;

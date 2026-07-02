@@ -7,7 +7,7 @@ import AdUnit from './components/AdUnit.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy.jsx';
 import { trackPageView, trackEvent } from './analytics';
 import { AD_SLOTS } from './config';
-import { useLang } from './i18n.jsx';
+import { useLang, LANGS, LANG_LABEL } from './i18n.jsx';
 import { shareResults } from './shareCard.js';
 import Countdown from './components/Countdown.jsx';
 
@@ -75,8 +75,8 @@ export default function App() {
         cta: t('shareCta'),
         domain: 'dsemarks.com',
         tierLabel: (tk) => t.tier(tk).label,
-        uniName: (r) => (lang === 'zh' ? (r.universityShortZh || r.universityShort) : r.universityShort),
-        progName: (r) => (lang === 'zh' && r.nameZh ? r.nameZh : r.name),
+        uniName: (r) => (lang === 'en' ? r.universityShort : t.s(r.universityShortZh || r.universityShort)),
+        progName: (r) => (lang !== 'en' && r.nameZh ? t.s(r.nameZh) : r.name),
       };
       const how = await shareResults(results, labels);
       trackEvent('share_result', { how, count: results.length });
@@ -86,9 +86,18 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <button className="lang-toggle" onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}>
-          {lang === 'zh' ? 'EN' : '中'}
-        </button>
+        <div className="lang-switch" role="group" aria-label="Language">
+          {LANGS.map((lg) => (
+            <button
+              key={lg}
+              className={`lang-toggle ${lang === lg ? 'active' : ''}`}
+              onClick={() => setLang(lg)}
+              type="button"
+            >
+              {LANG_LABEL[lg]}
+            </button>
+          ))}
+        </div>
         <h1>{t('appTitle')}</h1>
         <p className="sub">{t('appSub')}</p>
       </header>
@@ -176,9 +185,11 @@ export default function App() {
       )}
 
       <footer className="site-footer">
-        <a className="link-btn" href="/programmes/">{lang === 'zh' ? '所有院校／專業' : 'All programmes'}</a>
+        <a className="link-btn" href="/programmes/">{t('allProgrammes')}</a>
         {' · '}
         <button className="link-btn" onClick={() => setView('privacy')}>{t('privacyLink')}</button>
+        {' · '}
+        <a className="link-btn" href="mailto:feedback@dsemarks.com?subject=JUPAS%20Calculator%20數據反饋">{t('feedbackPrompt')}</a>
         <span> {t('footerDisclaimer')} © {new Date().getFullYear()} JUPAS Calculator</span>
       </footer>
     </div>

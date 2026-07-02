@@ -46,7 +46,7 @@ export default function ProgrammeBrowser() {
           {universities.map((u) => (
             <button key={u.id} className={`chip ${selUni === u.id ? 'active' : ''}`}
               onClick={() => { setSelUni(u.id); }}>
-              {(lang === 'zh' ? (u.shortZh || u.short) : u.short)} ({countByUni[u.id] || 0})
+              {(lang === 'en' ? u.short : t.s(u.shortZh || u.short))} ({countByUni[u.id] || 0})
             </button>
           ))}
         </div>
@@ -57,7 +57,7 @@ export default function ProgrammeBrowser() {
       {uni && (
         <div className="panel">
           <div className="browse-head">
-            <h3>{lang === 'en' ? `${uni.en} (${uni.short})` : `${uni.name}（${uni.short}）`}</h3>
+            <h3>{lang === 'en' ? `${uni.en} (${uni.short})` : `${t.s(uni.name)}（${uni.short}）`}</h3>
             <span className="muted">{list.length} {t('programmesUnit')} · {year}</span>
           </div>
           <div className="prog-table">
@@ -74,7 +74,7 @@ export default function ProgrammeBrowser() {
                 <span className="c-idx">{idx + 1}</span>
                 <span className="c-code">{p.jupasCode}</span>
                 <span className="c-name">
-                  {lang === 'zh' && p.nameZh ? p.nameZh : p.name}
+                  {lang !== 'en' && p.nameZh ? t.s(p.nameZh) : p.name}
                   {p.scoreComparable === false && <span className="ref-tag">{t.tier('reference').label}</span>}
                 </span>
                 <span className="c-cat">{t.cat(p.category)}</span>

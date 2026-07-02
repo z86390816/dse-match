@@ -14,8 +14,8 @@ const schemeLabel = (s) => SCHEME_LABEL[s] || s;
 
 export default function ResultList({ results }) {
   const { lang, t } = useLang();
-  const uniName = (r) => (lang === 'zh' ? (r.universityShortZh || r.universityShort) : r.universityShort);
-  const progName = (r) => (lang === 'zh' && r.nameZh ? r.nameZh : r.name);
+  const uniName = (r) => (lang === 'en' ? r.universityShort : t.s(r.universityShortZh || r.universityShort));
+  const progName = (r) => (lang !== 'en' && r.nameZh ? t.s(r.nameZh) : r.name);
   const [uniFilter, setUniFilter] = useState('all');
   const [hideOutOfReach, setHideOutOfReach] = useState(true); // 預設只顯示有機會入到的
   const [keyword, setKeyword] = useState('');
@@ -98,7 +98,7 @@ export default function ResultList({ results }) {
         <button className={`chip ${uniFilter === 'all' ? 'active' : ''}`} onClick={() => setUniFilter('all')}>{t('filterAll')}</button>
         {unis.map(([u, info]) => (
           <button key={u} className={`chip ${uniFilter === u ? 'active' : ''}`} onClick={() => setUniFilter(u)}>
-            {(lang === 'zh' ? (info.zh || u) : u)} ({info.n})
+            {(lang === 'en' ? u : t.s(info.zh || u))} ({info.n})
           </button>
         ))}
       </div>

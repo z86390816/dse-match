@@ -12,18 +12,18 @@ function daysToResults() {
 }
 
 export default function Countdown() {
-  const { lang } = useLang();
+  const { lang, t } = useLang();
   const d = daysToResults();
   const en = lang === 'en';
 
   let text;
   if (d === 0) {
     text = en ? '🎉 DSE results are out TODAY! Best of luck — may you land your dream programme!'
-             : '🎉 今日就是 DSE 放榜日！祝你金榜題名，入到心儀專業！';
+             : t.s('🎉 今日就是 DSE 放榜日！祝你金榜題名，入到心儀專業！');
   } else {
     text = en
       ? <>🎓 <strong>{d}</strong> {d === 1 ? 'day' : 'days'} to DSE results (Jul 15) · Wishing everyone their dream programme!</>
-      : <>🎓 距 DSE 放榜（7 月 15 日）還有 <strong>{d}</strong> 日 · 祝大家都入到心儀專業！</>;
+      : <>{t.s('🎓 距 DSE 放榜（7 月 15 日）還有 ')}<strong>{d}</strong>{t.s(' 日 · 祝大家都入到心儀專業！')}</>;
   }
 
   return <div className="countdown-banner">{text}</div>;

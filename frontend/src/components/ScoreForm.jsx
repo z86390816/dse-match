@@ -14,10 +14,10 @@ export default function ScoreForm({ subjects, gradeOptions, csdGrades, grades, s
 
   const core = subjects.filter((s) => s.core);
   const electives = subjects.filter((s) => !s.core);
-  const subjName = (s) => (lang === 'en' ? s.en : s.name);
+  const subjName = (s) => (lang === 'en' ? s.en : t.s(s.name));
   // CSD 選項值維持中文（引擎判斷用），英文版只改顯示標籤
   const CSD_EN = { '達標': 'Attained', '未達標': 'Not attained' };
-  const csdLabel = (g) => (lang === 'en' ? (CSD_EN[g] || g) : g);
+  const csdLabel = (g) => (lang === 'en' ? (CSD_EN[g] || g) : t.s(g));
 
   return (
     <div className="score-form">

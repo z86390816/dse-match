@@ -222,8 +222,8 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const [loading, setLoading] = useState(true);
   const [showTrend, setShowTrend] = useState(false);
   const disc = disciplines?.[prog.discipline];
-  const discText = disc ? (lang === 'en' ? disc.en : disc.zh) : null;
-  const careerText = disc ? (lang === 'en' ? disc.careerEn : disc.careerZh) : null;
+  const discText = disc ? (lang === 'en' ? disc.en : t.s(disc.zh)) : null;
+  const careerText = disc ? (lang === 'en' ? disc.careerEn : t.s(disc.careerZh)) : null;
 
   useEffect(() => {
     setLoading(true);
@@ -254,8 +254,8 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           <h3>{prog.jupasCode}</h3>
         </div>
 
-        <h3 style={{ marginTop: 12, fontSize: 17 }}>{lang === 'zh' && prog.nameZh ? prog.nameZh : prog.name}</h3>
-        {lang === 'zh' && prog.nameZh && <p className="muted" style={{ margin: '2px 0 0' }}>{prog.name}</p>}
+        <h3 style={{ marginTop: 12, fontSize: 17 }}>{lang !== 'en' && prog.nameZh ? t.s(prog.nameZh) : prog.name}</h3>
+        {lang !== 'en' && prog.nameZh && <p className="muted" style={{ margin: '2px 0 0' }}>{prog.name}</p>}
 
         {prog.admitted2025 > 0 && (
           <div className="admit-hero">
@@ -288,13 +288,13 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           </div>
           {discText && (
             <div className="ai-overview">
-              <span className="ai-overview-tag">{lang === 'en' ? disc.nameEn : disc.nameZh}</span>
+              <span className="ai-overview-tag">{lang === 'en' ? disc.nameEn : t.s(disc.nameZh)}</span>
               <span>{discText}</span>
             </div>
           )}
           <ul className="ai-list">
-            {buildAnalysis(prog, appData, lang).map((ins, i) => (
-              <li key={i}><span className="ai-icon">{ins.icon}</span><span>{ins.text}</span></li>
+            {buildAnalysis(prog, appData, t.clang).map((ins, i) => (
+              <li key={i}><span className="ai-icon">{ins.icon}</span><span>{t.s(ins.text)}</span></li>
             ))}
           </ul>
           {careerText && (
@@ -308,7 +308,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
 
         <div className="detail-block">
           <h4>{t('scoringMethod')}</h4>
-          <p>{describeScoring(prog, lang)}</p>
+          <p>{t.s(describeScoring(prog, t.clang))}</p>
           {prog.weightsStatus === 'unweighted-approx' && <p className="muted">{t('weightApproxNote')}</p>}
         </div>
 
@@ -317,7 +317,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
             <h4>{t('coreReq')}</h4>
             <div className="req-list">
               {appData.requirements.map((r, i) => (
-                <span key={i} className="req-chip">{r.subject}{t.sep}{reqMinLabel(r.subject, r.min, lang)}</span>
+                <span key={i} className="req-chip">{r.subject}{t.sep}{t.s(reqMinLabel(r.subject, r.min, t.clang))}</span>
               ))}
             </div>
           </div>
@@ -331,7 +331,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
             <div className="bands">
               {['bandA', 'bandB', 'bandC', 'bandD', 'bandE'].map((b) => (
                 <div className="band-row" key={b}>
-                  <span className="band-label">{BAND_LABEL[lang][b]}</span>
+                  <span className="band-label">{t.s(BAND_LABEL[t.clang][b])}</span>
                   <span className="band-bar"><span className="band-fill" style={{ width: `${maxBand ? (bands2025[b] / maxBand) * 100 : 0}%` }} /></span>
                   <span className="band-num">{bands2025[b]}</span>
                 </div>
