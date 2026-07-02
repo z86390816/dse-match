@@ -13,6 +13,8 @@ const programmes = JSON.parse(fs.readFileSync(R('src/data/programmes.json'), 'ut
 const disciplines = JSON.parse(fs.readFileSync(R('src/data/disciplines.json'), 'utf8'));
 let applications = {};
 try { applications = JSON.parse(fs.readFileSync(R('public/applications.json'), 'utf8')); } catch {}
+let descriptions = {};
+try { descriptions = JSON.parse(fs.readFileSync(R('public/descriptions.json'), 'utf8')); } catch {}
 
 const CAT_ZH = { medical: '醫科/護理', law: '法律', business: '商科', engineering: '工程', it: '資訊科技', science: '理科', social: '社會科學', arts: '藝術', humanities: '人文', education: '教育', language: '語言', general: '其他' };
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -81,6 +83,7 @@ ${stats.length ? `<div class="card"><h2>2025 收生數據</h2><div class="grid">
 <a class="cta" href="${SITE}/">🎯 用你的 DSE 成績，睇下你能唔能入呢科 →</a>
 ${reqs ? `<div class="card"><h2>核心科目最低要求</h2>${reqs}</div>` : ''}
 ${b25 ? `<div class="card"><h2>2025 報名人數（改選後）</h2><p>總報名 <strong>${b25.total}</strong> 人，其中以首三志願（Band A）報讀 <strong>${b25.bandA}</strong> 人。</p></div>` : ''}
+${(descriptions[p.jupasCode]?.d?.length) ? `<div class="card"><h2>課程簡介（官方）</h2>${descriptions[p.jupasCode].d.map((t) => `<p style="font-size:13.5px;text-align:justify">${esc(t)}</p>`).join('')}${descriptions[p.jupasCode].w ? `<p><a href="${esc(descriptions[p.jupasCode].w)}" rel="nofollow noopener" target="_blank">🔗 課程官方網頁</a></p>` : ''}</div>` : ''}
 ${disc.zh ? `<div class="card"><h2>學科簡介</h2><p class="muted">${esc(disc.zh)}</p></div>` : ''}
 ${disc.careerZh ? `<div class="card"><h2>💼 香港就業前景與方向</h2><div class="career">${esc(disc.careerZh)}</div></div>` : ''}
 ${siblings ? `<div class="card"><h2>${esc(uni.short)} 其他專業</h2><div class="chips">${siblings}</div></div>` : ''}`;

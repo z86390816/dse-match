@@ -338,26 +338,27 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .admit-chip { background: var(--accent-light); color: var(--accent-dark); font-weight: 600; padding: 2px 9px; border-radius: 999px; font-size: 11.5px; }
 .sample-tag { background: #fef9c3; color: #854d0e; padding: 1px 8px; border-radius: 4px; }
 
-/* calc detail button */
+/* 結果卡雙功能按鈕：主（專業詳細資訊）＝實心漸層；次（計分明細）＝白底描邊，一眼分清兩個功能 */
+.card-actions { display: flex; gap: 10px; margin-top: 12px; }
 .calc-btn {
-  display: inline-flex; align-items: center; gap: 6px;
+  flex: 1;
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
   margin-top: 12px;
-  padding: 9px 18px;
-  background: var(--accent-light);
-  color: var(--accent-dark);
-  border: 1.5px solid var(--accent);
-  border-radius: 999px;
-  font-size: 13px; font-weight: 700;
+  padding: 10px 14px;
+  background: #fff;
+  color: var(--text);
+  border: 1.5px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 13.5px; font-weight: 700;
   cursor: pointer;
-  min-height: 42px;
+  min-height: 46px;
   transition: all .15s;
 }
-.calc-btn:hover { background: var(--accent); color: #fff; box-shadow: 0 3px 10px rgba(37,99,235,.3); }
+.calc-btn:hover { border-color: var(--accent); color: var(--accent-dark); background: var(--accent-light); }
 .calc-btn:active { transform: translateY(1px); }
-.card-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .card-actions .calc-btn { margin-top: 0; }
-.detail-btn { background: var(--grad); color: #fff; border-color: transparent; box-shadow: 0 2px 8px rgba(37,99,235,.25); }
-.detail-btn:hover { filter: brightness(1.05); color: #fff; }
+.detail-btn { background: var(--grad); color: #fff; border-color: transparent; box-shadow: 0 2px 10px rgba(37,99,235,.3); }
+.detail-btn:hover { filter: brightness(1.06); background: var(--grad); color: #fff; border-color: transparent; }
 
 .calc-detail { margin-top: 10px; background: var(--panel-2); border-radius: 8px; padding: 12px; border: 1px solid var(--border); }
 .calc-method { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
@@ -600,3 +601,18 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .adm-report-lang { background: #eef2f7; padding: 1px 7px; border-radius: 999px; }
 .adm-report-msg { font-size: 14px; line-height: 1.5; white-space: pre-wrap; }
 .adm-report-contact { margin-top: 5px; font-size: 12.5px; color: var(--accent-dark); }
+
+/* ===== 官方課程簡介 ===== */
+.desc-text p { margin: 0 0 9px; font-size: 13.5px; line-height: 1.7; color: var(--text); text-align: justify; }
+.desc-toggle {
+  background: none; border: none; padding: 0; margin: 2px 0 6px;
+  color: var(--accent); font-size: 13px; font-weight: 700; cursor: pointer;
+}
+.desc-remarks { margin: 4px 0 8px; font-size: 12.5px; color: var(--muted); line-height: 1.6; }
+.desc-site {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin: 4px 0 2px; padding: 7px 14px;
+  background: var(--accent-light); color: var(--accent-dark);
+  border-radius: 999px; font-size: 12.5px; font-weight: 700; text-decoration: none;
+}
+.desc-site:hover { background: var(--accent); color: #fff; }

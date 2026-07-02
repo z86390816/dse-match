@@ -223,17 +223,21 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const [loading, setLoading] = useState(true);
   const [showTrend, setShowTrend] = useState(false);
   const [showReport, setShowReport] = useState(false);
+  const [desc, setDesc] = useState(null);       // 官方課程簡介
+  const [descOpen, setDescOpen] = useState(false);
   const disc = disciplines?.[prog.discipline];
   const discText = disc ? (lang === 'en' ? disc.en : t.s(disc.zh)) : null;
   const careerText = disc ? (lang === 'en' ? disc.careerEn : t.s(disc.careerZh)) : null;
 
   useEffect(() => {
     setLoading(true);
+    setDesc(null); setDescOpen(false);
     api.track(prog.discipline, prog.jupasCode); // 記錄學科/專業點擊
     api.getApplications(prog.jupasCode)
       .then((d) => setAppData(d.application))
       .catch(() => setAppData(null))
       .finally(() => setLoading(false));
+    api.getDescription(prog.jupasCode).then(setDesc).catch(() => {});
   }, [prog.jupasCode]);
 
   useEffect(() => {
@@ -283,6 +287,25 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           <div><span className="dl">{t('lowerQuartile')}</span><span className="dv">{prog.admission?.lowerQuartile ?? '—'}</span></div>
           <div><span className="dl">{t('colCategory')}</span><span className="dv" style={{ fontSize: 16 }}>{t.cat(prog.category)}</span></div>
         </div>
+
+        {desc && desc.d?.length > 0 && (
+          <div className="detail-block">
+            <h4>{t('descTitle')}</h4>
+            <div className="desc-text">
+              {(descOpen ? desc.d : desc.d.slice(0, 2)).map((p, i) => <p key={i}>{p}</p>)}
+            </div>
+            {desc.d.length > 2 && (
+              <button className="desc-toggle" onClick={() => setDescOpen(!descOpen)}>
+                {descOpen ? t('collapseDesc') : t('expandDesc')}
+              </button>
+            )}
+            {desc.r && descOpen && <p className="desc-remarks"><strong>{t('remarksLabel')}{t.sep}</strong>{desc.r}</p>}
+            {desc.w && (
+              <a className="desc-site" href={desc.w} target="_blank" rel="noopener noreferrer">{t('officialSite')}</a>
+            )}
+            <p className="muted" style={{ fontSize: 11, marginTop: 6 }}>{t('descSource')}</p>
+          </div>
+        )}
 
         <div className="detail-block">
           <div className="trend-header">

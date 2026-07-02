@@ -5,10 +5,11 @@ import { UNIVERSITIES } from './engine/universities.js';
 import { matchAll } from './engine/matcher.js';
 import { recommend, INTEREST_TO_CATEGORY } from './engine/recommender.js';
 
-let _prog, _disc, _apps;
+let _prog, _disc, _apps, _desc;
 const loadProgrammes = () => (_prog ||= import('./data/programmes.json').then((m) => m.default));
 const loadDisciplines = () => (_disc ||= import('./data/disciplines.json').then((m) => m.default));
 const loadApplications = () => (_apps ||= fetch('/applications.json').then((r) => r.json()));
+const loadDescriptions = () => (_desc ||= fetch('/descriptions.json').then((r) => r.json()));
 
 export const api = {
   getSubjects: async () => ({ subjects: SUBJECTS, gradeOptions: GRADE_OPTIONS, csdGrades: CSD_GRADES, gradeSchemes: GRADE_SCHEMES }),
@@ -22,6 +23,11 @@ export const api = {
   getApplications: async (code) => {
     const a = await loadApplications();
     return { code, application: a[code] || null };
+  },
+  // 官方課程簡介（爬自 JUPAS）：{ d:[段落], w:官網, r:備註 }
+  getDescription: async (code) => {
+    const d = await loadDescriptions().catch(() => ({}));
+    return d[code] || null;
   },
   match: async (grades) => {
     const p = await loadProgrammes();
