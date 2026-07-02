@@ -98,10 +98,23 @@ const STRINGS = {
   trendBandA: { zh: 'Band A（首 3 志願）', en: 'Band A (top 3 choices)' },
   back: { zh: '← 返回', en: '← Back' },
 
+  // ---- report / feedback ----
+  reportTitle: { zh: '回報數據錯誤', en: 'Report a data error' },
+  reportProgramme: { zh: '相關專業（可選）', en: 'Related programme (optional)' },
+  reportMessage: { zh: '問題描述', en: 'What looks wrong?' },
+  reportPlaceholder: { zh: '例如：JS4412 的計分權重不對、某科收生中位數有誤…', en: 'e.g. wrong weighting for JS4412, incorrect median for a programme…' },
+  reportContact: { zh: '你的聯絡方式（可選，方便我們跟進）', en: 'Your contact (optional, so we can follow up)' },
+  reportSend: { zh: '送出回報', en: 'Send report' },
+  reportSending: { zh: '送出中…', en: 'Sending…' },
+  reportThanks: { zh: '多謝回報！我們會盡快核對並更新。', en: 'Thanks for the report! We’ll review and update soon.' },
+  reportFail: { zh: '送出失敗，請改用電郵：', en: 'Failed to send — please email:' },
+  reportEmpty: { zh: '請先填寫問題描述', en: 'Please describe the issue first' },
+  reportOnDetail: { zh: '🚩 這個專業資料有誤？回報', en: '🚩 Data wrong? Report it' },
+
   // ---- footer / ads / legal ----
   allProgrammes: { zh: '所有院校／專業', en: 'All programmes' },
   privacyLink: { zh: '私隱政策', en: 'Privacy Policy' },
-  feedbackPrompt: { zh: '📮 發現數據不準？歡迎反饋', en: '📮 Spotted inaccurate data? Send feedback', sc: '📮 发现数据不准？欢迎反馈' },
+  feedbackPrompt: { zh: '📮 發現數據不準？回報', en: '📮 Spotted inaccurate data? Report', sc: '📮 发现数据不准？回报' },
   footerDisclaimer: { zh: '· 數據僅供參考，一切以各院校官方公布為準 ·', en: '· For reference only; official institution announcements always prevail ·' },
   adLabel: { zh: '廣告', en: 'Advertisement' },
   adPending: { zh: '版位（設定後自動顯示廣告）', en: ' slot (ads appear here once configured)' },

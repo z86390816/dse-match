@@ -10,6 +10,7 @@ import { AD_SLOTS } from './config';
 import { useLang, LANGS, LANG_LABEL } from './i18n.jsx';
 import { shareResults } from './shareCard.js';
 import Countdown from './components/Countdown.jsx';
+import ReportModal from './components/ReportModal.jsx';
 
 export default function App() {
   const { lang, setLang, t } = useLang();
@@ -27,6 +28,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [view, setView] = useState('match'); // 'match' | 'browse' | 'results' | 'privacy'
+  const [showReport, setShowReport] = useState(false);
 
   useEffect(() => {
     api.getSubjects().then((d) => {
@@ -189,9 +191,11 @@ export default function App() {
         {' · '}
         <button className="link-btn" onClick={() => setView('privacy')}>{t('privacyLink')}</button>
         {' · '}
-        <a className="link-btn" href="mailto:feedback@dsemarks.com?subject=JUPAS%20Calculator%20數據反饋">{t('feedbackPrompt')}</a>
+        <button className="link-btn" onClick={() => setShowReport(true)}>{t('feedbackPrompt')}</button>
         <span> {t('footerDisclaimer')} © {new Date().getFullYear()} JUPAS Calculator</span>
       </footer>
+
+      {showReport && <ReportModal onClose={() => setShowReport(false)} />}
     </div>
   );
 }

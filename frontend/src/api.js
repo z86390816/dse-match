@@ -33,4 +33,24 @@ export const api = {
   },
   // 首屏後背景預載，讓首次比對/瀏覽即時
   prefetch: () => { loadProgrammes(); loadDisciplines(); },
+  // 記錄學科/專業點擊（fire-and-forget，失敗不影響體驗）
+  track: (discipline, jupasCode) => {
+    try {
+      fetch('/api/track', {
+        method: 'POST', keepalive: true,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ discipline: discipline || '', jupasCode: jupasCode || '' }),
+      }).catch(() => {});
+    } catch { /* ignore */ }
+  },
+  // 上報數據錯誤
+  report: async ({ programme, message, contact, lang }) => {
+    const r = await fetch('/api/report', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ programme, message, contact, lang }),
+    });
+    if (!r.ok) throw new Error(String(r.status));
+    return r.json();
+  },
 };

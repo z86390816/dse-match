@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import { useLang } from '../i18n.jsx';
+import ReportModal from './ReportModal.jsx';
 
 export const SCHEME_LABEL = {
   bonusTop: '5**=8.5, 5*=7, 5=5.5, 4=4 …',
@@ -221,12 +222,14 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const [appData, setAppData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showTrend, setShowTrend] = useState(false);
+  const [showReport, setShowReport] = useState(false);
   const disc = disciplines?.[prog.discipline];
   const discText = disc ? (lang === 'en' ? disc.en : t.s(disc.zh)) : null;
   const careerText = disc ? (lang === 'en' ? disc.careerEn : t.s(disc.careerZh)) : null;
 
   useEffect(() => {
     setLoading(true);
+    api.track(prog.discipline, prog.jupasCode); // 記錄學科/專業點擊
     api.getApplications(prog.jupasCode)
       .then((d) => setAppData(d.application))
       .catch(() => setAppData(null))
@@ -304,6 +307,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
             </div>
           )}
           <p className="muted" style={{ fontSize: 11 }}>{t('aiNote')}</p>
+          <button className="report-link-btn" onClick={() => setShowReport(true)}>{t('reportOnDetail')}</button>
         </div>
 
         <div className="detail-block">
@@ -359,6 +363,12 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
 
         <div className="scheme-note">{t('scoreScale')}{t.sep}{SCHEME_LABEL[prog.gradeScheme] || prog.gradeScheme}</div>
       </div>
+      {showReport && (
+        <ReportModal
+          onClose={() => setShowReport(false)}
+          initialProgramme={`${prog.jupasCode} ${(lang !== 'en' && prog.nameZh) ? t.s(prog.nameZh) : prog.name}`}
+        />
+      )}
     </div>
   );
 }

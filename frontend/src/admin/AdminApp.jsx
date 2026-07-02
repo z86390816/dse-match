@@ -1,0 +1,118 @@
+import { useMemo, useState } from 'react';
+
+// 排序成排行榜資料
+function rank(obj, nameMap) {
+  const arr = Object.entries(obj || {})
+    .map(([id, n]) => ({ id, n: Number(n) || 0, name: nameMap[id] || id }))
+    .sort((a, b) => b.n - a.n);
+  const max = arr.length ? arr[0].n : 1;
+  const total = arr.reduce((s, x) => s + x.n, 0);
+  return { arr, max, total };
+}
+
+function Bars({ title, data, nameMap, limit = 20 }) {
+  const { arr, max, total } = useMemo(() => rank(data, nameMap), [data, nameMap]);
+  if (!arr.length) return <div className="adm-card"><h3>{title}</h3><p className="adm-muted">暫無點擊數據。</p></div>;
+  return (
+    <div className="adm-card">
+      <h3>{title} <span className="adm-muted">· 共 {total} 次點擊</span></h3>
+      <div className="adm-bars">
+        {arr.slice(0, limit).map((r, i) => (
+          <div className="adm-bar-row" key={r.id}>
+            <span className="adm-rank">{i + 1}</span>
+            <span className="adm-bar-name" title={r.id}>{r.name}</span>
+            <span className="adm-bar-track"><span className="adm-bar-fill" style={{ width: `${max ? (r.n / max) * 100 : 0}%` }} /></span>
+            <span className="adm-bar-num">{r.n}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default function AdminApp() {
+  const [password, setPassword] = useState('');
+  const [data, setData] = useState(null);
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [discNames, setDiscNames] = useState({});
+  const [progNames, setProgNames] = useState({});
+
+  async function login(e) {
+    e?.preventDefault?.();
+    setLoading(true); setError('');
+    try {
+      const r = await fetch('/api/admin', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+      if (r.status === 401) { setError('密碼錯誤'); setLoading(false); return; }
+      if (r.status === 503) { setError('尚未設定：請先在 Vercel 加入 Upstash 儲存並設定 ADMIN_PASSWORD 環境變數。'); setLoading(false); return; }
+      if (!r.ok) { setError(`載入失敗（${r.status}）`); setLoading(false); return; }
+      const j = await r.json();
+      setData(j);
+      // 載入名稱對映（學科、專業）
+      const [disc, prog] = await Promise.all([
+        import('../data/disciplines.json').then((m) => m.default).catch(() => ({})),
+        import('../data/programmes.json').then((m) => m.default).catch(() => ({ programmes: [] })),
+      ]);
+      const dn = {}; Object.entries(disc).forEach(([id, v]) => { dn[id] = v.nameZh || v.nameEn || id; });
+      const pn = {}; (prog.programmes || []).forEach((p) => { pn[p.jupasCode] = `${p.jupasCode} ${p.nameZh || p.name}`; });
+      setDiscNames(dn); setProgNames(pn);
+    } catch { setError('網絡錯誤，請重試。'); }
+    setLoading(false);
+  }
+
+  if (!data) {
+    return (
+      <div className="adm-login">
+        <form className="adm-login-box" onSubmit={login}>
+          <h2>🔐 JUPAS Calculator 後台</h2>
+          <p className="adm-muted">輸入管理密碼登入</p>
+          <input
+            type="password" className="adm-input" value={password} autoFocus
+            placeholder="管理密碼" onChange={(e) => setPassword(e.target.value)}
+          />
+          {error && <p className="adm-err">{error}</p>}
+          <button className="adm-btn" type="submit" disabled={loading}>{loading ? '登入中…' : '登入'}</button>
+        </form>
+      </div>
+    );
+  }
+
+  const reports = data.reports || [];
+  return (
+    <div className="adm-wrap">
+      <header className="adm-header">
+        <h1>📊 JUPAS Calculator 後台</h1>
+        <button className="adm-btn small" onClick={() => login()} disabled={loading}>{loading ? '刷新中…' : '↻ 刷新'}</button>
+      </header>
+
+      <div className="adm-grid">
+        <Bars title="🏆 最多人點擊的學科" data={data.clicksDiscipline} nameMap={discNames} limit={30} />
+        <Bars title="🔥 最多人點擊的專業" data={data.clicksProgramme} nameMap={progNames} limit={30} />
+      </div>
+
+      <div className="adm-card">
+        <h3>📮 用戶上報（{reports.length}）</h3>
+        {reports.length === 0 ? (
+          <p className="adm-muted">暫無上報。</p>
+        ) : (
+          <div className="adm-reports">
+            {reports.map((r, i) => (
+              <div className="adm-report" key={i}>
+                <div className="adm-report-top">
+                  <span className="adm-report-time">{new Date(r.t).toLocaleString('zh-HK')}</span>
+                  {r.programme && <span className="adm-report-prog">🎯 {r.programme}</span>}
+                  {r.lang && <span className="adm-report-lang">{r.lang}</span>}
+                </div>
+                <div className="adm-report-msg">{r.message}</div>
+                {r.contact && <div className="adm-report-contact">📇 {r.contact}</div>}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
