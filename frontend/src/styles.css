@@ -402,7 +402,7 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 
 .prog-table { margin-top: 10px; font-size: 13px; }
 .prog-row { display: grid; grid-template-columns: 26px 50px 1fr 46px 54px; gap: 5px; padding: 11px 5px; border-bottom: 1px solid var(--border); align-items: center; }
-.prog-th { font-weight: 700; color: var(--accent); border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--panel); z-index: 2; font-size: 11.5px; }
+.prog-th { font-weight: 700; color: var(--accent); border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--panel); z-index: 2; font-size: 11.5px; padding: 8px 13px; margin-bottom: 4px; }
 .prog-th .c-num { white-space: nowrap; }
 .prog-row .c-idx { color: var(--muted); font-variant-numeric: tabular-nums; }
 .prog-row .c-code { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
@@ -411,10 +411,26 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .prog-row .c-adm { font-weight: 700; color: var(--reach); }
 .prog-th .c-num { color: var(--accent); font-weight: 700; }
 .prog-row .c-cat { display: none; }
-.prog-row.clickable { cursor: pointer; }
-.prog-row.clickable:hover { background: var(--accent-light); }
-.prog-row.clickable:active { background: var(--accent-light); }
-.prog-row.sel { background: var(--accent-light); }
+/* 每個專業＝卡片式按鈕，一眼睇得出可點 */
+.prog-row.clickable {
+  cursor: pointer;
+  background: var(--panel-2);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 12px;
+  margin-bottom: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: transform .12s, box-shadow .12s, border-color .12s, background .12s;
+}
+.prog-row.clickable:hover {
+  background: var(--accent-light);
+  border-color: var(--accent);
+  box-shadow: 0 4px 14px rgba(37,99,235,.18);
+  transform: translateY(-1px);
+}
+.prog-row.clickable:active { transform: translateY(0); box-shadow: var(--shadow-sm); }
+.prog-row.clickable .c-name { font-weight: 700; }
+.prog-row.sel { background: var(--accent-light); border-color: var(--accent); }
 @media (min-width: 768px) {
   .prog-row { grid-template-columns: 36px 60px 1fr 90px 64px 64px; }
   .prog-row .c-cat { display: block; color: var(--muted); font-size: 12px; }
