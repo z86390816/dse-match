@@ -67,6 +67,11 @@ const STRINGS = {
 
   // ---- browser ----
   selectInstitution: { zh: '選擇院校', en: 'Select Institution' },
+  browseHint: {
+    zh: '👆 點擊任何一個專業，即可查看：📖 官方課程簡介 · 📈 歷年報名趨勢 · 🎯 收生分數與取錄人數',
+    sc: '👆 点击任何一个专业，即可查看：📖 官方课程简介 · 📈 历年报名趋势 · 🎯 收生分数与取录人数',
+    en: '👆 Tap any programme to see: 📖 official description · 📈 applicant trends over the years · 🎯 admission scores & intake',
+  },
   searchPlaceholder: { zh: '搜尋專業名稱 / JS code…', en: 'Search programme name / JS code…' },
   colIdx: { zh: '#', en: '#' },
   colName: { zh: '專業', en: 'Programme' },

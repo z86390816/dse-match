@@ -54,6 +54,8 @@ export default function ProgrammeBrowser() {
           value={keyword} onChange={(e) => setKeyword(e.target.value)} />
       </div>
 
+      <div className="browse-hint">{t('browseHint')}</div>
+
       {uni && (
         <div className="panel">
           <div className="browse-head">
@@ -76,6 +78,7 @@ export default function ProgrammeBrowser() {
                 <span className="c-name">
                   {lang !== 'en' && p.nameZh ? t.s(p.nameZh) : p.name}
                   {p.scoreComparable === false && <span className="ref-tag">{t.tier('reference').label}</span>}
+                  <span className="row-chev">›</span>
                 </span>
                 <span className="c-cat">{t.cat(p.category)}</span>
                 <span className="c-num c-score">{p.admission?.median ?? '—'}</span>

@@ -631,3 +631,18 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
   border-radius: 999px; font-size: 12.5px; font-weight: 700; text-decoration: none;
 }
 .desc-site:hover { background: var(--accent); color: #fff; }
+
+/* ===== 各大專業資訊：點擊提示橫幅 ===== */
+.browse-hint {
+  margin: 12px 0;
+  padding: 11px 14px;
+  background: linear-gradient(135deg, #eff6ff, #e0e7ff);
+  border: 1.5px solid #c7d2fe;
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  font-size: 13px; font-weight: 600; color: #3730a3;
+  line-height: 1.6;
+  box-shadow: var(--shadow-sm);
+}
+@media (min-width: 768px) { .browse-hint { font-size: 13.5px; } }
+.row-chev { margin-left: 6px; color: var(--accent); font-weight: 800; }
