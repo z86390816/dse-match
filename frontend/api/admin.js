@@ -33,15 +33,19 @@ export default async function handler(req, res) {
     const reports = (raw || [])
       .map((s) => { try { return JSON.parse(s); } catch { return null; } })
       .filter(Boolean);
-    const [disc, prog] = await Promise.all([
+    const [disc, prog, pv, uv] = await Promise.all([
       redis('HGETALL', 'clicks:discipline'),
       redis('HGETALL', 'clicks:programme'),
+      redis('HGETALL', 'visits:pv'),
+      redis('HGETALL', 'visits:uv'),
     ]);
     return res.status(200).json({
       ok: true,
       reports,
       clicksDiscipline: toObj(disc),
       clicksProgramme: toObj(prog),
+      visitsPv: toObj(pv),
+      visitsUv: toObj(uv),
     });
   } catch (e) {
     const code = e.message === 'storage-not-configured' ? 503 : 500;

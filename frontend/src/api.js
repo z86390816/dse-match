@@ -49,6 +49,19 @@ export const api = {
       }).catch(() => {});
     } catch { /* ignore */ }
   },
+  // 記錄訪問（PV 每次進站；UV 以 localStorage 判斷今日首次）
+  trackVisit: () => {
+    try {
+      const today = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
+      const uv = localStorage.getItem('lastVisit') !== today;
+      if (uv) localStorage.setItem('lastVisit', today);
+      fetch('/api/track', {
+        method: 'POST', keepalive: true,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ visit: true, uv }),
+      }).catch(() => {});
+    } catch { /* ignore */ }
+  },
   // 上報數據錯誤
   report: async ({ programme, message, contact, lang }) => {
     const r = await fetch('/api/report', {

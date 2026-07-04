@@ -30,6 +30,40 @@ function Bars({ title, data, nameMap, limit = 20 }) {
   );
 }
 
+// 訪問統計卡：今日/總計 + 最近 14 日排列
+function Visits({ pv, uv }) {
+  const today = new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
+  const days = useMemo(() => {
+    const set = new Set([...Object.keys(pv || {}), ...Object.keys(uv || {})]);
+    return [...set].sort().reverse().slice(0, 14);
+  }, [pv, uv]);
+  const totalPv = Object.values(pv || {}).reduce((s, n) => s + n, 0);
+  const totalUv = Object.values(uv || {}).reduce((s, n) => s + n, 0);
+  const maxPv = Math.max(1, ...days.map((d) => pv?.[d] || 0));
+  return (
+    <div className="adm-card">
+      <h3>👥 訪問人數</h3>
+      <div className="adm-visit-summary">
+        <div><span className="adm-visit-num">{uv?.[today] || 0}</span><span className="adm-muted">今日訪客</span></div>
+        <div><span className="adm-visit-num">{pv?.[today] || 0}</span><span className="adm-muted">今日訪問</span></div>
+        <div><span className="adm-visit-num">{totalUv}</span><span className="adm-muted">總訪客</span></div>
+        <div><span className="adm-visit-num">{totalPv}</span><span className="adm-muted">總訪問</span></div>
+      </div>
+      {days.length === 0 ? <p className="adm-muted">暫無訪問數據（新功能上線後開始累計）。</p> : (
+        <div className="adm-bars">
+          {days.map((d) => (
+            <div className="adm-bar-row" key={d}>
+              <span className="adm-bar-name" style={{ flex: '0 0 84px' }}>{d.slice(5)}{d === today ? ' ★' : ''}</span>
+              <span className="adm-bar-track"><span className="adm-bar-fill" style={{ width: `${((pv?.[d] || 0) / maxPv) * 100}%` }} /></span>
+              <span className="adm-bar-num">{uv?.[d] || 0} 客 / {pv?.[d] || 0} 次</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function AdminApp() {
   const [password, setPassword] = useState('');
   const [data, setData] = useState(null);
@@ -87,6 +121,8 @@ export default function AdminApp() {
         <h1>📊 JUPAS Calculator 後台</h1>
         <button className="adm-btn small" onClick={() => login()} disabled={loading}>{loading ? '刷新中…' : '↻ 刷新'}</button>
       </header>
+
+      <Visits pv={data.visitsPv} uv={data.visitsUv} />
 
       <div className="adm-grid">
         <Bars title="🏆 最多人點擊的學科" data={data.clicksDiscipline} nameMap={discNames} limit={30} />

@@ -15,6 +15,11 @@ async function redis(...cmd) {
   return j.result;
 }
 
+// 香港時區當日日期 YYYY-MM-DD
+function hkDate() {
+  return new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'method-not-allowed' });
   try {
@@ -23,6 +28,12 @@ export default async function handler(req, res) {
     const jupasCode = String(b.jupasCode || '').slice(0, 20);
     if (discipline) await redis('HINCRBY', 'clicks:discipline', discipline, 1);
     if (jupasCode) await redis('HINCRBY', 'clicks:programme', jupasCode, 1);
+    // 訪問統計：visit=每次進站（PV）；uv=今日首次到訪的訪客（由前端 localStorage 判斷）
+    if (b.visit) {
+      const d = hkDate();
+      await redis('HINCRBY', 'visits:pv', d, 1);
+      if (b.uv) await redis('HINCRBY', 'visits:uv', d, 1);
+    }
     return res.status(200).json({ ok: true });
   } catch (e) {
     return res.status(200).json({ ok: false }); // 靜默

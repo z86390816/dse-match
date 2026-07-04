@@ -38,6 +38,7 @@ export default function App() {
     }).catch((e) => setError(e.message));
     api.getInterests().then((d) => setInterests(d.interests)).catch(() => {});
     api.prefetch(); // 背景預載 programmes/disciplines，讓首次比對即時
+    api.trackVisit(); // 記錄訪問（PV/UV → 後台統計）
   }, []);
 
   // 切換頁面時記錄一次 GA 瀏覽
