@@ -85,7 +85,8 @@ ${reqs ? `<div class="card"><h2>核心科目最低要求</h2>${reqs}</div>` : ''
 ${b25 ? `<div class="card"><h2>2025 報名人數（改選後）</h2><p>總報名 <strong>${b25.total}</strong> 人，其中以首三志願（Band A）報讀 <strong>${b25.bandA}</strong> 人。</p></div>` : ''}
 ${(descriptions[p.jupasCode]?.d?.length) ? (() => { const dd = descriptions[p.jupasCode]; const paras = dd.z?.length ? dd.z : dd.d; return `<div class="card"><h2>課程簡介（官方）</h2>${paras.map((t) => `<p style="font-size:13.5px;text-align:justify">${esc(t)}</p>`).join('')}${dd.z?.length ? `<p class="muted" style="font-size:11px">＊中文為機器翻譯，以官方英文原文為準</p>` : ''}${dd.w ? `<p><a href="${esc(dd.w)}" rel="nofollow noopener" target="_blank">🔗 課程官方網頁</a></p>` : ''}</div>`; })() : ''}
 ${disc.zh ? `<div class="card"><h2>學科簡介</h2><p class="muted">${esc(disc.zh)}</p></div>` : ''}
-${disc.careerZh ? `<div class="card"><h2>💼 香港就業前景與方向</h2><div class="career">${esc(disc.careerZh)}</div></div>` : ''}
+${disc.nowZh ? `<div class="card"><h2>💼 行業現狀</h2><div class="career">${esc(disc.nowZh)}</div></div>` : ''}
+${disc.futureZh ? `<div class="card"><h2>🔮 未來前景</h2><div class="career">${esc(disc.futureZh)}</div></div>` : disc.careerZh ? `<div class="card"><h2>💼 香港就業前景與方向</h2><div class="career">${esc(disc.careerZh)}</div></div>` : ''}
 ${siblings ? `<div class="card"><h2>${esc(uni.short)} 其他專業</h2><div class="chips">${siblings}</div></div>` : ''}`;
 
   const jsonld = {

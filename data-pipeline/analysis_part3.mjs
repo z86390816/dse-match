@@ -1,0 +1,117 @@
+// AI 深度分析 Part 3：人文 + 理學 + 藝術體育（19 科）
+export default {
+  linguistics: {
+    nowZh: '語言學畢業生出路包括言語治療（須再讀碩士）、教育出版、語言科技及企業培訓,起薪約一萬五至二萬元。課程訓練嚴謹的語言分析能力,但本科學位在就業市場無直接對口職位,規劃出路要趁早。',
+    nowEn: 'Linguistics graduates head to speech therapy (via master\'s), education publishing, language technology and corporate training at HK$15–20k. The analytical training is rigorous, but the bachelor\'s maps to no default job — plan your exit early.',
+    futureZh: '利好：言語治療師在學校及醫療體系嚴重短缺、碩士畢業後起薪逾三萬,是本科生最值博的升學路徑;NLP／語音技術公司亦需語言學背景人才調校 AI 模型。風險：唔讀碩士的話,出路與一般文科無異;語言科技職位要求編程能力,純文科訓練者須自補技術短板。',
+    futureEn: 'Upside: speech therapists are severely short in schools and healthcare — the master\'s route starts above HK$30k and is the highest-value path; NLP and voice-tech firms also want linguists to tune AI models. Risks: without the master\'s, outcomes match generic arts degrees, and language-tech roles demand coding that pure-arts training lacks.',
+  },
+  chinese: {
+    nowZh: '中文系主要出路為中文科教師、編輯出版、政府文書職系及企業文案,起薪約一萬五至二萬二千元;修畢教育文憑（PGDE）入職教師則有三萬五千元起薪的明確跳升。寫作與文史底蘊是核心資產。',
+    nowEn: 'Chinese majors become Chinese teachers, editors, government clerical officers and corporate writers at HK$15–22k; adding a PGDE lifts teaching entrants to HK$35k. Writing craft and literary grounding are the core assets.',
+    futureZh: '利好：中文教師（尤其能教普通話及非華語學生中文者）需求穩定,大灣區及海外中文教育市場擴張;政府中文主任職系是穩定出路。風險：出版及傳媒行業萎縮,AI 寫作工具衝擊一般文案職位;學生人口下跌亦波及教席;無教師資格或公職打算者,出路明顯收窄。',
+    futureEn: 'Upside: demand for Chinese teachers (especially Putonghua and Chinese-for-non-Chinese-speakers) is steady, GBA and overseas Chinese education is growing, and government Chinese-officer grades offer stability. Risks: publishing and media keep shrinking, AI writing tools hit generic copy roles, and falling student numbers touch teaching too — without teaching or civil-service plans, exits narrow.',
+  },
+  english: {
+    nowZh: '英文系畢業生最大出路是英文教師（PGDE 後起薪約三萬五千元）,其次為企業傳訊、出版及跨國公司行政職位,起薪約一萬六至二萬二千元。英文能力在香港職場仍是硬通貨,學位認受性高於多數文科。',
+    nowEn: 'English majors\' biggest exit is English teaching (about HK$35k after PGDE), followed by corporate communications, publishing and MNC administration at HK$16–22k. English proficiency remains hard currency in Hong Kong, giving the degree above-average arts recognition.',
+    futureZh: '利好：英文教師長期短缺、縮班潮中英文科教席仍相對穩固;國際學校、補習市場及企業培訓提供多元出路,英語傳意能力配搭任何專業都加分。風險：AI 翻譯與寫作工具令「識英文」的溢價下降,單靠語言能力的職位承壓;宜將英文定位為「乘數」而非唯一賣點,配搭教育、商科或傳訊。',
+    futureEn: 'Upside: English teachers stay in chronic shortage and English posts hold firmer amid class cuts; international schools, tutoring and corporate training diversify exits, and English communication multiplies any profession. Risks: AI translation and writing tools erode the premium on language skill alone — treat English as a multiplier, paired with education, business or communications.',
+  },
+  history: {
+    nowZh: '歷史系畢業生投身教育、博物館及文化機構、政府檔案及研究職位,起薪約一萬五至二萬元。課程訓練史料考證與長文寫作,思辨能力受研究院及公職考試青睞,惟直接對口職位有限。',
+    nowEn: 'History graduates enter teaching, museums and cultural bodies, government archives and research at HK$15–20k. Source criticism and long-form writing win favour in postgraduate study and civil-service exams, though direct-match jobs are few.',
+    futureZh: '利好：西九文化區、故宮館及口述歷史項目擴大文化職位,國民教育課程改革增加中史教師需求;檔案管理及文化遺產保育是小而穩的專業出路。風險：職位基數小、薪酬增長平緩,文化機構依賴公帑資助;適合真心熱愛並願意配搭教育文憑或碩士深造者。',
+    futureEn: 'Upside: West Kowloon, the Palace Museum and oral-history projects add cultural posts, curriculum reform lifts Chinese-history teacher demand, and archives and heritage conservation offer small but steady niches. Risks: a small job base, flat pay growth and public-funding dependence — best for the genuinely devoted willing to add a PGDE or master\'s.',
+  },
+  philosophy: {
+    nowZh: '哲學系無對口職業,畢業生流向教育、編輯、公職及商界管培生,起薪約一萬五至二萬元。課程訓練的邏輯思辨與寫作能力,在法律深造（JD）、研究院及需要複雜判斷的職位中反而突圍。',
+    nowEn: 'Philosophy has no default career; graduates spread into education, editing, public service and trainee schemes at HK$15–20k. Its logic and writing training punches above its weight in law conversion (JD), postgraduate study and judgment-heavy roles.',
+    futureZh: '利好：AI 時代令倫理、批判思維與提問能力增值,科技公司開始聘用 AI 倫理研究員;JD 轉法律是回報最高的延伸路徑。風險：純哲學學位在初次求職時辨識度最弱,起步薪酬普遍偏低;出路好壞幾乎完全取決於個人後續規劃,自我驅動力弱者不宜。',
+    futureEn: 'Upside: the AI era raises the value of ethics, critical thinking and question-framing — tech firms now hire AI-ethics researchers — and the JD-to-law route offers the best returns. Risks: the bare degree has the weakest first-job recognition and low starting pay; outcomes depend almost entirely on your own follow-through.',
+  },
+  geography: {
+    nowZh: '地理系畢業生出路包括地理教師、城市規劃助理、環境顧問及地理資訊系統（GIS）分析員,起薪約一萬六至二萬二千元。GIS 技能是課程中最具市場價值的硬技術,政府及工程顧問均有需求。',
+    nowEn: 'Geography graduates become teachers, planning assistants, environmental consultants and GIS analysts at HK$16–22k. GIS is the degree\'s most marketable hard skill, wanted by government and engineering consultancies alike.',
+    futureZh: '利好：北都發展、智慧城市及空間數據共享平台（CSDI）令 GIS 人才需求上升,配搭遙感與數據分析可入科技行業;氣候風險評估是新興方向。風險：純人文地理路線出路同一般文科;教席受學生人口下跌影響;關鍵在於揀 GIS／空間數據呢條技術線,唔好淨係讀 map 而唔識用 map。',
+    futureEn: 'Upside: Northern Metropolis development, smart-city projects and the CSDI spatial-data platform lift GIS demand; remote sensing plus data skills open tech doors, and climate-risk assessment is emerging. Risks: pure human geography tracks generic arts outcomes and teaching shrinks with student numbers — take the GIS/spatial-data technical lane, not just map appreciation.',
+  },
+  anthropology: {
+    nowZh: '人類學是小眾學科,畢業生多入 NGO、文化機構、市場及用戶研究,起薪約一萬五至二萬元。民族誌訪談與田野觀察方法,近年被科技公司的用戶研究（UX Research）職位重新發掘,是最實際的高薪出路。',
+    nowEn: 'Anthropology is a niche field feeding NGOs, cultural bodies and market/user research at HK$15–20k. Its ethnographic interviewing and field observation methods have been rediscovered by tech UX-research teams — the most lucrative practical exit.',
+    futureZh: '利好：用戶研究員在科技及金融公司需求上升,起薪可達二萬五以上,人類學訓練正對口;文化保育及社會影響評估亦提供項目職位。風險：學科認知度低,求職時要主動翻譯自己技能畀僱主聽;職位基數細,宜輔修數據分析或設計增加彈性。',
+    futureEn: 'Upside: UX researchers are increasingly hired by tech and finance firms at HK$25k+ starting, a direct match for anthropological training; heritage and social-impact assessment add project work. Risks: low field recognition means actively translating your skills for employers, and the small job base rewards minors in data or design.',
+  },
+  chemistry: {
+    nowZh: '化學系畢業生流向政府化驗所、檢測認證行業（香港四大支柱行業之一）、製藥及中學教育,起薪約一萬七至二萬三千元。檢測認證及藥業對化學人才需求穩定,惟研發職位多要求碩博學歷。',
+    nowEn: 'Chemistry graduates join government laboratories, the testing-and-certification industry (one of HK\'s pillar trades), pharma and secondary teaching at HK$17–23k. T&C and pharma demand is steady, though R&D roles usually require postgraduate degrees.',
+    futureZh: '利好：香港檢測認證業具國際公信力,食品、環境、中藥檢測需求增長;新型工業化政策扶持本地製藥及新材料,河套區實驗室提供研究職位。風險：本科出路以化驗操作為主、薪酬升幅平緩,向上流動須深造;工業界職位部分北移,留港者宜考慮檢測管理或專業認證路線。',
+    futureEn: 'Upside: Hong Kong\'s internationally trusted T&C industry grows with food, environmental and Chinese-medicine testing; new-industrialisation policy backs local pharma and materials, and Hetao labs add research posts. Risks: bachelor-level work centres on bench testing with flat pay progression — postgraduate study or testing-management tracks are the way up.',
+  },
+  physics: {
+    nowZh: '物理系畢業生除教育及研究院外,近年大量流向數據科學、金融量化分析及工程界——數理建模能力是通行證,起薪由教育界二萬餘到量化金融四五萬不等,分布極闊。',
+    nowEn: 'Beyond teaching and graduate school, physics graduates increasingly flow into data science, quantitative finance and engineering — mathematical modelling is the passport. Pay spans HK$20k+ in education to HK$40–50k in quant roles.',
+    futureZh: '利好：量化基金及投行視物理背景為優質原材料,AI 模型研發亦搶數理人才;港府資助的量子科技、微電子研究中心創造新研究職位。風險：對口實業職位少,出路依賴「轉譯」數理能力到金融或科技,須自學編程;純學術路線受制於全球教職供過於求。',
+    futureEn: 'Upside: quant funds and investment banks prize physics as raw talent, AI research competes for the same mathematical minds, and government-funded quantum and microelectronics centres add research posts. Risks: few direct industry roles — success depends on translating models into finance or tech with self-taught coding, while the pure academic track faces a global oversupply of PhDs.',
+  },
+  mathematics: {
+    nowZh: '數學系是「基本功」學位:畢業生分流至數據科學、精算、金融風控、教育及研究院,起薪一萬八至三萬元不等,視乎落地行業。純數訓練嘅抽象思維,喺 AI 與量化年代價值不跌反升。',
+    nowEn: 'Mathematics is the fundamentals degree: graduates stream into data science, actuarial work, financial risk, teaching and academia at HK$18–30k depending on the landing industry. Abstract training has appreciated, not depreciated, in the AI and quant era.',
+    futureZh: '利好：機器學習底層全是數學,量化金融、密碼學、數據科學都以數學系為優先招聘對象;數學教師亦長期短缺,進可攻退可守。風險：學位本身唔會自動變高薪,必須配搭編程及應用領域;停留喺純理論而唔落地者,出路反而比商科窄。',
+    futureEn: 'Upside: machine learning is mathematics underneath — quant finance, cryptography and data science recruit maths majors first, and maths teachers stay in shortage, giving both offence and defence. Risks: the degree alone confers nothing; pair it with coding and an application domain, or a purely theoretical path can end up narrower than business school.',
+  },
+  statistics: {
+    nowZh: '統計學是數據年代嘅直接受益學科:政府統計處、銀行風險管理、市場研究及數據分析職位常年招聘,起薪約二萬至三萬元。課程與數據科學高度重疊,但更重推斷方法與實驗設計。',
+    nowEn: 'Statistics benefits directly from the data era: the Census department, bank risk management, market research and analytics roles hire steadily at HK$20–30k. It overlaps heavily with data science while emphasising inference and experimental design.',
+    futureZh: '利好：AI 模型評估、AB 測試、臨床統計及保險精算全部需要統計根底,醫藥及金融的受監管職位更係外判唔到;統計師喺政府職系亦有清晰編制。風險：同數據科學畢業生直接競爭,唔識編程（R/Python/SQL）者會被比下去;宜早啲累積真實數據項目。',
+    futureEn: 'Upside: AI model evaluation, A/B testing, clinical statistics and actuarial work all need statistical grounding, regulated pharma and finance roles resist offshoring, and government statistician grades offer a clear establishment. Risks: direct competition with data-science graduates — without R/Python/SQL fluency you lose; build real data projects early.',
+  },
+  biology: {
+    nowZh: '生物系畢業生流向教育、檢測化驗、環境顧問及研究助理職位,起薪約一萬六至二萬二千元。與生物醫學相似,研發職位幾乎必須深造;本科出路以教學及技術支援為主。',
+    nowEn: 'Biology graduates enter teaching, testing laboratories, environmental consultancy and research-assistant roles at HK$16–22k. As with biomedical science, R&D careers effectively require postgraduate study; bachelor-level exits centre on teaching and technical support.',
+    futureZh: '利好：生命健康科技係政府重點投資領域,海洋保育、生態調查（配合北都發展嘅環評）都增加職位;生物教師需求穩定。風險：職位薪酬同增長都平緩,冇碩博難上研發線;揀呢科最好一開始就計劃埋深造或教育文憑,單持本科出路有限。',
+    futureEn: 'Upside: life-and-health tech is a priority investment area, marine conservation and ecological surveys (EIAs for Northern Metropolis works) add roles, and biology teachers stay in demand. Risks: pay and growth are modest and R&D needs postgraduate degrees — plan further study or a PGDE from day one, as the bachelor\'s alone goes only so far.',
+  },
+  science: {
+    nowZh: '理學士綜合課程首年不分主修,其後按成績選擇物理、化學、生物、數學等分流,適合鍾意科學但未定方向嘅學生。出路視乎最終主修,整體理科就業以教育、檢測、數據及深造為主。',
+    nowEn: 'Broad BSc programmes defer major choice, streaming into physics, chemistry, biology or mathematics by results — suited to science-minded students still deciding. Outcomes follow the final major, with teaching, testing, data and further study as the main exits.',
+    futureZh: '利好：分流彈性等於多一年觀察期,數學／統計分流可通往高薪數據職位;大學基礎科學訓練喺 AI 年代係可靠底盤。風險：熱門分流（數學、統計）通常設 GPA 門檻,一year班成績唔好就入唔到心水主修;揀呢科前要睇清楚間大學嘅分流規則。',
+    futureEn: 'Upside: streaming flexibility buys an extra observation year, maths/statistics streams lead to well-paid data careers, and fundamental science training is a reliable base in the AI era. Risks: popular streams gate on first-year GPA, so a weak start can lock you out of your preferred major — read each university\'s streaming rules before committing.',
+  },
+  music: {
+    nowZh: '音樂系畢業生以教學為主要收入來源（琴行、私人學生、學校音樂科）,其次為演出、樂團及教會職位,收入結構多為自由身拼湊,月入一萬五至三萬元不等,穩定教席競爭激烈。',
+    nowEn: 'Music graduates earn mainly through teaching (studios, private students, school music posts), plus performing, ensembles and church roles. Income is typically a freelance patchwork of HK$15–30k monthly, and salaried posts are hotly contested.',
+    futureZh: '利好：西九及演藝場地擴張帶動演出機會,音樂治療（需海外深造）係新興專業;香港家長對音樂教育嘅投入長期穩定,叻嘅老師收入唔差。風險：學生人口下跌直接衝擊教學市場,AI 生成音樂衝擊商業配樂;職業結構註定多勞多得、冇底薪保障,適合真心熱愛者。',
+    futureEn: 'Upside: West Kowloon and new venues expand performance work, music therapy (via overseas study) is an emerging profession, and parental investment in music education stays solid — good teachers earn well. Risks: the shrinking student population hits the teaching market directly and AI-generated music disrupts commercial scoring; income is inherently hustle-based with no salary floor.',
+  },
+  design: {
+    nowZh: '設計畢業生流向品牌、廣告、產品及 UI/UX 設計職位,起薪約一萬五至二萬二千元,UX 方向明顯較高。行業睇 portfolio 多過睇學歷,實習與比賽作品係入行關鍵。',
+    nowEn: 'Design graduates join branding, advertising, product and UI/UX roles at HK$15–22k, with UX paying visibly more. The trade judges portfolios over transcripts — internships and competition work open doors.',
+    futureZh: '利好：數碼產品體驗設計（UX/UI）需求持續,服務設計、無障礙設計係新增長點;香港設計中心及文創政策提供資助同曝光平台。風險：生成式 AI 直接衝擊平面、插畫及初階視覺設計,行業入門職位收縮;必須向策略性設計（研究、產品思維）升級,純執行層將被 AI 取代。',
+    futureEn: 'Upside: digital product design (UX/UI) demand persists, service and accessibility design are growth niches, and Design Centre funding and creative-industries policy provide platforms. Risks: generative AI hits graphic, illustration and junior visual work head-on, shrinking entry roles — climb into strategic design (research, product thinking) because pure execution will be automated.',
+  },
+  fine_arts: {
+    nowZh: '藝術系畢業生多以斜槓形式維生:創作、藝術行政、畫廊、教學及策展兼職並行,月入一萬四至二萬五千元不等。香港藝術市場交投全球前列,但養活嘅主要係拍賣行及畫廊職位,唔係藝術家本身。',
+    nowEn: 'Fine-arts graduates typically live slash careers — practice, arts administration, galleries, teaching and curating combined — at HK$14–25k monthly. Hong Kong\'s art market ranks among the world\'s largest, but it feeds auction-house and gallery jobs more than artists themselves.',
+    futureZh: '利好：西九 M+、故宮館及巴塞爾藝術展鞏固香港亞洲藝術樞紐地位,藝術行政、修復、策展等專業職位增加;NFT 退潮後數碼藝術市場重新洗牌,留低嘅係真功夫。風險：純創作收入極不穩定,藝術家生涯係長期馬拉松;政府資助方向變化影響部分創作空間;入行前要諗清楚係追求創作定係藝術產業職位。',
+    futureEn: 'Upside: M+, the Palace Museum and Art Basel cement Hong Kong\'s Asian art-hub status, growing arts-admin, conservation and curatorial roles; after the NFT washout, digital art rewards real craft. Risks: pure practice income is precarious and an artist\'s career is a marathon; funding priorities shift — decide upfront whether you want creation or the art industry.',
+  },
+  sports: {
+    nowZh: '體育及運動科學畢業生出路包括體育教師、教練、康體管理、物理治療助理及運動科學支援,起薪約一萬六至二萬二千元。政府康文署及啟德體育園係大僱主,教師路線（配 PGDE）薪酬最穩。',
+    nowEn: 'Sports-science graduates become PE teachers, coaches, recreation managers, physio assistants and performance-support staff at HK$16–22k. LCSD and Kai Tak Sports Park are anchor employers, and the teaching route (with PGDE) pays most reliably.',
+    futureZh: '利好：啟德體育園開幕、盛事經濟及全民運動政策帶動康體職位,運動科學喺精英體育（體院）及職業球會嘅應用擴大;長者運動處方係老齡化下嘅新市場。風險：教練及康體職位薪酬天花板低、依賴兼職堆砌;運動科學研究職位少且要深造;最穩陣係教師或政府康體職系呢兩條線。',
+    futureEn: 'Upside: Kai Tak Sports Park\'s opening, mega-events policy and mass-sport promotion add recreation jobs, sports science expands in elite sport (HKSI) and pro clubs, and exercise prescription for the elderly is a new ageing-driven market. Risks: coaching and recreation pay ceilings are low with part-time patchworks common — the teacher and government-grade routes remain the safest.',
+  },
+  social_science: {
+    nowZh: '綜合社會科學課程首年跨學科,其後分流心理、社工、政政、社會學等主修,出路視乎分流。整體以公職、NGO、教育及商界通用職位為主,起薪約一萬六至二萬二千元。',
+    nowEn: 'Broad social-science programmes start interdisciplinary, then stream into psychology, social work, politics or sociology — outcomes follow the stream. Exits centre on public service, NGOs, education and generalist business roles at HK$16–22k.',
+    futureZh: '利好：分流彈性畀你入學後先決定,社工及心理學分流有專業執照或碩士路徑保底;政府職系考試對社科訓練友善。風險：熱門分流（社工、心理）多設收生限額同 GPA 門檻,入唔到嘅話出路等同一般文科;報讀前必須查清楚該校分流規則同各主修配額。',
+    futureEn: 'Upside: streaming flexibility defers the choice, social-work and psychology streams carry licence or master\'s backstops, and civil-service exams favour social-science training. Risks: popular streams cap places by GPA — miss out and outcomes match generic arts; check each school\'s streaming quotas before applying.',
+  },
+  humanities: {
+    nowZh: '人文學科綜合課程涵蓋文史哲及文化研究,畢業生流向教育、傳媒、文化機構及公職,起薪約一萬五至二萬元。課程賣點在廣度與思辨訓練,職業對口需靠自己搭橋。',
+    nowEn: 'Broad humanities programmes span literature, history, philosophy and cultural studies, feeding education, media, cultural bodies and public service at HK$15–20k. The offer is breadth and critical training; career bridges are yours to build.',
+    futureZh: '利好：AI 年代反而突顯人文判斷、倫理及敍事能力嘅價值,文化產業（西九、出版、策展）同教育界仍係穩定吸納口;配搭語言或數據技能可以突圍。風險：學位辨識度低、起薪普遍偏平,無明確職業規劃者容易漂流;讀之前要諗定教育、公職定文化產業邊條線,唔好等畢業先算。',
+    futureEn: 'Upside: the AI era heightens the value of humanistic judgment, ethics and narrative skill; cultural industries (West Kowloon, publishing, curation) and education remain steady absorbers, and language or data add-ons create breakouts. Risks: low degree recognition and flat starting pay reward those with a plan — choose the education, public-service or cultural lane before you enrol, not after.',
+  },
+};

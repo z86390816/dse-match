@@ -229,6 +229,8 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const disc = disciplines?.[prog.discipline];
   const discText = disc ? (lang === 'en' ? disc.en : t.s(disc.zh)) : null;
   const careerText = disc ? (lang === 'en' ? disc.careerEn : t.s(disc.careerZh)) : null;
+  const nowText = disc ? (lang === 'en' ? disc.nowEn : t.s(disc.nowZh)) : null;
+  const futureText = disc ? (lang === 'en' ? disc.futureEn : t.s(disc.futureZh)) : null;
 
   useEffect(() => {
     setLoading(true);
@@ -337,7 +339,19 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
               <li key={i}><span className="ai-icon">{ins.icon}</span><span>{t.s(ins.text)}</span></li>
             ))}
           </ul>
-          {careerText && (
+          {nowText && (
+            <div className="ai-career">
+              <div className="ai-career-head">💼 {t('industryNow')}</div>
+              <p>{nowText}</p>
+            </div>
+          )}
+          {futureText && (
+            <div className="ai-career">
+              <div className="ai-career-head">🔮 {t('futureOutlook')}</div>
+              <p>{futureText}</p>
+            </div>
+          )}
+          {!nowText && careerText && (
             <div className="ai-career">
               <div className="ai-career-head">💼 {t('careerOutlook')}</div>
               <p>{careerText}</p>

@@ -1,466 +1,698 @@
 {
-  "medicine": {
-    "nameEn": "Medicine",
-    "nameZh": "醫學",
-    "en": "Medicine is the science and practice of caring for patients, managing the diagnosis, prognosis, prevention, treatment and palliation of their injury or disease, while promoting their health.",
-    "zh": "醫學，是以預防、診斷、治疗生理和心理疾病及保護人類健康、提高身體和心理素质为目的和研究內容的應用科學。狹義的醫學只是疾病的治療，但也有說法稱預防醫學為第一醫學，臨床醫學為第二醫學，復健醫學為第三醫學。醫學的科學面是應用基礎醫學的理論與發現，例如生化、生理、微生物學、解剖、病理學、藥理學、統計學、流行病學、營養學等，來治療疾病與促進健康。然而，医学也具有人文與藝術的一面，它關注的不僅是人体的器官和疾病，而是人的健康和生命。",
-    "careerZh": "香港醫生長期短缺、需求極穩定，公私營醫院、診所皆求才若渴，起薪與社會地位高。人口老化令醫療需求持續上升，前景明朗；惟培訓年期長、競爭最激烈，須有長線投入的準備。",
-    "careerEn": "Hong Kong faces a chronic doctor shortage; demand is extremely stable across public and private hospitals, with high starting pay and status. An ageing population keeps demand rising, so prospects are excellent — but training is long and entry is the most competitive of all fields."
-  },
-  "dentistry": {
-    "nameEn": "Dentistry",
-    "nameZh": "牙醫學",
-    "en": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth.",
-    "zh": "牙医学 是一门关于诊断、预防和治疗的口腔疾病、不适及状况的医学研究分支，一般处理牙列疾病，但也可包括口腔黏膜以及相邻相关结构和组织，特别是颌面部（下巴和面部）区域疾病。尽管对于普通大众来说牙医学主要处理与牙齿相关的问题，但牙科领域并不限于齿科学 ——关于研究牙齿结构，发育和畸形的学科。因为在概念上有很多重叠的领域，牙科学也经常被理解为包含现已基本上不存在的口腔科学（关于研究口腔相关的不适和疾病学科），因此这两个术语在某些地区可以互用。",
-    "careerZh": "牙醫在港供應少、需求穩定，私人執業收入高，公營與社區牙科亦有職位。人口老化及口腔保健意識上升支撐長遠需求，屬穩陣而回報高的專業。",
-    "careerEn": "Dentists are in limited supply and steady demand; private practice pays very well, with public and community roles too. Ageing and rising oral-health awareness support long-term demand — a stable, high-return profession."
-  },
-  "chinese_medicine": {
-    "nameEn": "Traditional Chinese medicine",
-    "nameZh": "中醫學",
-    "en": "Traditional Chinese medicine (TCM) is an alternative medical practice drawn from traditional medicine in China.",
-    "zh": "中醫學，俗称“中医”，是一種起源於漢族且至今已有千年歷史的中國傳統醫學。與現代醫學相比較时，其常被歸入傳統醫學的範疇。",
-    "careerZh": "隨首間中醫醫院啟用及政府逐步將中醫納入公營體系，中醫發展空間擴大，惟目前多為自僱或私人診所、收入分化較大，宜結合專科或科研提升競爭力。",
-    "careerEn": "With Hong Kong’s first Chinese-medicine hospital and gradual integration into the public system, prospects are broadening; however most practise privately or self-employed with varied income — specialising or research can boost competitiveness."
-  },
-  "nursing": {
-    "nameEn": "Nursing",
-    "nameZh": "護理學",
-    "en": "Nursing is a health care profession that \"integrates the art and science of caring and focuses on the protection, promotion, and optimization of health and human functioning; prevention of illness and injury; facilitatio",
-    "zh": "護理學 是一門醫療保健專業，也是一種關懷的藝術與科學，主要目的在專注於保護、促進和優化健康與人類功能、預防疾病與傷害、促進癒合以及以慈悲的態度陪伴病人減輕痛苦。護理人員在多個專業領域中工作，具有不同的認證和職責範疇。護理人員是大多數醫療環境中最主要的專業群體。許多國家面臨合格護理人員短缺的挑戰。",
-    "careerZh": "護士是全港最搶手的專業之一，公立醫院長期人手短缺，就業幾近百分百，且晉升與海外發展機會多。人口老化令需求只增不減，屬最穩陣、最易就業的醫療出路。",
-    "careerEn": "Nurses are among Hong Kong’s most sought-after professionals; public hospitals face persistent shortages, giving near-100% employment plus promotion and overseas options. Ageing guarantees rising demand — one of the safest, most employable healthcare paths."
-  },
-  "pharmacy": {
-    "nameEn": "Pharmacy",
-    "nameZh": "藥學",
-    "en": "Pharmacy is the science and practice of discovering, producing, preparing, dispensing, reviewing and monitoring medications, aiming to ensure the safe, effective, and affordable use of medicines.",
-    "zh": "藥學 是一門研究藥物的科學與臨床實務之學科，涵蓋藥物的發現、研製、製備、品質控制、作用機制、適應症、安全性、使用方法與臨床應用等內容。藥學結合了化學、生物學、醫學等多項科學領域，最終目標是確保病患獲得安全、有效且適當的藥物治療。",
-    "careerZh": "藥劑師在醫院、社區藥房及製藥業均有需求，人口老化及慢性病增加帶動長遠需求，收入穩定；香港註冊藥劑師人數偏少，就業前景良好。",
-    "careerEn": "Pharmacists are needed in hospitals, community pharmacies and industry; ageing and chronic illness drive long-term demand with stable pay. Registered pharmacists remain relatively few, so employment prospects are good."
-  },
-  "physiotherapy": {
-    "nameEn": "Physical therapy",
-    "nameZh": "物理治療",
-    "en": "Physical therapy (PT), also known as physiotherapy, is a healthcare profession, as well as the care provided by physical therapists.",
-    "zh": "物理治療，是以一種預防、治療及處理因疾病或傷害所帶來的動作以及疼痛問題的治療專業，實證醫學之非藥物以及非侵入性治療。英語中的「physical」是「身體、肉體」的意思，也有「按自然法則」以及「物理」的意思，所以在中文裡雖然被翻譯稱作「物理」治療，但其實這是囊括整個人體的治療及處置的治療專業，不僅止於物理因子 的治療而已。",
-    "careerZh": "物理治療、職業治療隨人口老化與康復服務擴張需求上升，公私營、安老及運動復康市場皆有機會，屬穩定成長的醫療專職。",
-    "careerEn": "Physiotherapy and occupational therapy demand is rising with ageing and expanding rehab services — opportunities span public, private, elderly-care and sports rehab. A steadily growing allied-health field."
-  },
-  "public_health": {
-    "nameEn": "Public health",
-    "nameZh": "公共衞生",
-    "en": "Public health is \"the science of preventing disease, prolonging life and promoting health through the organized efforts and informed choices of society, organizations, public and private, communities and individuals\".",
-    "zh": "公共衛生是研究如何「預防疾病、延長壽命、促進健康」的一門科學。這門學科透過社會、組織、社區和個人的共同努力與明智選擇來達成目標。公共衛生的基礎在於分析影響人口健康的各種因素及其潛在威脅。這裡所說的「公眾」，可以小至幾個人，也可以大至一個村莊或一座城市；在發生大規模傳染病時，甚至可能涵蓋全球多個大洲。",
-    "careerZh": "公共衞生於疫後更受重視，出路包括政府衞生部門、醫管局、NGO、國際衞生組織及數據分析；適合有志於政策與人群健康者，惟需配合數據或專科技能。",
-    "careerEn": "Public health gained prominence post-pandemic; paths include government health units, the Hospital Authority, NGOs, international bodies and health-data analytics. Best paired with data or specialist skills for those keen on policy and population health."
-  },
-  "biomedical": {
-    "nameEn": "Biomedical sciences",
-    "nameZh": "生物醫學",
-    "en": "Biomedical sciences are a set of sciences applying portions of natural science or formal science, or both, to develop knowledge, interventions, or technology that are of use in healthcare or public health.",
-    "zh": "生物医学 是医学的分支，负责将生物技术和其他自然科学理论应用于临床实践。 生物医学主要运用生物学和生理学的知识。",
-    "careerZh": "生物醫學結合科研與臨床應用，出路涵蓋醫療科技、藥廠、實驗室及研究；配合香港與大灣區生物科技投資（科學園、河套區），發展空間漸擴，惟起步多需研究生資歷。",
-    "careerEn": "Biomedical science bridges research and clinical application — medtech, pharma, labs and research. With Hong Kong/Greater Bay Area biotech investment (Science Park, Loop), scope is widening, though many roles need postgraduate qualifications."
-  },
-  "biotechnology": {
-    "nameEn": "Biotechnology",
-    "nameZh": "生物技術",
-    "en": "Biotechnology is a multidisciplinary field that involves the integration of natural sciences and engineering sciences to achieve the application of organisms and parts thereof for products and services.",
-    "zh": "生物技术，又稱為生物科技、生物工程，指利用生物體（含動物、植物及微生物的細胞）來生產有用的物質或改進製程，改良生物的特性，以降低成本及創新物種的科學技術。根據不同的工具和應用，它往往與生物工程和生物醫學工程的（相關）領域重疊。",
-    "careerZh": "生物科技是香港「創新科技」重點方向之一，科學園與河套深港科技園吸引藥廠與初創進駐，長遠潛力大；現階段本地職位仍在成長，研究或大灣區發展機會較多。",
-    "careerEn": "Biotech is a pillar of Hong Kong’s innovation-and-tech push; Science Park and the HK–Shenzhen Loop attract pharma and start-ups, giving strong long-term potential. Local roles are still growing, with more opportunity in research or across the Greater Bay Area."
-  },
-  "law": {
-    "nameEn": "Law",
-    "nameZh": "法律",
-    "en": "Law is a set of rules that are created and enforced by governmental or societal institutions to regulate behavior, with its precise definition a matter of longstanding debate.",
-    "zh": "法律，是由憲法明文授權国家制定的一套具有強制力的社會規範，以實現憲法旨意，達成約束國家權力、保障人民權利的目標。法律由各種抽象的規範所組成，通常需要由人來實施，最常見的形式為由政府行使公權力來執法。但在不同的地方，法律體系會以不同的方式來闡述人民的權利與義務。其中一種區分法，便是分為大陸法系和英美法系兩種。部分國家則會以該國的宗教法為其法律的基礎。",
-    "careerZh": "法律屬高地位、高回報行業，商業、金融、仲裁與跨境法律在港需求強。惟入行須過 PCLL 及實習「樽頸」，競爭激烈；非執業出路（合規、法務、公職）亦廣。",
-    "careerEn": "Law is prestigious and well-paid, with strong demand in commercial, finance, arbitration and cross-border work. Entry faces the PCLL and training-contract bottleneck and is highly competitive; non-practising paths (compliance, in-house, civil service) are also broad."
-  },
-  "architecture": {
-    "nameEn": "Architecture",
-    "nameZh": "建築學",
-    "en": "Architecture is the study and practice of designing structures, especially habitable ones. It utilizes civil engineering techniques, but is considered a visual art.",
-    "zh": "建筑学，从广义上来说，是研究建筑及其环境的学科。",
-    "careerZh": "建築師出路與地產及基建周期掛鈎，北部都會區與大型發展帶來機遇，惟需長時間考取專業資格。設計、項目管理、可持續建築為增長方向。",
-    "careerEn": "Architecture tracks the property and infrastructure cycle; the Northern Metropolis and major developments bring opportunity, though professional qualification takes years. Design, project management and sustainable building are growth areas."
-  },
-  "surveying": {
-    "nameEn": "Surveying",
-    "nameZh": "測量學",
-    "en": "Surveying or land surveying is the technique, profession, art, and science of determining the terrestrial positions of points based on the distances and angles between them.",
-    "zh": "測量學 又称测绘学，是一門以地球形狀、大小以及地表上各物體的幾何形狀與空間位置為研究對象的學科。其利用適當方法和儀器對空間中的物體進行搜集、分析、加值、整合、管理等方法，讓人理解其空間上的關係，以利規劃與利用。",
-    "careerZh": "測量師（產業、工料、土地）在地產、建造與政府部門需求穩定，專業資格認受性高、收入良好；與北部都會區及基建工程關係密切。",
-    "careerEn": "Surveyors (general practice, quantity, land) enjoy steady demand in property, construction and government, with a well-recognised qualification and good pay — closely tied to the Northern Metropolis and infrastructure works."
-  },
-  "civil_eng": {
-    "nameEn": "Civil engineering",
-    "nameZh": "土木工程",
-    "en": "Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals,",
-    "zh": "土木工程 指一切和土、木有關的基礎建設的計劃、建造和維修。現時一般的土木工作項目包括：能源、水利及交通設施等。過去曾經將一切非軍事用途的民用工程項目，歸入本類，但隨著工程科學日益廣闊，不少原來屬於土木工程範圍的內容都已經獨立成科。",
-    "careerZh": "土木工程受惠於北部都會區、交通及基建大型項目，需求穩定；可考取工程師專業資格，晉升清晰。屬回報穩健、社會需求持續的工程主流。",
-    "careerEn": "Civil engineering benefits from the Northern Metropolis and major transport/infrastructure projects, with steady demand and a clear chartered-engineer path — a mainstream field with reliable returns and lasting need."
-  },
-  "mechanical_eng": {
-    "nameEn": "Mechanical engineering",
-    "nameZh": "機械工程",
-    "en": "Mechanical engineering is the study of physical machines and mechanisms that may involve force and movement.",
-    "zh": "機械工程 是一門涉及利用物理定律為機械系統作分析、設計、生產及維修的工程學科。",
-    "careerZh": "機械工程出路涵蓋屋宇設備（MEP）、製造、機電與能源，建造業及大灣區製造升級提供機會；屋宇裝備工程師在港需求尤其穩定。",
-    "careerEn": "Mechanical engineering spans building services (MEP), manufacturing, and energy; construction and Greater Bay Area manufacturing upgrades create demand, with building-services engineers especially sought after in Hong Kong."
-  },
-  "electrical_eng": {
-    "nameEn": "Electrical engineering",
-    "nameZh": "電機工程",
-    "en": "Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism.",
-    "zh": "电气工程是以電子學、電磁學等物理学分支为基础，涵盖電子學、電子計算機、電力工程、电信、控制工程、訊號處理、机械电子学等子领域的一門工程學。十九世紀後半期以來，隨著電報、電話、電能在供應與使用方面的商業化，該學科逐漸發展為相對獨立的專業領域。",
-    "careerZh": "電機／電子工程於屋宇設備、電力、電訊及半導體皆有需求，配合智慧城市與新能源發展前景良好；MEP 與電力工程師就業穩定。",
-    "careerEn": "Electrical/electronic engineering is needed in building services, power, telecoms and semiconductors, with good prospects from smart-city and clean-energy development; MEP and power engineers enjoy stable employment."
-  },
-  "ai": {
-    "nameEn": "Artificial intelligence",
-    "nameZh": "人工智能",
-    "en": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
-    "zh": "人工智能，是指计算机系统执行通常与人类智慧相关的任务的能力，例如学习、推理、解决问题、感知和决策。它是工程学、数学和计算机科学的一个研究领域，旨在开发和研究方法及软件，使机器能够感知其环境，并利用机器学习和智能采取行动，以最大化实现既定目标的机会。",
-    "careerZh": "人工智能是香港「創科」核心，金融科技、Web3、智慧城市與 InnoHK 帶動需求，薪酬高、人才短缺，前景最被看好之一。建議累積實作項目與數據能力提升競爭力。",
-    "careerEn": "AI is central to Hong Kong’s innovation drive — fintech, Web3, smart city and InnoHK fuel demand, with high pay and a talent shortage, making it among the brightest prospects. Build hands-on projects and data skills to stand out."
-  },
-  "data_science": {
-    "nameEn": "Data science",
-    "nameZh": "數據科學",
-    "en": "Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms, coding, and systems to extract or extrapolate knowledg",
-    "zh": "数据科学 又称资料科学，是一门利用数据（资料）学习知识的學科，其目标是透过从数据中提取出有价值的部分来生产数据产品，学科范围涵盖了：数据取得、数据处理、数据分析等过程，举凡与數據有关的科学均属数据科学。",
-    "careerZh": "數據科學跨金融、電商、醫療與政府，需求持續上升、薪酬優厚，是最具轉工彈性的技能之一。香港金融與創科發展令數據人才長期供不應求。",
-    "careerEn": "Data science spans finance, e-commerce, healthcare and government, with rising demand and strong pay — one of the most transferable skill sets. Hong Kong’s finance and tech growth keeps data talent in short supply."
-  },
-  "computer_science": {
-    "nameEn": "Computer science",
-    "nameZh": "計算機科學",
-    "en": "Computer science is the study of computation, information, and automation. Included broadly in the sciences, computer science spans theoretical disciplines to applied disciplines.",
-    "zh": "计算机科学 是系统性研究信息与计算的理论基础以及它们在计算机系统中如何实现与应用的实用技术的学科。它通常被形容为对那些创造、描述以及转换信息的算法处理的系统研究。",
-    "careerZh": "電腦科學就業廣且薪高，軟件、資訊保安、金融科技、雲端與 AI 均缺人。香港與大灣區創科投資持續，長遠需求強勁，是最穩健的理科出路之一。",
-    "careerEn": "Computer science offers broad, high-paying work — software, cybersecurity, fintech, cloud and AI all face shortages. Ongoing Hong Kong/Greater Bay Area tech investment keeps demand strong — one of the most reliable science paths."
-  },
-  "information_tech": {
-    "nameEn": "Information technology",
-    "nameZh": "資訊科技",
-    "en": "Information technology (IT) is the study or use of computers, telecommunication systems and other devices to create, process, store, retrieve and transmit information.",
-    "zh": "信息技术 是主要用于管理和處理信息所採用的各種技術總稱，主要是應用计算机科学和通信技術来設計、開發、安装和部署信息系統及應用軟件。依照存儲和處理信息的不同，可以將信息技術的發展分為幾個不同的階段：前機械時期（公元前3000–公元1450）、機械時期（1450–1840）、機電時期（1840–1940）及電子時期（1940–現時）。",
-    "careerZh": "資訊科技（系統、資訊管理、網絡保安）於各行各業皆有需求，數碼轉型與資訊保安帶動職位增長，入行門檻與薪酬俱佳，就業穩定。",
-    "careerEn": "IT (systems, information management, cybersecurity) is needed across every sector; digital transformation and security drive job growth, with accessible entry, good pay and stable employment."
-  },
-  "accounting": {
-    "nameEn": "Accounting",
-    "nameZh": "會計學",
-    "en": "Accounting, also known as accountancy, is the process of recording and processing information about economic entities, such as businesses and corporations.",
-    "zh": "会计 是经济实体資訊的處理過程，包括对企业及法人團體的财务及非财务資訊之计量、处理與交流。会计被称为“商业语言”，通常衡量一个组织的经济活动结果，并将这些信息传达给各种利益相关者，包括投資人、债权人、管理层及监管者。会计的从业人员称作「會計（人員）」，獲得法定專業資格者為「會計師」。会计的知識主體「会计學」是一门应用学科，是一门重要的管理学科，也是社会科学的一部分。",
-    "careerZh": "會計出路穩定，四大會計師行、企業財務及審計持續招聘，考取 HKICPA 認受性高。惟基礎核數受自動化影響，宜向財務分析、稅務諮詢、ESG 等增值方向發展。",
-    "careerEn": "Accounting offers stable careers — the Big Four, corporate finance and audit hire steadily, and the HKICPA qualification is highly regarded. Routine audit faces automation, so lean toward financial analysis, tax advisory and ESG."
-  },
-  "actuarial": {
-    "nameEn": "Actuarial science",
-    "nameZh": "精算學",
-    "en": "Actuarial science is the discipline that applies mathematical and statistical methods to assess risk in insurance, pension, finance, investment, psychology, medicine, and other industries and professions.",
-    "zh": "精算學 是一門應用科學，於財務和保險行業應用數學和統計方法，主要用來評估長期風險。從事精算的專業人員稱為精算師。",
-    "careerZh": "香港是保險樞紐，精算師薪酬高、需求穩定，但須通過一系列專業考試、屬窄而精的路。風險管理、財務科技擴闊了出路。",
-    "careerEn": "As an insurance hub, Hong Kong pays actuaries well with steady demand, though it requires passing a series of professional exams — a narrow but deep path. Risk management and fintech broaden the options."
-  },
-  "finance": {
-    "nameEn": "Finance",
-    "nameZh": "金融學",
-    "en": "Finance refers to resources and the discipline that studies such resources, allowing an entity to gain the consumption and saving opportunity within a specified timeframe, with related concepts such as income, money, cur",
-    "zh": "金融学 是从经济学分化出来的应用经济学科，是以「金融」，融通货币和货币资金的经济活动为研究对象。研究公司、个人、政府与其他机构如何募集和投资资金的学科。传统的金融学研究领域大致有两个方向：宏观层面的金融市场运行理论和微观层面的公司投资理论。",
-    "careerZh": "香港為國際金融中心，投資銀行、資產管理、私人銀行與金融科技機會多、回報高，但入行競爭激烈。合規、風險、量化與 ESG 金融為增長領域；大灣區財富管理帶來新機遇。",
-    "careerEn": "As an international financial centre, Hong Kong offers plentiful, high-reward roles in investment banking, asset and private wealth management, and fintech — but entry is fiercely competitive. Compliance, risk, quant and ESG finance are growing, with Greater Bay Area wealth management adding openings."
-  },
-  "economics": {
-    "nameEn": "Economics",
-    "nameZh": "經濟學",
-    "en": "Economics is a social science that studies the production, distribution, and consumption of goods and services.",
-    "zh": "經濟學，為研究商品和服務關係的社會科學，包括其中所有的生產、分配和消費等行為。",
-    "careerZh": "經濟學訓練分析與量化思維，出路廣：金融、諮詢、政府、研究與數據分析皆可。配合統計、程式或財務技能，轉工彈性極高。",
-    "careerEn": "Economics builds analytical and quantitative thinking with broad exits — finance, consulting, government, research and data analytics. Paired with statistics, coding or finance skills, it is highly versatile."
-  },
-  "marketing": {
-    "nameEn": "Marketing",
-    "nameZh": "市場營銷",
-    "en": "Marketing is the act of acquiring, satisfying and retaining customers. It is one of the primary components of business management and commerce.",
-    "zh": "市场营销，又称为市场学、市场营销學、或行銷學。它是指个人或群体通过创造并同他人交换產品和價值，以满足需求与慾望的一個社会和管理过程。",
-    "careerZh": "市場營銷出路廣，數碼營銷、社交媒體、電商與品牌管理需求上升；行業重實戰與作品，累積實習與數據分析能力有助突圍。",
-    "careerEn": "Marketing offers wide paths, with rising demand in digital marketing, social media, e-commerce and brand management; the field rewards practical work — internships and data-analytics skills help you stand out."
-  },
-  "hospitality": {
-    "nameEn": "Hospitality management studies",
-    "nameZh": "酒店管理",
-    "en": "Hospitality management studies is the study of the hospitality industry.",
-    "zh": "酒店管理学，也称酒店经营学，是指关于酒店，餐馆和旅行与旅游业相关事务的学术研究。",
-    "careerZh": "旅遊與款待隨旅遊業復甦及盛事經濟回暖，酒店、會展、主題公園需人；起薪一般但晉升快、國際化，管理層與大灣區／內地市場機會較佳。",
-    "careerEn": "Tourism and hospitality recover with the return of visitors and the events economy — hotels, MICE and theme parks need staff; entry pay is modest but progression is fast and international, with better prospects in management and the Greater Bay/mainland market."
-  },
-  "management": {
-    "nameEn": "Management",
-    "nameZh": "管理學",
-    "en": "Management is the administration of organizations, whether businesses, nonprofit organizations, or government bodies through business administration, nonprofit management, or the political science sub-field of public adm",
-    "zh": "管理学是研究人類管理活動及其应用科学。它偏重于用一些工具和方法来解决管理上的问题，如用运筹学、统计学等来定量定性分析。管理的定義為管理者和他人及透過他人有效率且有效能地完成活動的程序。以前管理学主要用运筹学来解决管理中碰到的问题。",
-    "careerZh": "管理／工商行政出路廣但較「通才」，實際發展視乎所選專長（營運、人力、供應鏈等）與實習經驗。宜及早鎖定專長並累積實務。",
-    "careerEn": "Management/business administration is broad but generalist; outcomes depend on your chosen specialism (operations, HR, supply chain) and internship experience. Pick a focus early and build practical exposure."
-  },
-  "psychology": {
-    "nameEn": "Psychology",
-    "nameZh": "心理學",
-    "en": "Psychology is the scientific study of the mind and behavior. Its subject matter includes the behavior of humans and nonhumans, both conscious and unconscious phenomena, and mental processes such as thoughts, feelings, an",
-    "zh": "心理学是一门研究人类和动物的心理现象、意识和行为的科学。它既是一门理论学科，也是一门应用学科，包括理论心理学与应用心理学两大领域。",
-    "careerZh": "社會對精神健康日益重視，臨床、教育及工業組織心理學需求上升；惟臨床／教育心理學家須修讀碩士並考取資格，本科生多先入人力資源、研究或社福等相關崗位。",
-    "careerEn": "Rising mental-health awareness lifts demand in clinical, educational and organisational psychology; however clinical/educational psychologists need a master’s and registration, so graduates often start in HR, research or social services."
-  },
-  "social_work": {
-    "nameEn": "Social work",
-    "nameZh": "社會工作",
-    "en": "Social work is an academic discipline and practice-based profession concerned with meeting the basic needs of individuals, families, groups, communities, and society as a whole to enhance their individual and collective",
-    "zh": "社会工作 是一個旨在促进社会变革与发展、增強社会凝聚力、以及為人们的賦能和解放的專業。 社会正义，人权，集体责任和尊重多样性的原则对于社会工作至关重要。 以社会工作，社会科学，人文和原住民知识，社会工作理论为基础 吸引人们和结构来应对生活挑战并提高福祉。",
-    "careerZh": "社工需求穩定，政府、NGO 與社福機構持續招聘，人口老化與家庭服務需求上升。註冊社工就業穩健，屬助人而有保障的出路。",
-    "careerEn": "Social work sees steady demand; government, NGOs and welfare bodies hire continuously, with ageing and family-service needs rising. Registered social workers enjoy stable employment — a secure, people-centred path."
-  },
-  "sociology": {
-    "nameEn": "Sociology",
-    "nameZh": "社會學",
-    "en": "Sociology is the scientific study of human society that focuses on society, human social behavior, patterns of social relationships, social interaction, and aspects of culture associated with everyday life.",
-    "zh": "社會學 起源於19世紀末期，是一門研究社會的學科。社會學使用各種研究方法進行實證調查和批判分析，以發展及完善一套有關人類社會結構、社會行動或社會關係的知識體系，並會運用這些知識，以尋求或改善社會福利、深入社會與公眾進行對話與溝通、將人類從不平等及壓迫的物質條件下解放出來，等等為目標。",
-    "careerZh": "社會學培養研究、政策與人本分析能力，出路含政府、研究、社福、傳媒、人力資源與市場研究；宜結合數據或專業技能提升就業競爭力。",
-    "careerEn": "Sociology builds research, policy and people-centred analysis, leading to government, research, welfare, media, HR and market research; pairing with data or professional skills strengthens employability."
-  },
-  "political_science": {
-    "nameEn": "Political science",
-    "nameZh": "政治學",
-    "en": "Political science is a field which aims to study the scientific aspect of politics.",
-    "zh": "政治學，或稱政治科學等，是一門对政治、治理和權力體系进行科學研究，分析政治活動、政治制度、政治思想和行為以及相關憲法和法律的社會科學。 政治學涉及政治過程、結構和內容以及政治現象等主題的科學教學和研究。",
-    "careerZh": "政治與公共行政出路含公務員、政策研究、國際關係、NGO 與傳媒；適合關心公共事務者，配合語文與分析能力，亦可轉商界或諮詢。",
-    "careerEn": "Politics and public administration lead to the civil service, policy research, international affairs, NGOs and media; suited to those keen on public affairs, and — with language and analytical skills — transferable to business or consulting."
-  },
-  "journalism": {
-    "nameEn": "Journalism",
-    "nameZh": "新聞學",
-    "en": "Journalism is the production and distribution of reports on events, facts, ideas, and people that constitute the \"news of the day\" and inform society with a commitment to accuracy and verification.",
-    "zh": "新聞學，或译为报道学（日译）或言論學（韩译），是一種包含搜集、撰寫及報導新聞的學科。在廣義上，它亦包含了編輯和演示新聞專題的過程。新聞學在報業、電視、電台以及网络新媒体等各種傳播媒介上均起著重要的作用。多數的傳媒機構皆希望「先發制人」，爭先發佈資訊，而處於這種壓力下，傳媒機構通常會先對新聞進行編輯和校對，以使其內容符合該機構在準確性、素質和式樣等方面的標準。",
-    "careerZh": "新聞業面對數碼轉型，傳統媒體收縮但內容、公關、企業傳訊與社交媒體需求增加；記者訓練的採寫與溝通力可靈活轉向多元傳播崗位。",
-    "careerEn": "Journalism faces digital disruption; traditional media shrinks while content, PR, corporate communications and social media grow — the reporting and communication skills transfer flexibly across media roles."
-  },
-  "communication": {
-    "nameEn": "Communication studies",
-    "nameZh": "傳播學",
-    "en": "Communication studies is an academic discipline that deals with processes of human communication and behavior, patterns of communication in interpersonal relationships, social interactions and communication in different",
-    "zh": "传播学 的研究对象有着多种表达，概况的说，传播学是研究人际与社会信息的传递、社会信息系统运行的学科。传播的概念同样有着来自不同学科视角和不同侧重的表达，传播的定义主要概况为六种：传播是传递，传播是共享与互动，传播是控制，传播是撒播，传播是权力，传播是游戏。通过话语研究可以探究这六种定义的原因以及这些定义蕴含的几种传播概念。",
-    "careerZh": "傳播出路多元：公關、廣告、企業傳訊、社交媒體與內容製作。數碼與影音內容需求上升，重作品集與實戰經驗，適合善於溝通與創意者。",
-    "careerEn": "Communication offers varied paths — PR, advertising, corporate comms, social media and content production. Digital and video content demand is rising; the field values portfolios and hands-on experience, ideal for creative communicators."
-  },
-  "translation": {
-    "nameEn": "Translation",
-    "nameZh": "翻譯",
-    "en": "In language, translation is the communication of the meaning of a source-language text by means of an equivalent target-language text.",
-    "zh": "翻译，是指把一种语言的文本或話語等信息转变成另一种语言的行為。",
-    "careerZh": "翻譯出路含商業、法律、政府、傳媒與本地化；AI 翻譯令基礎工作受壓，但高階、專業（法律／醫學／會議傳譯）及中英雙語人才仍具價值。",
-    "careerEn": "Translation spans business, legal, government, media and localisation; AI pressures basic work, but high-level, specialist (legal/medical/conference interpreting) and strong bilingual talent remain valuable."
-  },
-  "linguistics": {
-    "nameEn": "Linguistics",
-    "nameZh": "語言學",
-    "en": "Linguistics is the scientific study of language. The areas of linguistic analysis are syntax, semantics (meaning), morphology, phonetics, phonology, and pragmatics.",
-    "zh": "语言学 是研究语言的科学，隶属于人文学科，涉及了對語言的形式、含義、用词、历史、来源和語境等内容的研究，同时也会寻找其中的规律。",
-    "careerZh": "語言學出路含語言教育、語言科技（NLP）、言語治療（需進修）、出版與研究；結合程式或數據技能可切入科技與 AI 語言領域。",
-    "careerEn": "Linguistics leads to language education, language technology (NLP), speech therapy (with further study), publishing and research; coding or data skills open doors into tech and AI-language work."
-  },
-  "chinese": {
-    "nameEn": "Chinese language",
-    "nameZh": "漢語",
-    "en": "Chinese is an umbrella term for all Sinitic languages, widely recognized as a collection of language varieties, spoken natively by the ethnic Han Chinese majority and many minority ethnic groups in Greater China, as well",
-    "zh": "漢語又稱中文、華語、中國語或中國話，是源自东亚的一类分析语，为汉民族的母语，也是汉藏语系中规模最大、复杂度最高的一支。若把整个汉语族的所有汉语方言都視為單一語言的不同地方变种，则汉语为世界上母语使用者人数最多的语言，目前全世界有近五分之一人口将其作为母语或日常使用的第二語言。",
-    "careerZh": "中文出路以教育、出版、傳媒、公關與公職為主，中文根基紮實者於企業傳訊與內容創作亦具優勢；宜輔以第二專長擴闊就業面。",
-    "careerEn": "Chinese-language study mainly leads to education, publishing, media, PR and the civil service; strong writers also thrive in corporate communications and content. A second specialism widens options."
-  },
-  "english": {
-    "nameEn": "English studies",
-    "nameZh": "英語",
-    "en": "English studies is an academic discipline taught in primary, secondary, and post-secondary education in English-speaking countries.",
-    "zh": "英語（English）是目前全球使用最廣、最具影響力的通用語，屬西日耳曼語支，源自中世紀早期的英格蘭。英語是世界上母語人口第三多的語言（僅次於漢語和西班牙語），近六十個國家以英語為唯一或主要的官方語言，居世界之冠。英語作為當今的世界語言，是聯合國、歐盟、國際民航組織等眾多國際組織的官方語言、互联网的法通语，也是學習人數最多的外語。",
-    "careerZh": "英文出路含教育、商業傳訊、公關、出版與國際企業，雙語能力在港是明顯優勢；配合專業（商、法、傳媒）或教學資格更具競爭力。",
-    "careerEn": "English study leads to education, business communication, PR, publishing and multinationals, where bilingual ability is a clear Hong Kong advantage; pairing with a profession (business, law, media) or teaching credentials boosts competitiveness."
-  },
-  "history": {
-    "nameEn": "History",
-    "nameZh": "歷史學",
-    "en": "History is the systematic study of the past, focusing primarily on the human past. As an academic discipline, it analyses and interprets evidence to construct narratives about what happened and explain why it happened.",
-    "zh": "歷史學，簡稱史學，是研究包括人类社会一切问题在内的科学。历史学不是信条、教义、文学。历史科学的目的就是尽可能地逼近真实情况。",
-    "careerZh": "歷史培養研究、分析與寫作能力，出路含教育、公職、文博、出版與傳媒；屬「可轉移技能」型學科，宜結合實習或第二專長。",
-    "careerEn": "History builds research, analysis and writing skills, leading to education, civil service, museums/heritage, publishing and media — a transferable-skills discipline best paired with internships or a second specialism."
-  },
-  "philosophy": {
-    "nameEn": "Philosophy",
-    "nameZh": "哲學",
-    "en": "Philosophy is a systematic study of general and fundamental questions concerning topics like existence, knowledge, mind, reason, language, and value.",
-    "zh": "哲學是研究普遍、基本问题的領域，包括存在、知识、价值、理智、心灵、语言、人生、道德等领域。哲学獨特之處在於其思考方式，例如批判性思维、系统化的方法，并以理性论证為基礎。縱觀历史，许多独立的学科如物理学、生物学等自然科学，或法学、政治学、心理学等社会科学，都曾被视作哲学的一部分或其分支。直到后续发展才逐漸被视作今日意义上的独立学科。",
-    "careerZh": "哲學鍛鍊思辨與論證，出路廣而不限一途：教育、公職、出版、法律（進修）、諮詢與科技倫理等；重在配合實務技能發揮分析優勢。",
-    "careerEn": "Philosophy sharpens reasoning and argument, with broad rather than fixed exits — education, civil service, publishing, law (with further study), consulting and tech ethics; pair it with practical skills to leverage its analytical edge."
-  },
-  "geography": {
-    "nameEn": "Geography",
-    "nameZh": "地理學",
-    "en": "Geography is the study of the lands, features, inhabitants, and phenomena of planet Earth.",
-    "zh": "地理學 是探索地球及其特徵、居民和現象的學問，研究地球表層各圈層相互作用關係，及其空間差異與變化過程的學科體系。",
-    "careerZh": "地理連結環境、城市規劃、地理資訊系統（GIS）與 ESG，出路含規劃、環保、測繪與政府部門；GIS 與數據技能令就業前景更佳。",
-    "careerEn": "Geography links environment, urban planning, GIS and ESG, leading to planning, conservation, mapping and government; GIS and data skills notably improve prospects."
-  },
-  "anthropology": {
-    "nameEn": "Anthropology",
-    "nameZh": "人類學",
-    "en": "Anthropology is the scientific study of humanity that crosses biology and sociology, concerned with human behavior, human biology, cultures, societies, and linguistics, in both the present and past, including archaic hum",
-    "zh": "人类学 一词，起源于古希腊语“ἄνθρωπος ”以及“λόγος ”，意思是研究人的學科。這個學科名稱首次出現於德國哲學家马格努斯·洪特在1501年的作品《人類學——關於人的優點、本質和特性、以及人的成分、部位和要素》，當時人類學這個字指的是人的體質構造。",
-    "careerZh": "人類學培養跨文化與質性研究能力，出路含研究、NGO、文化與博物館、用戶研究（UX）與市場研究；配合數據或設計思維可切入商業與科技。",
-    "careerEn": "Anthropology builds cross-cultural and qualitative research skills, leading to research, NGOs, culture/museums, user (UX) research and market research; data or design-thinking skills open business and tech routes."
-  },
-  "chemistry": {
-    "nameEn": "Chemistry",
-    "nameZh": "化學",
-    "en": "Chemistry is the scientific study of the properties and behavior of matter.",
-    "zh": "化學是在原子、分子層次上研究物質的組成、結構、性質以及變化規律的科學。化學研究的對象涉及物質之間的相互關係，或物質和能量之間的關聯。傳統的化學常常都是關於兩種或以上的物質之間的接觸和其後的變化，即化學反應，又或者是一種物質變成另一種物質的過程。這些變化有時會需要使用電磁波，當中電磁波負責激發化學作用。不過有時化學並不一定要關於物質之間的反應。光譜學研究物質與光之間的關係，而這些關係並不涉及化學反應。",
-    "careerZh": "化學出路含製藥、檢測認證、質量控制、環保與教育；本地研發職位有限，惟檢測、藥業與轉向數據／專利等領域仍具機會。",
-    "careerEn": "Chemistry leads to pharma, testing and certification, quality control, environmental work and education; local R&D roles are limited, but testing, pharma and pivots into data or patents offer openings."
-  },
-  "physics": {
-    "nameEn": "Physics",
-    "nameZh": "物理學",
-    "en": "Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
-    "zh": "物理學 是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。",
-    "careerZh": "物理訓練嚴謹的量化與解難能力，出路含科研、工程、教育，以及金融量化、數據科學與科技——高度可轉移，理科尖子常轉進高薪金融／科技。",
-    "careerEn": "Physics trains rigorous quantitative and problem-solving skills, leading to research, engineering, education, and quant finance, data science and tech — highly transferable, with top students often moving into high-paying finance/tech."
-  },
-  "mathematics": {
-    "nameEn": "Mathematics",
-    "nameZh": "數學",
-    "en": "Mathematics is a field of knowledge concerned with abstract concepts such as numbers, geometric shapes, sets, functions, and probabilities.",
-    "zh": "数学是研究數量、结构以及空间等概念及其变化的一門学科，屬於形式科學的一種。數學利用抽象化和邏輯推理，從計數、計算、量度、對物體形狀及運動的觀察發展而成。數學家們拓展這些概念，以公式化新的猜想，以及從選定的公理及定義出發，嚴謹地推導出一些定理。",
-    "careerZh": "數學是最「保值」的學科之一，量化金融、精算、數據科學、AI 與教育皆搶手，薪酬優厚。純數學能力配合程式技能，轉工彈性與競爭力極高。",
-    "careerEn": "Mathematics is among the most future-proof disciplines — quant finance, actuarial, data science, AI and education all seek it, with strong pay. Combined with coding, it offers exceptional versatility and competitiveness."
-  },
-  "statistics": {
-    "nameEn": "Statistics",
-    "nameZh": "統計學",
-    "en": "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.",
-    "zh": "统计学是一门收集数据、分析数据，并根据数据进行推断的艺术和科学。最初与政府收集的数据有关，现在包括了范围广泛的方法和理论。該学科自17世纪中叶产生并逐步发展起来，廣泛地應用在各門學科，從自然科学、社會科學到人文學科，甚至被用於工商業及政府的情報決策。隨著大数据時代來臨，統計的面貌也逐漸改變，與資訊、計算等領域密切結合，是數據科學中的重要主軸之一。",
-    "careerZh": "統計於金融、保險、醫療、市場研究與科技需求殷切，是數據時代最實用的技能之一。香港金融與創科發展令統計人才持續供不應求，前景優。",
-    "careerEn": "Statistics is in strong demand across finance, insurance, healthcare, market research and tech — one of the most practical skills of the data age. Hong Kong’s finance and tech growth keeps statisticians in short supply, with excellent prospects."
-  },
-  "environmental": {
-    "nameEn": "Environmental science",
-    "nameZh": "環境科學",
-    "en": "Environmental science is an academic field that integrates the physical, biological, and mathematical sciences to study the environment and solve environmental problems.",
-    "zh": "环境科学为跨学科领域专业，既包含像物理，化学，生物，地质学，地理，资源技术、工程的科学，也含有像资源管理和保护，人口统计学，经济学，政治和伦理学等社会科学。环境科学包含了影响人类和其他有机体的周边环境的学科。自然与人类资源是相互依赖的，其中一方所作出的任何动作，正确或错误，都会对另外一方产生影响。此学科年代较短，直到20世纪60年代才成为正式学科。",
-    "careerZh": "環境科學受惠於 ESG、碳中和與綠色金融興起，出路含環保諮詢、可持續發展、政府與企業 ESG 崗位，屬成長中的新興領域。",
-    "careerEn": "Environmental science benefits from ESG, carbon-neutrality and green-finance momentum, leading to environmental consulting, sustainability, and government/corporate ESG roles — a growing, emerging field."
-  },
-  "food_science": {
-    "nameEn": "Food science",
-    "nameZh": "食品科學",
-    "en": "Food science is the study of food and its chemical properties.",
-    "zh": "食品科學是一门把科学知识用于食品加工和生产的跨學科的應用科學。 食品科學内容包括食品化學、食品微生物學、食品加工和食品工程等學科。",
-    "careerZh": "食品科學出路含食品安全、檢測認證、研發與品質管理，食安監管與健康飲食趨勢帶動需求，屬穩定而實用的應用科學。",
-    "careerEn": "Food science leads to food safety, testing and certification, R&D and quality management; food-safety regulation and healthy-eating trends drive demand — a stable, practical applied science."
-  },
-  "biology": {
-    "nameEn": "Biology",
-    "nameZh": "生物學",
-    "en": "Biology is the scientific study of life and living organisms. It is a broad natural science that encompasses a wide range of fields and unifying principles that explain the structure, function, growth, origin, evolution,",
-    "zh": "生物學 或稱生物科學 、生命科學，是自然科學的一大門類，由經驗主義出發，廣泛研究生命的所有方面，包括生命起源、演化、分佈、構造、發育、功能、行为、與環境的互動關系，以及生物分類學等。現代生物學是一個龐大而兼收並蓄的領域，由許多分支和分支學科組成。然而，儘管生物學的範圍很廣，在它裡面有某些一般和統一概念支配一切的學習和研究，把它整合成單一的、連貫的領域。",
-    "careerZh": "生物出路含科研、醫療相關、環保、教育及生物科技；本地純研究職位有限，惟配合生物科技投資、數據或醫療方向可拓闊發展。",
-    "careerEn": "Biology leads to research, healthcare-related roles, environment, education and biotech; pure-research jobs are limited locally, but biotech investment, data or healthcare directions widen prospects."
-  },
-  "music": {
-    "nameEn": "Music",
-    "nameZh": "音樂",
-    "en": "Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.",
-    "zh": "音樂，廣義而言，就是指任何以聲音組成的藝術。英文Music一詞源於古希臘語的μουσική（mousike），意即缪斯（muse）女神的藝術。而中文的音樂二字，東漢許慎《說文解字》解釋為「音，聲也。生於心，有節於外，謂之音。」認為音樂和聲音的區別，在於音樂需要透過人心去想像和創造。",
-    "careerZh": "音樂出路含表演、教學、製作與藝術行政，西九文化區與 M+ 等帶動文化產業；行業競爭大、多為自由工作，宜多元技能與人脈並重。",
-    "careerEn": "Music leads to performance, teaching, production and arts administration, with the West Kowloon Cultural District and M+ boosting the sector; it is competitive and often freelance, so diverse skills and networks matter."
-  },
-  "design": {
-    "nameEn": "Design",
-    "nameZh": "設計",
-    "en": "A design is the concept or proposal for an object, process, or system.",
-    "zh": "所謂設計，即「设想和计划，设想是目的，计划是过程安排」，通常是指有目標和計劃的創作行為及活动。",
-    "careerZh": "設計（平面、產品、UX/UI、數碼）需求隨數碼經濟上升，UX/UI 尤其搶手、薪酬佳。重作品集與實戰，跨界科技與商業者最具競爭力。",
-    "careerEn": "Design (graphic, product, UX/UI, digital) demand rises with the digital economy, with UX/UI especially sought after and well-paid; portfolios and hands-on work matter, and those bridging tech and business fare best."
-  },
-  "fine_arts": {
-    "nameEn": "Fine art",
-    "nameZh": "美術",
-    "en": "In European academic traditions, fine art is considered a kind of high art and is made primarily for aesthetics or creative expression, distinguishing it from popular art, decorative art or applied art, which also either",
-    "zh": "美術 是指讓人直接在視覺上獲得美感的藝術，主要指繪畫和雕塑，也可以指工藝美術和建築藝術，現代還可以指攝影和與藝術有關的設計，是各種視覺藝術的總稱。",
-    "careerZh": "視覺藝術出路含創作、策展、藝術教育、文化行政與創意產業，西九與藝術市場帶來機遇；多為自由或項目制，宜結合設計或數碼技能增加穩定收入。",
-    "careerEn": "Fine arts leads to creation, curation, arts education, cultural administration and creative industries, with West Kowloon and the art market offering opportunity; work is often freelance or project-based, so design or digital skills help stabilise income."
-  },
-  "sports": {
-    "nameEn": "Exercise physiology",
-    "nameZh": "運動科學",
-    "en": "Exercise physiology is the physiology of physical exercise. It is one of the allied health professions, and involves the study of the acute responses and chronic adaptations to exercise.",
-    "zh": "運動科學，又譯為競技運動科學，對於人類競技運動進行科學化分析的一個綜合性學科，這與健身運動 有所不同。",
-    "careerZh": "運動科學受惠於健康與運動風氣，出路含體育教學、運動教練、體適能、運動治療與體育管理；政府推動體育發展令相關職位漸增。",
-    "careerEn": "Sports science benefits from the wellness and fitness trend, leading to PE teaching, coaching, fitness, sports therapy and sports management; government promotion of sport is expanding related roles."
-  },
-  "urban_planning": {
-    "nameEn": "Urban planning",
-    "nameZh": "城市規劃",
-    "en": "Urban planning is the process of developing and designing plans for land use and the built environment, including air, water, and the infrastructure passing into and out of urban areas, such as transportation, communicat",
-    "zh": "城市规划 是处理城市及其邻近区域的工程建设、經濟、社会、土地利用布局以及对未来发展预测的專門學問或技術。它的对象偏重于城市物质形态的部分，涉及城市中产业的区域布局、建筑物的区域布局和分類管制、道路及运输设施的设置、公共設施的規劃建設及城市工程的安排，主要内容有空间规划、道路交通规划、绿化植被和水体规划等内容。城市規劃是城市建設及管理的依據，位於城市管理之規劃、建設、運作三個階段之首，是城市管理的龍頭。",
-    "careerZh": "城市規劃與北部都會區、土地供應及可持續發展密切相關，政府與顧問公司需求穩定，屬與香港長遠發展直接掛鈎的專業。",
-    "careerEn": "Urban planning ties directly to the Northern Metropolis, land supply and sustainable development, with steady demand from government and consultancies — a profession linked to Hong Kong’s long-term growth."
-  },
-  "education": {
-    "nameEn": "Education",
-    "nameZh": "教育學",
-    "en": "Education is the transmission of knowledge and skills and the development of character traits. Formal education happens in a complex institutional framework, like public schools.",
-    "zh": "教育学是研究教育现象和教育问题，揭示教育规律的一门学科，是一门研究如何培养人的科学。",
-    "careerZh": "教育出路以教學為主，惟出生率下降令中小學學位收縮、教席競爭加劇；幼教、特殊教育及國際學校需求相對較好，具專科（STEM／英文）者更佔優。",
-    "careerEn": "Education leads mainly to teaching, but a falling birth rate is shrinking school places and intensifying competition for posts; kindergarten, special education and international schools fare better, and subject specialists (STEM/English) have an edge."
-  },
-  "engineering": {
-    "nameEn": "Engineering",
-    "nameZh": "工程學",
-    "en": "Engineering is the practice of systematically applying natural science and mathematics to design and improve systems, devices, or processes that solve problems under constraints.",
-    "zh": "工程學、工程科學、工學，是通過研究、實踐應用數學、自然科學、社會學等基礎學科的知識，以達到改良各行業中現有材料、土木建築、機械、電機電子、電子通訊、儀器、系統、化學加工步驟的設計、應用方式的學科，而實踐、研究工程學的人稱為工程師。在高等學府中，將自然科學原理應用至服務業、工業、農業等各個生產部門所形成的諸多工程學科也稱為工科、工學。",
-    "careerZh": "工程整體受惠於基建、創科與大灣區發展，需求穩定、可考專業資格；不同分支冷熱有別，屋宇設備、土木與電機電子較穩，宜按興趣選定專長。",
-    "careerEn": "Engineering broadly benefits from infrastructure, innovation and Greater Bay Area development, with stable demand and a chartered path; branches vary — building services, civil and electrical/electronic are steadier — so choose a specialism by interest."
-  },
-  "business": {
-    "nameEn": "Business administration",
-    "nameZh": "工商管理",
-    "en": "Business administration, also known as business management is the administration of a commercial enterprise. It includes all aspects of overseeing and supervising the business operations of an organization.",
-    "zh": "工商管理 是指对组织、企业或其他商业实体的运营、管理和战略规划的全过程进行有效协调、控制和决策的学科。它涉及多方面的职能和领域，包括财务管理、市场营销、人力资源管理、运营管理、战略管理和信息技术等。工商管理的目标是通过科学的管理方法，提升企业的效率、竞争力和可持续发展能力。",
-    "careerZh": "商科出路最廣（會計、金融、市場、管理、營運等），實際發展視乎所選專長與實習表現。香港作為商業樞紐機會多，但入門競爭大，宜及早累積實務與專業資格。",
-    "careerEn": "Business offers the widest range (accounting, finance, marketing, management, operations), with outcomes shaped by your specialism and internships. As a business hub Hong Kong offers many openings, but entry is competitive — build experience and credentials early."
-  },
-  "social_science": {
-    "nameEn": "Social science",
-    "nameZh": "社會科學",
-    "en": "Social science is one of the branches of science, devoted to the study of societies and the relationships among members within those societies.",
-    "zh": "社会科学 是研究社会及其成员间关系的科学分支。狭义的社会科学是对人类社会组织、结构与活动进行描述、解释和预测的实证科学研究，如社会学研究当代人类社会，政治学研究政治、政策和有关的活动，经济学研究资源分配。广义的社会科学则包含了对所有以人和社会为研究对象的实证与跨学科研究及人文学科。「社会科学」这一术语的现代用法源于1930年出版的《社会科学百科全书》。",
-    "careerZh": "社會科學培養研究、分析與溝通等可轉移技能，出路涵蓋政策、研究、社福、傳媒與商界；宜結合數據、語文或專業資格提升就業競爭力。",
-    "careerEn": "Social science builds transferable research, analysis and communication skills, leading to policy, research, welfare, media and business; pair with data, language or professional credentials to boost employability."
-  },
-  "science": {
-    "nameEn": "Science",
-    "nameZh": "科學",
-    "en": "Science is a systematic discipline that builds and organises knowledge in the form of testable explanations about nature and society.",
-    "zh": "科学 是一個要求確實遵守其基本原則且立基於客觀事實的系統性研究領域，以可被檢驗的假說與預測為形式，進行知識的建構與組織工作。 科学强调预测结果的具体性、可证伪性；其他與科学對應的方法，有許多在更大程度上基於純粹且主觀的思考活動，而更少基於客觀事實。科学不在於寻求绝对无误的真理，而是在现有基础上，以科學方法不斷嘗試揭露和確認客觀世界的運作法則和原理等。",
-    "careerZh": "理學出路可走科研、教育，或憑量化與解難能力轉向金融、數據與科技等高薪領域。純研究本地職位有限，跨領域（數據／金融／科技）發展空間最大。",
-    "careerEn": "Science leads to research and education, or — via quantitative and problem-solving skills — into higher-paying finance, data and tech. Pure-research roles are limited locally, so cross-disciplinary (data/finance/tech) moves offer the most room."
-  },
-  "humanities": {
-    "nameEn": "Humanities",
-    "nameZh": "人文學科",
-    "en": "Humanities are academic disciplines that study aspects of human society and culture, including certain fundamental questions asked by humans.",
-    "zh": "人文学科 又称人文學，是以觀察、分析及理性批判來探讨人类情感、道德和理智的各门学科文学、哲学、宗教、艺术、史學、人類學、語言学等和知识的总称。在人文主義興起後，人文學科常與神學學科相對。其拉丁語源為studia humanitatis（「人文研究」），文藝復興時期的學者（umanisti）以此稱呼對古希臘羅馬經典的研究，藉以區別於中世紀的經院哲學。",
-    "careerZh": "人文培養語文、思辨與寫作等可轉移能力，常見出路含教育、文化、傳媒、公關與公職；建議及早結合實習與第二專長，把軟技能轉化為就業優勢。",
-    "careerEn": "Humanities builds transferable language, critical-thinking and writing skills, with common paths in education, culture, media, PR and the civil service; pairing early internships with a second specialism turns soft skills into an employment edge."
-  }
+ "medicine": {
+  "nameEn": "Medicine",
+  "nameZh": "醫學",
+  "en": "Medicine is the science and practice of caring for patients, managing the diagnosis, prognosis, prevention, treatment and palliation of their injury or disease, while promoting their health.",
+  "zh": "醫學，是以預防、診斷、治疗生理和心理疾病及保護人類健康、提高身體和心理素质为目的和研究內容的應用科學。狹義的醫學只是疾病的治療，但也有說法稱預防醫學為第一醫學，臨床醫學為第二醫學，復健醫學為第三醫學。醫學的科學面是應用基礎醫學的理論與發現，例如生化、生理、微生物學、解剖、病理學、藥理學、統計學、流行病學、營養學等，來治療疾病與促進健康。然而，医学也具有人文與藝術的一面，它關注的不僅是人体的器官和疾病，而是人的健康和生命。",
+  "careerZh": "香港醫生長期短缺、需求極穩定，公私營醫院、診所皆求才若渴，起薪與社會地位高。人口老化令醫療需求持續上升，前景明朗；惟培訓年期長、競爭最激烈，須有長線投入的準備。",
+  "careerEn": "Hong Kong faces a chronic doctor shortage; demand is extremely stable across public and private hospitals, with high starting pay and status. An ageing population keeps demand rising, so prospects are excellent — but training is long and entry is the most competitive of all fields.",
+  "nowZh": "香港醫生與人口比例長期低於先進地區，公立醫院人手緊絀，醫管局及私營市場持續搶人。畢業經實習及駐院培訓後即有穩定職位，公院駐院醫生起薪逾六萬元，屬全港畢業生之冠，失業風險近乎零。",
+  "nowEn": "Hong Kong has one of the lowest doctor-to-population ratios among developed economies. Public hospitals are chronically understaffed and both HA and private providers compete for talent. Graduates walk into stable posts after internship, with resident starting pay above HK$60k — the highest of any degree — and near-zero unemployment risk.",
+  "futureZh": "利好：人口急速老化、基層醫療改革及北都新醫院落成，未來十年需求只增不減；非本地醫生引入計劃未能填補缺口，本地畢業生依然搶手。風險：培訓年期長達十年以上、公院工時與壓力極大，晉升專科學額有限；惟以職業保障與回報計，仍是最穩陣的頂尖選擇。",
+  "futureEn": "Upside: rapid ageing, primary-care reform and new hospitals in the Northern Metropolis guarantee rising demand for a decade; imported non-local doctors have not closed the gap, so local graduates stay in high demand. Risks: 10+ years of training, punishing public-hospital hours, and limited specialist training slots — yet for job security and returns it remains the safest elite choice."
+ },
+ "dentistry": {
+  "nameEn": "Dentistry",
+  "nameZh": "牙醫學",
+  "en": "Dentistry, also known as dental medicine and oral medicine, is the branch of medicine focused on the teeth, gums, and mouth.",
+  "zh": "牙医学 是一门关于诊断、预防和治疗的口腔疾病、不适及状况的医学研究分支，一般处理牙列疾病，但也可包括口腔黏膜以及相邻相关结构和组织，特别是颌面部（下巴和面部）区域疾病。尽管对于普通大众来说牙医学主要处理与牙齿相关的问题，但牙科领域并不限于齿科学 ——关于研究牙齿结构，发育和畸形的学科。因为在概念上有很多重叠的领域，牙科学也经常被理解为包含现已基本上不存在的口腔科学（关于研究口腔相关的不适和疾病学科），因此这两个术语在某些地区可以互用。",
+  "careerZh": "牙醫在港供應少、需求穩定，私人執業收入高，公營與社區牙科亦有職位。人口老化及口腔保健意識上升支撐長遠需求，屬穩陣而回報高的專業。",
+  "careerEn": "Dentists are in limited supply and steady demand; private practice pays very well, with public and community roles too. Ageing and rising oral-health awareness support long-term demand — a stable, high-return profession.",
+  "nowZh": "全港僅港大一間牙醫學院，每年畢業生不足一百人，而市場缺口顯著——公營牙科服務輪候以年計，私人診所遍地開花。畢業生完成一年實習後即可執業，私人市場起薪普遍五至七萬元，議價能力極強。",
+  "nowEn": "HKU runs the city's only dental school, graduating fewer than a hundred dentists a year against a visible shortage — public dental queues run for years and private clinics keep expanding. After a one-year internship graduates can practise, with private-sector starting pay commonly HK$50–70k and strong bargaining power.",
+  "futureZh": "利好：人口老化帶動修復及植齒需求，政府擴展公營牙科及長者牙科資助，需求結構性上升；供應受學額硬性限制，物以罕為貴。風險：大灣區牙科收費低廉分流部分客源，且開業成本（設備、租金）極高；但整體而言仍屬供不應求、回報極高的專業。",
+  "futureEn": "Upside: ageing drives restorative and implant demand, government is expanding public and elderly dental subsidies, and supply is hard-capped by places — scarcity keeps value high. Risks: cheaper Greater Bay Area clinics divert some patients and set-up costs are steep; overall still a deeply undersupplied, high-return profession."
+ },
+ "chinese_medicine": {
+  "nameEn": "Traditional Chinese medicine",
+  "nameZh": "中醫學",
+  "en": "Traditional Chinese medicine (TCM) is an alternative medical practice drawn from traditional medicine in China.",
+  "zh": "中醫學，俗称“中医”，是一種起源於漢族且至今已有千年歷史的中國傳統醫學。與現代醫學相比較时，其常被歸入傳統醫學的範疇。",
+  "careerZh": "隨首間中醫醫院啟用及政府逐步將中醫納入公營體系，中醫發展空間擴大，惟目前多為自僱或私人診所、收入分化較大，宜結合專科或科研提升競爭力。",
+  "careerEn": "With Hong Kong’s first Chinese-medicine hospital and gradual integration into the public system, prospects are broadening; however most practise privately or self-employed with varied income — specialising or research can boost competitiveness.",
+  "nowZh": "中醫在港已納入公營醫療體系，十八區中醫診所及將軍澳中醫醫院（2025 年起分階段啟用）創造大量職位。惟註冊中醫師人數逐年增加，私人市場競爭漸大，起薪約二萬餘至三萬元，明顯低於西醫體系。",
+  "nowEn": "Chinese medicine is now part of Hong Kong's public healthcare system: 18 district clinics plus the Tseung Kwan O Chinese Medicine Hospital (phased opening from 2025) create substantial posts. But registered practitioners grow yearly, private competition is rising, and starting pay of roughly HK$20–30k trails Western medicine.",
+  "futureZh": "利好：中醫醫院全面投運、政府中醫藥發展藍圖及大灣區執業互認，公營職位與跨境機會同步擴張；長者護理與治未病需求殷切。風險：收入天花板較西醫低，私人市場飽和速度快，須靠口碑累積客源；適合真正熱愛中醫、願意長線經營的人。",
+  "futureEn": "Upside: the CM hospital ramping up, the government's Chinese-medicine blueprint and GBA mutual recognition expand public posts and cross-border options; elderly-care demand is strong. Risks: lower income ceiling than Western medicine and a fast-saturating private market that rewards reputation built over years — best for genuine believers in the field."
+ },
+ "nursing": {
+  "nameEn": "Nursing",
+  "nameZh": "護理學",
+  "en": "Nursing is a health care profession that \"integrates the art and science of caring and focuses on the protection, promotion, and optimization of health and human functioning; prevention of illness and injury; facilitatio",
+  "zh": "護理學 是一門醫療保健專業，也是一種關懷的藝術與科學，主要目的在專注於保護、促進和優化健康與人類功能、預防疾病與傷害、促進癒合以及以慈悲的態度陪伴病人減輕痛苦。護理人員在多個專業領域中工作，具有不同的認證和職責範疇。護理人員是大多數醫療環境中最主要的專業群體。許多國家面臨合格護理人員短缺的挑戰。",
+  "careerZh": "護士是全港最搶手的專業之一，公立醫院長期人手短缺，就業幾近百分百，且晉升與海外發展機會多。人口老化令需求只增不減，屬最穩陣、最易就業的醫療出路。",
+  "careerEn": "Nurses are among Hong Kong’s most sought-after professionals; public hospitals face persistent shortages, giving near-100% employment plus promotion and overseas options. Ageing guarantees rising demand — one of the safest, most employable healthcare paths.",
+  "nowZh": "護士是全港最缺人的職系之一，公院空缺率長期高企，醫管局每年招聘以千計，私院、院舍及診所同樣搶人。註冊護士公院起薪約三萬九千元，畢業即就業近乎保證，兼有海外執業出路。",
+  "nowEn": "Nursing is among Hong Kong's most shorthanded professions: public-hospital vacancy rates stay high, the HA hires thousands yearly, and private hospitals, care homes and clinics compete for the same pool. Registered nurses start around HK$39k in public service, employment on graduation is near-guaranteed, and licences travel overseas.",
+  "futureZh": "利好：人口老化＋基層醫療擴張＋北都新院，未來十年需求鐵定上升；資歷架構清晰，可晉升顧問護師或轉專科（手術室、深切治療）加薪顯著。風險：工時長、輪班壓力大、病房人手比例改善緩慢，流失率高正正反映工作辛苦；屬「辛苦但極穩」的鐵飯碗。",
+  "futureEn": "Upside: ageing, primary-care expansion and new Northern Metropolis hospitals lock in a decade of rising demand; clear ladders to consultant or specialty roles (OT, ICU) bring real pay jumps. Risks: long shifts and heavy workloads — high turnover reflects genuine hardship. A tough but exceptionally secure career."
+ },
+ "pharmacy": {
+  "nameEn": "Pharmacy",
+  "nameZh": "藥學",
+  "en": "Pharmacy is the science and practice of discovering, producing, preparing, dispensing, reviewing and monitoring medications, aiming to ensure the safe, effective, and affordable use of medicines.",
+  "zh": "藥學 是一門研究藥物的科學與臨床實務之學科，涵蓋藥物的發現、研製、製備、品質控制、作用機制、適應症、安全性、使用方法與臨床應用等內容。藥學結合了化學、生物學、醫學等多項科學領域，最終目標是確保病患獲得安全、有效且適當的藥物治療。",
+  "careerZh": "藥劑師在醫院、社區藥房及製藥業均有需求，人口老化及慢性病增加帶動長遠需求，收入穩定；香港註冊藥劑師人數偏少，就業前景良好。",
+  "careerEn": "Pharmacists are needed in hospitals, community pharmacies and industry; ageing and chronic illness drive long-term demand with stable pay. Registered pharmacists remain relatively few, so employment prospects are good.",
+  "nowZh": "全港僅中大、港大兩間藥劑學院，年產畢業生約一百人，註冊藥劑師長期供不應求。醫管局、私院、社區藥房及藥廠均有穩定需求，公院起薪約三萬八千元，兼可考慮跨國藥企的市場及註冊職位。",
+  "nowEn": "Only CUHK and HKU train pharmacists — about a hundred graduates a year against persistent shortage. The HA, private hospitals, community pharmacies and pharma companies all hire steadily; public starting pay is about HK$38k, with multinational regulatory and commercial roles as alternatives.",
+  "futureZh": "利好：政府推動基層醫療及社區藥房計劃、藥物自主審批（1+機制）帶動本地藥業發展，藥劑師角色由配藥擴展至臨床服務，職能與地位上升。風險：學額正在擴充，長遠供應增加；社區藥房利潤受連鎖集團擠壓。整體仍屬高度專業、需求穩健的醫療職系。",
+  "futureEn": "Upside: primary-care reform, community-pharmacy schemes and the \"1+\" drug-approval mechanism are growing local pharma, and pharmacists are expanding from dispensing into clinical roles. Risks: intake places are rising, adding future supply, and chain operators squeeze community margins. Still a highly professional, dependable healthcare track."
+ },
+ "physiotherapy": {
+  "nameEn": "Physical therapy",
+  "nameZh": "物理治療",
+  "en": "Physical therapy (PT), also known as physiotherapy, is a healthcare profession, as well as the care provided by physical therapists.",
+  "zh": "物理治療，是以一種預防、治療及處理因疾病或傷害所帶來的動作以及疼痛問題的治療專業，實證醫學之非藥物以及非侵入性治療。英語中的「physical」是「身體、肉體」的意思，也有「按自然法則」以及「物理」的意思，所以在中文裡雖然被翻譯稱作「物理」治療，但其實這是囊括整個人體的治療及處置的治療專業，不僅止於物理因子 的治療而已。",
+  "careerZh": "物理治療、職業治療隨人口老化與康復服務擴張需求上升，公私營、安老及運動復康市場皆有機會，屬穩定成長的醫療專職。",
+  "careerEn": "Physiotherapy and occupational therapy demand is rising with ageing and expanding rehab services — opportunities span public, private, elderly-care and sports rehab. A steadily growing allied-health field.",
+  "nowZh": "物理治療師被政府列為極短缺職系，公院、私人診所、體育機構及安老服務全面搶人，理大及自資院校學額有限。畢業生起薪約三萬二至三萬八千元，私人執業經驗累積後收入更高，就業率接近百分百。",
+  "nowEn": "Physiotherapists are officially listed as a severely short profession. Public hospitals, private clinics, sports bodies and elderly services all compete for a limited pool from PolyU and self-financed programmes. Starting pay runs HK$32–38k, private practice pays more with experience, and employment is near-total.",
+  "futureZh": "利好：老齡化令復康需求爆發，運動科學普及、長者服務券及殘疾人士服務擴張都直接增加職位；治療師條例放寬有限度註冊後仍供不應求。風險：自資課程增加令長線供應上升，公院職位編制增長較慢；但未來十年需求跑贏供應的格局基本確定。",
+  "futureEn": "Upside: ageing triggers a rehab boom; sports science, elderly vouchers and disability services all add posts, and demand still outruns supply even after limited-registration reforms. Risks: self-financed programmes raise future supply while public establishment grows slowly — yet demand should outpace supply for the coming decade."
+ },
+ "public_health": {
+  "nameEn": "Public health",
+  "nameZh": "公共衞生",
+  "en": "Public health is \"the science of preventing disease, prolonging life and promoting health through the organized efforts and informed choices of society, organizations, public and private, communities and individuals\".",
+  "zh": "公共衛生是研究如何「預防疾病、延長壽命、促進健康」的一門科學。這門學科透過社會、組織、社區和個人的共同努力與明智選擇來達成目標。公共衛生的基礎在於分析影響人口健康的各種因素及其潛在威脅。這裡所說的「公眾」，可以小至幾個人，也可以大至一個村莊或一座城市；在發生大規模傳染病時，甚至可能涵蓋全球多個大洲。",
+  "careerZh": "公共衞生於疫後更受重視，出路包括政府衞生部門、醫管局、NGO、國際衞生組織及數據分析；適合有志於政策與人群健康者，惟需配合數據或專科技能。",
+  "careerEn": "Public health gained prominence post-pandemic; paths include government health units, the Hospital Authority, NGOs, international bodies and health-data analytics. Best paired with data or specialist skills for those keen on policy and population health.",
+  "nowZh": "公共衞生畢業生出路集中在衞生署、醫管局行政、NGO、藥廠及保險界的健康管理職位，屬「廣而不專」的醫療周邊學科。起薪約二萬至二萬八千元，職位穩定但數量有限，不少人以碩士或轉專業增值。",
+  "nowEn": "Graduates cluster in the Department of Health, HA administration, NGOs, pharma and insurers' health-management roles — a broad but non-clinical field. Starting pay is roughly HK$20–28k; posts are stable but limited, and many add a master's or pivot to sharpen their edge.",
+  "futureZh": "利好：疫後各國重建公衞體系，基層醫療、健康數據分析及流行病監測人才需求上升，政府基層醫療署成立帶來新職位。風險：職位增長依賴公帑與政策，私人市場需求有限，薪酬升幅平緩；宜配合數據分析或醫療管理技能提升競爭力。",
+  "futureEn": "Upside: post-pandemic rebuilding, primary-care reform and health-data surveillance lift demand, with the new Primary Healthcare Commission adding posts. Risks: growth depends on public funding, private demand is thin and pay rises slowly — pairing with data-analytics or health-management skills is the smart play."
+ },
+ "biomedical": {
+  "nameEn": "Biomedical sciences",
+  "nameZh": "生物醫學",
+  "en": "Biomedical sciences are a set of sciences applying portions of natural science or formal science, or both, to develop knowledge, interventions, or technology that are of use in healthcare or public health.",
+  "zh": "生物医学 是医学的分支，负责将生物技术和其他自然科学理论应用于临床实践。 生物医学主要运用生物学和生理学的知识。",
+  "careerZh": "生物醫學結合科研與臨床應用，出路涵蓋醫療科技、藥廠、實驗室及研究；配合香港與大灣區生物科技投資（科學園、河套區），發展空間漸擴，惟起步多需研究生資歷。",
+  "careerEn": "Biomedical science bridges research and clinical application — medtech, pharma, labs and research. With Hong Kong/Greater Bay Area biotech investment (Science Park, Loop), scope is widening, though many roles need postgraduate qualifications.",
+  "nowZh": "生物醫學是醫科以外的實驗室主力學科，出路包括醫院化驗、大學研究、生物科技公司及醫療器械行業。本科起薪約一萬八至二萬五千元，晉升多需碩士或以上，不少畢業生視之為醫科、研究院的跳板。",
+  "nowEn": "Biomedical science is the lab backbone outside medicine, feeding hospital laboratories, university research, biotech firms and medical devices. Bachelor-level starting pay is HK$18–25k, advancement usually needs postgraduate study, and many treat it as a springboard to medicine or research.",
+  "futureZh": "利好：政府力推生命健康科技，河套深港園區、InnoHK 及新田科技城創造研究職位，基因檢測、細胞治療等新興產業起步。風險：本地產業鏈仍細，純本科出路薪酬偏低、高度依賴繼續進修；有志研究者前景向好，求穩定高薪者宜三思。",
+  "futureEn": "Upside: government bets on life-and-health tech — the Hetao park, InnoHK and San Tin Technopole add research posts, while genomics and cell therapy industries emerge. Risks: the local industry chain is still small, bachelor-only pay is modest and progression depends on further study. Great for aspiring researchers; think twice if you want fast money."
+ },
+ "biotechnology": {
+  "nameEn": "Biotechnology",
+  "nameZh": "生物技術",
+  "en": "Biotechnology is a multidisciplinary field that involves the integration of natural sciences and engineering sciences to achieve the application of organisms and parts thereof for products and services.",
+  "zh": "生物技术，又稱為生物科技、生物工程，指利用生物體（含動物、植物及微生物的細胞）來生產有用的物質或改進製程，改良生物的特性，以降低成本及創新物種的科學技術。根據不同的工具和應用，它往往與生物工程和生物醫學工程的（相關）領域重疊。",
+  "careerZh": "生物科技是香港「創新科技」重點方向之一，科學園與河套深港科技園吸引藥廠與初創進駐，長遠潛力大；現階段本地職位仍在成長，研究或大灣區發展機會較多。",
+  "careerEn": "Biotech is a pillar of Hong Kong’s innovation-and-tech push; Science Park and the HK–Shenzhen Loop attract pharma and start-ups, giving strong long-term potential. Local roles are still growing, with more opportunity in research or across the Greater Bay Area.",
+  "nowZh": "生物科技畢業生流向製藥、食品檢測、基因公司及科研機構，香港產業規模尚小，職位集中在科學園及大學實驗室。起薪約一萬八至二萬四千元，與生物醫學相若，碩博學歷幾乎是研發職位的入場券。",
+  "nowEn": "Biotech graduates head into pharma, food testing, genomics firms and research institutes. The local industry is still compact, with jobs concentrated in Science Park and university labs. Starting pay of HK$18–24k mirrors biomedical science, and postgraduate degrees are near-mandatory for R&D roles.",
+  "futureZh": "利好：國家及港府同時押注生物科技，上市規則 18A 令香港成為亞洲生科融資中心，新田科技城將擴大研發及生產職位；大灣區藥企提供跨境出路。風險：行業對資本市場敏感、景氣波動大，本地職位基數低；願意北上或深造者機會較多。",
+  "futureEn": "Upside: both Beijing and the HK government are betting on biotech; Chapter 18A listings made Hong Kong Asia's biotech funding hub and San Tin Technopole will add R&D and production jobs, with GBA pharma offering cross-border paths. Risks: the sector swings with capital markets and the local job base is small — those open to the mainland or further study fare best."
+ },
+ "law": {
+  "nameEn": "Law",
+  "nameZh": "法律",
+  "en": "Law is a set of rules that are created and enforced by governmental or societal institutions to regulate behavior, with its precise definition a matter of longstanding debate.",
+  "zh": "法律，是由憲法明文授權国家制定的一套具有強制力的社會規範，以實現憲法旨意，達成約束國家權力、保障人民權利的目標。法律由各種抽象的規範所組成，通常需要由人來實施，最常見的形式為由政府行使公權力來執法。但在不同的地方，法律體系會以不同的方式來闡述人民的權利與義務。其中一種區分法，便是分為大陸法系和英美法系兩種。部分國家則會以該國的宗教法為其法律的基礎。",
+  "careerZh": "法律屬高地位、高回報行業，商業、金融、仲裁與跨境法律在港需求強。惟入行須過 PCLL 及實習「樽頸」，競爭激烈；非執業出路（合規、法務、公職）亦廣。",
+  "careerEn": "Law is prestigious and well-paid, with strong demand in commercial, finance, arbitration and cross-border work. Entry faces the PCLL and training-contract bottleneck and is highly competitive; non-practising paths (compliance, in-house, civil service) are also broad.",
+  "nowZh": "法律仍是收入天花板最高的文科出路：國際律師行見習律師月薪可達八至十萬元，本地行亦有三至五萬元。惟 PCLL 學額競爭極激烈，成績中游的法律畢業生需轉投企業法務、合規或政府職系，出路分化明顯。",
+  "nowEn": "Law still has the highest income ceiling of any humanities path: trainee solicitors at international firms earn HK$80–100k monthly, local firms HK$30–50k. But PCLL places are fiercely contested, and mid-tier graduates divert to in-house, compliance or government roles — outcomes vary sharply.",
+  "futureZh": "利好：香港穩守普通法制度及國際仲裁中心地位,大灣區執業試開通內地市場,合規、資料私隱、虛擬資產監管等新領域需求增長。風險：法律科技侵蝕初級文書工作,國際政治影響外資行招聘意欲,行業金字塔頂端與底部差距擴大;頂尖成績者依然是黃金行業。",
+  "futureEn": "Upside: Hong Kong retains its common-law system and arbitration-hub status, the GBA exam opens mainland practice, and compliance, privacy and virtual-asset regulation are growth areas. Risks: legal tech erodes junior paperwork and geopolitics cools some international hiring, widening the top-bottom gap — but for top performers it remains a golden profession."
+ },
+ "architecture": {
+  "nameEn": "Architecture",
+  "nameZh": "建築學",
+  "en": "Architecture is the study and practice of designing structures, especially habitable ones. It utilizes civil engineering techniques, but is considered a visual art.",
+  "zh": "建筑学，从广义上来说，是研究建筑及其环境的学科。",
+  "careerZh": "建築師出路與地產及基建周期掛鈎，北部都會區與大型發展帶來機遇，惟需長時間考取專業資格。設計、項目管理、可持續建築為增長方向。",
+  "careerEn": "Architecture tracks the property and infrastructure cycle; the Northern Metropolis and major developments bring opportunity, though professional qualification takes years. Design, project management and sustainable building are growth areas.",
+  "nowZh": "建築學出路清晰：畢業後入則師樓累積經驗，考取註冊建築師資格後身價倍升。惟本地私人項目隨地產市道放緩，近年則樓招聘轉趨審慎，畢業生起薪約二萬至二萬六千元，考牌前屬捱價階段。",
+  "nowEn": "The path is well-defined: join a practice, build experience, and value jumps after registration. But private projects have slowed with the property market and firms hire cautiously; graduates start at HK$20–26k and underearn until qualified.",
+  "futureZh": "利好：北部都會區、交椅洲人工島等世紀工程陸續上馬，公營房屋建設高峰期未過，基建管道足以消化未來十年人手；綠色建築與舊樓活化是新增長點。風險：私人市場疲弱、內地建築師競爭、考牌年期長；願意捱過首五年者，長線仍屬穩健專業。",
+  "futureEn": "Upside: mega-projects like the Northern Metropolis and Kau Yi Chau islands are coming, public housing output stays high, and the infrastructure pipeline can absorb a decade of talent; green building and revitalisation add growth. Risks: a weak private market, mainland competition and a long path to registration — solid long-term if you survive the first five years."
+ },
+ "surveying": {
+  "nameEn": "Surveying",
+  "nameZh": "測量學",
+  "en": "Surveying or land surveying is the technique, profession, art, and science of determining the terrestrial positions of points based on the distances and angles between them.",
+  "zh": "測量學 又称测绘学，是一門以地球形狀、大小以及地表上各物體的幾何形狀與空間位置為研究對象的學科。其利用適當方法和儀器對空間中的物體進行搜集、分析、加值、整合、管理等方法，讓人理解其空間上的關係，以利規劃與利用。",
+  "careerZh": "測量師（產業、工料、土地）在地產、建造與政府部門需求穩定，專業資格認受性高、收入良好；與北部都會區及基建工程關係密切。",
+  "careerEn": "Surveyors (general practice, quantity, land) enjoy steady demand in property, construction and government, with a well-recognised qualification and good pay — closely tied to the Northern Metropolis and infrastructure works.",
+  "nowZh": "測量師分產業、工料、建築、土地等專業，屬「隱形剛需」職系——任何工程與物業交易都離不開。畢業生入行約二萬二至二萬八千元，考取專業資格（MHKIS/MRICS）後薪酬跳升，公私營職位均穩定。",
+  "nowEn": "Surveyors — general practice, quantity, building, land — are invisible essentials: no project or property deal happens without them. Entry pay is HK$22–28k, jumping after MHKIS/MRICS qualification, with steady posts across public and private sectors.",
+  "futureZh": "利好：北都及公營房屋大量開發帶動工料與土地測量需求，樓宇老化令驗樓、維修顧問市場擴張，專業資格受英聯邦承認、可攜性高。風險：物業交投淡靜影響產業測量佣金收入，工程界景氣循環明顯；整體屬需求有底、回報中上的實用專業。",
+  "futureEn": "Upside: Northern Metropolis and public-housing development drive quantity and land surveying, ageing buildings expand inspection and maintenance consultancy, and qualifications travel across the Commonwealth. Risks: thin property transactions hit GP surveyors' commissions and construction is cyclical — overall a practical profession with a firm demand floor and above-average returns."
+ },
+ "civil_eng": {
+  "nameEn": "Civil engineering",
+  "nameZh": "土木工程",
+  "en": "Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals,",
+  "zh": "土木工程 指一切和土、木有關的基礎建設的計劃、建造和維修。現時一般的土木工作項目包括：能源、水利及交通設施等。過去曾經將一切非軍事用途的民用工程項目，歸入本類，但隨著工程科學日益廣闊，不少原來屬於土木工程範圍的內容都已經獨立成科。",
+  "careerZh": "土木工程受惠於北部都會區、交通及基建大型項目，需求穩定；可考取工程師專業資格，晉升清晰。屬回報穩健、社會需求持續的工程主流。",
+  "careerEn": "Civil engineering benefits from the Northern Metropolis and major transport/infrastructure projects, with steady demand and a clear chartered-engineer path — a mainstream field with reliable returns and lasting need.",
+  "nowZh": "土木工程是政府基建開支的直接受惠者：路政、渠務、屋宇署及顧問公司（AECOM、奧雅納等）常年招聘，畢業生起薪約二萬三至三萬元，考取專業工程師資格後可達五萬以上，就業穩定度在工科中名列前茅。",
+  "nowEn": "Civil engineering rides directly on public works spending: Highways, Drainage, Buildings Department and consultancies (AECOM, Arup) hire year-round. Graduates start at HK$23–30k, rising past HK$50k after chartership — among the most stable engineering tracks.",
+  "futureZh": "利好：北部都會區、機場城市、交椅洲人工島等項目排到 2040 年代，政府工程師職系長期缺人並提供公務員待遇；氣候基建（防洪、海堤）是新需求。風險：行業景氣繫於公帑，若基建放緩或工程延誤問責，壓力隨之而來；惟未來十年工程管道之厚，屬工科中最有保障之一。",
+  "futureEn": "Upside: Northern Metropolis, Airport City and artificial-island projects run into the 2040s, government engineer grades stay understaffed with civil-service packages, and climate infrastructure adds demand. Risks: fortunes track public spending and project-delay accountability brings pressure — but the decade-deep pipeline makes this one of the safest engineering bets."
+ },
+ "mechanical_eng": {
+  "nameEn": "Mechanical engineering",
+  "nameZh": "機械工程",
+  "en": "Mechanical engineering is the study of physical machines and mechanisms that may involve force and movement.",
+  "zh": "機械工程 是一門涉及利用物理定律為機械系統作分析、設計、生產及維修的工程學科。",
+  "careerZh": "機械工程出路涵蓋屋宇設備（MEP）、製造、機電與能源，建造業及大灣區製造升級提供機會；屋宇裝備工程師在港需求尤其穩定。",
+  "careerEn": "Mechanical engineering spans building services (MEP), manufacturing, and energy; construction and Greater Bay Area manufacturing upgrades create demand, with building-services engineers especially sought after in Hong Kong.",
+  "nowZh": "機械工程出路橫跨屋宇裝備、鐵路、機場、能源及製造業，港鐵、機管局、中電港燈每年穩定吸納畢業生，起薪約二萬二至二萬八千元。香港製造業式微令傳統設計職位少，主力在營運、維修與項目管理。",
+  "nowEn": "Mechanical engineers spread across building services, rail, airport, energy and manufacturing. MTR, AAHK, CLP and HKE absorb graduates steadily at HK$22–28k. With local manufacturing gone, roles centre on operations, maintenance and project management rather than design.",
+  "futureZh": "利好：鐵路擴建（北環線等）、機場三跑營運、數據中心冷卻及新能源設施擴張，機電人手全線緊張，政府已將機電職系列入輸入人才清單——側面證明缺口。風險：純設計研發職位須北上或轉行，本地職位偏重管理維護；屬「悶但穩」的工科選擇。",
+  "futureEn": "Upside: rail expansion (Northern Link), three-runway operations, data-centre cooling and new-energy facilities strain E&M manpower — its inclusion in the talent-import list proves the gap. Risks: pure design R&D means going north or switching fields; local roles skew to management and maintenance. A \"boring but solid\" choice."
+ },
+ "electrical_eng": {
+  "nameEn": "Electrical engineering",
+  "nameZh": "電機工程",
+  "en": "Electrical engineering is an engineering discipline concerned with the study, design, and application of equipment, devices, and systems that use electricity, electronics, and electromagnetism.",
+  "zh": "电气工程是以電子學、電磁學等物理学分支为基础，涵盖電子學、電子計算機、電力工程、电信、控制工程、訊號處理、机械电子学等子领域的一門工程學。十九世紀後半期以來，隨著電報、電話、電能在供應與使用方面的商業化，該學科逐漸發展為相對獨立的專業領域。",
+  "careerZh": "電機／電子工程於屋宇設備、電力、電訊及半導體皆有需求，配合智慧城市與新能源發展前景良好；MEP 與電力工程師就業穩定。",
+  "careerEn": "Electrical/electronic engineering is needed in building services, power, telecoms and semiconductors, with good prospects from smart-city and clean-energy development; MEP and power engineers enjoy stable employment.",
+  "nowZh": "電機／電子工程受惠於電力、鐵路、電訊及數據中心四大需求，中電、港燈、港鐵及電訊商每年招聘見習工程師，起薪約二萬三至三萬元。半導體及硬件研發職位本地較少，多數集中深圳及大灣區。",
+  "nowEn": "Electrical and electronic engineering feeds four hungry sectors — power, rail, telecoms and data centres. CLP, HKE, MTR and telcos run annual graduate schemes at HK$23–30k. Semiconductor and hardware R&D roles sit mostly in Shenzhen and the GBA rather than locally.",
+  "futureZh": "利好：AI 帶動數據中心爆發式擴建、電網現代化及電動車充電網絡鋪開，電力電子人才全球搶手；國家半導體戰略令大灣區芯片職位急增，港生具英語及國際化優勢。風險：本地研發規模有限，追求尖端技術者需離港發展；留港則穩定但技術路徑較窄。",
+  "futureEn": "Upside: AI-driven data-centre buildout, grid modernisation and EV-charging rollout make power electronics talent globally scarce; China's chip strategy multiplies GBA semiconductor jobs where HK graduates' English and international exposure help. Risks: local R&D is limited — cutting-edge work means leaving; staying is stable but technically narrower."
+ },
+ "ai": {
+  "nameEn": "Artificial intelligence",
+  "nameZh": "人工智能",
+  "en": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+  "zh": "人工智能，是指计算机系统执行通常与人类智慧相关的任务的能力，例如学习、推理、解决问题、感知和决策。它是工程学、数学和计算机科学的一个研究领域，旨在开发和研究方法及软件，使机器能够感知其环境，并利用机器学习和智能采取行动，以最大化实现既定目标的机会。",
+  "careerZh": "人工智能是香港「創科」核心，金融科技、Web3、智慧城市與 InnoHK 帶動需求，薪酬高、人才短缺，前景最被看好之一。建議累積實作項目與數據能力提升競爭力。",
+  "careerEn": "AI is central to Hong Kong’s innovation drive — fintech, Web3, smart city and InnoHK fuel demand, with high pay and a talent shortage, making it among the brightest prospects. Build hands-on projects and data skills to stand out.",
+  "nowZh": "人工智能是現時科技界最搶手的方向：本地銀行、科技園企業、跨國科企及初創全線招聘機器學習工程師，優秀畢業生起薪可達三萬至四萬五千元，明顯高於一般 IT 職位；惟職位對數學根底與實戰項目要求極高。",
+  "nowEn": "AI is the hottest hire in tech: banks, Science Park firms, global tech companies and startups all recruit ML engineers, with strong graduates starting at HK$30–45k — well above generic IT. The bar on mathematics and hands-on projects is correspondingly high.",
+  "futureZh": "利好：生成式 AI 令各行各業重組工作流程，政府設立 AI 超算中心及百億創科基金，金融、醫療、物流的 AI 應用職位倍增；具備大模型經驗者議價力極強。風險：工具門檻下降令淺層技能迅速貶值，行業汰弱留強、需終身進修；北美與內地大廠亦來港搶人，競爭全球化。",
+  "futureEn": "Upside: generative AI is rewiring every industry's workflows; the government's AI supercomputing centre and multi-billion innovation funds multiply applied roles in finance, healthcare and logistics, and LLM experience commands premium pay. Risks: falling tool barriers devalue shallow skills fast — the field demands lifelong learning, and competition is global as US and mainland giants hire here too."
+ },
+ "data_science": {
+  "nameEn": "Data science",
+  "nameZh": "數據科學",
+  "en": "Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms, coding, and systems to extract or extrapolate knowledg",
+  "zh": "数据科学 又称资料科学，是一门利用数据（资料）学习知识的學科，其目标是透过从数据中提取出有价值的部分来生产数据产品，学科范围涵盖了：数据取得、数据处理、数据分析等过程，举凡与數據有关的科学均属数据科学。",
+  "careerZh": "數據科學跨金融、電商、醫療與政府，需求持續上升、薪酬優厚，是最具轉工彈性的技能之一。香港金融與創科發展令數據人才長期供不應求。",
+  "careerEn": "Data science spans finance, e-commerce, healthcare and government, with rising demand and strong pay — one of the most transferable skill sets. Hong Kong’s finance and tech growth keeps data talent in short supply.",
+  "nowZh": "數據科學畢業生獲銀行、保險、電訊、零售及政府部門爭相吸納，職位涵蓋數據分析師至機器學習工程師，起薪約二萬五至三萬五千元。相比純電腦科學，課程兼修統計與商業應用，出路更廣但技術深度稍遜。",
+  "nowEn": "Data-science graduates are courted by banks, insurers, telcos, retailers and government, from analyst to ML-engineer roles at HK$25–35k starting. Versus pure CS, the blend of statistics and business application widens options at some cost in technical depth.",
+  "futureZh": "利好：企業數據化轉型未完成一半,AI 落地更令數據管道、特徵工程人才需求急增；金融及醫療數據職位受監管保護、外判不易。風險：入門級分析職位正被 AI 工具自動化,單靠 Excel／SQL 的淺層技能將貶值；向機器學習工程或行業專家（金融、醫療）深化者前景最穩。",
+  "futureEn": "Upside: corporate data transformation is barely half done, and AI deployment multiplies demand for pipeline and feature-engineering talent; regulated finance and health data roles resist offshoring. Risks: entry-level analytics is being automated by AI tools and shallow Excel/SQL skills will depreciate — depth in ML engineering or domain expertise is the safe path."
+ },
+ "computer_science": {
+  "nameEn": "Computer science",
+  "nameZh": "計算機科學",
+  "en": "Computer science is the study of computation, information, and automation. Included broadly in the sciences, computer science spans theoretical disciplines to applied disciplines.",
+  "zh": "计算机科学 是系统性研究信息与计算的理论基础以及它们在计算机系统中如何实现与应用的实用技术的学科。它通常被形容为对那些创造、描述以及转换信息的算法处理的系统研究。",
+  "careerZh": "電腦科學就業廣且薪高，軟件、資訊保安、金融科技、雲端與 AI 均缺人。香港與大灣區創科投資持續，長遠需求強勁，是最穩健的理科出路之一。",
+  "careerEn": "Computer science offers broad, high-paying work — software, cybersecurity, fintech, cloud and AI all face shortages. Ongoing Hong Kong/Greater Bay Area tech investment keeps demand strong — one of the most reliable science paths.",
+  "nowZh": "電腦科學仍是理科出路最闊的學位：金融科技、科技園、跨國科企、政府資科辦全線招聘，畢業生起薪約二萬五至四萬元，頂尖者入大廠或量化基金可更高。惟全球科技裁員後，入門職位競爭比前幾年激烈。",
+  "nowEn": "Computer science remains the widest-exit science degree: fintech, Science Park, global tech and OGCIO all hire, with starting pay of HK$25–40k and more at top firms or quant funds. Post-layoff, though, entry-level competition is stiffer than a few years ago.",
+  "futureZh": "利好：香港力建國際創科中心,金融科技、Web3 牌照化及 AI 應用創造新職位；CS 訓練的算法思維是 AI 時代最保值的底層能力,轉型彈性冠絕各科。風險：初級編程工作被 AI 輔助工具壓縮,純「寫 code」職位增長放緩,行業要求向系統設計與 AI 協作能力升級;願意持續進化者依然是黃金學科。",
+  "futureEn": "Upside: Hong Kong's innovation-hub push, licensed Web3 and AI adoption create new roles, and algorithmic thinking is the most durable meta-skill of the AI era with unmatched pivot flexibility. Risks: AI coding tools compress junior programming work, shifting the bar toward system design and AI collaboration — still a golden major for those who keep evolving."
+ },
+ "information_tech": {
+  "nameEn": "Information technology",
+  "nameZh": "資訊科技",
+  "en": "Information technology (IT) is the study or use of computers, telecommunication systems and other devices to create, process, store, retrieve and transmit information.",
+  "zh": "信息技术 是主要用于管理和處理信息所採用的各種技術總稱，主要是應用计算机科学和通信技術来設計、開發、安装和部署信息系統及應用軟件。依照存儲和處理信息的不同，可以將信息技術的發展分為幾個不同的階段：前機械時期（公元前3000–公元1450）、機械時期（1450–1840）、機電時期（1840–1940）及電子時期（1940–現時）。",
+  "careerZh": "資訊科技（系統、資訊管理、網絡保安）於各行各業皆有需求，數碼轉型與資訊保安帶動職位增長，入行門檻與薪酬俱佳，就業穩定。",
+  "careerEn": "IT (systems, information management, cybersecurity) is needed across every sector; digital transformation and security drive job growth, with accessible entry, good pay and stable employment.",
+  "nowZh": "資訊科技課程偏重系統應用與管理,畢業生投身企業 IT 部門、系統整合商及政府外判項目,起薪約二萬至二萬八千元。職位量大而穩定,惟技術含金量及薪酬升幅略遜於電腦科學核心研發職位。",
+  "nowEn": "IT programmes lean toward systems application and management, feeding corporate IT departments, integrators and government outsourcing at HK$20–28k. Roles are plentiful and stable, though pay growth trails core CS development tracks.",
+  "futureZh": "利好：企業數碼化、雲端遷移及網絡安全合規需求持續,政府智慧城市項目提供穩定外判管道;網絡安全方向人才缺口尤大,考取認證（CISSP 等）薪酬跳升。風險：基礎支援職位易被自動化及外判蠶食,須向雲端架構、安全或項目管理升級,原地踏步者十年後競爭力堪憂。",
+  "futureEn": "Upside: digitalisation, cloud migration and cybersecurity compliance sustain demand, government smart-city projects feed steady outsourcing, and the security niche is deeply understaffed — certifications like CISSP bring pay jumps. Risks: basic support roles get automated and offshored; move up into cloud architecture, security or project management or risk stagnation."
+ },
+ "accounting": {
+  "nameEn": "Accounting",
+  "nameZh": "會計學",
+  "en": "Accounting, also known as accountancy, is the process of recording and processing information about economic entities, such as businesses and corporations.",
+  "zh": "会计 是经济实体資訊的處理過程，包括对企业及法人團體的财务及非财务資訊之计量、处理與交流。会计被称为“商业语言”，通常衡量一个组织的经济活动结果，并将这些信息传达给各种利益相关者，包括投資人、债权人、管理层及监管者。会计的从业人员称作「會計（人員）」，獲得法定專業資格者為「會計師」。会计的知識主體「会计學」是一门应用学科，是一门重要的管理学科，也是社会科学的一部分。",
+  "careerZh": "會計出路穩定，四大會計師行、企業財務及審計持續招聘，考取 HKICPA 認受性高。惟基礎核數受自動化影響，宜向財務分析、稅務諮詢、ESG 等增值方向發展。",
+  "careerEn": "Accounting offers stable careers — the Big Four, corporate finance and audit hire steadily, and the HKICPA qualification is highly regarded. Routine audit faces automation, so lean toward financial analysis, tax advisory and ESG.",
+  "nowZh": "會計是商科最標準化的出路：四大會計師行每年招聘逾千名畢業生，起薪約一萬八至二萬二千元，考取 CPA 後三至五年薪酬倍增。行業金字塔清晰——捱過審計低薪長工時階段，出路遍及企業財務、投行及上市公司管理層。",
+  "nowEn": "Accounting is the most standardised business path: the Big Four hire a thousand-plus graduates yearly at HK$18–22k, with pay doubling within three to five years post-CPA. Survive the audit grind and exits span corporate finance, banking and listed-company management.",
+  "futureZh": "利好：香港上市公司及基金產業對審計、稅務需求穩固，CPA 資歷全球通行，內地企業出海更需懂兩地準則的人才。風險：AI 已實際取代基礎對數與憑證工作，四大正縮減初級編制，行業整體招聘趨向「少而精」；單靠考牌保值的年代結束，須向諮詢、科技審計轉型。",
+  "futureEn": "Upside: audit and tax demand from listed companies and funds stays firm, CPA travels globally, and mainland firms going overseas need dual-standard talent. Risks: AI genuinely replaces basic reconciliation work and the Big Four are trimming junior headcount — the era when a licence alone guaranteed value is over; pivot toward advisory and tech audit."
+ },
+ "actuarial": {
+  "nameEn": "Actuarial science",
+  "nameZh": "精算學",
+  "en": "Actuarial science is the discipline that applies mathematical and statistical methods to assess risk in insurance, pension, finance, investment, psychology, medicine, and other industries and professions.",
+  "zh": "精算學 是一門應用科學，於財務和保險行業應用數學和統計方法，主要用來評估長期風險。從事精算的專業人員稱為精算師。",
+  "careerZh": "香港是保險樞紐，精算師薪酬高、需求穩定，但須通過一系列專業考試、屬窄而精的路。風險管理、財務科技擴闊了出路。",
+  "careerEn": "As an insurance hub, Hong Kong pays actuaries well with steady demand, though it requires passing a series of professional exams — a narrow but deep path. Risk management and fintech broaden the options.",
+  "nowZh": "精算是數學尖子的傳統出路，保險公司及顧問行（友邦、保誠、韋萊韜悅）每年吸納畢業生，起薪約二萬五至三萬五千元，考獲正精算師資格後薪酬升至七八萬以上。專業試漫長，全職邊做邊考是常態。",
+  "nowEn": "Actuarial science is the classic path for maths high-flyers. Insurers and consultancies (AIA, Prudential, WTW) hire yearly at HK$25–35k, rising past HK$70–80k on fellowship. The exams are a marathon taken alongside full-time work.",
+  "futureZh": "利好：香港是亞洲保險樞紐,大灣區跨境保險、風險管理及 IFRS17 實施都擴大精算需求;數理訓練亦可轉戰量化金融、數據科學,選擇彈性高。風險：AI 及自動化模型侵蝕傳統計價工作,行業要求精算師增添編程與數據能力;考試淘汰率高,中途放棄成本不菲。",
+  "futureEn": "Upside: Hong Kong is Asia's insurance hub; GBA cross-border products, risk management and IFRS 17 all expand actuarial demand, and the quantitative training pivots well into quant finance or data science. Risks: AI-driven pricing models erode traditional work, pushing actuaries toward coding and data skills, and the exam attrition rate makes quitting midway costly."
+ },
+ "finance": {
+  "nameEn": "Finance",
+  "nameZh": "金融學",
+  "en": "Finance refers to resources and the discipline that studies such resources, allowing an entity to gain the consumption and saving opportunity within a specified timeframe, with related concepts such as income, money, cur",
+  "zh": "金融学 是从经济学分化出来的应用经济学科，是以「金融」，融通货币和货币资金的经济活动为研究对象。研究公司、个人、政府与其他机构如何募集和投资资金的学科。传统的金融学研究领域大致有两个方向：宏观层面的金融市场运行理论和微观层面的公司投资理论。",
+  "careerZh": "香港為國際金融中心，投資銀行、資產管理、私人銀行與金融科技機會多、回報高，但入行競爭激烈。合規、風險、量化與 ESG 金融為增長領域；大灣區財富管理帶來新機遇。",
+  "careerEn": "As an international financial centre, Hong Kong offers plentiful, high-reward roles in investment banking, asset and private wealth management, and fintech — but entry is fiercely competitive. Compliance, risk, quant and ESG finance are growing, with Greater Bay Area wealth management adding openings.",
+  "nowZh": "金融仍是商科收入天花板最高的方向：投行畢業生年薪可達七十萬以上,惟職位極少、競爭全球化;主流出路為銀行管培生（月薪三萬上下）、資產管理、私人銀行及金融科技,起薪普遍二萬三至三萬五千元。",
+  "nowEn": "Finance retains the highest business-school ceiling: investment-bank analysts can clear HK$700k a year, but seats are scarce and contested globally. Mainstream exits — bank management trainee (~HK$30k monthly), asset management, private banking, fintech — start at HK$23–35k.",
+  "futureZh": "利好：香港穩居國際金融中心三甲,家族辦公室、財富管理及互聯互通擴容帶來新職位,虛擬資產牌照化開闢新賽道。風險：金融業對經濟周期及地緣政治高度敏感,IPO 淡市時投行裁員毫不手軟;初級分析工作正被 AI 壓縮,人脈與銷售能力愈發關鍵。",
+  "futureEn": "Upside: Hong Kong holds a top-three global financial-centre ranking; family offices, wealth management and Connect-scheme expansion add roles, and licensed virtual assets open a new lane. Risks: the sector is acutely cyclical and geopolitical — banks cut fast in IPO droughts — and AI compresses junior analysis, making networks and sales skills ever more decisive."
+ },
+ "economics": {
+  "nameEn": "Economics",
+  "nameZh": "經濟學",
+  "en": "Economics is a social science that studies the production, distribution, and consumption of goods and services.",
+  "zh": "經濟學，為研究商品和服務關係的社會科學，包括其中所有的生產、分配和消費等行為。",
+  "careerZh": "經濟學訓練分析與量化思維，出路廣：金融、諮詢、政府、研究與數據分析皆可。配合統計、程式或財務技能，轉工彈性極高。",
+  "careerEn": "Economics builds analytical and quantitative thinking with broad exits — finance, consulting, government, research and data analytics. Paired with statistics, coding or finance skills, it is highly versatile.",
+  "nowZh": "經濟學屬「萬能插頭」學科：畢業生分流至銀行、政府（政務主任、統計師）、顧問及研究機構,起薪約二萬至二萬八千元。課程訓練分析框架而非職業技能,出路廣但無專業執照護城河,際遇視乎個人增值。",
+  "nowEn": "Economics is a universal adapter: graduates fan out to banking, government (AO, statistician), consultancy and research at HK$20–28k. It trains analytical frameworks rather than licensed skills — broad exits, no professional moat, outcomes hinge on self-investment.",
+  "futureZh": "利好：政策研究、市場分析長期有需求,配搭數據技能（計量、Python）可轉型數據分析師,考政府職系亦具優勢。風險：純經濟學位在職場辨識度下降,AI 取代初級研究整理工作;不考專業試、不補技術者易淪為「通用文員」,宜及早定位金融、數據或公職路線。",
+  "futureEn": "Upside: policy research and market analysis stay in demand; adding econometrics and Python opens data-analyst pivots, and the degree suits government-grade exams. Risks: a bare economics degree is losing distinctiveness and AI absorbs junior research chores — without professional exams or technical add-ons you risk generic-clerk territory, so pick a finance, data or public-service lane early."
+ },
+ "marketing": {
+  "nameEn": "Marketing",
+  "nameZh": "市場營銷",
+  "en": "Marketing is the act of acquiring, satisfying and retaining customers. It is one of the primary components of business management and commerce.",
+  "zh": "市场营销，又称为市场学、市场营销學、或行銷學。它是指个人或群体通过创造并同他人交换產品和價值，以满足需求与慾望的一個社会和管理过程。",
+  "careerZh": "市場營銷出路廣，數碼營銷、社交媒體、電商與品牌管理需求上升；行業重實戰與作品，累積實習與數據分析能力有助突圍。",
+  "careerEn": "Marketing offers wide paths, with rising demand in digital marketing, social media, e-commerce and brand management; the field rewards practical work — internships and data-analytics skills help you stand out.",
+  "nowZh": "市場學畢業生流向品牌企業、廣告及公關公司、電商平台,起薪約一萬六至二萬二千元,屬商科偏低水平。行業重視作品與實戰多於學歷,數碼營銷（投放、SEO、KOL 管理）已成主流技能要求。",
+  "nowEn": "Marketing graduates join brands, agencies and e-commerce platforms at HK$16–22k — the lower band of business pay. The trade values portfolios and practice over credentials, and digital skills (paid media, SEO, KOL management) are now the baseline.",
+  "futureZh": "利好：電商及社交媒體營銷持續增長,大灣區品牌出海需要雙語營銷人才,懂數據分析與內容創作者叫價明顯較高。風險：生成式 AI 大幅壓縮文案、設計及投放優化的人手需求,傳統廣告代理縮編;單靠「創意」難以立足,必須掌握數據與 AI 工具,否則首當其衝被取代。",
+  "futureEn": "Upside: e-commerce and social marketing keep growing, GBA brands going global need bilingual marketers, and data-plus-content hybrids command premiums. Risks: generative AI slashes headcount in copy, design and media optimisation while agencies downsize — creativity alone won't hold; master data and AI tools or be first in line for replacement."
+ },
+ "hospitality": {
+  "nameEn": "Hospitality management studies",
+  "nameZh": "酒店管理",
+  "en": "Hospitality management studies is the study of the hospitality industry.",
+  "zh": "酒店管理学，也称酒店经营学，是指关于酒店，餐馆和旅行与旅游业相关事务的学术研究。",
+  "careerZh": "旅遊與款待隨旅遊業復甦及盛事經濟回暖，酒店、會展、主題公園需人；起薪一般但晉升快、國際化，管理層與大灣區／內地市場機會較佳。",
+  "careerEn": "Tourism and hospitality recover with the return of visitors and the events economy — hotels, MICE and theme parks need staff; entry pay is modest but progression is fast and international, with better prospects in management and the Greater Bay/mainland market.",
+  "nowZh": "酒店及旅遊業自復常後招聘反彈,五星酒店管培生、航空公司地勤空服、主題樂園及旅遊科技平台均在擴充,起薪約一萬六至二萬二千元。行業重視語言與服務經驗,晉升靠年資與調遷,國際化流動性高。",
+  "nowEn": "Hospitality hiring has rebounded since reopening: five-star management-trainee schemes, airlines, theme parks and travel-tech platforms are all expanding, with starting pay of HK$16–22k. Languages and service experience matter most, and careers move internationally.",
+  "futureZh": "利好：政府力推盛事經濟及旅遊業復興,啟德體育園、郵輪及大灣區旅遊圈帶來職位;酒店資歷全球通用,中東及東南亞新酒店群大量吸納港人管理層。風險：本地旅客消費模式轉變（北上消費、窮遊）,零售餐飲承壓;薪酬基數低、工時長,升到管理層前流失率極高。",
+  "futureEn": "Upside: mega-events policy, Kai Tak Sports Park, cruise growth and the GBA tourism circle add jobs, and hotel credentials travel — Middle East and Southeast Asian openings actively recruit HK-trained managers. Risks: changed visitor spending (northbound trips, budget travel) pressures retail dining, and low base pay with long hours drives heavy attrition before management level."
+ },
+ "management": {
+  "nameEn": "Management",
+  "nameZh": "管理學",
+  "en": "Management is the administration of organizations, whether businesses, nonprofit organizations, or government bodies through business administration, nonprofit management, or the political science sub-field of public adm",
+  "zh": "管理学是研究人類管理活動及其应用科学。它偏重于用一些工具和方法来解决管理上的问题，如用运筹学、统计学等来定量定性分析。管理的定義為管理者和他人及透過他人有效率且有效能地完成活動的程序。以前管理学主要用运筹学来解决管理中碰到的问题。",
+  "careerZh": "管理／工商行政出路廣但較「通才」，實際發展視乎所選專長（營運、人力、供應鏈等）與實習經驗。宜及早鎖定專長並累積實務。",
+  "careerEn": "Management/business administration is broad but generalist; outcomes depend on your chosen specialism (operations, HR, supply chain) and internship experience. Pick a focus early and build practical exposure.",
+  "nowZh": "管理學課程內容廣泛,畢業生多入企業管培生計劃、人力資源、營運及行政職位,起薪約一萬七至二萬三千元。學位本身辨識度一般,際遇高度取決於實習履歷及所入行業,屬「入場券」而非「專業牌照」。",
+  "nowEn": "Management degrees cover broad ground; graduates enter trainee schemes, HR, operations and administration at HK$17–23k. The credential itself is generic — outcomes depend on internships and the industry you land, an entry ticket rather than a licence.",
+  "futureZh": "利好：企業永遠需要營運與人事管理,人力資源方向配搭僱傭條例知識及 HR 科技技能,可建立專業壁壘;供應鏈管理受惠大灣區物流樞紐地位。風險：「乜都學啲」缺乏硬技能,AI 淘汰行政文書職位首當其衝;宜及早選定 HR、供應鏈或項目管理等專門路線並考取認證。",
+  "futureEn": "Upside: operations and people management never go away; HR specialisation with employment-law and HR-tech skills builds a moat, and supply-chain roles benefit from the GBA logistics hub. Risks: jack-of-all-trades breadth lacks hard skills, and AI hits admin paperwork first — commit early to HR, supply chain or project management with certifications."
+ },
+ "psychology": {
+  "nameEn": "Psychology",
+  "nameZh": "心理學",
+  "en": "Psychology is the scientific study of the mind and behavior. Its subject matter includes the behavior of humans and nonhumans, both conscious and unconscious phenomena, and mental processes such as thoughts, feelings, an",
+  "zh": "心理学是一门研究人类和动物的心理现象、意识和行为的科学。它既是一门理论学科，也是一门应用学科，包括理论心理学与应用心理学两大领域。",
+  "careerZh": "社會對精神健康日益重視，臨床、教育及工業組織心理學需求上升；惟臨床／教育心理學家須修讀碩士並考取資格，本科生多先入人力資源、研究或社福等相關崗位。",
+  "careerEn": "Rising mental-health awareness lifts demand in clinical, educational and organisational psychology; however clinical/educational psychologists need a master’s and registration, so graduates often start in HR, research or social services.",
+  "nowZh": "心理學本科出路兩極：臨床、教育心理學家須讀認可碩士（學額極少、競爭激烈）,大多數畢業生投身 HR、市場研究、社福機構或輔導支援職位,起薪約一萬六至二萬二千元。本科學位本身並非執業資格。",
+  "nowEn": "Psychology outcomes are two-track: clinical and educational psychologist titles require scarce, fiercely contested master's places, while most graduates enter HR, market research, NGOs or counselling support at HK$16–22k. The bachelor's alone is not a licence.",
+  "futureZh": "利好：社會對精神健康關注度歷史新高,政府增撥資源到學校及社區精神健康服務,輔導、臨床方向長線需求向上;用戶研究（UX Research）是薪酬較高的新出路。風險：執業樽頸在碩士學額,考唔上者須及早轉線;純本科在就業市場辨識度有限,宜配搭數據或商科技能。",
+  "futureEn": "Upside: mental-health awareness is at an all-time high with new government funding for school and community services, lifting long-run demand; UX research offers a better-paid adjacent exit. Risks: the licensing bottleneck is master's places — plan a pivot early if you miss out, and pair the degree with data or business skills for market visibility."
+ },
+ "social_work": {
+  "nameEn": "Social work",
+  "nameZh": "社會工作",
+  "en": "Social work is an academic discipline and practice-based profession concerned with meeting the basic needs of individuals, families, groups, communities, and society as a whole to enhance their individual and collective",
+  "zh": "社会工作 是一個旨在促进社会变革与发展、增強社会凝聚力、以及為人们的賦能和解放的專業。 社会正义，人权，集体责任和尊重多样性的原则对于社会工作至关重要。 以社会工作，社会科学，人文和原住民知识，社会工作理论为基础 吸引人们和结构来应对生活挑战并提高福祉。",
+  "careerZh": "社工需求穩定，政府、NGO 與社福機構持續招聘，人口老化與家庭服務需求上升。註冊社工就業穩健，屬助人而有保障的出路。",
+  "careerEn": "Social work sees steady demand; government, NGOs and welfare bodies hire continuously, with ageing and family-service needs rising. Registered social workers enjoy stable employment — a secure, people-centred path.",
+  "nowZh": "社工是有法定註冊制度的專業,學位畢業生（ASW）起薪跟公務員薪級表,約三萬三千元,NGO 及政府職位穩定。惟近年整筆撥款制度下,機構合約化職位增多,長期職位晉升較慢。",
+  "nowEn": "Social work is a statutorily registered profession: degree-holders start on the civil-service-linked scale at about HK$33k, with stable NGO and government posts. Under lump-sum funding, though, contract positions have multiplied and promotion runs slow.",
+  "futureZh": "利好：人口老化、精神健康及特殊教育需求全線上升,安老及青少年服務人手長期不足,起薪在同分數學科中屬頂級性價比。風險：服務資源受政府撥款政策左右,前線情緒勞動沉重、burnout 普遍;政治及社會環境變化亦影響部分服務範疇;適合有使命感而非追求高薪者。",
+  "futureEn": "Upside: ageing, mental-health and SEN demand all rise, elderly and youth services stay understaffed, and starting pay is top value for the admission scores required. Risks: resources swing with funding policy, frontline emotional labour and burnout are real, and the social climate affects some service areas — a calling more than a paycheque."
+ },
+ "sociology": {
+  "nameEn": "Sociology",
+  "nameZh": "社會學",
+  "en": "Sociology is the scientific study of human society that focuses on society, human social behavior, patterns of social relationships, social interaction, and aspects of culture associated with everyday life.",
+  "zh": "社會學 起源於19世紀末期，是一門研究社會的學科。社會學使用各種研究方法進行實證調查和批判分析，以發展及完善一套有關人類社會結構、社會行動或社會關係的知識體系，並會運用這些知識，以尋求或改善社會福利、深入社會與公眾進行對話與溝通、將人類從不平等及壓迫的物質條件下解放出來，等等為目標。",
+  "careerZh": "社會學培養研究、政策與人本分析能力，出路含政府、研究、社福、傳媒、人力資源與市場研究；宜結合數據或專業技能提升就業競爭力。",
+  "careerEn": "Sociology builds research, policy and people-centred analysis, leading to government, research, welfare, media, HR and market research; pairing with data or professional skills strengthens employability.",
+  "nowZh": "社會學訓練研究方法與社會分析,畢業生散落於 NGO、市場研究、傳媒、政府及教育界,起薪約一萬五至二萬元,無單一對口職業。研究方法（問卷、訪談、統計）是課程中最具市場價值的部分。",
+  "nowEn": "Sociology trains research methods and social analysis; graduates scatter across NGOs, market research, media, government and education at HK$15–20k with no single default career. The methods training — surveys, interviews, statistics — is the most marketable component.",
+  "futureZh": "利好：政策研究、用戶研究及 ESG 社會影響評估需要質性研究人才,配搭數據分析可入市場研究及智庫;考政府職系亦是穩定出路。風險：學位辨識度低,純理論路線就業困難;AI 可自動生成基礎報告,無田野及統計實戰經驗者議價力弱,宜在學期間累積研究項目。",
+  "futureEn": "Upside: policy research, UX research and ESG social-impact assessment need qualitative-methods talent; with data skills you can enter market research or think tanks, and government grades offer stability. Risks: low degree recognition, tough prospects on a pure-theory path, and AI now drafts basic reports — build fieldwork and statistics portfolios while studying."
+ },
+ "political_science": {
+  "nameEn": "Political science",
+  "nameZh": "政治學",
+  "en": "Political science is a field which aims to study the scientific aspect of politics.",
+  "zh": "政治學，或稱政治科學等，是一門对政治、治理和權力體系进行科學研究，分析政治活動、政治制度、政治思想和行為以及相關憲法和法律的社會科學。 政治學涉及政治過程、結構和內容以及政治現象等主題的科學教學和研究。",
+  "careerZh": "政治與公共行政出路含公務員、政策研究、國際關係、NGO 與傳媒；適合關心公共事務者，配合語文與分析能力，亦可轉商界或諮詢。",
+  "careerEn": "Politics and public administration lead to the civil service, policy research, international affairs, NGOs and media; suited to those keen on public affairs, and — with language and analytical skills — transferable to business or consulting.",
+  "nowZh": "政政學畢業生主要出路為政府職系（AO/EO）、政策研究、傳媒及 NGO,起薪約一萬六至二萬二千元;考入政務主任者起薪逾五萬,惟錄取率不足百分之一。課程價值在寫作、分析與時事觸覺。",
+  "nowEn": "Politics graduates target government grades (AO/EO), policy research, media and NGOs at HK$16–22k; the coveted AO post starts above HK$50k but admits under 1%. The degree's value lies in writing, analysis and current-affairs acuity.",
+  "futureZh": "利好：政府仍是最大僱主,EO 及各職系穩定招聘;大灣區及國際組織的公共事務、企業政府關係（GR）職位增加。風險：本地政策研究空間收窄,智庫及倡議類職位減少;學位無專業壁壘,出路高度依賴公職考試表現,宜同步準備 CRE/JRE 及提升普通話與英文寫作。",
+  "futureEn": "Upside: government remains the anchor employer with steady EO-grade hiring, and public-affairs and government-relations roles grow in the GBA and international bodies. Risks: local policy-research space has narrowed with fewer think-tank and advocacy posts; with no professional moat, outcomes ride on civil-service exams — prepare CRE/JRE and bilingual writing early."
+ },
+ "journalism": {
+  "nameEn": "Journalism",
+  "nameZh": "新聞學",
+  "en": "Journalism is the production and distribution of reports on events, facts, ideas, and people that constitute the \"news of the day\" and inform society with a commitment to accuracy and verification.",
+  "zh": "新聞學，或译为报道学（日译）或言論學（韩译），是一種包含搜集、撰寫及報導新聞的學科。在廣義上，它亦包含了編輯和演示新聞專題的過程。新聞學在報業、電視、電台以及网络新媒体等各種傳播媒介上均起著重要的作用。多數的傳媒機構皆希望「先發制人」，爭先發佈資訊，而處於這種壓力下，傳媒機構通常會先對新聞進行編輯和校對，以使其內容符合該機構在準確性、素質和式樣等方面的標準。",
+  "careerZh": "新聞業面對數碼轉型，傳統媒體收縮但內容、公關、企業傳訊與社交媒體需求增加；記者訓練的採寫與溝通力可靈活轉向多元傳播崗位。",
+  "careerEn": "Journalism faces digital disruption; traditional media shrinks while content, PR, corporate communications and social media grow — the reporting and communication skills transfer flexibly across media roles.",
+  "nowZh": "新聞系畢業生流向網媒、電視台、財經通訊社及企業傳訊,傳統新聞職位持續萎縮,起薪約一萬五至二萬元。行業技能已轉向影片製作、數據新聞及社交平台營運,純文字記者職位買少見少。",
+  "nowEn": "Journalism graduates join online outlets, broadcasters, financial newswires and corporate communications. Traditional newsroom jobs keep shrinking, starting pay is HK$15–20k, and the skill set has shifted to video, data journalism and platform operations.",
+  "futureZh": "利好：財經資訊（Bloomberg、Reuters 類）需求穩定且薪酬較佳,企業傳訊及公關吸納大量新聞系訓練的人才,說故事能力在內容行業依然值錢。風險：本地新聞業界收縮、廣告收入被平台奪走,AI 自動生成基礎報道;以新聞為終身職業者須有心理準備,轉戰企業傳訊是主流出路。",
+  "futureEn": "Upside: financial news (Bloomberg, Reuters-type) demand is stable and better paid, corporate communications absorbs journalism-trained talent, and storytelling still commands value in content industries. Risks: the local news industry keeps contracting as platforms take ad revenue and AI drafts routine stories — most careers eventually route into corporate comms."
+ },
+ "communication": {
+  "nameEn": "Communication studies",
+  "nameZh": "傳播學",
+  "en": "Communication studies is an academic discipline that deals with processes of human communication and behavior, patterns of communication in interpersonal relationships, social interactions and communication in different",
+  "zh": "传播学 的研究对象有着多种表达，概况的说，传播学是研究人际与社会信息的传递、社会信息系统运行的学科。传播的概念同样有着来自不同学科视角和不同侧重的表达，传播的定义主要概况为六种：传播是传递，传播是共享与互动，传播是控制，传播是撒播，传播是权力，传播是游戏。通过话语研究可以探究这六种定义的原因以及这些定义蕴含的几种传播概念。",
+  "careerZh": "傳播出路多元：公關、廣告、企業傳訊、社交媒體與內容製作。數碼與影音內容需求上升，重作品集與實戰經驗，適合善於溝通與創意者。",
+  "careerEn": "Communication offers varied paths — PR, advertising, corporate comms, social media and content production. Digital and video content demand is rising; the field values portfolios and hands-on experience, ideal for creative communicators.",
+  "nowZh": "傳理／傳播學課程涵蓋公關、廣告、數碼媒體,畢業生入廣告代理、企業傳訊部、社交媒體團隊,起薪約一萬六至二萬一千元。行業入場門檻低但汰換快,個人作品集比學位成績更受僱主重視。",
+  "nowEn": "Communication programmes span PR, advertising and digital media, feeding agencies, corporate comms and social teams at HK$16–21k. Entry barriers are low but turnover is fast, and portfolios outweigh transcripts.",
+  "futureZh": "利好：企業對品牌內容及危機公關的需求長期存在,短片與直播經濟創造新職種,雙語兼懂內地平台（小紅書、抖音）生態者格外搶手。風險：生成式 AI 直接衝擊文案、設計與影片初剪,代理行縮編;必須把 AI 當工具用而非被其取代,並向策略、客戶管理層面升級。",
+  "futureEn": "Upside: brand content and crisis PR needs persist, short-video and livestream economies create new roles, and bilingual talent fluent in mainland platforms (Xiaohongshu, Douyin) is especially sought. Risks: generative AI hits copywriting, design and rough cuts directly while agencies downsize — wield AI as a tool and climb toward strategy and account leadership."
+ },
+ "translation": {
+  "nameEn": "Translation",
+  "nameZh": "翻譯",
+  "en": "In language, translation is the communication of the meaning of a source-language text by means of an equivalent target-language text.",
+  "zh": "翻译，是指把一种语言的文本或話語等信息转变成另一种语言的行為。",
+  "careerZh": "翻譯出路含商業、法律、政府、傳媒與本地化；AI 翻譯令基礎工作受壓，但高階、專業（法律／醫學／會議傳譯）及中英雙語人才仍具價值。",
+  "careerEn": "Translation spans business, legal, government, media and localisation; AI pressures basic work, but high-level, specialist (legal/medical/conference interpreting) and strong bilingual talent remain valuable.",
+  "nowZh": "翻譯畢業生出路包括政府雙語主任、法庭及會議傳譯、字幕與本地化公司,起薪約一萬六至二萬二千元;法律及同聲傳譯屬高技能高收入小眾（自由身日薪可達數千至過萬元）。機器翻譯已接管低端筆譯市場。",
+  "nowEn": "Translation graduates become government bilingual officers, court and conference interpreters, or join subtitling and localisation firms at HK$16–22k. Legal and simultaneous interpreting is a high-skill niche (freelance day rates in the thousands), while machine translation has swallowed the low-end market.",
+  "futureZh": "利好：法律、醫療等高風險領域仍需人手把關,中英雙語頂尖傳譯長期稀缺,大灣區跨境商務及仲裁帶來高端需求;譯後編輯（MTPE）成新工種。風險：AI 翻譯質素持續逼近人類,一般筆譯價格崩塌、職位大減;行業只剩「金字塔尖」有肉食,中庸水平者務必轉型或兼修法律、金融等領域知識。",
+  "futureEn": "Upside: high-stakes legal and medical work still needs human gatekeepers, elite Chinese-English interpreters stay scarce, GBA cross-border business and arbitration add premium demand, and MTPE is a new trade. Risks: AI quality keeps closing on humans, collapsing generic translation rates — only the pyramid's tip eats well, so mid-level talent must specialise in law, finance or pivot out."
+ },
+ "linguistics": {
+  "nameEn": "Linguistics",
+  "nameZh": "語言學",
+  "en": "Linguistics is the scientific study of language. The areas of linguistic analysis are syntax, semantics (meaning), morphology, phonetics, phonology, and pragmatics.",
+  "zh": "语言学 是研究语言的科学，隶属于人文学科，涉及了對語言的形式、含義、用词、历史、来源和語境等内容的研究，同时也会寻找其中的规律。",
+  "careerZh": "語言學出路含語言教育、語言科技（NLP）、言語治療（需進修）、出版與研究；結合程式或數據技能可切入科技與 AI 語言領域。",
+  "careerEn": "Linguistics leads to language education, language technology (NLP), speech therapy (with further study), publishing and research; coding or data skills open doors into tech and AI-language work.",
+  "nowZh": "語言學畢業生出路包括言語治療（須再讀碩士）、教育出版、語言科技及企業培訓,起薪約一萬五至二萬元。課程訓練嚴謹的語言分析能力,但本科學位在就業市場無直接對口職位,規劃出路要趁早。",
+  "nowEn": "Linguistics graduates head to speech therapy (via master's), education publishing, language technology and corporate training at HK$15–20k. The analytical training is rigorous, but the bachelor's maps to no default job — plan your exit early.",
+  "futureZh": "利好：言語治療師在學校及醫療體系嚴重短缺、碩士畢業後起薪逾三萬,是本科生最值博的升學路徑;NLP／語音技術公司亦需語言學背景人才調校 AI 模型。風險：唔讀碩士的話,出路與一般文科無異;語言科技職位要求編程能力,純文科訓練者須自補技術短板。",
+  "futureEn": "Upside: speech therapists are severely short in schools and healthcare — the master's route starts above HK$30k and is the highest-value path; NLP and voice-tech firms also want linguists to tune AI models. Risks: without the master's, outcomes match generic arts degrees, and language-tech roles demand coding that pure-arts training lacks."
+ },
+ "chinese": {
+  "nameEn": "Chinese language",
+  "nameZh": "漢語",
+  "en": "Chinese is an umbrella term for all Sinitic languages, widely recognized as a collection of language varieties, spoken natively by the ethnic Han Chinese majority and many minority ethnic groups in Greater China, as well",
+  "zh": "漢語又稱中文、華語、中國語或中國話，是源自东亚的一类分析语，为汉民族的母语，也是汉藏语系中规模最大、复杂度最高的一支。若把整个汉语族的所有汉语方言都視為單一語言的不同地方变种，则汉语为世界上母语使用者人数最多的语言，目前全世界有近五分之一人口将其作为母语或日常使用的第二語言。",
+  "careerZh": "中文出路以教育、出版、傳媒、公關與公職為主，中文根基紮實者於企業傳訊與內容創作亦具優勢；宜輔以第二專長擴闊就業面。",
+  "careerEn": "Chinese-language study mainly leads to education, publishing, media, PR and the civil service; strong writers also thrive in corporate communications and content. A second specialism widens options.",
+  "nowZh": "中文系主要出路為中文科教師、編輯出版、政府文書職系及企業文案,起薪約一萬五至二萬二千元;修畢教育文憑（PGDE）入職教師則有三萬五千元起薪的明確跳升。寫作與文史底蘊是核心資產。",
+  "nowEn": "Chinese majors become Chinese teachers, editors, government clerical officers and corporate writers at HK$15–22k; adding a PGDE lifts teaching entrants to HK$35k. Writing craft and literary grounding are the core assets.",
+  "futureZh": "利好：中文教師（尤其能教普通話及非華語學生中文者）需求穩定,大灣區及海外中文教育市場擴張;政府中文主任職系是穩定出路。風險：出版及傳媒行業萎縮,AI 寫作工具衝擊一般文案職位;學生人口下跌亦波及教席;無教師資格或公職打算者,出路明顯收窄。",
+  "futureEn": "Upside: demand for Chinese teachers (especially Putonghua and Chinese-for-non-Chinese-speakers) is steady, GBA and overseas Chinese education is growing, and government Chinese-officer grades offer stability. Risks: publishing and media keep shrinking, AI writing tools hit generic copy roles, and falling student numbers touch teaching too — without teaching or civil-service plans, exits narrow."
+ },
+ "english": {
+  "nameEn": "English studies",
+  "nameZh": "英語",
+  "en": "English studies is an academic discipline taught in primary, secondary, and post-secondary education in English-speaking countries.",
+  "zh": "英語（English）是目前全球使用最廣、最具影響力的通用語，屬西日耳曼語支，源自中世紀早期的英格蘭。英語是世界上母語人口第三多的語言（僅次於漢語和西班牙語），近六十個國家以英語為唯一或主要的官方語言，居世界之冠。英語作為當今的世界語言，是聯合國、歐盟、國際民航組織等眾多國際組織的官方語言、互联网的法通语，也是學習人數最多的外語。",
+  "careerZh": "英文出路含教育、商業傳訊、公關、出版與國際企業，雙語能力在港是明顯優勢；配合專業（商、法、傳媒）或教學資格更具競爭力。",
+  "careerEn": "English study leads to education, business communication, PR, publishing and multinationals, where bilingual ability is a clear Hong Kong advantage; pairing with a profession (business, law, media) or teaching credentials boosts competitiveness.",
+  "nowZh": "英文系畢業生最大出路是英文教師（PGDE 後起薪約三萬五千元）,其次為企業傳訊、出版及跨國公司行政職位,起薪約一萬六至二萬二千元。英文能力在香港職場仍是硬通貨,學位認受性高於多數文科。",
+  "nowEn": "English majors' biggest exit is English teaching (about HK$35k after PGDE), followed by corporate communications, publishing and MNC administration at HK$16–22k. English proficiency remains hard currency in Hong Kong, giving the degree above-average arts recognition.",
+  "futureZh": "利好：英文教師長期短缺、縮班潮中英文科教席仍相對穩固;國際學校、補習市場及企業培訓提供多元出路,英語傳意能力配搭任何專業都加分。風險：AI 翻譯與寫作工具令「識英文」的溢價下降,單靠語言能力的職位承壓;宜將英文定位為「乘數」而非唯一賣點,配搭教育、商科或傳訊。",
+  "futureEn": "Upside: English teachers stay in chronic shortage and English posts hold firmer amid class cuts; international schools, tutoring and corporate training diversify exits, and English communication multiplies any profession. Risks: AI translation and writing tools erode the premium on language skill alone — treat English as a multiplier, paired with education, business or communications."
+ },
+ "history": {
+  "nameEn": "History",
+  "nameZh": "歷史學",
+  "en": "History is the systematic study of the past, focusing primarily on the human past. As an academic discipline, it analyses and interprets evidence to construct narratives about what happened and explain why it happened.",
+  "zh": "歷史學，簡稱史學，是研究包括人类社会一切问题在内的科学。历史学不是信条、教义、文学。历史科学的目的就是尽可能地逼近真实情况。",
+  "careerZh": "歷史培養研究、分析與寫作能力，出路含教育、公職、文博、出版與傳媒；屬「可轉移技能」型學科，宜結合實習或第二專長。",
+  "careerEn": "History builds research, analysis and writing skills, leading to education, civil service, museums/heritage, publishing and media — a transferable-skills discipline best paired with internships or a second specialism.",
+  "nowZh": "歷史系畢業生投身教育、博物館及文化機構、政府檔案及研究職位,起薪約一萬五至二萬元。課程訓練史料考證與長文寫作,思辨能力受研究院及公職考試青睞,惟直接對口職位有限。",
+  "nowEn": "History graduates enter teaching, museums and cultural bodies, government archives and research at HK$15–20k. Source criticism and long-form writing win favour in postgraduate study and civil-service exams, though direct-match jobs are few.",
+  "futureZh": "利好：西九文化區、故宮館及口述歷史項目擴大文化職位,國民教育課程改革增加中史教師需求;檔案管理及文化遺產保育是小而穩的專業出路。風險：職位基數小、薪酬增長平緩,文化機構依賴公帑資助;適合真心熱愛並願意配搭教育文憑或碩士深造者。",
+  "futureEn": "Upside: West Kowloon, the Palace Museum and oral-history projects add cultural posts, curriculum reform lifts Chinese-history teacher demand, and archives and heritage conservation offer small but steady niches. Risks: a small job base, flat pay growth and public-funding dependence — best for the genuinely devoted willing to add a PGDE or master's."
+ },
+ "philosophy": {
+  "nameEn": "Philosophy",
+  "nameZh": "哲學",
+  "en": "Philosophy is a systematic study of general and fundamental questions concerning topics like existence, knowledge, mind, reason, language, and value.",
+  "zh": "哲學是研究普遍、基本问题的領域，包括存在、知识、价值、理智、心灵、语言、人生、道德等领域。哲学獨特之處在於其思考方式，例如批判性思维、系统化的方法，并以理性论证為基礎。縱觀历史，许多独立的学科如物理学、生物学等自然科学，或法学、政治学、心理学等社会科学，都曾被视作哲学的一部分或其分支。直到后续发展才逐漸被视作今日意义上的独立学科。",
+  "careerZh": "哲學鍛鍊思辨與論證，出路廣而不限一途：教育、公職、出版、法律（進修）、諮詢與科技倫理等；重在配合實務技能發揮分析優勢。",
+  "careerEn": "Philosophy sharpens reasoning and argument, with broad rather than fixed exits — education, civil service, publishing, law (with further study), consulting and tech ethics; pair it with practical skills to leverage its analytical edge.",
+  "nowZh": "哲學系無對口職業,畢業生流向教育、編輯、公職及商界管培生,起薪約一萬五至二萬元。課程訓練的邏輯思辨與寫作能力,在法律深造（JD）、研究院及需要複雜判斷的職位中反而突圍。",
+  "nowEn": "Philosophy has no default career; graduates spread into education, editing, public service and trainee schemes at HK$15–20k. Its logic and writing training punches above its weight in law conversion (JD), postgraduate study and judgment-heavy roles.",
+  "futureZh": "利好：AI 時代令倫理、批判思維與提問能力增值,科技公司開始聘用 AI 倫理研究員;JD 轉法律是回報最高的延伸路徑。風險：純哲學學位在初次求職時辨識度最弱,起步薪酬普遍偏低;出路好壞幾乎完全取決於個人後續規劃,自我驅動力弱者不宜。",
+  "futureEn": "Upside: the AI era raises the value of ethics, critical thinking and question-framing — tech firms now hire AI-ethics researchers — and the JD-to-law route offers the best returns. Risks: the bare degree has the weakest first-job recognition and low starting pay; outcomes depend almost entirely on your own follow-through."
+ },
+ "geography": {
+  "nameEn": "Geography",
+  "nameZh": "地理學",
+  "en": "Geography is the study of the lands, features, inhabitants, and phenomena of planet Earth.",
+  "zh": "地理學 是探索地球及其特徵、居民和現象的學問，研究地球表層各圈層相互作用關係，及其空間差異與變化過程的學科體系。",
+  "careerZh": "地理連結環境、城市規劃、地理資訊系統（GIS）與 ESG，出路含規劃、環保、測繪與政府部門；GIS 與數據技能令就業前景更佳。",
+  "careerEn": "Geography links environment, urban planning, GIS and ESG, leading to planning, conservation, mapping and government; GIS and data skills notably improve prospects.",
+  "nowZh": "地理系畢業生出路包括地理教師、城市規劃助理、環境顧問及地理資訊系統（GIS）分析員,起薪約一萬六至二萬二千元。GIS 技能是課程中最具市場價值的硬技術,政府及工程顧問均有需求。",
+  "nowEn": "Geography graduates become teachers, planning assistants, environmental consultants and GIS analysts at HK$16–22k. GIS is the degree's most marketable hard skill, wanted by government and engineering consultancies alike.",
+  "futureZh": "利好：北都發展、智慧城市及空間數據共享平台（CSDI）令 GIS 人才需求上升,配搭遙感與數據分析可入科技行業;氣候風險評估是新興方向。風險：純人文地理路線出路同一般文科;教席受學生人口下跌影響;關鍵在於揀 GIS／空間數據呢條技術線,唔好淨係讀 map 而唔識用 map。",
+  "futureEn": "Upside: Northern Metropolis development, smart-city projects and the CSDI spatial-data platform lift GIS demand; remote sensing plus data skills open tech doors, and climate-risk assessment is emerging. Risks: pure human geography tracks generic arts outcomes and teaching shrinks with student numbers — take the GIS/spatial-data technical lane, not just map appreciation."
+ },
+ "anthropology": {
+  "nameEn": "Anthropology",
+  "nameZh": "人類學",
+  "en": "Anthropology is the scientific study of humanity that crosses biology and sociology, concerned with human behavior, human biology, cultures, societies, and linguistics, in both the present and past, including archaic hum",
+  "zh": "人类学 一词，起源于古希腊语“ἄνθρωπος ”以及“λόγος ”，意思是研究人的學科。這個學科名稱首次出現於德國哲學家马格努斯·洪特在1501年的作品《人類學——關於人的優點、本質和特性、以及人的成分、部位和要素》，當時人類學這個字指的是人的體質構造。",
+  "careerZh": "人類學培養跨文化與質性研究能力，出路含研究、NGO、文化與博物館、用戶研究（UX）與市場研究；配合數據或設計思維可切入商業與科技。",
+  "careerEn": "Anthropology builds cross-cultural and qualitative research skills, leading to research, NGOs, culture/museums, user (UX) research and market research; data or design-thinking skills open business and tech routes.",
+  "nowZh": "人類學是小眾學科,畢業生多入 NGO、文化機構、市場及用戶研究,起薪約一萬五至二萬元。民族誌訪談與田野觀察方法,近年被科技公司的用戶研究（UX Research）職位重新發掘,是最實際的高薪出路。",
+  "nowEn": "Anthropology is a niche field feeding NGOs, cultural bodies and market/user research at HK$15–20k. Its ethnographic interviewing and field observation methods have been rediscovered by tech UX-research teams — the most lucrative practical exit.",
+  "futureZh": "利好：用戶研究員在科技及金融公司需求上升,起薪可達二萬五以上,人類學訓練正對口;文化保育及社會影響評估亦提供項目職位。風險：學科認知度低,求職時要主動翻譯自己技能畀僱主聽;職位基數細,宜輔修數據分析或設計增加彈性。",
+  "futureEn": "Upside: UX researchers are increasingly hired by tech and finance firms at HK$25k+ starting, a direct match for anthropological training; heritage and social-impact assessment add project work. Risks: low field recognition means actively translating your skills for employers, and the small job base rewards minors in data or design."
+ },
+ "chemistry": {
+  "nameEn": "Chemistry",
+  "nameZh": "化學",
+  "en": "Chemistry is the scientific study of the properties and behavior of matter.",
+  "zh": "化學是在原子、分子層次上研究物質的組成、結構、性質以及變化規律的科學。化學研究的對象涉及物質之間的相互關係，或物質和能量之間的關聯。傳統的化學常常都是關於兩種或以上的物質之間的接觸和其後的變化，即化學反應，又或者是一種物質變成另一種物質的過程。這些變化有時會需要使用電磁波，當中電磁波負責激發化學作用。不過有時化學並不一定要關於物質之間的反應。光譜學研究物質與光之間的關係，而這些關係並不涉及化學反應。",
+  "careerZh": "化學出路含製藥、檢測認證、質量控制、環保與教育；本地研發職位有限，惟檢測、藥業與轉向數據／專利等領域仍具機會。",
+  "careerEn": "Chemistry leads to pharma, testing and certification, quality control, environmental work and education; local R&D roles are limited, but testing, pharma and pivots into data or patents offer openings.",
+  "nowZh": "化學系畢業生流向政府化驗所、檢測認證行業（香港四大支柱行業之一）、製藥及中學教育,起薪約一萬七至二萬三千元。檢測認證及藥業對化學人才需求穩定,惟研發職位多要求碩博學歷。",
+  "nowEn": "Chemistry graduates join government laboratories, the testing-and-certification industry (one of HK's pillar trades), pharma and secondary teaching at HK$17–23k. T&C and pharma demand is steady, though R&D roles usually require postgraduate degrees.",
+  "futureZh": "利好：香港檢測認證業具國際公信力,食品、環境、中藥檢測需求增長;新型工業化政策扶持本地製藥及新材料,河套區實驗室提供研究職位。風險：本科出路以化驗操作為主、薪酬升幅平緩,向上流動須深造;工業界職位部分北移,留港者宜考慮檢測管理或專業認證路線。",
+  "futureEn": "Upside: Hong Kong's internationally trusted T&C industry grows with food, environmental and Chinese-medicine testing; new-industrialisation policy backs local pharma and materials, and Hetao labs add research posts. Risks: bachelor-level work centres on bench testing with flat pay progression — postgraduate study or testing-management tracks are the way up."
+ },
+ "physics": {
+  "nameEn": "Physics",
+  "nameZh": "物理學",
+  "en": "Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
+  "zh": "物理學 是研究物質、能量的本質與性質的自然科學。由於物質與能量是所有科學研究的必須涉及的基本要素，所以物理學是自然科學中最基礎的學科之一。物理學是一種實驗科學，物理學者從觀測與分析大自然的各種基於物質與能量的現象來找出其中的模式。這些模式稱為「物理理論」，經得起實驗檢驗的常用物理理論稱為物理定律，直到有一天被證明是有錯誤為止（具可否證性）。物理學是由這些定律精緻地建構而成。物理學是自然科學中最基礎的學科之一。",
+  "careerZh": "物理訓練嚴謹的量化與解難能力，出路含科研、工程、教育，以及金融量化、數據科學與科技——高度可轉移，理科尖子常轉進高薪金融／科技。",
+  "careerEn": "Physics trains rigorous quantitative and problem-solving skills, leading to research, engineering, education, and quant finance, data science and tech — highly transferable, with top students often moving into high-paying finance/tech.",
+  "nowZh": "物理系畢業生除教育及研究院外,近年大量流向數據科學、金融量化分析及工程界——數理建模能力是通行證,起薪由教育界二萬餘到量化金融四五萬不等,分布極闊。",
+  "nowEn": "Beyond teaching and graduate school, physics graduates increasingly flow into data science, quantitative finance and engineering — mathematical modelling is the passport. Pay spans HK$20k+ in education to HK$40–50k in quant roles.",
+  "futureZh": "利好：量化基金及投行視物理背景為優質原材料,AI 模型研發亦搶數理人才;港府資助的量子科技、微電子研究中心創造新研究職位。風險：對口實業職位少,出路依賴「轉譯」數理能力到金融或科技,須自學編程;純學術路線受制於全球教職供過於求。",
+  "futureEn": "Upside: quant funds and investment banks prize physics as raw talent, AI research competes for the same mathematical minds, and government-funded quantum and microelectronics centres add research posts. Risks: few direct industry roles — success depends on translating models into finance or tech with self-taught coding, while the pure academic track faces a global oversupply of PhDs."
+ },
+ "mathematics": {
+  "nameEn": "Mathematics",
+  "nameZh": "數學",
+  "en": "Mathematics is a field of knowledge concerned with abstract concepts such as numbers, geometric shapes, sets, functions, and probabilities.",
+  "zh": "数学是研究數量、结构以及空间等概念及其变化的一門学科，屬於形式科學的一種。數學利用抽象化和邏輯推理，從計數、計算、量度、對物體形狀及運動的觀察發展而成。數學家們拓展這些概念，以公式化新的猜想，以及從選定的公理及定義出發，嚴謹地推導出一些定理。",
+  "careerZh": "數學是最「保值」的學科之一，量化金融、精算、數據科學、AI 與教育皆搶手，薪酬優厚。純數學能力配合程式技能，轉工彈性與競爭力極高。",
+  "careerEn": "Mathematics is among the most future-proof disciplines — quant finance, actuarial, data science, AI and education all seek it, with strong pay. Combined with coding, it offers exceptional versatility and competitiveness.",
+  "nowZh": "數學系是「基本功」學位:畢業生分流至數據科學、精算、金融風控、教育及研究院,起薪一萬八至三萬元不等,視乎落地行業。純數訓練嘅抽象思維,喺 AI 與量化年代價值不跌反升。",
+  "nowEn": "Mathematics is the fundamentals degree: graduates stream into data science, actuarial work, financial risk, teaching and academia at HK$18–30k depending on the landing industry. Abstract training has appreciated, not depreciated, in the AI and quant era.",
+  "futureZh": "利好：機器學習底層全是數學,量化金融、密碼學、數據科學都以數學系為優先招聘對象;數學教師亦長期短缺,進可攻退可守。風險：學位本身唔會自動變高薪,必須配搭編程及應用領域;停留喺純理論而唔落地者,出路反而比商科窄。",
+  "futureEn": "Upside: machine learning is mathematics underneath — quant finance, cryptography and data science recruit maths majors first, and maths teachers stay in shortage, giving both offence and defence. Risks: the degree alone confers nothing; pair it with coding and an application domain, or a purely theoretical path can end up narrower than business school."
+ },
+ "statistics": {
+  "nameEn": "Statistics",
+  "nameZh": "統計學",
+  "en": "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.",
+  "zh": "统计学是一门收集数据、分析数据，并根据数据进行推断的艺术和科学。最初与政府收集的数据有关，现在包括了范围广泛的方法和理论。該学科自17世纪中叶产生并逐步发展起来，廣泛地應用在各門學科，從自然科学、社會科學到人文學科，甚至被用於工商業及政府的情報決策。隨著大数据時代來臨，統計的面貌也逐漸改變，與資訊、計算等領域密切結合，是數據科學中的重要主軸之一。",
+  "careerZh": "統計於金融、保險、醫療、市場研究與科技需求殷切，是數據時代最實用的技能之一。香港金融與創科發展令統計人才持續供不應求，前景優。",
+  "careerEn": "Statistics is in strong demand across finance, insurance, healthcare, market research and tech — one of the most practical skills of the data age. Hong Kong’s finance and tech growth keeps statisticians in short supply, with excellent prospects.",
+  "nowZh": "統計學是數據年代嘅直接受益學科:政府統計處、銀行風險管理、市場研究及數據分析職位常年招聘,起薪約二萬至三萬元。課程與數據科學高度重疊,但更重推斷方法與實驗設計。",
+  "nowEn": "Statistics benefits directly from the data era: the Census department, bank risk management, market research and analytics roles hire steadily at HK$20–30k. It overlaps heavily with data science while emphasising inference and experimental design.",
+  "futureZh": "利好：AI 模型評估、AB 測試、臨床統計及保險精算全部需要統計根底,醫藥及金融的受監管職位更係外判唔到;統計師喺政府職系亦有清晰編制。風險：同數據科學畢業生直接競爭,唔識編程（R/Python/SQL）者會被比下去;宜早啲累積真實數據項目。",
+  "futureEn": "Upside: AI model evaluation, A/B testing, clinical statistics and actuarial work all need statistical grounding, regulated pharma and finance roles resist offshoring, and government statistician grades offer a clear establishment. Risks: direct competition with data-science graduates — without R/Python/SQL fluency you lose; build real data projects early."
+ },
+ "environmental": {
+  "nameEn": "Environmental science",
+  "nameZh": "環境科學",
+  "en": "Environmental science is an academic field that integrates the physical, biological, and mathematical sciences to study the environment and solve environmental problems.",
+  "zh": "环境科学为跨学科领域专业，既包含像物理，化学，生物，地质学，地理，资源技术、工程的科学，也含有像资源管理和保护，人口统计学，经济学，政治和伦理学等社会科学。环境科学包含了影响人类和其他有机体的周边环境的学科。自然与人类资源是相互依赖的，其中一方所作出的任何动作，正确或错误，都会对另外一方产生影响。此学科年代较短，直到20世纪60年代才成为正式学科。",
+  "careerZh": "環境科學受惠於 ESG、碳中和與綠色金融興起，出路含環保諮詢、可持續發展、政府與企業 ESG 崗位，屬成長中的新興領域。",
+  "careerEn": "Environmental science benefits from ESG, carbon-neutrality and green-finance momentum, leading to environmental consulting, sustainability, and government/corporate ESG roles — a growing, emerging field.",
+  "nowZh": "環境科學／工程出路包括環保署、顧問公司（環評、碳審計）、企業 ESG 部門及 NGO。近年 ESG 匯報成上市公司硬要求，相關職位快速增加，畢業生起薪約一萬八至二萬五千元，顧問路線升幅較好。",
+  "nowEn": "Environmental graduates go to EPD, consultancies (EIA, carbon audit), corporate ESG teams and NGOs. Mandatory ESG reporting for listed companies has multiplied roles; starting pay is HK$18–25k with consultancy tracks rising faster.",
+  "futureZh": "利好：香港 2050 碳中和目標、港交所 ESG 披露收緊及綠色金融發展，令碳審計、可持續顧問人才需求持續上升，屬政策保駕的成長賽道。風險：入門職位薪酬偏低、部分 ESG 職位有「漂綠」泡沫成分，經濟差時企業首先削減；配搭商科或數據技能者最吃香。",
+  "futureEn": "Upside: the 2050 carbon-neutral target, tighter HKEX ESG disclosure and green finance keep demand for carbon auditors and sustainability consultants climbing — a policy-backed growth lane. Risks: entry pay is modest and some ESG roles carry greenwashing froth that gets cut first in downturns; pairing with business or data skills wins."
+ },
+ "food_science": {
+  "nameEn": "Food science",
+  "nameZh": "食品科學",
+  "en": "Food science is the study of food and its chemical properties.",
+  "zh": "食品科學是一门把科学知识用于食品加工和生产的跨學科的應用科學。 食品科學内容包括食品化學、食品微生物學、食品加工和食品工程等學科。",
+  "careerZh": "食品科學出路含食品安全、檢測認證、研發與品質管理，食安監管與健康飲食趨勢帶動需求，屬穩定而實用的應用科學。",
+  "careerEn": "Food science leads to food safety, testing and certification, R&D and quality management; food-safety regulation and healthy-eating trends drive demand — a stable, practical applied science.",
+  "nowZh": "食品科學畢業生流向食物安全中心、檢測機構（SGS、天祥）、食品廠及連鎖餐飲的品控部門，職位實用但基數不大。起薪約一萬七至二萬二千元，考取食安或營養師相關資格可提升叫價。",
+  "nowEn": "Graduates join the CFS, testing houses (SGS, Intertek), food manufacturers and chain caterers' QC teams — practical roles on a modest base. Starting pay is HK$17–22k, improving with food-safety or nutrition credentials.",
+  "futureZh": "利好：食安標準持續收緊、預製菜與植物肉等新品類需檢測認證，大灣區食品產業鏈亦提供跨境品控職位；營養健康消費升級是長線東風。風險：本地製造基數細，職位增長平緩，薪酬天花板明顯；宜以資格考試及管理職位突破，或向營養師、食安顧問轉型。",
+  "futureEn": "Upside: tightening safety standards, new categories like ready meals and plant-based meat needing certification, GBA food-industry QC roles, and the long health-consumption tailwind. Risks: a small local manufacturing base means slow job growth and a visible pay ceiling — break through via credentials, management roles, or pivots to dietetics and consultancy."
+ },
+ "biology": {
+  "nameEn": "Biology",
+  "nameZh": "生物學",
+  "en": "Biology is the scientific study of life and living organisms. It is a broad natural science that encompasses a wide range of fields and unifying principles that explain the structure, function, growth, origin, evolution,",
+  "zh": "生物學 或稱生物科學 、生命科學，是自然科學的一大門類，由經驗主義出發，廣泛研究生命的所有方面，包括生命起源、演化、分佈、構造、發育、功能、行为、與環境的互動關系，以及生物分類學等。現代生物學是一個龐大而兼收並蓄的領域，由許多分支和分支學科組成。然而，儘管生物學的範圍很廣，在它裡面有某些一般和統一概念支配一切的學習和研究，把它整合成單一的、連貫的領域。",
+  "careerZh": "生物出路含科研、醫療相關、環保、教育及生物科技；本地純研究職位有限，惟配合生物科技投資、數據或醫療方向可拓闊發展。",
+  "careerEn": "Biology leads to research, healthcare-related roles, environment, education and biotech; pure-research jobs are limited locally, but biotech investment, data or healthcare directions widen prospects.",
+  "nowZh": "生物系畢業生流向教育、檢測化驗、環境顧問及研究助理職位,起薪約一萬六至二萬二千元。與生物醫學相似,研發職位幾乎必須深造;本科出路以教學及技術支援為主。",
+  "nowEn": "Biology graduates enter teaching, testing laboratories, environmental consultancy and research-assistant roles at HK$16–22k. As with biomedical science, R&D careers effectively require postgraduate study; bachelor-level exits centre on teaching and technical support.",
+  "futureZh": "利好：生命健康科技係政府重點投資領域,海洋保育、生態調查（配合北都發展嘅環評）都增加職位;生物教師需求穩定。風險：職位薪酬同增長都平緩,冇碩博難上研發線;揀呢科最好一開始就計劃埋深造或教育文憑,單持本科出路有限。",
+  "futureEn": "Upside: life-and-health tech is a priority investment area, marine conservation and ecological surveys (EIAs for Northern Metropolis works) add roles, and biology teachers stay in demand. Risks: pay and growth are modest and R&D needs postgraduate degrees — plan further study or a PGDE from day one, as the bachelor's alone goes only so far."
+ },
+ "music": {
+  "nameEn": "Music",
+  "nameZh": "音樂",
+  "en": "Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content.",
+  "zh": "音樂，廣義而言，就是指任何以聲音組成的藝術。英文Music一詞源於古希臘語的μουσική（mousike），意即缪斯（muse）女神的藝術。而中文的音樂二字，東漢許慎《說文解字》解釋為「音，聲也。生於心，有節於外，謂之音。」認為音樂和聲音的區別，在於音樂需要透過人心去想像和創造。",
+  "careerZh": "音樂出路含表演、教學、製作與藝術行政，西九文化區與 M+ 等帶動文化產業；行業競爭大、多為自由工作，宜多元技能與人脈並重。",
+  "careerEn": "Music leads to performance, teaching, production and arts administration, with the West Kowloon Cultural District and M+ boosting the sector; it is competitive and often freelance, so diverse skills and networks matter.",
+  "nowZh": "音樂系畢業生以教學為主要收入來源（琴行、私人學生、學校音樂科）,其次為演出、樂團及教會職位,收入結構多為自由身拼湊,月入一萬五至三萬元不等,穩定教席競爭激烈。",
+  "nowEn": "Music graduates earn mainly through teaching (studios, private students, school music posts), plus performing, ensembles and church roles. Income is typically a freelance patchwork of HK$15–30k monthly, and salaried posts are hotly contested.",
+  "futureZh": "利好：西九及演藝場地擴張帶動演出機會,音樂治療（需海外深造）係新興專業;香港家長對音樂教育嘅投入長期穩定,叻嘅老師收入唔差。風險：學生人口下跌直接衝擊教學市場,AI 生成音樂衝擊商業配樂;職業結構註定多勞多得、冇底薪保障,適合真心熱愛者。",
+  "futureEn": "Upside: West Kowloon and new venues expand performance work, music therapy (via overseas study) is an emerging profession, and parental investment in music education stays solid — good teachers earn well. Risks: the shrinking student population hits the teaching market directly and AI-generated music disrupts commercial scoring; income is inherently hustle-based with no salary floor."
+ },
+ "design": {
+  "nameEn": "Design",
+  "nameZh": "設計",
+  "en": "A design is the concept or proposal for an object, process, or system.",
+  "zh": "所謂設計，即「设想和计划，设想是目的，计划是过程安排」，通常是指有目標和計劃的創作行為及活动。",
+  "careerZh": "設計（平面、產品、UX/UI、數碼）需求隨數碼經濟上升，UX/UI 尤其搶手、薪酬佳。重作品集與實戰，跨界科技與商業者最具競爭力。",
+  "careerEn": "Design (graphic, product, UX/UI, digital) demand rises with the digital economy, with UX/UI especially sought after and well-paid; portfolios and hands-on work matter, and those bridging tech and business fare best.",
+  "nowZh": "設計畢業生流向品牌、廣告、產品及 UI/UX 設計職位,起薪約一萬五至二萬二千元,UX 方向明顯較高。行業睇 portfolio 多過睇學歷,實習與比賽作品係入行關鍵。",
+  "nowEn": "Design graduates join branding, advertising, product and UI/UX roles at HK$15–22k, with UX paying visibly more. The trade judges portfolios over transcripts — internships and competition work open doors.",
+  "futureZh": "利好：數碼產品體驗設計（UX/UI）需求持續,服務設計、無障礙設計係新增長點;香港設計中心及文創政策提供資助同曝光平台。風險：生成式 AI 直接衝擊平面、插畫及初階視覺設計,行業入門職位收縮;必須向策略性設計（研究、產品思維）升級,純執行層將被 AI 取代。",
+  "futureEn": "Upside: digital product design (UX/UI) demand persists, service and accessibility design are growth niches, and Design Centre funding and creative-industries policy provide platforms. Risks: generative AI hits graphic, illustration and junior visual work head-on, shrinking entry roles — climb into strategic design (research, product thinking) because pure execution will be automated."
+ },
+ "fine_arts": {
+  "nameEn": "Fine art",
+  "nameZh": "美術",
+  "en": "In European academic traditions, fine art is considered a kind of high art and is made primarily for aesthetics or creative expression, distinguishing it from popular art, decorative art or applied art, which also either",
+  "zh": "美術 是指讓人直接在視覺上獲得美感的藝術，主要指繪畫和雕塑，也可以指工藝美術和建築藝術，現代還可以指攝影和與藝術有關的設計，是各種視覺藝術的總稱。",
+  "careerZh": "視覺藝術出路含創作、策展、藝術教育、文化行政與創意產業，西九與藝術市場帶來機遇；多為自由或項目制，宜結合設計或數碼技能增加穩定收入。",
+  "careerEn": "Fine arts leads to creation, curation, arts education, cultural administration and creative industries, with West Kowloon and the art market offering opportunity; work is often freelance or project-based, so design or digital skills help stabilise income.",
+  "nowZh": "藝術系畢業生多以斜槓形式維生:創作、藝術行政、畫廊、教學及策展兼職並行,月入一萬四至二萬五千元不等。香港藝術市場交投全球前列,但養活嘅主要係拍賣行及畫廊職位,唔係藝術家本身。",
+  "nowEn": "Fine-arts graduates typically live slash careers — practice, arts administration, galleries, teaching and curating combined — at HK$14–25k monthly. Hong Kong's art market ranks among the world's largest, but it feeds auction-house and gallery jobs more than artists themselves.",
+  "futureZh": "利好：西九 M+、故宮館及巴塞爾藝術展鞏固香港亞洲藝術樞紐地位,藝術行政、修復、策展等專業職位增加;NFT 退潮後數碼藝術市場重新洗牌,留低嘅係真功夫。風險：純創作收入極不穩定,藝術家生涯係長期馬拉松;政府資助方向變化影響部分創作空間;入行前要諗清楚係追求創作定係藝術產業職位。",
+  "futureEn": "Upside: M+, the Palace Museum and Art Basel cement Hong Kong's Asian art-hub status, growing arts-admin, conservation and curatorial roles; after the NFT washout, digital art rewards real craft. Risks: pure practice income is precarious and an artist's career is a marathon; funding priorities shift — decide upfront whether you want creation or the art industry."
+ },
+ "sports": {
+  "nameEn": "Exercise physiology",
+  "nameZh": "運動科學",
+  "en": "Exercise physiology is the physiology of physical exercise. It is one of the allied health professions, and involves the study of the acute responses and chronic adaptations to exercise.",
+  "zh": "運動科學，又譯為競技運動科學，對於人類競技運動進行科學化分析的一個綜合性學科，這與健身運動 有所不同。",
+  "careerZh": "運動科學受惠於健康與運動風氣，出路含體育教學、運動教練、體適能、運動治療與體育管理；政府推動體育發展令相關職位漸增。",
+  "careerEn": "Sports science benefits from the wellness and fitness trend, leading to PE teaching, coaching, fitness, sports therapy and sports management; government promotion of sport is expanding related roles.",
+  "nowZh": "體育及運動科學畢業生出路包括體育教師、教練、康體管理、物理治療助理及運動科學支援,起薪約一萬六至二萬二千元。政府康文署及啟德體育園係大僱主,教師路線（配 PGDE）薪酬最穩。",
+  "nowEn": "Sports-science graduates become PE teachers, coaches, recreation managers, physio assistants and performance-support staff at HK$16–22k. LCSD and Kai Tak Sports Park are anchor employers, and the teaching route (with PGDE) pays most reliably.",
+  "futureZh": "利好：啟德體育園開幕、盛事經濟及全民運動政策帶動康體職位,運動科學喺精英體育（體院）及職業球會嘅應用擴大;長者運動處方係老齡化下嘅新市場。風險：教練及康體職位薪酬天花板低、依賴兼職堆砌;運動科學研究職位少且要深造;最穩陣係教師或政府康體職系呢兩條線。",
+  "futureEn": "Upside: Kai Tak Sports Park's opening, mega-events policy and mass-sport promotion add recreation jobs, sports science expands in elite sport (HKSI) and pro clubs, and exercise prescription for the elderly is a new ageing-driven market. Risks: coaching and recreation pay ceilings are low with part-time patchworks common — the teacher and government-grade routes remain the safest."
+ },
+ "urban_planning": {
+  "nameEn": "Urban planning",
+  "nameZh": "城市規劃",
+  "en": "Urban planning is the process of developing and designing plans for land use and the built environment, including air, water, and the infrastructure passing into and out of urban areas, such as transportation, communicat",
+  "zh": "城市规划 是处理城市及其邻近区域的工程建设、經濟、社会、土地利用布局以及对未来发展预测的專門學問或技術。它的对象偏重于城市物质形态的部分，涉及城市中产业的区域布局、建筑物的区域布局和分類管制、道路及运输设施的设置、公共設施的規劃建設及城市工程的安排，主要内容有空间规划、道路交通规划、绿化植被和水体规划等内容。城市規劃是城市建設及管理的依據，位於城市管理之規劃、建設、運作三個階段之首，是城市管理的龍頭。",
+  "careerZh": "城市規劃與北部都會區、土地供應及可持續發展密切相關，政府與顧問公司需求穩定，屬與香港長遠發展直接掛鈎的專業。",
+  "careerEn": "Urban planning ties directly to the Northern Metropolis, land supply and sustainable development, with steady demand from government and consultancies — a profession linked to Hong Kong’s long-term growth.",
+  "nowZh": "城市規劃畢業生主要投身規劃署、發展局、顧問公司及地產發展商，屬小而專的職系。政府項目主導市場，畢業生起薪約二萬二至二萬八千元，考取註冊專業規劃師（RPP）後晉升路徑清晰。",
+  "nowEn": "Planning graduates head to PlanD, DEVB, consultancies and developers — a small, specialised field driven by government projects. Starting pay is HK$22–28k with a clear ladder after RPP registration.",
+  "futureZh": "利好：北部都會區是香港開埠以來最大規劃項目，加上市區重建提速、發展審批制度改革，規劃人手需求處於歷史高位。風險：職位總量細、私人市場依附地產景氣，經濟下行時招聘收縮快；對城市議題有熱誠者，眼下正是入行的黃金窗口。",
+  "futureEn": "Upside: the Northern Metropolis is the biggest planning exercise in Hong Kong's history, and faster urban renewal plus streamlined approvals put demand at record highs. Risks: the field is small and private roles track property cycles, shrinking fast in downturns — but for the genuinely passionate, this is a golden entry window."
+ },
+ "education": {
+  "nameEn": "Education",
+  "nameZh": "教育學",
+  "en": "Education is the transmission of knowledge and skills and the development of character traits. Formal education happens in a complex institutional framework, like public schools.",
+  "zh": "教育学是研究教育现象和教育问题，揭示教育规律的一门学科，是一门研究如何培养人的科学。",
+  "careerZh": "教育出路以教學為主，惟出生率下降令中小學學位收縮、教席競爭加劇；幼教、特殊教育及國際學校需求相對較好，具專科（STEM／英文）者更佔優。",
+  "careerEn": "Education leads mainly to teaching, but a falling birth rate is shrinking school places and intensifying competition for posts; kindergarten, special education and international schools fare better, and subject specialists (STEM/English) have an edge.",
+  "nowZh": "教育學士（BEd）畢業生取得檢定教員資格,學位教師（GM）起薪約三萬五千元,薪酬在同收生分數學科中極具性價比。惟適齡學童人口下跌,縮班殺校令常額教席競爭激烈,新入職者多由合約教席起步。",
+  "nowEn": "BEd graduates qualify as registered teachers, with graduate-master starting pay around HK$35k — exceptional value for the admission scores. But a shrinking student population and school closures make permanent posts scarce; most newcomers start on contracts.",
+  "futureZh": "利好：教師薪酬與公務員掛鈎、極其穩定,STEM、英文及特殊教育教師仍然短缺,人才清單亦向教育科技傾斜;內地港人子弟學校及國際學校提供新出路。風險：學生人口斷崖式下跌至少持續至 2030 年代初,殺校潮下常額教席難求,籤約唔續約成新常態;揀科（英/數/SEN）比揀教育本身更影響前途。",
+  "futureEn": "Upside: teacher pay tracks the civil-service scale with unmatched stability; STEM, English and SEN teachers remain short, and mainland HK-children schools plus international schools open new doors. Risks: the student-population cliff runs into the early 2030s, making permanent posts scarce amid closures and non-renewed contracts — your subject choice (English/maths/SEN) matters more than the degree itself."
+ },
+ "engineering": {
+  "nameEn": "Engineering",
+  "nameZh": "工程學",
+  "en": "Engineering is the practice of systematically applying natural science and mathematics to design and improve systems, devices, or processes that solve problems under constraints.",
+  "zh": "工程學、工程科學、工學，是通過研究、實踐應用數學、自然科學、社會學等基礎學科的知識，以達到改良各行業中現有材料、土木建築、機械、電機電子、電子通訊、儀器、系統、化學加工步驟的設計、應用方式的學科，而實踐、研究工程學的人稱為工程師。在高等學府中，將自然科學原理應用至服務業、工業、農業等各個生產部門所形成的諸多工程學科也稱為工科、工學。",
+  "careerZh": "工程整體受惠於基建、創科與大灣區發展，需求穩定、可考專業資格；不同分支冷熱有別，屋宇設備、土木與電機電子較穩，宜按興趣選定專長。",
+  "careerEn": "Engineering broadly benefits from infrastructure, innovation and Greater Bay Area development, with stable demand and a chartered path; branches vary — building services, civil and electrical/electronic are steadier — so choose a specialism by interest.",
+  "nowZh": "綜合工程課程首年不分主修，讓學生按成績與興趣再選土木、機械、電機等分流，適合未定志向者。出路與所選分流一致，整體工科就業率高，畢業起薪約二萬二至三萬元，視乎行業而定。",
+  "nowEn": "Broad engineering programmes defer major selection to later years, letting students pick civil, mechanical, electrical and more by results and interest — ideal for the undecided. Outcomes track the chosen stream; engineering employment overall is strong with starting pay of HK$22–30k by sector.",
+  "futureZh": "利好：香港基建管道深厚、創科政策加碼，各工程分支需求普遍向好，綜合課程的彈性讓你兩年後才押注最旺的分流。風險：分流時熱門主修（如電腦、電機）或設成績門檻，未必保證入到首選；入學前宜了解該校分流機制及各主修質素。",
+  "futureEn": "Upside: a deep infrastructure pipeline plus innovation policy lifts demand across branches, and the built-in flexibility lets you bet on the hottest stream two years later. Risks: popular streams (computer, electrical) may set GPA bars, so first choice is not guaranteed — study each school's allocation mechanics before enrolling."
+ },
+ "business": {
+  "nameEn": "Business administration",
+  "nameZh": "工商管理",
+  "en": "Business administration, also known as business management is the administration of a commercial enterprise. It includes all aspects of overseeing and supervising the business operations of an organization.",
+  "zh": "工商管理 是指对组织、企业或其他商业实体的运营、管理和战略规划的全过程进行有效协调、控制和决策的学科。它涉及多方面的职能和领域，包括财务管理、市场营销、人力资源管理、运营管理、战略管理和信息技术等。工商管理的目标是通过科学的管理方法，提升企业的效率、竞争力和可持续发展能力。",
+  "careerZh": "商科出路最廣（會計、金融、市場、管理、營運等），實際發展視乎所選專長與實習表現。香港作為商業樞紐機會多，但入門競爭大，宜及早累積實務與專業資格。",
+  "careerEn": "Business offers the widest range (accounting, finance, marketing, management, operations), with outcomes shaped by your specialism and internships. As a business hub Hong Kong offers many openings, but entry is competitive — build experience and credentials early.",
+  "nowZh": "工商管理（BBA）是收生量最大的商科學位,首年通識商科後分流會計、金融、市場等主修。出路與主修掛鈎,整體就業率高但薪酬分布極闊——由一萬六的文職到三萬以上的銀行管培生不等。",
+  "nowEn": "BBA is the highest-intake business degree, streaming into accounting, finance, marketing and more after a generalist first year. Outcomes track the chosen major; employment is high but pay spreads widely, from HK$16k clerical to HK$30k+ bank trainee roles.",
+  "futureZh": "利好：分流彈性讓你入學後再觀察行業景氣,大學商學院的實習網絡與交換機會是最大隱形資產,善用者出路唔差。風險：BBA 供應量大、同質化嚴重,無專業資格或亮眼實習者議價力弱;AI 淘汰一般文職,更放大「有料」與「無料」畢業生的差距。",
+  "futureEn": "Upside: streaming flexibility lets you pick majors after watching the market, and business-school internship networks and exchanges are the real hidden asset for those who use them. Risks: BBA supply is huge and homogeneous — without professional credentials or standout internships bargaining power is weak, and AI's clerical cull widens the gap between strong and generic graduates."
+ },
+ "social_science": {
+  "nameEn": "Social science",
+  "nameZh": "社會科學",
+  "en": "Social science is one of the branches of science, devoted to the study of societies and the relationships among members within those societies.",
+  "zh": "社会科学 是研究社会及其成员间关系的科学分支。狭义的社会科学是对人类社会组织、结构与活动进行描述、解释和预测的实证科学研究，如社会学研究当代人类社会，政治学研究政治、政策和有关的活动，经济学研究资源分配。广义的社会科学则包含了对所有以人和社会为研究对象的实证与跨学科研究及人文学科。「社会科学」这一术语的现代用法源于1930年出版的《社会科学百科全书》。",
+  "careerZh": "社會科學培養研究、分析與溝通等可轉移技能，出路涵蓋政策、研究、社福、傳媒與商界；宜結合數據、語文或專業資格提升就業競爭力。",
+  "careerEn": "Social science builds transferable research, analysis and communication skills, leading to policy, research, welfare, media and business; pair with data, language or professional credentials to boost employability.",
+  "nowZh": "綜合社會科學課程首年跨學科,其後分流心理、社工、政政、社會學等主修,出路視乎分流。整體以公職、NGO、教育及商界通用職位為主,起薪約一萬六至二萬二千元。",
+  "nowEn": "Broad social-science programmes start interdisciplinary, then stream into psychology, social work, politics or sociology — outcomes follow the stream. Exits centre on public service, NGOs, education and generalist business roles at HK$16–22k.",
+  "futureZh": "利好：分流彈性畀你入學後先決定,社工及心理學分流有專業執照或碩士路徑保底;政府職系考試對社科訓練友善。風險：熱門分流（社工、心理）多設收生限額同 GPA 門檻,入唔到嘅話出路等同一般文科;報讀前必須查清楚該校分流規則同各主修配額。",
+  "futureEn": "Upside: streaming flexibility defers the choice, social-work and psychology streams carry licence or master's backstops, and civil-service exams favour social-science training. Risks: popular streams cap places by GPA — miss out and outcomes match generic arts; check each school's streaming quotas before applying."
+ },
+ "science": {
+  "nameEn": "Science",
+  "nameZh": "科學",
+  "en": "Science is a systematic discipline that builds and organises knowledge in the form of testable explanations about nature and society.",
+  "zh": "科学 是一個要求確實遵守其基本原則且立基於客觀事實的系統性研究領域，以可被檢驗的假說與預測為形式，進行知識的建構與組織工作。 科学强调预测结果的具体性、可证伪性；其他與科学對應的方法，有許多在更大程度上基於純粹且主觀的思考活動，而更少基於客觀事實。科学不在於寻求绝对无误的真理，而是在现有基础上，以科學方法不斷嘗試揭露和確認客觀世界的運作法則和原理等。",
+  "careerZh": "理學出路可走科研、教育，或憑量化與解難能力轉向金融、數據與科技等高薪領域。純研究本地職位有限，跨領域（數據／金融／科技）發展空間最大。",
+  "careerEn": "Science leads to research and education, or — via quantitative and problem-solving skills — into higher-paying finance, data and tech. Pure-research roles are limited locally, so cross-disciplinary (data/finance/tech) moves offer the most room.",
+  "nowZh": "理學士綜合課程首年不分主修,其後按成績選擇物理、化學、生物、數學等分流,適合鍾意科學但未定方向嘅學生。出路視乎最終主修,整體理科就業以教育、檢測、數據及深造為主。",
+  "nowEn": "Broad BSc programmes defer major choice, streaming into physics, chemistry, biology or mathematics by results — suited to science-minded students still deciding. Outcomes follow the final major, with teaching, testing, data and further study as the main exits.",
+  "futureZh": "利好：分流彈性等於多一年觀察期,數學／統計分流可通往高薪數據職位;大學基礎科學訓練喺 AI 年代係可靠底盤。風險：熱門分流（數學、統計）通常設 GPA 門檻,一year班成績唔好就入唔到心水主修;揀呢科前要睇清楚間大學嘅分流規則。",
+  "futureEn": "Upside: streaming flexibility buys an extra observation year, maths/statistics streams lead to well-paid data careers, and fundamental science training is a reliable base in the AI era. Risks: popular streams gate on first-year GPA, so a weak start can lock you out of your preferred major — read each university's streaming rules before committing."
+ },
+ "humanities": {
+  "nameEn": "Humanities",
+  "nameZh": "人文學科",
+  "en": "Humanities are academic disciplines that study aspects of human society and culture, including certain fundamental questions asked by humans.",
+  "zh": "人文学科 又称人文學，是以觀察、分析及理性批判來探讨人类情感、道德和理智的各门学科文学、哲学、宗教、艺术、史學、人類學、語言学等和知识的总称。在人文主義興起後，人文學科常與神學學科相對。其拉丁語源為studia humanitatis（「人文研究」），文藝復興時期的學者（umanisti）以此稱呼對古希臘羅馬經典的研究，藉以區別於中世紀的經院哲學。",
+  "careerZh": "人文培養語文、思辨與寫作等可轉移能力，常見出路含教育、文化、傳媒、公關與公職；建議及早結合實習與第二專長，把軟技能轉化為就業優勢。",
+  "careerEn": "Humanities builds transferable language, critical-thinking and writing skills, with common paths in education, culture, media, PR and the civil service; pairing early internships with a second specialism turns soft skills into an employment edge.",
+  "nowZh": "人文學科綜合課程涵蓋文史哲及文化研究,畢業生流向教育、傳媒、文化機構及公職,起薪約一萬五至二萬元。課程賣點在廣度與思辨訓練,職業對口需靠自己搭橋。",
+  "nowEn": "Broad humanities programmes span literature, history, philosophy and cultural studies, feeding education, media, cultural bodies and public service at HK$15–20k. The offer is breadth and critical training; career bridges are yours to build.",
+  "futureZh": "利好：AI 年代反而突顯人文判斷、倫理及敍事能力嘅價值,文化產業（西九、出版、策展）同教育界仍係穩定吸納口;配搭語言或數據技能可以突圍。風險：學位辨識度低、起薪普遍偏平,無明確職業規劃者容易漂流;讀之前要諗定教育、公職定文化產業邊條線,唔好等畢業先算。",
+  "futureEn": "Upside: the AI era heightens the value of humanistic judgment, ethics and narrative skill; cultural industries (West Kowloon, publishing, curation) and education remain steady absorbers, and language or data add-ons create breakouts. Risks: low degree recognition and flat starting pay reward those with a plan — choose the education, public-service or cultural lane before you enrol, not after."
+ }
 }

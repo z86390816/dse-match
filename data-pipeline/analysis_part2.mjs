@@ -1,0 +1,123 @@
+// AI 深度分析 Part 2：科技 + 商科 + 社會科學（20 科）
+export default {
+  ai: {
+    nowZh: '人工智能是現時科技界最搶手的方向：本地銀行、科技園企業、跨國科企及初創全線招聘機器學習工程師，優秀畢業生起薪可達三萬至四萬五千元，明顯高於一般 IT 職位；惟職位對數學根底與實戰項目要求極高。',
+    nowEn: 'AI is the hottest hire in tech: banks, Science Park firms, global tech companies and startups all recruit ML engineers, with strong graduates starting at HK$30–45k — well above generic IT. The bar on mathematics and hands-on projects is correspondingly high.',
+    futureZh: '利好：生成式 AI 令各行各業重組工作流程，政府設立 AI 超算中心及百億創科基金，金融、醫療、物流的 AI 應用職位倍增；具備大模型經驗者議價力極強。風險：工具門檻下降令淺層技能迅速貶值，行業汰弱留強、需終身進修；北美與內地大廠亦來港搶人，競爭全球化。',
+    futureEn: 'Upside: generative AI is rewiring every industry\'s workflows; the government\'s AI supercomputing centre and multi-billion innovation funds multiply applied roles in finance, healthcare and logistics, and LLM experience commands premium pay. Risks: falling tool barriers devalue shallow skills fast — the field demands lifelong learning, and competition is global as US and mainland giants hire here too.',
+  },
+  data_science: {
+    nowZh: '數據科學畢業生獲銀行、保險、電訊、零售及政府部門爭相吸納，職位涵蓋數據分析師至機器學習工程師，起薪約二萬五至三萬五千元。相比純電腦科學，課程兼修統計與商業應用，出路更廣但技術深度稍遜。',
+    nowEn: 'Data-science graduates are courted by banks, insurers, telcos, retailers and government, from analyst to ML-engineer roles at HK$25–35k starting. Versus pure CS, the blend of statistics and business application widens options at some cost in technical depth.',
+    futureZh: '利好：企業數據化轉型未完成一半,AI 落地更令數據管道、特徵工程人才需求急增；金融及醫療數據職位受監管保護、外判不易。風險：入門級分析職位正被 AI 工具自動化,單靠 Excel／SQL 的淺層技能將貶值；向機器學習工程或行業專家（金融、醫療）深化者前景最穩。',
+    futureEn: 'Upside: corporate data transformation is barely half done, and AI deployment multiplies demand for pipeline and feature-engineering talent; regulated finance and health data roles resist offshoring. Risks: entry-level analytics is being automated by AI tools and shallow Excel/SQL skills will depreciate — depth in ML engineering or domain expertise is the safe path.',
+  },
+  computer_science: {
+    nowZh: '電腦科學仍是理科出路最闊的學位：金融科技、科技園、跨國科企、政府資科辦全線招聘，畢業生起薪約二萬五至四萬元，頂尖者入大廠或量化基金可更高。惟全球科技裁員後，入門職位競爭比前幾年激烈。',
+    nowEn: 'Computer science remains the widest-exit science degree: fintech, Science Park, global tech and OGCIO all hire, with starting pay of HK$25–40k and more at top firms or quant funds. Post-layoff, though, entry-level competition is stiffer than a few years ago.',
+    futureZh: '利好：香港力建國際創科中心,金融科技、Web3 牌照化及 AI 應用創造新職位；CS 訓練的算法思維是 AI 時代最保值的底層能力,轉型彈性冠絕各科。風險：初級編程工作被 AI 輔助工具壓縮,純「寫 code」職位增長放緩,行業要求向系統設計與 AI 協作能力升級;願意持續進化者依然是黃金學科。',
+    futureEn: 'Upside: Hong Kong\'s innovation-hub push, licensed Web3 and AI adoption create new roles, and algorithmic thinking is the most durable meta-skill of the AI era with unmatched pivot flexibility. Risks: AI coding tools compress junior programming work, shifting the bar toward system design and AI collaboration — still a golden major for those who keep evolving.',
+  },
+  information_tech: {
+    nowZh: '資訊科技課程偏重系統應用與管理,畢業生投身企業 IT 部門、系統整合商及政府外判項目,起薪約二萬至二萬八千元。職位量大而穩定,惟技術含金量及薪酬升幅略遜於電腦科學核心研發職位。',
+    nowEn: 'IT programmes lean toward systems application and management, feeding corporate IT departments, integrators and government outsourcing at HK$20–28k. Roles are plentiful and stable, though pay growth trails core CS development tracks.',
+    futureZh: '利好：企業數碼化、雲端遷移及網絡安全合規需求持續,政府智慧城市項目提供穩定外判管道;網絡安全方向人才缺口尤大,考取認證（CISSP 等）薪酬跳升。風險：基礎支援職位易被自動化及外判蠶食,須向雲端架構、安全或項目管理升級,原地踏步者十年後競爭力堪憂。',
+    futureEn: 'Upside: digitalisation, cloud migration and cybersecurity compliance sustain demand, government smart-city projects feed steady outsourcing, and the security niche is deeply understaffed — certifications like CISSP bring pay jumps. Risks: basic support roles get automated and offshored; move up into cloud architecture, security or project management or risk stagnation.',
+  },
+  accounting: {
+    nowZh: '會計是商科最標準化的出路：四大會計師行每年招聘逾千名畢業生，起薪約一萬八至二萬二千元，考取 CPA 後三至五年薪酬倍增。行業金字塔清晰——捱過審計低薪長工時階段，出路遍及企業財務、投行及上市公司管理層。',
+    nowEn: 'Accounting is the most standardised business path: the Big Four hire a thousand-plus graduates yearly at HK$18–22k, with pay doubling within three to five years post-CPA. Survive the audit grind and exits span corporate finance, banking and listed-company management.',
+    futureZh: '利好：香港上市公司及基金產業對審計、稅務需求穩固，CPA 資歷全球通行，內地企業出海更需懂兩地準則的人才。風險：AI 已實際取代基礎對數與憑證工作，四大正縮減初級編制，行業整體招聘趨向「少而精」；單靠考牌保值的年代結束，須向諮詢、科技審計轉型。',
+    futureEn: 'Upside: audit and tax demand from listed companies and funds stays firm, CPA travels globally, and mainland firms going overseas need dual-standard talent. Risks: AI genuinely replaces basic reconciliation work and the Big Four are trimming junior headcount — the era when a licence alone guaranteed value is over; pivot toward advisory and tech audit.',
+  },
+  actuarial: {
+    nowZh: '精算是數學尖子的傳統出路，保險公司及顧問行（友邦、保誠、韋萊韜悅）每年吸納畢業生，起薪約二萬五至三萬五千元，考獲正精算師資格後薪酬升至七八萬以上。專業試漫長，全職邊做邊考是常態。',
+    nowEn: 'Actuarial science is the classic path for maths high-flyers. Insurers and consultancies (AIA, Prudential, WTW) hire yearly at HK$25–35k, rising past HK$70–80k on fellowship. The exams are a marathon taken alongside full-time work.',
+    futureZh: '利好：香港是亞洲保險樞紐,大灣區跨境保險、風險管理及 IFRS17 實施都擴大精算需求;數理訓練亦可轉戰量化金融、數據科學,選擇彈性高。風險：AI 及自動化模型侵蝕傳統計價工作,行業要求精算師增添編程與數據能力;考試淘汰率高,中途放棄成本不菲。',
+    futureEn: 'Upside: Hong Kong is Asia\'s insurance hub; GBA cross-border products, risk management and IFRS 17 all expand actuarial demand, and the quantitative training pivots well into quant finance or data science. Risks: AI-driven pricing models erode traditional work, pushing actuaries toward coding and data skills, and the exam attrition rate makes quitting midway costly.',
+  },
+  finance: {
+    nowZh: '金融仍是商科收入天花板最高的方向：投行畢業生年薪可達七十萬以上,惟職位極少、競爭全球化;主流出路為銀行管培生（月薪三萬上下）、資產管理、私人銀行及金融科技,起薪普遍二萬三至三萬五千元。',
+    nowEn: 'Finance retains the highest business-school ceiling: investment-bank analysts can clear HK$700k a year, but seats are scarce and contested globally. Mainstream exits — bank management trainee (~HK$30k monthly), asset management, private banking, fintech — start at HK$23–35k.',
+    futureZh: '利好：香港穩居國際金融中心三甲,家族辦公室、財富管理及互聯互通擴容帶來新職位,虛擬資產牌照化開闢新賽道。風險：金融業對經濟周期及地緣政治高度敏感,IPO 淡市時投行裁員毫不手軟;初級分析工作正被 AI 壓縮,人脈與銷售能力愈發關鍵。',
+    futureEn: 'Upside: Hong Kong holds a top-three global financial-centre ranking; family offices, wealth management and Connect-scheme expansion add roles, and licensed virtual assets open a new lane. Risks: the sector is acutely cyclical and geopolitical — banks cut fast in IPO droughts — and AI compresses junior analysis, making networks and sales skills ever more decisive.',
+  },
+  economics: {
+    nowZh: '經濟學屬「萬能插頭」學科：畢業生分流至銀行、政府（政務主任、統計師）、顧問及研究機構,起薪約二萬至二萬八千元。課程訓練分析框架而非職業技能,出路廣但無專業執照護城河,際遇視乎個人增值。',
+    nowEn: 'Economics is a universal adapter: graduates fan out to banking, government (AO, statistician), consultancy and research at HK$20–28k. It trains analytical frameworks rather than licensed skills — broad exits, no professional moat, outcomes hinge on self-investment.',
+    futureZh: '利好：政策研究、市場分析長期有需求,配搭數據技能（計量、Python）可轉型數據分析師,考政府職系亦具優勢。風險：純經濟學位在職場辨識度下降,AI 取代初級研究整理工作;不考專業試、不補技術者易淪為「通用文員」,宜及早定位金融、數據或公職路線。',
+    futureEn: 'Upside: policy research and market analysis stay in demand; adding econometrics and Python opens data-analyst pivots, and the degree suits government-grade exams. Risks: a bare economics degree is losing distinctiveness and AI absorbs junior research chores — without professional exams or technical add-ons you risk generic-clerk territory, so pick a finance, data or public-service lane early.',
+  },
+  marketing: {
+    nowZh: '市場學畢業生流向品牌企業、廣告及公關公司、電商平台,起薪約一萬六至二萬二千元,屬商科偏低水平。行業重視作品與實戰多於學歷,數碼營銷（投放、SEO、KOL 管理）已成主流技能要求。',
+    nowEn: 'Marketing graduates join brands, agencies and e-commerce platforms at HK$16–22k — the lower band of business pay. The trade values portfolios and practice over credentials, and digital skills (paid media, SEO, KOL management) are now the baseline.',
+    futureZh: '利好：電商及社交媒體營銷持續增長,大灣區品牌出海需要雙語營銷人才,懂數據分析與內容創作者叫價明顯較高。風險：生成式 AI 大幅壓縮文案、設計及投放優化的人手需求,傳統廣告代理縮編;單靠「創意」難以立足,必須掌握數據與 AI 工具,否則首當其衝被取代。',
+    futureEn: 'Upside: e-commerce and social marketing keep growing, GBA brands going global need bilingual marketers, and data-plus-content hybrids command premiums. Risks: generative AI slashes headcount in copy, design and media optimisation while agencies downsize — creativity alone won\'t hold; master data and AI tools or be first in line for replacement.',
+  },
+  hospitality: {
+    nowZh: '酒店及旅遊業自復常後招聘反彈,五星酒店管培生、航空公司地勤空服、主題樂園及旅遊科技平台均在擴充,起薪約一萬六至二萬二千元。行業重視語言與服務經驗,晉升靠年資與調遷,國際化流動性高。',
+    nowEn: 'Hospitality hiring has rebounded since reopening: five-star management-trainee schemes, airlines, theme parks and travel-tech platforms are all expanding, with starting pay of HK$16–22k. Languages and service experience matter most, and careers move internationally.',
+    futureZh: '利好：政府力推盛事經濟及旅遊業復興,啟德體育園、郵輪及大灣區旅遊圈帶來職位;酒店資歷全球通用,中東及東南亞新酒店群大量吸納港人管理層。風險：本地旅客消費模式轉變（北上消費、窮遊）,零售餐飲承壓;薪酬基數低、工時長,升到管理層前流失率極高。',
+    futureEn: 'Upside: mega-events policy, Kai Tak Sports Park, cruise growth and the GBA tourism circle add jobs, and hotel credentials travel — Middle East and Southeast Asian openings actively recruit HK-trained managers. Risks: changed visitor spending (northbound trips, budget travel) pressures retail dining, and low base pay with long hours drives heavy attrition before management level.',
+  },
+  management: {
+    nowZh: '管理學課程內容廣泛,畢業生多入企業管培生計劃、人力資源、營運及行政職位,起薪約一萬七至二萬三千元。學位本身辨識度一般,際遇高度取決於實習履歷及所入行業,屬「入場券」而非「專業牌照」。',
+    nowEn: 'Management degrees cover broad ground; graduates enter trainee schemes, HR, operations and administration at HK$17–23k. The credential itself is generic — outcomes depend on internships and the industry you land, an entry ticket rather than a licence.',
+    futureZh: '利好：企業永遠需要營運與人事管理,人力資源方向配搭僱傭條例知識及 HR 科技技能,可建立專業壁壘;供應鏈管理受惠大灣區物流樞紐地位。風險：「乜都學啲」缺乏硬技能,AI 淘汰行政文書職位首當其衝;宜及早選定 HR、供應鏈或項目管理等專門路線並考取認證。',
+    futureEn: 'Upside: operations and people management never go away; HR specialisation with employment-law and HR-tech skills builds a moat, and supply-chain roles benefit from the GBA logistics hub. Risks: jack-of-all-trades breadth lacks hard skills, and AI hits admin paperwork first — commit early to HR, supply chain or project management with certifications.',
+  },
+  business: {
+    nowZh: '工商管理（BBA）是收生量最大的商科學位,首年通識商科後分流會計、金融、市場等主修。出路與主修掛鈎,整體就業率高但薪酬分布極闊——由一萬六的文職到三萬以上的銀行管培生不等。',
+    nowEn: 'BBA is the highest-intake business degree, streaming into accounting, finance, marketing and more after a generalist first year. Outcomes track the chosen major; employment is high but pay spreads widely, from HK$16k clerical to HK$30k+ bank trainee roles.',
+    futureZh: '利好：分流彈性讓你入學後再觀察行業景氣,大學商學院的實習網絡與交換機會是最大隱形資產,善用者出路唔差。風險：BBA 供應量大、同質化嚴重,無專業資格或亮眼實習者議價力弱;AI 淘汰一般文職,更放大「有料」與「無料」畢業生的差距。',
+    futureEn: 'Upside: streaming flexibility lets you pick majors after watching the market, and business-school internship networks and exchanges are the real hidden asset for those who use them. Risks: BBA supply is huge and homogeneous — without professional credentials or standout internships bargaining power is weak, and AI\'s clerical cull widens the gap between strong and generic graduates.',
+  },
+  psychology: {
+    nowZh: '心理學本科出路兩極：臨床、教育心理學家須讀認可碩士（學額極少、競爭激烈）,大多數畢業生投身 HR、市場研究、社福機構或輔導支援職位,起薪約一萬六至二萬二千元。本科學位本身並非執業資格。',
+    nowEn: 'Psychology outcomes are two-track: clinical and educational psychologist titles require scarce, fiercely contested master\'s places, while most graduates enter HR, market research, NGOs or counselling support at HK$16–22k. The bachelor\'s alone is not a licence.',
+    futureZh: '利好：社會對精神健康關注度歷史新高,政府增撥資源到學校及社區精神健康服務,輔導、臨床方向長線需求向上;用戶研究（UX Research）是薪酬較高的新出路。風險：執業樽頸在碩士學額,考唔上者須及早轉線;純本科在就業市場辨識度有限,宜配搭數據或商科技能。',
+    futureEn: 'Upside: mental-health awareness is at an all-time high with new government funding for school and community services, lifting long-run demand; UX research offers a better-paid adjacent exit. Risks: the licensing bottleneck is master\'s places — plan a pivot early if you miss out, and pair the degree with data or business skills for market visibility.',
+  },
+  social_work: {
+    nowZh: '社工是有法定註冊制度的專業,學位畢業生（ASW）起薪跟公務員薪級表,約三萬三千元,NGO 及政府職位穩定。惟近年整筆撥款制度下,機構合約化職位增多,長期職位晉升較慢。',
+    nowEn: 'Social work is a statutorily registered profession: degree-holders start on the civil-service-linked scale at about HK$33k, with stable NGO and government posts. Under lump-sum funding, though, contract positions have multiplied and promotion runs slow.',
+    futureZh: '利好：人口老化、精神健康及特殊教育需求全線上升,安老及青少年服務人手長期不足,起薪在同分數學科中屬頂級性價比。風險：服務資源受政府撥款政策左右,前線情緒勞動沉重、burnout 普遍;政治及社會環境變化亦影響部分服務範疇;適合有使命感而非追求高薪者。',
+    futureEn: 'Upside: ageing, mental-health and SEN demand all rise, elderly and youth services stay understaffed, and starting pay is top value for the admission scores required. Risks: resources swing with funding policy, frontline emotional labour and burnout are real, and the social climate affects some service areas — a calling more than a paycheque.',
+  },
+  sociology: {
+    nowZh: '社會學訓練研究方法與社會分析,畢業生散落於 NGO、市場研究、傳媒、政府及教育界,起薪約一萬五至二萬元,無單一對口職業。研究方法（問卷、訪談、統計）是課程中最具市場價值的部分。',
+    nowEn: 'Sociology trains research methods and social analysis; graduates scatter across NGOs, market research, media, government and education at HK$15–20k with no single default career. The methods training — surveys, interviews, statistics — is the most marketable component.',
+    futureZh: '利好：政策研究、用戶研究及 ESG 社會影響評估需要質性研究人才,配搭數據分析可入市場研究及智庫;考政府職系亦是穩定出路。風險：學位辨識度低,純理論路線就業困難;AI 可自動生成基礎報告,無田野及統計實戰經驗者議價力弱,宜在學期間累積研究項目。',
+    futureEn: 'Upside: policy research, UX research and ESG social-impact assessment need qualitative-methods talent; with data skills you can enter market research or think tanks, and government grades offer stability. Risks: low degree recognition, tough prospects on a pure-theory path, and AI now drafts basic reports — build fieldwork and statistics portfolios while studying.',
+  },
+  political_science: {
+    nowZh: '政政學畢業生主要出路為政府職系（AO/EO）、政策研究、傳媒及 NGO,起薪約一萬六至二萬二千元;考入政務主任者起薪逾五萬,惟錄取率不足百分之一。課程價值在寫作、分析與時事觸覺。',
+    nowEn: 'Politics graduates target government grades (AO/EO), policy research, media and NGOs at HK$16–22k; the coveted AO post starts above HK$50k but admits under 1%. The degree\'s value lies in writing, analysis and current-affairs acuity.',
+    futureZh: '利好：政府仍是最大僱主,EO 及各職系穩定招聘;大灣區及國際組織的公共事務、企業政府關係（GR）職位增加。風險：本地政策研究空間收窄,智庫及倡議類職位減少;學位無專業壁壘,出路高度依賴公職考試表現,宜同步準備 CRE/JRE 及提升普通話與英文寫作。',
+    futureEn: 'Upside: government remains the anchor employer with steady EO-grade hiring, and public-affairs and government-relations roles grow in the GBA and international bodies. Risks: local policy-research space has narrowed with fewer think-tank and advocacy posts; with no professional moat, outcomes ride on civil-service exams — prepare CRE/JRE and bilingual writing early.',
+  },
+  journalism: {
+    nowZh: '新聞系畢業生流向網媒、電視台、財經通訊社及企業傳訊,傳統新聞職位持續萎縮,起薪約一萬五至二萬元。行業技能已轉向影片製作、數據新聞及社交平台營運,純文字記者職位買少見少。',
+    nowEn: 'Journalism graduates join online outlets, broadcasters, financial newswires and corporate communications. Traditional newsroom jobs keep shrinking, starting pay is HK$15–20k, and the skill set has shifted to video, data journalism and platform operations.',
+    futureZh: '利好：財經資訊（Bloomberg、Reuters 類）需求穩定且薪酬較佳,企業傳訊及公關吸納大量新聞系訓練的人才,說故事能力在內容行業依然值錢。風險：本地新聞業界收縮、廣告收入被平台奪走,AI 自動生成基礎報道;以新聞為終身職業者須有心理準備,轉戰企業傳訊是主流出路。',
+    futureEn: 'Upside: financial news (Bloomberg, Reuters-type) demand is stable and better paid, corporate communications absorbs journalism-trained talent, and storytelling still commands value in content industries. Risks: the local news industry keeps contracting as platforms take ad revenue and AI drafts routine stories — most careers eventually route into corporate comms.',
+  },
+  communication: {
+    nowZh: '傳理／傳播學課程涵蓋公關、廣告、數碼媒體,畢業生入廣告代理、企業傳訊部、社交媒體團隊,起薪約一萬六至二萬一千元。行業入場門檻低但汰換快,個人作品集比學位成績更受僱主重視。',
+    nowEn: 'Communication programmes span PR, advertising and digital media, feeding agencies, corporate comms and social teams at HK$16–21k. Entry barriers are low but turnover is fast, and portfolios outweigh transcripts.',
+    futureZh: '利好：企業對品牌內容及危機公關的需求長期存在,短片與直播經濟創造新職種,雙語兼懂內地平台（小紅書、抖音）生態者格外搶手。風險：生成式 AI 直接衝擊文案、設計與影片初剪,代理行縮編;必須把 AI 當工具用而非被其取代,並向策略、客戶管理層面升級。',
+    futureEn: 'Upside: brand content and crisis PR needs persist, short-video and livestream economies create new roles, and bilingual talent fluent in mainland platforms (Xiaohongshu, Douyin) is especially sought. Risks: generative AI hits copywriting, design and rough cuts directly while agencies downsize — wield AI as a tool and climb toward strategy and account leadership.',
+  },
+  translation: {
+    nowZh: '翻譯畢業生出路包括政府雙語主任、法庭及會議傳譯、字幕與本地化公司,起薪約一萬六至二萬二千元;法律及同聲傳譯屬高技能高收入小眾（自由身日薪可達數千至過萬元）。機器翻譯已接管低端筆譯市場。',
+    nowEn: 'Translation graduates become government bilingual officers, court and conference interpreters, or join subtitling and localisation firms at HK$16–22k. Legal and simultaneous interpreting is a high-skill niche (freelance day rates in the thousands), while machine translation has swallowed the low-end market.',
+    futureZh: '利好：法律、醫療等高風險領域仍需人手把關,中英雙語頂尖傳譯長期稀缺,大灣區跨境商務及仲裁帶來高端需求;譯後編輯（MTPE）成新工種。風險：AI 翻譯質素持續逼近人類,一般筆譯價格崩塌、職位大減;行業只剩「金字塔尖」有肉食,中庸水平者務必轉型或兼修法律、金融等領域知識。',
+    futureEn: 'Upside: high-stakes legal and medical work still needs human gatekeepers, elite Chinese-English interpreters stay scarce, GBA cross-border business and arbitration add premium demand, and MTPE is a new trade. Risks: AI quality keeps closing on humans, collapsing generic translation rates — only the pyramid\'s tip eats well, so mid-level talent must specialise in law, finance or pivot out.',
+  },
+  education: {
+    nowZh: '教育學士（BEd）畢業生取得檢定教員資格,學位教師（GM）起薪約三萬五千元,薪酬在同收生分數學科中極具性價比。惟適齡學童人口下跌,縮班殺校令常額教席競爭激烈,新入職者多由合約教席起步。',
+    nowEn: 'BEd graduates qualify as registered teachers, with graduate-master starting pay around HK$35k — exceptional value for the admission scores. But a shrinking student population and school closures make permanent posts scarce; most newcomers start on contracts.',
+    futureZh: '利好：教師薪酬與公務員掛鈎、極其穩定,STEM、英文及特殊教育教師仍然短缺,人才清單亦向教育科技傾斜;內地港人子弟學校及國際學校提供新出路。風險：學生人口斷崖式下跌至少持續至 2030 年代初,殺校潮下常額教席難求,籤約唔續約成新常態;揀科（英/數/SEN）比揀教育本身更影響前途。',
+    futureEn: 'Upside: teacher pay tracks the civil-service scale with unmatched stability; STEM, English and SEN teachers remain short, and mainland HK-children schools plus international schools open new doors. Risks: the student-population cliff runs into the early 2030s, making permanent posts scarce amid closures and non-renewed contracts — your subject choice (English/maths/SEN) matters more than the degree itself.',
+  },
+};
