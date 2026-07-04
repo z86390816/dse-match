@@ -64,6 +64,58 @@ function Visits({ pv, uv }) {
   );
 }
 
+// 國家代碼 → 🇭🇰 國旗 emoji
+function flag(cc) {
+  if (!/^[A-Z]{2}$/i.test(cc)) return '🌐';
+  return String.fromCodePoint(...[...cc.toUpperCase()].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65));
+}
+const regionName = (() => {
+  try { const dn = new Intl.DisplayNames(['zh-Hant'], { type: 'region' }); return (cc) => { try { return dn.of(cc) || cc; } catch { return cc; } }; }
+  catch { return (cc) => cc; }
+})();
+
+// 訪客地區排行 + 最近訪客名單（IP／國家／城市）
+function Geo({ country, log }) {
+  const { arr, max, total } = useMemo(() => rank(country || {}, {}), [country]);
+  return (
+    <>
+      <div className="adm-card">
+        <h3>🌍 訪客地區 <span className="adm-muted">· 共 {total} 次</span></h3>
+        {!arr.length ? <p className="adm-muted">暫無地區數據。</p> : (
+          <div className="adm-bars">
+            {arr.slice(0, 15).map((r, i) => (
+              <div className="adm-bar-row" key={r.id}>
+                <span className="adm-rank">{i + 1}</span>
+                <span className="adm-bar-name">{flag(r.id)} {r.id === 'unknown' ? '未知' : regionName(r.id)}</span>
+                <span className="adm-bar-track"><span className="adm-bar-fill" style={{ width: `${max ? (r.n / max) * 100 : 0}%` }} /></span>
+                <span className="adm-bar-num">{r.n}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+      <div className="adm-card">
+        <h3>🧭 最近訪客 <span className="adm-muted">· 最新 {Math.min((log || []).length, 200)} 條</span></h3>
+        {!(log || []).length ? <p className="adm-muted">暫無訪客記錄。</p> : (
+          <div className="adm-visitor-table">
+            <div className="adm-visitor-row adm-visitor-head">
+              <span>時間</span><span>IP</span><span>地區</span><span></span>
+            </div>
+            {log.slice(0, 50).map((v, i) => (
+              <div className="adm-visitor-row" key={i}>
+                <span>{new Date(v.t).toLocaleString('zh-HK', { hour12: false, month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}</span>
+                <span className="adm-visitor-ip">{v.ip || '—'}</span>
+                <span>{flag(v.country)} {v.country === 'unknown' ? '未知' : regionName(v.country)}{v.city ? ` · ${v.city}` : ''}</span>
+                <span>{v.uv ? <span className="adm-visitor-new">新</span> : ''}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
 export default function AdminApp() {
   const [password, setPassword] = useState('');
   const [data, setData] = useState(null);
@@ -123,6 +175,10 @@ export default function AdminApp() {
       </header>
 
       <Visits pv={data.visitsPv} uv={data.visitsUv} />
+
+      <div className="adm-grid">
+        <Geo country={data.visitsCountry} log={data.visitorLog} />
+      </div>
 
       <div className="adm-grid">
         <Bars title="🏆 最多人點擊的學科" data={data.clicksDiscipline} nameMap={discNames} limit={30} />

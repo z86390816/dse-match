@@ -33,6 +33,14 @@ export default async function handler(req, res) {
       const d = hkDate();
       await redis('HINCRBY', 'visits:pv', d, 1);
       if (b.uv) await redis('HINCRBY', 'visits:uv', d, 1);
+      // 訪客地理資訊（Vercel 自帶 headers）＋最近訪客名單（只留最近 500 條）
+      const h = req.headers || {};
+      const country = String(h['x-vercel-ip-country'] || 'unknown').slice(0, 8);
+      const city = decodeURIComponent(String(h['x-vercel-ip-city'] || '')).slice(0, 40);
+      const ip = String(h['x-forwarded-for'] || h['x-real-ip'] || '').split(',')[0].trim().slice(0, 45);
+      await redis('HINCRBY', 'visits:country', country, 1);
+      await redis('LPUSH', 'visits:log', JSON.stringify({ t: Date.now(), ip, country, city, uv: !!b.uv }));
+      await redis('LTRIM', 'visits:log', 0, 499);
     }
     return res.status(200).json({ ok: true });
   } catch (e) {
