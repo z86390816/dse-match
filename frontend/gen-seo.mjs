@@ -7,7 +7,7 @@ import { UNIVERSITIES, UNIVERSITY_MAP } from './src/engine/universities.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const R = (p) => path.join(__dirname, p);
-const SITE = 'https://dsemarks.com';
+const SITE = 'https://www.dsemarks.com';
 
 const programmes = JSON.parse(fs.readFileSync(R('src/data/programmes.json'), 'utf8')).programmes;
 const disciplines = JSON.parse(fs.readFileSync(R('src/data/disciplines.json'), 'utf8'));
@@ -89,11 +89,22 @@ ${disc.nowZh ? `<div class="card"><h2>💼 行業現狀</h2><div class="career">
 ${disc.futureZh ? `<div class="card"><h2>🔮 未來前景</h2><div class="career">${esc(disc.futureZh)}</div></div>` : disc.careerZh ? `<div class="card"><h2>💼 香港就業前景與方向</h2><div class="career">${esc(disc.careerZh)}</div></div>` : ''}
 ${siblings ? `<div class="card"><h2>${esc(uni.short)} 其他專業</h2><div class="chips">${siblings}</div></div>` : ''}`;
 
-  const jsonld = {
-    '@context': 'https://schema.org', '@type': 'Course',
-    name: nameZh, description: desc, url: canonical,
-    provider: { '@type': 'CollegeOrUniversity', name: uni.name, sameAs: SITE },
-  };
+  // 多個結構化資料：Course + BreadcrumbList + FAQPage（衝 Google 精選摘要）
+  const faqs = [];
+  if (med != null) faqs.push([`${nameZh}（${p.jupasCode}）2025 收生分數係幾多？`, `${uni.name} ${nameZh} 2025 收生中位數為 ${med} 分${uq != null ? `，上四分位數 ${uq} 分` : ''}${lq != null ? `，下四分位數 ${lq} 分` : ''}。`]);
+  if (p.admitted2025 > 0) faqs.push([`${p.jupasCode} 2025 取錄幾多人？`, `${nameZh}（${p.jupasCode}）2025 年透過 JUPAS 正式遴選取錄 ${p.admitted2025} 人${p.intake > 0 ? `，首年學額約 ${p.intake} 個` : ''}。`]);
+  faqs.push([`${uni.short} ${nameZh} 點計 JUPAS 分？`, `喺 dsemarks.com 輸入你的 DSE 成績，系統會按 ${uni.name} 官方計分公式自動計出你的分數，並即時同 ${p.jupasCode} 收生中位數比對，話你知穩入、有機會定要搏。`]);
+  const jsonld = [
+    { '@context': 'https://schema.org', '@type': 'Course', name: nameZh, description: desc, url: canonical,
+      provider: { '@type': 'CollegeOrUniversity', name: uni.name, sameAs: SITE } },
+    { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '香港九大 JUPAS 收生分數', item: `${SITE}/programmes/` },
+      { '@type': 'ListItem', position: 2, name: uni.name, item: `${SITE}/u/${p.universityId}/` },
+      { '@type': 'ListItem', position: 3, name: nameZh, item: canonical },
+    ] },
+    { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({
+      '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+  ];
   return shell({ title, desc, canonical, jsonld, body });
 }
 

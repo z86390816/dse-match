@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dsemarks.com/sitemap.xml
+Sitemap: https://www.dsemarks.com/sitemap.xml
