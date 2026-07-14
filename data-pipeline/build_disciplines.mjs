@@ -116,7 +116,8 @@ fs.writeFileSync(path.resolve('../backend/src/data/disciplines.json'), JSON.stri
 // 指派 discipline key 到每個專業
 const PROG_PATH = path.resolve('../backend/src/data/programmes.json');
 const prog = JSON.parse(fs.readFileSync(PROG_PATH, 'utf8'));
-for (const p of prog.programmes) p.discipline = matchDiscipline(p.name);
+const overrides = JSON.parse(fs.readFileSync(path.resolve('discipline_overrides.json'), 'utf8')); delete overrides._comment;
+for (const p of prog.programmes) p.discipline = overrides[p.jupasCode] || matchDiscipline(p.name);
 fs.writeFileSync(PROG_PATH, JSON.stringify(prog, null, 2));
 
 console.log(`\n學科領域：${DISC.length} 個，成功抓到簡介 ${ok} 個`);
