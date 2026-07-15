@@ -3712,7 +3712,7 @@
    "jupasCode": "JS5101",
    "universityId": "hkust",
    "name": "I nternational Research Enrichment",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3721,7 +3721,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "general",
    "nameZh": "國際科研",
    "admitted2025": 17,
@@ -3732,14 +3731,39 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 1.5
+     },
+     {
+      "subject": "math",
+      "weight": 1
+     }
+    ],
+    "groups": [
+     {
+      "subjects": [
+       "bio",
+       "chem",
+       "phys",
+       "m1",
+       "m2"
+      ],
+      "weight": 1
+     }
+    ],
+    "bestN": 2
+   }
   },
   {
    "id": "hkust-js5102",
    "jupasCode": "JS5102",
    "universityId": "hkust",
    "name": "Science (Group A)",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3748,7 +3772,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "science",
    "nameZh": "理學Ａ組",
    "admitted2025": 145,
@@ -3759,14 +3782,39 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 1.5
+     },
+     {
+      "subject": "math",
+      "weight": 1
+     }
+    ],
+    "groups": [
+     {
+      "subjects": [
+       "bio",
+       "chem",
+       "phys",
+       "m1",
+       "m2"
+      ],
+      "weight": 1
+     }
+    ],
+    "bestN": 2
+   }
   },
   {
    "id": "hkust-js5103",
    "jupasCode": "JS5103",
    "universityId": "hkust",
    "name": "Science (Group B)",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3775,7 +3823,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "science",
    "nameZh": "理學Ｂ組",
    "admitted2025": 199,
@@ -3786,14 +3833,39 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 1.5
+     },
+     {
+      "subject": "math",
+      "weight": 1
+     }
+    ],
+    "groups": [
+     {
+      "subjects": [
+       "bio",
+       "chem",
+       "phys",
+       "m1",
+       "m2"
+      ],
+      "weight": 1
+     }
+    ],
+    "bestN": 2
+   }
   },
   {
    "id": "hkust-js5118",
    "jupasCode": "JS5118",
    "universityId": "hkust",
    "name": "BSc in Biomedical and Health Sciences Science (Group A) with Extended",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3802,7 +3874,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "medical",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "理學士（生物醫學及健康科學）",
@@ -3814,14 +3885,39 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 1.5
+     },
+     {
+      "subject": "math",
+      "weight": 1
+     }
+    ],
+    "groups": [
+     {
+      "subjects": [
+       "bio",
+       "chem",
+       "phys",
+       "m1",
+       "m2"
+      ],
+      "weight": 1
+     }
+    ],
+    "bestN": 2
+   }
   },
   {
    "id": "hkust-js5181",
    "jupasCode": "JS5181",
    "universityId": "hkust",
    "name": "Intelligence",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3830,7 +3926,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "general",
    "nameZh": "理學Ａ組– 人工智能延伸主修",
    "admitted2025": 34,
@@ -3841,14 +3936,39 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 1.5
+     },
+     {
+      "subject": "math",
+      "weight": 1
+     }
+    ],
+    "groups": [
+     {
+      "subjects": [
+       "bio",
+       "chem",
+       "phys",
+       "m1",
+       "m2"
+      ],
+      "weight": 1
+     }
+    ],
+    "bestN": 2
+   }
   },
   {
    "id": "hkust-js5212",
    "jupasCode": "JS5212",
    "universityId": "hkust",
    "name": "BEng in Computer Engineering",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3857,7 +3977,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "it",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "工學士（計算機工程學）",
@@ -3869,14 +3988,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5220",
    "jupasCode": "JS5220",
    "universityId": "hkust",
    "name": "Department of Chemical & Biological Engineering",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3885,7 +4021,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "engineering",
    "nameZh": "化學及生物工程學系",
    "admitted2025": 20,
@@ -3896,14 +4031,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chemistry"
+   "discipline": "chemistry",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5230",
    "jupasCode": "JS5230",
    "universityId": "hkust",
    "name": "Department of Civil & Environmental Engineering",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3912,7 +4064,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "engineering",
    "nameZh": "土木及環境工程學系",
    "admitted2025": 107,
@@ -3923,14 +4074,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5240",
    "jupasCode": "JS5240",
    "universityId": "hkust",
    "name": "Department of Computer Science & Engineering",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3939,7 +4107,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "it",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "計算機科學及工程學系",
@@ -3951,14 +4118,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5250",
    "jupasCode": "JS5250",
    "universityId": "hkust",
    "name": "Department of Electronic & Computer Engineering Department of Industri",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3967,7 +4151,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "it",
    "nameZh": "電子及計算機工程學系",
    "admitted2025": 52,
@@ -3978,14 +4161,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5260",
    "jupasCode": "JS5260",
    "universityId": "hkust",
    "name": "Analytics",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -3994,7 +4194,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "general",
    "nameZh": "工業工程及決策分析學系",
    "admitted2025": 35,
@@ -4005,14 +4204,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5270",
    "jupasCode": "JS5270",
    "universityId": "hkust",
    "name": "Department of Mechanical & Aerospace Engineering Engineering with Exte",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4021,7 +4237,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "engineering",
    "nameZh": "機械及航空航天工程學系",
    "admitted2025": 46,
@@ -4032,14 +4247,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5282",
    "jupasCode": "JS5282",
    "universityId": "hkust",
    "name": "Intelligence",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4048,7 +4280,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "general",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "工程學 – 人工智能延伸主修",
@@ -4060,14 +4291,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5411",
    "jupasCode": "JS5411",
    "universityId": "hkust",
    "name": "BSc in Global China Studies",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4076,7 +4324,7 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "science",
    "nameZh": "理學士（環球中國研究）",
    "admitted2025": 47,
@@ -4087,14 +4335,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5412",
    "jupasCode": "JS5412",
    "universityId": "hkust",
    "name": "BSc in Quantitative Social Analysis subjects Biology, Chemistry",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4103,7 +4368,7 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "science",
    "nameZh": "理學士（定量社會數據分析）",
    "admitted2025": 33,
@@ -4114,14 +4379,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5711",
    "jupasCode": "JS5711",
    "universityId": "hkust",
    "name": "BSc in Innovation, Design and Technology",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4130,7 +4412,7 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "science",
    "nameZh": "理學士（創新設計與科技）",
    "admitted2025": 14,
@@ -4141,14 +4423,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5812",
    "jupasCode": "JS5812",
    "universityId": "hkust",
    "name": "BSc in Environmental Management and Technology BEng/BSc & BBA Dual Deg",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4157,7 +4456,7 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "engineering",
    "nameZh": "理學士（環境管理及科技）",
    "admitted2025": 25,
@@ -4168,14 +4467,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5901",
    "jupasCode": "JS5901",
    "universityId": "hkust",
    "name": "Management",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4184,7 +4500,7 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "科技及管理學雙學位課程",
@@ -4196,14 +4512,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5811",
    "jupasCode": "JS5811",
    "universityId": "hkust",
    "name": "BSc in Biotechnology and Business",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4212,7 +4545,7 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "business",
    "nameZh": "理學士（生物科技及商學）",
    "admitted2025": 16,
@@ -4223,14 +4556,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5813",
    "jupasCode": "JS5813",
    "universityId": "hkust",
    "name": "BSc in Mathematics and Economics",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4239,7 +4589,7 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "理學士（數學與經濟學）",
@@ -4251,14 +4601,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5300",
    "jupasCode": "JS5300",
    "universityId": "hkust",
    "name": "Business & Management",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4267,7 +4634,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "nameZh": "工商管理",
    "admitted2025": 160,
@@ -4278,14 +4644,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5311",
    "jupasCode": "JS5311",
    "universityId": "hkust",
    "name": "BBA in Economics",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4294,7 +4677,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "nameZh": "工商管理學士（經濟學）",
    "admitted2025": 30,
@@ -4305,14 +4687,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5312",
    "jupasCode": "JS5312",
    "universityId": "hkust",
    "name": "BBA in Finance",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4321,7 +4720,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "工商管理學士（金融學）",
@@ -4333,14 +4731,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5313",
    "jupasCode": "JS5313",
    "universityId": "hkust",
    "name": "BBA in Global Busines s",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4349,7 +4764,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "工商管理學士（環球商業管理）",
@@ -4361,14 +4775,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5314",
    "jupasCode": "JS5314",
    "universityId": "hkust",
    "name": "BBA in Information Systems",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4377,7 +4808,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "it",
    "nameZh": "工商管理學士（資訊系統學）",
    "admitted2025": 25,
@@ -4388,14 +4818,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5315",
    "jupasCode": "JS5315",
    "universityId": "hkust",
    "name": "BBA in Management",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4404,7 +4851,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "nameZh": "工商管理學士（管理學）",
    "admitted2025": 15,
@@ -4415,14 +4861,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5316",
    "jupasCode": "JS5316",
    "universityId": "hkust",
    "name": "BBA in Marketing",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4431,7 +4894,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "nameZh": "工商管理學士（市場學）",
    "admitted2025": 15,
@@ -4442,14 +4904,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5317",
    "jupasCode": "JS5317",
    "universityId": "hkust",
    "name": "BBA in Operations Management",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4458,7 +4937,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "nameZh": "工商管理學士（營運管理學）",
    "admitted2025": 15,
@@ -4469,14 +4947,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5318",
    "jupasCode": "JS5318",
    "universityId": "hkust",
    "name": "BBA in Professional Ac c ounting",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4485,7 +4980,6 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "nameZh": "工商管理學士（專業會計學）",
    "admitted2025": 45,
@@ -4496,14 +4990,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5331",
    "jupasCode": "JS5331",
    "universityId": "hkust",
    "name": "BSc in Economics and Finance",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4512,7 +5023,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "理學士（經濟及金融學）",
@@ -4524,14 +5034,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5332",
    "jupasCode": "JS5332",
    "universityId": "hkust",
    "name": "BSc in Quantitative Finance",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4540,7 +5067,6 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "理學士（量化金融學）",
@@ -4552,14 +5078,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5814",
    "jupasCode": "JS5814",
    "universityId": "hkust",
    "name": "BSc in Risk Management and Business Intelligence",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4568,7 +5111,7 @@
    },
    "scoreComparable": false,
    "dataStatus": "official-2025-noformula",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "business",
    "scaleNote": "本校此課程計分較複雜（加權／Best-6／額外科目），暫無法精確複製，僅供參考",
    "nameZh": "理學士（風險管理及商業智能學）",
@@ -4580,14 +5123,31 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hkust-js5822",
    "jupasCode": "JS5822",
    "universityId": "hkust",
    "name": "BSc in Sustainable and Green Finance subjects Biology, Chemistry",
-   "method": "best5",
+   "method": "hku",
    "weights": {},
    "gradeScheme": "bonusTop",
    "admission": {
@@ -4596,7 +5156,7 @@
    },
    "scoreComparable": true,
    "dataStatus": "official-2025",
-   "weightsStatus": "approx-best5",
+   "weightsStatus": "unweighted-approx",
    "category": "business",
    "nameZh": "理學士（可持續發展及綠色金融）",
    "admitted2025": 13,
@@ -4607,7 +5167,24 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "formula": {
+    "fixed": [
+     {
+      "subject": "eng",
+      "weight": 2
+     },
+     {
+      "subject": "math",
+      "weight": 2
+     }
+    ],
+    "bestN": 3,
+    "weights": {
+     "m1": 1.5,
+     "m2": 1.5
+    }
+   }
   },
   {
    "id": "hku-js6004",
@@ -6892,7 +7469,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 185.5,
     "lowerQuartile": 185
@@ -6945,7 +7522,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 193.5,
     "lowerQuartile": 189.5
@@ -6998,7 +7575,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 171.5,
     "lowerQuartile": 164.5
@@ -7051,7 +7628,7 @@
     "music": 7,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 165.8,
     "lowerQuartile": 163.1
@@ -7104,7 +7681,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 210,
     "lowerQuartile": 205
@@ -7157,7 +7734,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 218,
     "lowerQuartile": 213.5
@@ -7210,7 +7787,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 209,
     "lowerQuartile": 203.5
@@ -7263,7 +7840,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 188.1,
     "lowerQuartile": 185.1
@@ -7316,7 +7893,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 181.5,
     "lowerQuartile": 179.5
@@ -7369,7 +7946,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 179,
     "lowerQuartile": 177
@@ -7422,7 +7999,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 223,
     "lowerQuartile": 210
@@ -7475,7 +8052,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 216.5,
     "lowerQuartile": 205
@@ -7528,7 +8105,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 215,
     "lowerQuartile": 210
@@ -7581,7 +8158,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 230,
     "lowerQuartile": 215
@@ -7634,7 +8211,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 184,
     "lowerQuartile": 181
@@ -7687,7 +8264,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 220,
     "lowerQuartile": 211
@@ -7740,7 +8317,7 @@
     "music": 7,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 190,
     "lowerQuartile": 178
@@ -7793,7 +8370,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 215,
     "lowerQuartile": 210
@@ -7846,7 +8423,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 215,
     "lowerQuartile": 205
@@ -7899,7 +8476,7 @@
     "music": 7,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 178,
     "lowerQuartile": 175
@@ -7952,7 +8529,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 220,
     "lowerQuartile": 218
@@ -8005,7 +8582,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 177,
     "lowerQuartile": 164
@@ -8058,7 +8635,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 203,
     "lowerQuartile": 198.5
@@ -8111,7 +8688,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 179,
     "lowerQuartile": 175
@@ -8164,7 +8741,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 166.5,
     "lowerQuartile": 163
@@ -8217,7 +8794,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 185,
     "lowerQuartile": 179
@@ -8270,7 +8847,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 218,
     "lowerQuartile": 210
@@ -8323,7 +8900,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 195,
     "lowerQuartile": 193
@@ -8376,7 +8953,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 193,
     "lowerQuartile": 182.5
@@ -8429,7 +9006,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 182.5,
     "lowerQuartile": 179
@@ -8482,7 +9059,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 208,
     "lowerQuartile": 205
@@ -8535,7 +9112,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 309,
     "lowerQuartile": 306.5
@@ -8588,7 +9165,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 209,
     "lowerQuartile": 206
@@ -8641,7 +9218,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 218,
     "lowerQuartile": 213.5
@@ -8694,7 +9271,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 279.5,
     "lowerQuartile": 278
@@ -8747,7 +9324,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 277.8,
     "lowerQuartile": 247.8
@@ -8800,7 +9377,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 215,
     "lowerQuartile": 205
@@ -8853,7 +9430,7 @@
     "music": 5,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 320,
     "lowerQuartile": 320
@@ -8906,7 +9483,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 195,
     "lowerQuartile": 193
@@ -8959,7 +9536,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 339,
     "lowerQuartile": 328.5
@@ -9012,7 +9589,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 208,
     "lowerQuartile": 205
@@ -9065,7 +9642,7 @@
     "music": 7,
     "pe": 7
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 206,
     "lowerQuartile": 203
@@ -9118,7 +9695,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 264.3,
     "lowerQuartile": 259.8
@@ -9171,7 +9748,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 175.8,
     "lowerQuartile": 165.3
@@ -9224,7 +9801,7 @@
     "music": 5,
     "pe": 5
    },
-   "gradeScheme": "standard",
+   "gradeScheme": "bonusTop",
    "admission": {
     "median": 189.5,
     "lowerQuartile": 188.6
