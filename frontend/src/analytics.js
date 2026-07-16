@@ -1,6 +1,6 @@
 // Google Analytics 4 + AdSense 載入器。
 // 只有在 config.js 填了 ID 時才會注入對應 script，否則完全不執行。
-import { GA_MEASUREMENT_ID, ADSENSE_CLIENT_ID } from './config';
+import { GA_MEASUREMENT_ID } from './config';
 
 let gaReady = false;
 
@@ -19,14 +19,7 @@ export function initAnalytics() {
     gaReady = true;
   }
 
-  // ---- AdSense 載入器 ----
-  if (ADSENSE_CLIENT_ID) {
-    const a = document.createElement('script');
-    a.async = true;
-    a.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`;
-    a.crossOrigin = 'anonymous';
-    document.head.appendChild(a);
-  }
+  // AdSense script 已靜態置於 index.html <head>（供 AdSense 檢索器驗證），此處不再動態注入。
 }
 
 // 記錄一次「頁面瀏覽」（SPA 切換 tab 時呼叫）

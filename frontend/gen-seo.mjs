@@ -46,6 +46,7 @@ function shell({ title, desc, canonical, jsonld, body }) {
 <meta property="og:type" content="website"><meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${SITE}/og-image.png"><meta name="twitter:card" content="summary_large_image">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ''}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5080867077394268" crossorigin="anonymous"></script>
 <style>${STYLE}</style></head><body><div class="wrap">
 <div class="top"><a href="${SITE}/">🎓 JUPAS Calculator</a></div>
 ${body}
