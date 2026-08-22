@@ -66,6 +66,74 @@ node parse_cityu.mjs             # 解析 CityU(p2-8) → cityu.json（引擎格
 **驗證** `node verify.mjs`：id 唯一性 + median≥LQ + 官方抽查（7 校）+ **18 萬次單調性** + 完美/最弱生範圍。
 目前 **0 錯誤 0 警告**。
 
+## 多年份收生分數（2025 → 2026 及以後）
+
+`programmes.json` 已改為**多年份結構**，可同時保存歷年收生分數並自動算出逐年變化：
+
+```jsonc
+{
+  "year": 2026,            // 目前主打年份
+  "previousYear": 2025,    // 對比基準年
+  "yearNote": "…官方明言分數不可跨年比較…",
+  "programmes": [{
+    "admission":      { "median": 40.5, "lowerQuartile": 38.5 },  // = 有數據的最新一年（別名）
+    "admissionYear":  2026,
+    "admissionByYear": {
+      "2025": { "median": 39,   "lowerQuartile": 38 },
+      "2026": { "median": 40.5, "lowerQuartile": 38.5 }
+    },
+    "admissionDelta": { "vsYear": 2025, "median": 1.5, "lowerQuartile": 0.5, "comparable": true }
+  }]
+}
+```
+
+**`admission` 永遠指向有數據的最新一年**，所以計分引擎、配對、前端都不必改就能運作；
+未匯入新年份的課程會自動繼續沿用舊年份數據，不會變成空值。
+
+### 更新到新一年的步驟
+
+```bash
+cd data-pipeline
+node migrate_multiyear.mjs                       # 舊的單年檔轉多年份（冪等，已轉過可略）
+node import_admission_year.mjs 2026 scores_2026.csv   # 匯入新一年分數 + 自動算逐年變化
+node verify.mjs                                  # 驗證（含多年份一致性、差值算式）
+node sync_frontend.mjs                           # 同步到前端（含 meta.json）
+```
+
+`scores_2026.csv`（或 .json）格式，欄位名可用 `lq`/`uq` 簡寫：
+
+```csv
+jupasCode,universityId,median,lowerQuartile,upperQuartile,formulaChanged
+JS1211,cityu,40.5,38.5,43,false
+JS6793,hku,36,35,,true
+```
+
+- `universityId` 可省略，但 JS code 在兩校撞名時必須提供，否則該筆會被跳過並列出。
+- `formulaChanged=true` → 該課程逐年差值標為 `comparable:false`，前端以灰色淡化並附說明。
+- `--mark-missing-discontinued`：把今年官方名單中消失的課程標上 `discontinuedSince`。
+- `--source="…"`：覆寫 `source` 字串（預設 `JUPAS 官方 {年} 收生分數 (af_{年}_JUPAS.pdf) — 全 9 所院校`）。
+
+### ⚠️ 逐年比較的準確度限制
+
+官方文件明言：**各校每年調整計分公式與科目權重，收生分數不可跨年份比較**
+（"As different weightings are used, admissions scores are not comparable across programmes or admission years"）。
+另外 X 年的「XX JUPAS 收生分數」指的是**上一年入學**申請人的成績、按當年公式重算 ——
+例如「2026 JUPAS admission scores」＝ 2025 年入學者的 DSE 成績 × 2026 年公式。
+
+所以逐年差值同時混雜了「公式改動」與「競爭轉變」兩個因素，只能作趨勢參考。
+公式確定有變的課程請在匯入時標 `formulaChanged=true`。
+
+### 官方 2026 來源
+
+| 來源 | URL |
+|------|-----|
+| JUPAS 9 校合集 | https://www.jupas.edu.hk/en/page/detail/3667/ |
+| CityU 2026 | https://www.cityu.edu.hk/admo/sites/default/files/2026-01/2026_JUPAS_AdmissionScoreFormulaAndScores.pdf |
+| HKU 2026 計分公式 | https://admissions.hku.hk/sites/default/files/2026-06/HKU-JUPAS-Expected-Score-2026.pdf |
+
+> 注意：若整份重跑 `build_programmes.mjs`（從 PDF 重建），輸出是單年結構，
+> 會覆蓋掉歷年數據 —— 重建後必須重跑 `migrate_multiyear.mjs` 並重新匯入各歷年分數。
+
 ## 申請統計（Band A-E 報名人數）
 
 `scrape_applications.mjs`：逐一抓 JUPAS 各專業頁 `jupas.edu.hk/en/programme/{slug}/{JScode}/`，

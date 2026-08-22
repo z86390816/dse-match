@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import { useLang } from '../i18n.jsx';
 import ReportModal from './ReportModal.jsx';
+import DeltaChip from './DeltaChip.jsx';
+import META from '../data/meta.json';
 
 export const SCHEME_LABEL = {
   bonusTop: '5**=8.5, 5*=7, 5=5.5, 4=4 …',
@@ -133,11 +135,20 @@ function buildAnalysis(prog, appData, lang) {
   // 4. 收生分數定位
   if (prog.scoreComparable !== false && prog.admission?.median != null) {
     const m = prog.admission.median;
+    const y = prog.admissionYear ?? META.year;
+    const d = prog.admissionDelta;
+    // 逐年變化只在公式沒變、可比較時寫進摘要，避免把公式調整說成競爭轉變
+    const dm = d && d.comparable !== false ? d.median : null;
+    const trend = dm == null || dm === 0
+      ? ''
+      : en
+        ? ` — ${dm > 0 ? 'up' : 'down'} ${Math.abs(dm)} vs ${d.vsYear}`
+        : `，較 ${d.vsYear} ${dm > 0 ? '升' : '跌'} ${Math.abs(dm)} 分`;
     out.push({
       icon: '📊',
       text: en
-        ? `2025 median admission score ${m}${prog.admission.lowerQuartile != null ? ` (lower quartile ${prog.admission.lowerQuartile})` : ''}.`
-        : `2025 收生中位數 ${m} 分${prog.admission.lowerQuartile != null ? `（下四分位 ${prog.admission.lowerQuartile} 分）` : ''}。`,
+        ? `${y} median admission score ${m}${prog.admission.lowerQuartile != null ? ` (lower quartile ${prog.admission.lowerQuartile})` : ''}${trend}.`
+        : `${y} 收生中位數 ${m} 分${prog.admission.lowerQuartile != null ? `（下四分位 ${prog.admission.lowerQuartile} 分）` : ''}${trend}。`,
     });
   }
 
@@ -286,8 +297,14 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           {prog.admission?.upperQuartile != null && (
             <div><span className="dl">{t('upperQuartile')}</span><span className="dv">{prog.admission.upperQuartile}</span></div>
           )}
-          <div><span className="dl">{t('median')}</span><span className="dv">{prog.admission?.median ?? '—'}</span></div>
-          <div><span className="dl">{t('lowerQuartile')}</span><span className="dv">{prog.admission?.lowerQuartile ?? '—'}</span></div>
+          <div>
+            <span className="dl">{t('median')}</span>
+            <span className="dv">{prog.admission?.median ?? '—'} <DeltaChip delta={prog.admissionDelta} field="median" size="lg" /></span>
+          </div>
+          <div>
+            <span className="dl">{t('lowerQuartile')}</span>
+            <span className="dv">{prog.admission?.lowerQuartile ?? '—'} <DeltaChip delta={prog.admissionDelta} field="lowerQuartile" size="lg" /></span>
+          </div>
           <div><span className="dl">{t('colCategory')}</span><span className="dv" style={{ fontSize: 16 }}>{t.cat(prog.category)}</span></div>
         </div>
 

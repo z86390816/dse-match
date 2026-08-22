@@ -10,6 +10,9 @@ const programmesRaw = JSON.parse(
 
 const PROGRAMMES = programmesRaw.programmes;
 const DATA_YEAR = programmesRaw.year;
+// 上一年（用作逐年變化對比）；單年份資料時為 null
+const PREVIOUS_YEAR = programmesRaw.previousYear ?? null;
+const YEAR_NOTE = programmesRaw.yearNote ?? null;
 
 // 申請統計（Band A-E 報名人數）+ 科目要求，由 data-pipeline/scrape_applications.mjs 產生
 let APPLICATIONS = {};
@@ -32,6 +35,8 @@ module.exports = {
   UNIVERSITY_MAP,
   PROGRAMMES,
   DATA_YEAR,
+  PREVIOUS_YEAR,
+  YEAR_NOTE,
   APPLICATIONS,
   DISCIPLINES,
 };

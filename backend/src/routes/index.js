@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const {
-  SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, GRADE_OPTIONS, CSD_GRADES, APPLICATIONS, DISCIPLINES,
+  SUBJECTS, UNIVERSITIES, PROGRAMMES, DATA_YEAR, PREVIOUS_YEAR, YEAR_NOTE, GRADE_OPTIONS, CSD_GRADES, APPLICATIONS, DISCIPLINES,
 } = require('../data');
 const { GRADE_SCHEMES } = require('../data/subjects');
 const { matchAll } = require('../services/matcher');
@@ -18,7 +18,7 @@ router.get('/universities', (req, res) => {
 });
 
 router.get('/programmes', (req, res) => {
-  res.json({ year: DATA_YEAR, count: PROGRAMMES.length, programmes: PROGRAMMES });
+  res.json({ year: DATA_YEAR, previousYear: PREVIOUS_YEAR, yearNote: YEAR_NOTE, count: PROGRAMMES.length, programmes: PROGRAMMES });
 });
 
 router.get('/interests', (req, res) => {
@@ -44,7 +44,7 @@ router.post('/match', (req, res) => {
     return res.status(400).json({ error: 'grades 為必填物件，例 { "eng": "5", "math": "5*" }' });
   }
   const results = matchAll(grades, PROGRAMMES);
-  res.json({ year: DATA_YEAR, dataNotice: '收生分數為示例數據，待官方核實', results });
+  res.json({ year: DATA_YEAR, previousYear: PREVIOUS_YEAR, yearNote: YEAR_NOTE, results });
 });
 
 // --- 推薦 ---
@@ -55,7 +55,7 @@ router.post('/recommend', (req, res) => {
     return res.status(400).json({ error: 'grades 為必填物件' });
   }
   const results = recommend(grades, interests, PROGRAMMES, { onlyAttainable: !!onlyAttainable });
-  res.json({ year: DATA_YEAR, dataNotice: '收生分數為示例數據，待官方核實', results });
+  res.json({ year: DATA_YEAR, previousYear: PREVIOUS_YEAR, yearNote: YEAR_NOTE, results });
 });
 
 module.exports = router;

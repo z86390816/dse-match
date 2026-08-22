@@ -28,7 +28,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 39,
+     "lowerQuartile": 38
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1805",
@@ -55,7 +63,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 38.5,
+     "lowerQuartile": 37.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1806",
@@ -82,7 +98,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biology"
+   "discipline": "biology",
+   "admissionByYear": {
+    "2025": {
+     "median": 35.5,
+     "lowerQuartile": 35
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1807",
@@ -110,7 +134,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 45.5,
+     "lowerQuartile": 43
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1000",
@@ -137,7 +169,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1001",
@@ -164,7 +204,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "admissionByYear": {
+    "2025": {
+     "median": 29.5,
+     "lowerQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1002",
@@ -191,7 +239,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1005",
@@ -218,7 +274,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1007",
@@ -245,7 +309,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1012",
@@ -272,7 +344,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 22.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1013",
@@ -299,7 +379,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1014",
@@ -326,7 +414,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1017",
@@ -353,7 +449,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "admissionByYear": {
+    "2025": {
+     "median": 21,
+     "lowerQuartile": 20.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1018",
@@ -380,7 +484,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1019",
@@ -407,7 +519,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 21,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1026",
@@ -434,7 +554,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1027",
@@ -461,7 +589,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1070",
@@ -488,7 +624,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 31,
+     "lowerQuartile": 30
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1071",
@@ -515,7 +659,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1072",
@@ -542,7 +694,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 28.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1074",
@@ -569,7 +729,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1204",
@@ -596,7 +764,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 22
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1218",
@@ -623,7 +799,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 20.5,
+     "lowerQuartile": 20.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1201",
@@ -651,7 +835,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "admissionByYear": {
+    "2025": {
+     "median": 43.5,
+     "lowerQuartile": 42.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1205",
@@ -678,7 +870,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 39,
+     "lowerQuartile": 37
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1207",
@@ -705,7 +905,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 34.5,
+     "lowerQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1210",
@@ -732,7 +940,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 34,
+     "lowerQuartile": 32.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1216",
@@ -759,7 +975,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 20,
+     "lowerQuartile": 18
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1217",
@@ -786,7 +1010,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 38.5,
+     "lowerQuartile": 38
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1219",
@@ -813,7 +1045,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 19.5,
+     "lowerQuartile": 18.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1102",
@@ -840,7 +1080,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1103",
@@ -867,7 +1115,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 36,
+     "lowerQuartile": 35.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1104",
@@ -894,7 +1150,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 32,
+     "lowerQuartile": 29.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1106",
@@ -921,7 +1185,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 20.5,
+     "lowerQuartile": 20
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1108",
@@ -948,7 +1220,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.5,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1109",
@@ -975,7 +1255,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 30,
+     "lowerQuartile": 29.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1111",
@@ -1002,7 +1290,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1112",
@@ -1029,7 +1325,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 24
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1113",
@@ -1056,7 +1360,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1200",
@@ -1083,7 +1395,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1202",
@@ -1110,7 +1430,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chemistry"
+   "discipline": "chemistry",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1206",
@@ -1137,7 +1465,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1208",
@@ -1164,7 +1500,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physics"
+   "discipline": "physics",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1801",
@@ -1191,7 +1535,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biology"
+   "discipline": "biology",
+   "admissionByYear": {
+    "2025": {
+     "median": 33.5,
+     "lowerQuartile": 32
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1040",
@@ -1218,7 +1570,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1041",
@@ -1245,7 +1605,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.5,
+     "lowerQuartile": 25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1042",
@@ -1272,7 +1640,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1043",
@@ -1299,7 +1675,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.5,
+     "lowerQuartile": 25.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1044",
@@ -1326,7 +1710,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 24
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1050",
@@ -1353,7 +1745,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 38,
+     "lowerQuartile": 36.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1051",
@@ -1380,7 +1780,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 40.5,
+     "lowerQuartile": 40
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1053",
@@ -1407,7 +1815,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 40,
+     "lowerQuartile": 39.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1061",
@@ -1434,7 +1850,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 21.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1052",
@@ -1461,7 +1885,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 40,
+     "lowerQuartile": 39.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1062",
@@ -1488,7 +1920,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1123",
@@ -1515,7 +1955,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cityu-js1221",
@@ -1542,7 +1990,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 22
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4006",
@@ -1570,7 +2026,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "anthropology"
+   "discipline": "anthropology",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 23,
+     "upperQuartile": 31.9
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4018",
@@ -1599,7 +2064,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 30.4,
+     "lowerQuartile": 29.2
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4032",
@@ -1627,7 +2100,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.25,
+     "lowerQuartile": 26.5,
+     "upperQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4044",
@@ -1655,7 +2137,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 24.5,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4056",
@@ -1682,7 +2173,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "history"
+   "discipline": "history",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.5,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4068",
@@ -1712,7 +2211,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 23,
+     "upperQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4070",
@@ -1740,7 +2248,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 24.5,
+     "upperQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4082",
@@ -1768,7 +2285,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "music"
+   "discipline": "music",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 22.5,
+     "upperQuartile": 25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4094",
@@ -1796,7 +2322,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.5,
+     "lowerQuartile": 23,
+     "upperQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4100",
@@ -1823,7 +2358,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.5,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4109",
@@ -1851,7 +2394,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21,
+     "upperQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4123",
@@ -1879,7 +2431,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "translation"
+   "discipline": "translation",
+   "admissionByYear": {
+    "2025": {
+     "median": 23,
+     "lowerQuartile": 23,
+     "upperQuartile": 24.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4136",
@@ -1909,7 +2470,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.25,
+     "lowerQuartile": 24.25,
+     "upperQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4202",
@@ -1936,7 +2506,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4214",
@@ -1963,7 +2541,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "admissionByYear": {
+    "2025": {
+     "median": 38,
+     "lowerQuartile": 36.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4226",
@@ -1990,7 +2576,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "hospitality"
+   "discipline": "hospitality",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.5,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4238",
@@ -2026,7 +2620,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "actuarial"
+   "discipline": "actuarial",
+   "admissionByYear": {
+    "2025": {
+     "median": 41.75,
+     "lowerQuartile": 40.25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4240",
@@ -2053,7 +2655,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4252",
@@ -2088,7 +2698,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 52.5,
+     "lowerQuartile": 51.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4254",
@@ -2115,7 +2733,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 33.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4264",
@@ -2145,7 +2771,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "admissionByYear": {
+    "2025": {
+     "median": 37.5,
+     "lowerQuartile": 36,
+     "upperQuartile": 38
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4276",
@@ -2180,7 +2815,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 57.75,
+     "lowerQuartile": 54.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4725",
@@ -2207,7 +2850,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4760",
@@ -2241,7 +2892,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 34.75,
+     "upperQuartile": 37
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4320",
@@ -2269,7 +2929,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 24.5,
+     "upperQuartile": 29
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4329",
@@ -2296,7 +2965,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4331",
@@ -2325,7 +3002,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 42,
+     "lowerQuartile": 40.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4343",
@@ -2354,7 +3039,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 39,
+     "lowerQuartile": 37.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4361",
@@ -2390,7 +3083,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "admissionByYear": {
+    "2025": {
+     "median": 53.75,
+     "lowerQuartile": 53
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4372",
@@ -2417,7 +3118,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4386",
@@ -2448,7 +3157,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 30.5,
+     "lowerQuartile": 30.25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4408",
@@ -2484,7 +3201,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 31.5,
+     "lowerQuartile": 30.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4412",
@@ -2520,7 +3245,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 42.875,
+     "lowerQuartile": 40.375
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4416",
@@ -2556,7 +3289,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 54.5,
+     "lowerQuartile": 53
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4428",
@@ -2595,7 +3336,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 47.375,
+     "lowerQuartile": 45.625
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4434",
@@ -2627,7 +3376,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 31.25,
+     "lowerQuartile": 30.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4446",
@@ -2663,7 +3420,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "admissionByYear": {
+    "2025": {
+     "median": 39.25,
+     "lowerQuartile": 38.125
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4458",
@@ -2700,7 +3465,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 32.5,
+     "lowerQuartile": 32.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4460",
@@ -2735,7 +3508,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 42.25,
+     "lowerQuartile": 41.25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4462",
@@ -2773,7 +3554,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 31.75,
+     "lowerQuartile": 31
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4468",
@@ -2810,7 +3599,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 52.375,
+     "lowerQuartile": 50.375
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4470",
@@ -2844,7 +3641,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.375,
+     "lowerQuartile": 24.625,
+     "upperQuartile": 29
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4733",
@@ -2879,7 +3685,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "admissionByYear": {
+    "2025": {
+     "median": 63.5,
+     "lowerQuartile": 52
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4750",
@@ -2913,7 +3727,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 44.25,
+     "lowerQuartile": 38.25,
+     "upperQuartile": 48
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4903",
@@ -2943,7 +3766,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 36,
+     "lowerQuartile": 34.5,
+     "upperQuartile": 37.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4501",
@@ -2972,7 +3804,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "medicine"
+   "discipline": "medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36,
+     "upperQuartile": 41.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4502",
@@ -2999,7 +3840,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "medicine"
+   "discipline": "medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 40.5,
+     "lowerQuartile": 40
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4513",
@@ -3031,7 +3880,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "admissionByYear": {
+    "2025": {
+     "median": 28.6,
+     "lowerQuartile": 28.3,
+     "upperQuartile": 33.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4525",
@@ -3059,7 +3917,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "pharmacy"
+   "discipline": "pharmacy",
+   "admissionByYear": {
+    "2025": {
+     "median": 32,
+     "lowerQuartile": 30.5,
+     "upperQuartile": 36.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4537",
@@ -3093,7 +3960,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "public_health"
+   "discipline": "public_health",
+   "admissionByYear": {
+    "2025": {
+     "median": 32.75,
+     "lowerQuartile": 32.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4542",
@@ -3120,7 +3995,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 30.5,
+     "lowerQuartile": 29
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4550",
@@ -3151,7 +4034,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 41,
+     "lowerQuartile": 39.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4601",
@@ -3186,7 +4077,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 37.75,
+     "lowerQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4648",
@@ -3222,7 +4121,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 47,
+     "lowerQuartile": 45
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4682",
@@ -3253,7 +4160,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "admissionByYear": {
+    "2025": {
+     "median": 52.5,
+     "lowerQuartile": 51.75,
+     "upperQuartile": 52.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4690",
@@ -3285,7 +4201,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physics"
+   "discipline": "physics",
+   "admissionByYear": {
+    "2025": {
+     "median": 46.75,
+     "lowerQuartile": 43
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4719",
@@ -3316,7 +4240,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 43,
+     "lowerQuartile": 41.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4801",
@@ -3346,7 +4278,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.65,
+     "lowerQuartile": 26.6,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4812",
@@ -3376,7 +4317,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 26.5,
+     "upperQuartile": 33.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4824",
@@ -3404,7 +4354,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "admissionByYear": {
+    "2025": {
+     "median": 31.5,
+     "lowerQuartile": 30.75,
+     "upperQuartile": 35.25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4836",
@@ -3434,7 +4393,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "geography"
+   "discipline": "geography",
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 31.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4838",
@@ -3469,7 +4436,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "urban_planning"
+   "discipline": "urban_planning",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 24.5,
+     "upperQuartile": 28.625
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4848",
@@ -3500,7 +4476,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 27.25,
+     "upperQuartile": 31.7
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4850",
@@ -3531,7 +4516,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "journalism"
+   "discipline": "journalism",
+   "admissionByYear": {
+    "2025": {
+     "median": 28.95,
+     "lowerQuartile": 27.8,
+     "upperQuartile": 31.55
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4858",
@@ -3561,7 +4555,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 29.15,
+     "lowerQuartile": 27.2,
+     "upperQuartile": 36.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4862",
@@ -3591,7 +4594,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "admissionByYear": {
+    "2025": {
+     "median": 33.75,
+     "lowerQuartile": 32.25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4874",
@@ -3619,7 +4630,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 27.5,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4886",
@@ -3649,7 +4669,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.5,
+     "lowerQuartile": 26.5,
+     "upperQuartile": 26.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4892",
@@ -3678,7 +4707,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.5,
+     "lowerQuartile": 25.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "cuhk-js4893",
@@ -3705,7 +4742,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.5,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5101",
@@ -3756,7 +4801,15 @@
      }
     ],
     "bestN": 2
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 38.25,
+     "lowerQuartile": 37.88
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5102",
@@ -3807,7 +4860,15 @@
      }
     ],
     "bestN": 2
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 33.13,
+     "lowerQuartile": 32.63
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5103",
@@ -3858,7 +4919,15 @@
      }
     ],
     "bestN": 2
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 33.38,
+     "lowerQuartile": 32.75
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5118",
@@ -3910,7 +4979,15 @@
      }
     ],
     "bestN": 2
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 43.13,
+     "lowerQuartile": 40.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5181",
@@ -3961,7 +5038,15 @@
      }
     ],
     "bestN": 2
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 37.5,
+     "lowerQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5212",
@@ -4005,7 +5090,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 43.49,
+     "lowerQuartile": 41.97
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5220",
@@ -4048,7 +5141,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 41.49,
+     "lowerQuartile": 39.59
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5230",
@@ -4091,7 +5192,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 39.7,
+     "lowerQuartile": 38.2
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5240",
@@ -4135,7 +5244,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 48.45,
+     "lowerQuartile": 46.45
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5250",
@@ -4178,7 +5295,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 41.74,
+     "lowerQuartile": 40.78
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5260",
@@ -4221,7 +5346,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 36.28,
+     "lowerQuartile": 35.1
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5270",
@@ -4264,7 +5397,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 41.14,
+     "lowerQuartile": 39.72
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5282",
@@ -4308,7 +5449,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 48.7,
+     "lowerQuartile": 46.48
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5411",
@@ -4352,7 +5501,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 29.23,
+     "lowerQuartile": 28.8
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5412",
@@ -4396,7 +5553,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 32.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5711",
@@ -4440,7 +5605,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 36.36,
+     "lowerQuartile": 34.72
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5812",
@@ -4484,7 +5657,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 32.5,
+     "lowerQuartile": 31.05
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5901",
@@ -4529,7 +5710,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 62.48,
+     "lowerQuartile": 60.23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5811",
@@ -4573,7 +5762,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 38.63,
+     "lowerQuartile": 36.56
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5813",
@@ -4618,7 +5815,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 44.1,
+     "lowerQuartile": 39.2
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5300",
@@ -4661,7 +5866,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 33.9
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5311",
@@ -4704,7 +5917,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 36.55,
+     "lowerQuartile": 35.4
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5312",
@@ -4748,7 +5969,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 43.31,
+     "lowerQuartile": 41.81
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5313",
@@ -4792,7 +6021,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 52.43,
+     "lowerQuartile": 50.4
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5314",
@@ -4835,7 +6072,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 35.93,
+     "lowerQuartile": 35.4
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5315",
@@ -4878,7 +6123,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 33.9,
+     "lowerQuartile": 33.9
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5316",
@@ -4921,7 +6174,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 32.5,
+     "lowerQuartile": 32.4
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5317",
@@ -4964,7 +6225,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 32.4,
+     "lowerQuartile": 32.05
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5318",
@@ -5007,7 +6276,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 34.05,
+     "lowerQuartile": 33.55
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5331",
@@ -5051,7 +6328,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 48.19,
+     "lowerQuartile": 46.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5332",
@@ -5095,7 +6380,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 58.13,
+     "lowerQuartile": 56.06
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5814",
@@ -5140,7 +6433,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 44.25,
+     "lowerQuartile": 43.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkust-js5822",
@@ -5184,7 +6485,15 @@
      "m1": 1.5,
      "m2": 1.5
     }
-   }
+   },
+   "admissionByYear": {
+    "2025": {
+     "median": 37.88,
+     "lowerQuartile": 37.13
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6004",
@@ -5218,7 +6527,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 28,
+     "upperQuartile": 32
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6016",
@@ -5252,7 +6570,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "surveying"
+   "discipline": "surveying",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 28,
+     "upperQuartile": 31
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6028",
@@ -5286,7 +6613,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 31,
+     "upperQuartile": 38
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6042",
@@ -5320,7 +6656,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "urban_planning"
+   "discipline": "urban_planning",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 27,
+     "upperQuartile": 32
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6054",
@@ -5361,7 +6706,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 34,
+     "upperQuartile": 37
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6274",
@@ -5400,7 +6754,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 32,
+     "upperQuartile": 33
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6286",
@@ -5441,7 +6804,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 35,
+     "upperQuartile": 41
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6298",
@@ -5492,7 +6864,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 42,
+     "lowerQuartile": 42,
+     "upperQuartile": 44
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6755",
@@ -5535,7 +6916,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36,
+     "upperQuartile": 37
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6767",
@@ -5578,7 +6968,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 40,
+     "lowerQuartile": 39,
+     "upperQuartile": 40
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6781",
@@ -5621,7 +7020,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 34,
+     "upperQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6793",
@@ -5664,7 +7072,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 34,
+     "upperQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6808",
@@ -5707,7 +7124,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 46,
+     "lowerQuartile": 45,
+     "upperQuartile": 49
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6846",
@@ -5750,7 +7176,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 32,
+     "upperQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6860",
@@ -5793,7 +7228,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 47,
+     "lowerQuartile": 46,
+     "upperQuartile": 48
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6884",
@@ -5844,7 +7288,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 51,
+     "lowerQuartile": 50,
+     "upperQuartile": 55
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6896",
@@ -5887,7 +7340,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 54,
+     "lowerQuartile": 53,
+     "upperQuartile": 56
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6107",
@@ -5929,7 +7391,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "dentistry"
+   "discipline": "dentistry",
+   "admissionByYear": {
+    "2025": {
+     "median": 48,
+     "lowerQuartile": 47,
+     "upperQuartile": 50
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6066",
@@ -5968,7 +7439,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 32,
+     "lowerQuartile": 32,
+     "upperQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6080",
@@ -6007,7 +7487,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 34,
+     "upperQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6092",
@@ -6046,7 +7535,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 27,
+     "lowerQuartile": 26,
+     "upperQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6119",
@@ -6106,7 +7604,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 44,
+     "lowerQuartile": 43,
+     "upperQuartile": 46
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6157",
@@ -6140,7 +7647,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 34,
+     "lowerQuartile": 34,
+     "upperQuartile": 35
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6303",
@@ -6183,7 +7699,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 36,
+     "lowerQuartile": 35,
+     "upperQuartile": 38
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6315",
@@ -6226,7 +7751,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 25,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6339",
@@ -6269,7 +7803,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 27,
+     "lowerQuartile": 26,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6353",
@@ -6312,7 +7855,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 27,
+     "upperQuartile": 29
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6377",
@@ -6355,7 +7907,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 31,
+     "upperQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6937",
@@ -6398,7 +7959,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 32,
+     "lowerQuartile": 30,
+     "upperQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6987",
@@ -6441,7 +8011,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 28,
+     "upperQuartile": 31
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6078",
@@ -6480,7 +8059,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 38,
+     "lowerQuartile": 36,
+     "upperQuartile": 41
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6406",
@@ -6519,7 +8107,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 35,
+     "upperQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6250",
@@ -6553,7 +8150,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "public_health"
+   "discipline": "public_health",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 28,
+     "upperQuartile": 31
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6418",
@@ -6587,7 +8193,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36,
+     "upperQuartile": 37
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6456",
@@ -6621,7 +8236,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "medicine"
+   "discipline": "medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 44,
+     "lowerQuartile": 42,
+     "upperQuartile": 47
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6468",
@@ -6655,7 +8279,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "admissionByYear": {
+    "2025": {
+     "median": 27,
+     "lowerQuartile": 26,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6482",
@@ -6689,7 +8322,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 31,
+     "upperQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6494",
@@ -6723,7 +8365,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "pharmacy"
+   "discipline": "pharmacy",
+   "admissionByYear": {
+    "2025": {
+     "median": 39,
+     "lowerQuartile": 38,
+     "upperQuartile": 41
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6949",
@@ -6757,7 +8408,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 40,
+     "lowerQuartile": 39,
+     "upperQuartile": 41
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6688",
@@ -6806,7 +8466,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 34,
+     "lowerQuartile": 32,
+     "upperQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6858",
@@ -6864,7 +8533,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 54,
+     "lowerQuartile": 50,
+     "upperQuartile": 56
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6901",
@@ -6924,7 +8602,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36,
+     "upperQuartile": 39
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6705",
@@ -6958,7 +8645,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "admissionByYear": {
+    "2025": {
+     "median": 31,
+     "lowerQuartile": 29,
+     "upperQuartile": 31
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6717",
@@ -6992,7 +8688,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 31,
+     "lowerQuartile": 29,
+     "upperQuartile": 34
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6731",
@@ -7026,7 +8731,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 26,
+     "upperQuartile": 28
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6810",
@@ -7060,7 +8774,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "admissionByYear": {
+    "2025": {
+     "median": 37,
+     "lowerQuartile": 36,
+     "upperQuartile": 39
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6822",
@@ -7099,7 +8822,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "journalism"
+   "discipline": "journalism",
+   "admissionByYear": {
+    "2025": {
+     "median": 32,
+     "lowerQuartile": 31,
+     "upperQuartile": 35
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6925",
@@ -7142,7 +8874,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 29,
+     "lowerQuartile": 29,
+     "upperQuartile": 31
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6224",
@@ -7198,7 +8939,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 53,
+     "lowerQuartile": 51,
+     "upperQuartile": 57
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6248",
@@ -7241,7 +8991,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 34,
+     "lowerQuartile": 32,
+     "upperQuartile": 35
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6729",
@@ -7292,7 +9051,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "actuarial"
+   "discipline": "actuarial",
+   "admissionByYear": {
+    "2025": {
+     "median": 35,
+     "lowerQuartile": 35,
+     "upperQuartile": 36
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6779",
@@ -7331,7 +9099,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "statistics"
+   "discipline": "statistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 33,
+     "lowerQuartile": 31,
+     "upperQuartile": 33
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6999",
@@ -7382,7 +9159,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 41,
+     "lowerQuartile": 39,
+     "upperQuartile": 44
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hku-js6602",
@@ -7433,7 +9219,16 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 55,
+     "lowerQuartile": 52,
+     "upperQuartile": 58
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3060",
@@ -7486,7 +9281,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 185.5,
+     "lowerQuartile": 185
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3220",
@@ -7539,7 +9342,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "admissionByYear": {
+    "2025": {
+     "median": 193.5,
+     "lowerQuartile": 189.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3250",
@@ -7592,7 +9403,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "admissionByYear": {
+    "2025": {
+     "median": 171.5,
+     "lowerQuartile": 164.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3214",
@@ -7645,7 +9464,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "admissionByYear": {
+    "2025": {
+     "median": 165.8,
+     "lowerQuartile": 163.1
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3140",
@@ -7698,7 +9525,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 210,
+     "lowerQuartile": 205
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3150",
@@ -7751,7 +9586,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 218,
+     "lowerQuartile": 213.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3011",
@@ -7804,7 +9647,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "admissionByYear": {
+    "2025": {
+     "median": 209,
+     "lowerQuartile": 203.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3791",
@@ -7857,7 +9708,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 188.1,
+     "lowerQuartile": 185.1
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3211",
@@ -7910,7 +9769,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 181.5,
+     "lowerQuartile": 179.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3003",
@@ -7963,7 +9830,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 179,
+     "lowerQuartile": 177
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3320",
@@ -8016,7 +9891,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "history"
+   "discipline": "history",
+   "admissionByYear": {
+    "2025": {
+     "median": 223,
+     "lowerQuartile": 210
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3739",
@@ -8069,7 +9952,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 216.5,
+     "lowerQuartile": 205
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3006",
@@ -8122,7 +10013,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 215,
+     "lowerQuartile": 210
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3868",
@@ -8175,7 +10074,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 230,
+     "lowerQuartile": 215
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3004",
@@ -8228,7 +10135,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 184,
+     "lowerQuartile": 181
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3223",
@@ -8281,7 +10196,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 220,
+     "lowerQuartile": 211
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3569",
@@ -8334,7 +10257,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "admissionByYear": {
+    "2025": {
+     "median": 190,
+     "lowerQuartile": 178
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3170",
@@ -8387,7 +10318,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 215,
+     "lowerQuartile": 210
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3005",
@@ -8440,7 +10379,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 215,
+     "lowerQuartile": 205
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3240",
@@ -8493,7 +10440,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 178,
+     "lowerQuartile": 175
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3375",
@@ -8546,7 +10501,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "admissionByYear": {
+    "2025": {
+     "median": 220,
+     "lowerQuartile": 218
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3050",
@@ -8599,7 +10562,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "admissionByYear": {
+    "2025": {
+     "median": 177,
+     "lowerQuartile": 164
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3255",
@@ -8652,7 +10623,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "food_science"
+   "discipline": "food_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 203,
+     "lowerQuartile": 198.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3070",
@@ -8705,7 +10684,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 179,
+     "lowerQuartile": 175
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3310",
@@ -8758,7 +10745,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "hospitality"
+   "discipline": "hospitality",
+   "admissionByYear": {
+    "2025": {
+     "median": 166.5,
+     "lowerQuartile": 163
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3007",
@@ -8811,7 +10806,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 185,
+     "lowerQuartile": 179
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3180",
@@ -8864,7 +10867,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "admissionByYear": {
+    "2025": {
+     "median": 218,
+     "lowerQuartile": 210
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3237",
@@ -8917,7 +10928,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 195,
+     "lowerQuartile": 193
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3000",
@@ -8970,7 +10989,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 193,
+     "lowerQuartile": 182.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3080",
@@ -9023,7 +11050,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 182.5,
+     "lowerQuartile": 179
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3741",
@@ -9076,7 +11111,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 208,
+     "lowerQuartile": 205
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3478",
@@ -9129,7 +11172,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "admissionByYear": {
+    "2025": {
+     "median": 309,
+     "lowerQuartile": 306.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3337",
@@ -9182,7 +11233,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "admissionByYear": {
+    "2025": {
+     "median": 209,
+     "lowerQuartile": 206
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3648",
@@ -9235,7 +11294,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "admissionByYear": {
+    "2025": {
+     "median": 218,
+     "lowerQuartile": 213.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3624",
@@ -9288,7 +11355,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "admissionByYear": {
+    "2025": {
+     "median": 279.5,
+     "lowerQuartile": 278
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3290",
@@ -9341,7 +11416,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "admissionByYear": {
+    "2025": {
+     "median": 277.8,
+     "lowerQuartile": 247.8
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3030",
@@ -9394,7 +11477,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physics"
+   "discipline": "physics",
+   "admissionByYear": {
+    "2025": {
+     "median": 215,
+     "lowerQuartile": 205
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3636",
@@ -9447,7 +11538,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "admissionByYear": {
+    "2025": {
+     "median": 320,
+     "lowerQuartile": 320
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3236",
@@ -9500,7 +11599,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 195,
+     "lowerQuartile": 193
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3612",
@@ -9553,7 +11660,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "admissionByYear": {
+    "2025": {
+     "median": 339,
+     "lowerQuartile": 328.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3008",
@@ -9606,7 +11721,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 208,
+     "lowerQuartile": 205
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3130",
@@ -9659,7 +11782,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 206,
+     "lowerQuartile": 203
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3242",
@@ -9712,7 +11843,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 264.3,
+     "lowerQuartile": 259.8
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3789",
@@ -9765,7 +11904,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "surveying"
+   "discipline": "surveying",
+   "admissionByYear": {
+    "2025": {
+     "median": 175.8,
+     "lowerQuartile": 165.3
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "polyu-js3241",
@@ -9810,7 +11957,15 @@
    "dataStatus": "official-2025-noformula",
    "weightsStatus": "official-polyu",
    "category": "science",
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 189.5,
+     "lowerQuartile": 188.6
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7101",
@@ -9837,7 +11992,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.27,
+     "lowerQuartile": 24
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7133",
@@ -9864,7 +12027,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7204",
@@ -9891,7 +12062,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "translation"
+   "discipline": "translation",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.05,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7503",
@@ -9918,7 +12097,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.2,
+     "lowerQuartile": 25.15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7606",
@@ -9945,7 +12132,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.2,
+     "lowerQuartile": 24.15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7709",
@@ -9972,7 +12167,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "history"
+   "discipline": "history",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7802",
@@ -9999,7 +12202,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7905",
@@ -10026,7 +12237,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7211",
@@ -10053,7 +12272,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.05,
+     "lowerQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7212",
@@ -10080,7 +12307,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 27,
+     "lowerQuartile": 25.05
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7213",
@@ -10107,7 +12342,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 28.75,
+     "lowerQuartile": 27
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7214",
@@ -10134,7 +12377,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 28.5,
+     "lowerQuartile": 26.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7215",
@@ -10161,7 +12412,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "admissionByYear": {
+    "2025": {
+     "median": 28.5,
+     "lowerQuartile": 27.05
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7216",
@@ -10188,7 +12447,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 27,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7301",
@@ -10215,7 +12482,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.4,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7302",
@@ -10242,7 +12517,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 26.9
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7303",
@@ -10269,7 +12552,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "admissionByYear": {
+    "2025": {
+     "median": 25,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7304",
@@ -10296,7 +12587,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "admissionByYear": {
+    "2025": {
+     "median": 25,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7305",
@@ -10323,7 +12622,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "lingnan-js7306",
@@ -10350,7 +12657,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 23.9
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8001",
@@ -10377,7 +12692,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21.3
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8002",
@@ -10404,7 +12727,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 22
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8003",
@@ -10431,7 +12762,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.5,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8004",
@@ -10458,7 +12797,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.5,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8005",
@@ -10485,7 +12832,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 26.3,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8006",
@@ -10512,7 +12867,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 24,
+     "lowerQuartile": 23.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8007",
@@ -10539,7 +12902,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 25,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8008",
@@ -10566,7 +12937,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 26,
+     "lowerQuartile": 24.1
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8009",
@@ -10593,7 +12972,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.5,
+     "lowerQuartile": 25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8010",
@@ -10620,7 +13007,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 20.8
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8011",
@@ -10647,7 +13042,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.6,
+     "lowerQuartile": 24
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8012",
@@ -10674,7 +13077,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.3,
+     "lowerQuartile": 25
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8013",
@@ -10701,7 +13112,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.3,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8651",
@@ -10728,7 +13147,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "admissionByYear": {
+    "2025": {
+     "median": 20,
+     "lowerQuartile": 20
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8663",
@@ -10755,7 +13182,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.5,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8674",
@@ -10782,7 +13217,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.8,
+     "lowerQuartile": 23.1
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8675",
@@ -10809,7 +13252,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.5,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8685",
@@ -10836,7 +13287,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "music"
+   "discipline": "music",
+   "admissionByYear": {
+    "2025": {
+     "median": 20.3,
+     "lowerQuartile": 19.3
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8686",
@@ -10863,7 +13322,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21.8
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8687",
@@ -10890,7 +13357,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.5,
+     "lowerQuartile": 25.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8688",
@@ -10917,7 +13392,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "admissionByYear": {
+    "2025": {
+     "median": 19,
+     "lowerQuartile": 18.8
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8702",
@@ -10944,7 +13427,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 23.2,
+     "lowerQuartile": 23
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8714",
@@ -10971,7 +13462,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 25,
+     "lowerQuartile": 24.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8726",
@@ -10998,7 +13497,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "admissionByYear": {
+    "2025": {
+     "median": 28.5,
+     "lowerQuartile": 27.5
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8727",
@@ -11025,7 +13532,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "admissionByYear": {
+    "2025": {
+     "median": 28,
+     "lowerQuartile": 26
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "eduhk-js8507",
@@ -11052,7 +13567,15 @@
     "funding": null,
     "level": "Higher Diploma"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 17.5,
+     "lowerQuartile": 16
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2020",
@@ -11079,7 +13602,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.95,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2025",
@@ -11106,7 +13637,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "admissionByYear": {
+    "2025": {
+     "median": 21,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2060",
@@ -11133,7 +13672,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "music"
+   "discipline": "music",
+   "admissionByYear": {
+    "2025": {
+     "median": 20.68,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2110",
@@ -11160,7 +13707,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 22.15,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2120",
@@ -11187,7 +13742,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 22.07,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2310",
@@ -11214,7 +13777,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "journalism"
+   "discipline": "journalism",
+   "admissionByYear": {
+    "2025": {
+     "median": 22.99,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2330",
@@ -11241,7 +13812,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.83,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2340",
@@ -11268,7 +13847,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 18.55,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2370",
@@ -11295,7 +13882,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.85,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2410",
@@ -11322,7 +13917,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 32.27,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2420",
@@ -11349,7 +13952,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "admissionByYear": {
+    "2025": {
+     "median": 27.04,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2510",
@@ -11376,7 +13987,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 20.15,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2610",
@@ -11403,7 +14022,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 24.88,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2620",
@@ -11430,7 +14057,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "admissionByYear": {
+    "2025": {
+     "median": 21.3,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2660",
@@ -11457,7 +14092,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.5,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2810",
@@ -11484,7 +14127,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "admissionByYear": {
+    "2025": {
+     "median": 19.34,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2910",
@@ -11511,7 +14162,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 20.46,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2920",
@@ -11538,7 +14197,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 18.7,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2930",
@@ -11565,7 +14232,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 19.5,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2940",
@@ -11592,7 +14267,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 25.54,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2950",
@@ -11619,7 +14302,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 19.73,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkbu-js2960",
@@ -11646,7 +14337,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "admissionByYear": {
+    "2025": {
+     "median": 18.9,
+     "lowerQuartile": null
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9011",
@@ -11673,7 +14372,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9013",
@@ -11700,7 +14407,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "translation"
+   "discipline": "translation",
+   "admissionByYear": {
+    "2025": {
+     "median": 20,
+     "lowerQuartile": 19
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9016",
@@ -11727,7 +14442,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "admissionByYear": {
+    "2025": {
+     "median": 20,
+     "lowerQuartile": 18
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9019",
@@ -11754,7 +14477,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9220",
@@ -11781,7 +14512,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 17
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9230",
@@ -11808,7 +14547,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 16,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9240",
@@ -11835,7 +14582,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "admissionByYear": {
+    "2025": {
+     "median": 18,
+     "lowerQuartile": 17
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9266",
@@ -11862,7 +14617,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "admissionByYear": {
+    "2025": {
+     "median": 16,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9276",
@@ -11889,7 +14652,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "surveying"
+   "discipline": "surveying",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 16
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9280",
@@ -11916,7 +14687,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "admissionByYear": {
+    "2025": {
+     "median": 16,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9291",
@@ -11943,7 +14722,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "hospitality"
+   "discipline": "hospitality",
+   "admissionByYear": {
+    "2025": {
+     "median": 16,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9294",
@@ -11970,7 +14757,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 16
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9530",
@@ -11997,7 +14792,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 20,
+     "lowerQuartile": 19
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9540",
@@ -12024,7 +14827,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "admissionByYear": {
+    "2025": {
+     "median": 20,
+     "lowerQuartile": 18
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9550",
@@ -12051,7 +14862,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 19
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9560",
@@ -12078,7 +14897,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "admissionByYear": {
+    "2025": {
+     "median": 22,
+     "lowerQuartile": 21
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9580",
@@ -12105,7 +14932,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "admissionByYear": {
+    "2025": {
+     "median": 16,
+     "lowerQuartile": 14
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9719",
@@ -12132,7 +14967,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "admissionByYear": {
+    "2025": {
+     "median": 15,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9720",
@@ -12159,7 +15002,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 16
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9731",
@@ -12186,7 +15037,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 16
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9732",
@@ -12213,7 +15072,15 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 16
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   },
   {
    "id": "hkmu-js9733",
@@ -12240,7 +15107,17 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "admissionByYear": {
+    "2025": {
+     "median": 17,
+     "lowerQuartile": 15
+    }
+   },
+   "admissionYear": 2025,
+   "admissionDelta": null
   }
- ]
+ ],
+ "previousYear": null,
+ "yearNote": "各校每年會調整計分公式與科目權重，官方明言收生分數「不可跨年份比較」。本站提供的逐年變化僅作趨勢參考，不代表競爭程度的實際升降。"
 }

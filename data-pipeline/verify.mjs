@@ -51,7 +51,46 @@ for (const p of PROGRAMMES) {
 }
 console.log(`  專業 ${PROGRAMMES.length} 筆，median/LQ 一致性檢查完成`);
 
-console.log('\n=== 2. 官方值抽查（對照 PDF 人工讀數）===');
+console.log('\n=== 1b. 多年份結構 ===');
+{
+  const years = new Set();
+  for (const p of PROGRAMMES) {
+    if (!p.admissionByYear) { fail(`${p.jupasCode} 缺 admissionByYear（請先跑 migrate_multiyear.mjs）`); continue; }
+    Object.keys(p.admissionByYear).forEach((y) => years.add(y));
+
+    // admission 必須是「有數據的最新年份」的別名
+    const latest = Math.max(...Object.keys(p.admissionByYear).map(Number));
+    if (p.admissionYear !== latest) fail(`${p.jupasCode} admissionYear(${p.admissionYear}) ≠ 最新年份(${latest})`);
+    const src = p.admissionByYear[String(latest)];
+    if (src.median !== p.admission.median || src.lowerQuartile !== p.admission.lowerQuartile) {
+      fail(`${p.jupasCode} admission 與 admissionByYear[${latest}] 不一致`);
+    }
+
+    // 每一年都要 LQ ≤ median
+    for (const [y, a] of Object.entries(p.admissionByYear)) {
+      if (a.median != null && a.lowerQuartile != null && a.lowerQuartile > a.median + 0.01) {
+        fail(`${p.jupasCode} ${y} 年 LQ(${a.lowerQuartile}) > median(${a.median})`);
+      }
+    }
+
+    // 逐年差值要對得上
+    const d = p.admissionDelta;
+    if (d) {
+      const prev = p.admissionByYear[String(d.vsYear)];
+      if (!prev) fail(`${p.jupasCode} admissionDelta.vsYear=${d.vsYear} 但該年無數據`);
+      else {
+        const expect = (a, b) => (a == null || b == null ? null : +(a - b).toFixed(2));
+        if (d.median !== expect(p.admission.median, prev.median)) fail(`${p.jupasCode} delta.median 與實際差值不符`);
+        if (d.lowerQuartile !== expect(p.admission.lowerQuartile, prev.lowerQuartile)) fail(`${p.jupasCode} delta.lowerQuartile 與實際差值不符`);
+      }
+    }
+  }
+  console.log(`  年份: ${[...years].sort().join(', ')}；帶逐年對比的專業: ${PROGRAMMES.filter((p) => p.admissionDelta).length}`);
+}
+
+console.log('\n=== 2. 官方值抽查（2025 PDF 人工讀數，固定比對 admissionByYear.2025）===');
+// 抽查的是 2025 官方讀數，因此固定讀 2025 那一年，不隨 admission 的最新年份漂移
+const adm25 = (p) => p.admissionByYear?.['2025'] ?? p.admission;
 const KNOWN = {
   'JS1211': [39, 38], 'JS1807': [45.5, 43], 'JS1001': [29.5, 28],          // CityU
   'JS4018': [30.4, 29.2], 'JS4032': [27.25, 26.5], 'JS4068': [24.5, 23],   // CUHK
@@ -65,12 +104,14 @@ const KNOWN_MEDIAN = { 'JS2025': 21, 'JS7204': 27.05 };                     // H
 for (const [code, [m, l]] of Object.entries(KNOWN)) {
   const p = PROGRAMMES.find((x) => x.jupasCode === code);
   if (!p) { fail(`抽查 ${code} 不存在`); continue; }
-  if (p.admission.median !== m || p.admission.lowerQuartile !== l) fail(`${code} 期望 ${m}/${l}，實際 ${p.admission.median}/${p.admission.lowerQuartile}`);
+  const a = adm25(p);
+  if (a.median !== m || a.lowerQuartile !== l) fail(`${code} 期望 ${m}/${l}，實際 ${a.median}/${a.lowerQuartile}`);
 }
 for (const [code, m] of Object.entries(KNOWN_MEDIAN)) {
   const p = PROGRAMMES.find((x) => x.jupasCode === code);
   if (!p) { fail(`抽查 ${code} 不存在`); continue; }
-  if (p.admission.median !== m) fail(`${code} median 期望 ${m}，實際 ${p.admission.median}`);
+  const a = adm25(p);
+  if (a.median !== m) fail(`${code} median 期望 ${m}，實際 ${a.median}`);
 }
 if (fails === 0) console.log('  全部官方抽查值正確 ✓');
 

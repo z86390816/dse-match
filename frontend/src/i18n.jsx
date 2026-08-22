@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import { ensureT2S, t2sReady, toSimplified } from './engine/t2s.js';
+import META from './data/meta.json';
 
 // 三語字典：zh=繁體、en=英文、sc=簡體。
 // sc 若未提供，會由 zh 自動繁→簡轉換（見 pick()）；只有廣東話口語句子才手寫 sc。
@@ -8,12 +9,12 @@ const STRINGS = {
   // ---- header / chrome ----
   appTitle: { zh: '🎓 JUPAS Calculator', en: '🎓 JUPAS Calculator' },
   appSub: {
-    zh: '輸入你的 DSE 成績，看看能配對哪些香港大學專業（2025 年數據）',
-    en: 'Enter your DSE results to see which university programmes you match (2025 data)',
+    zh: '輸入你的 DSE 成績，看看能配對哪些香港大學專業（{year} 年數據）',
+    en: 'Enter your DSE results to see which university programmes you match ({year} data)',
   },
   notice: {
-    zh: '收生中位數／上下四分位數來自 JUPAS 官方 2025 數據（全 9 所院校）。分數計算盡量還原各校公式，部分課程（標「僅供參考」）因計分較複雜未能精確比對。結果僅供參考，請以官方為準。',
-    en: 'Median / upper & lower quartile scores are from official JUPAS 2025 data (all 9 institutions). Scores replicate each institution’s formula where possible; some programmes (marked “reference”) cannot be compared precisely. For reference only — always verify with official sources.',
+    zh: '收生中位數／上下四分位數來自 JUPAS 官方 {year} 數據（全 9 所院校）。分數計算盡量還原各校公式，部分課程（標「僅供參考」）因計分較複雜未能精確比對。結果僅供參考，請以官方為準。',
+    en: 'Median / upper & lower quartile scores are from official JUPAS {year} data (all 9 institutions). Scores replicate each institution’s formula where possible; some programmes (marked “reference”) cannot be compared precisely. For reference only — always verify with official sources.',
   },
   tabMatch: { zh: '🎯 成績比對', en: '🎯 Match' },
   tabBrowse: { zh: '📚 各大專業資訊', sc: '📚 各大专业信息', en: '📚 Programmes' },
@@ -47,6 +48,19 @@ const STRINGS = {
   upperQuartile: { zh: '上四分位數', en: 'Upper Quartile' },
   lowerQuartile: { zh: '下四分位數', en: 'Lower Quartile' },
   admitted2025: { zh: '2025 取錄人數', en: 'Admitted 2025' },
+
+  // ---- 逐年變化對比 ----
+  vsPrevYear: { zh: '較 {prevYear}', en: 'vs {prevYear}' },
+  deltaTitle: { zh: '與 {prevYear} 年比較', en: 'Compared with {prevYear}' },
+  deltaUp: { zh: '收生分升', en: 'Score up' },
+  deltaDown: { zh: '收生分跌', en: 'Score down' },
+  deltaFlat: { zh: '與上年持平', en: 'Unchanged' },
+  newThisYear: { zh: '新課程', en: 'New this year' },
+  deltaNotComparable: {
+    zh: 'ℹ️ 此課程今年計分公式／科目權重有變，逐年分數不宜直接比較。',
+    en: 'ℹ️ This programme’s formula or subject weights changed this year — year-on-year scores are not directly comparable.',
+  },
+  yearNoteLabel: { zh: '關於逐年比較', en: 'About year-on-year comparison' },
   admittedShort: { zh: '取錄', en: 'Admit' },
   intakeQuota: { zh: '首年學額', en: 'First-year Intake' },
 
@@ -166,6 +180,10 @@ export { LANG_LABEL };
 
 const LangContext = createContext({ lang: 'zh', t: (k) => k, setLang: () => {} });
 
+// 資料年份由 data/meta.json 提供（sync_frontend.mjs 產生），詞條內用 {year}/{prevYear} 代入。
+const YEAR = META.year;
+const PREV_YEAR = META.previousYear ?? META.year;
+
 // 依語言從 {zh,en,sc} 詞條取字；sc 缺省時由 zh 繁→簡轉換。
 function pick(entry, lang) {
   if (!entry) return undefined;
@@ -183,12 +201,19 @@ export function LangProvider({ children }) {
     if (lang === 'sc' && !t2sReady()) ensureT2S().then(() => forceReady(true));
   }, [lang]);
 
-  const t = (key) => pick(STRINGS[key], lang) ?? key;
+  const fillYears = (str) =>
+    typeof str === 'string'
+      ? str.replace(/\{year\}/g, YEAR).replace(/\{prevYear\}/g, PREV_YEAR)
+      : str;
+  const t = (key) => fillYears(pick(STRINGS[key], lang)) ?? key;
   t.cat = (c) => pick(CATS[c], lang) ?? c;
   t.tier = (tier) => ({ label: pick(TIERS[tier]?.label, lang) ?? tier, desc: pick(TIERS[tier]?.desc, lang) ?? '' });
   t.s = (txt) => (lang === 'sc' ? toSimplified(txt) : txt); // 動態中文（資料/內嵌）即時轉簡
   t.clang = lang === 'en' ? 'en' : 'zh'; // 內容語言：內嵌繁體建構函式用 zh，再由 t.s 轉簡
   t.sep = lang === 'en' ? ': ' : '：'; // 標籤分隔符（英文用半形冒號）
+  t.year = YEAR;          // 目前收生數據年份
+  t.prevYear = PREV_YEAR; // 對比用的上一年（無則等同 YEAR）
+  t.yearNote = META.yearNote || null;
   return <LangContext.Provider value={{ lang, setLang, t }}>{children}</LangContext.Provider>;
 }
 

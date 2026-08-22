@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import { useLang } from '../i18n.jsx';
 import { DetailOverlay, SCHEME_LABEL } from './ProgrammeDetail.jsx';
+import DeltaChip from './DeltaChip.jsx';
 
 export default function ProgrammeBrowser() {
   const { lang, t } = useLang();
@@ -81,7 +82,10 @@ export default function ProgrammeBrowser() {
                   <span className="row-chev">›</span>
                 </span>
                 <span className="c-cat">{t.cat(p.category)}</span>
-                <span className="c-num c-score">{p.admission?.median ?? '—'}</span>
+                <span className="c-num c-score">
+                  {p.admission?.median ?? '—'}
+                  <DeltaChip delta={p.admissionDelta} field="median" />
+                </span>
                 <span className="c-num c-adm">{p.admitted2025 > 0 ? p.admitted2025 : '—'}</span>
               </div>
             ))}

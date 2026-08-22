@@ -670,3 +670,20 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 }
 @media (min-width: 768px) { .browse-hint { font-size: 13.5px; } }
 .row-chev { margin-left: 6px; color: var(--accent); font-weight: 800; }
+
+/* --- 收生分數逐年變化（vs 上一年） --- */
+.delta-chip {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-weight: 700; border-radius: 999px; white-space: nowrap;
+  padding: 1px 7px; font-size: 11px; line-height: 1.6;
+}
+.delta-chip.delta-sm { font-size: 11px; padding: 1px 7px; }
+.delta-chip.delta-lg { font-size: 13px; padding: 2px 9px; }
+/* 分數升 = 更難入（紅）；分數跌 = 更易入（綠）；持平與不可比 = 中性灰 */
+.delta-up { background: #fee2e2; color: #b91c1c; }
+.delta-down { background: #dcfce7; color: #15803d; }
+.delta-flat { background: var(--panel-2); color: var(--muted); }
+.delta-muted { background: var(--panel-2); color: var(--muted); font-weight: 600; }
+.delta-note { font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+.score-box .delta-chip { margin-top: 2px; align-self: center; }
+.c-score .delta-chip { display: block; margin-top: 2px; font-size: 10px; padding: 0 5px; font-weight: 600; }

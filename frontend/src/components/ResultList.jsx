@@ -3,6 +3,7 @@ import { useLang } from '../i18n.jsx';
 import { api } from '../api';
 import { DetailOverlay } from './ProgrammeDetail.jsx';
 import ReportModal from './ReportModal.jsx';
+import DeltaChip from './DeltaChip.jsx';
 
 const TIER_ORDER = ['safe', 'competitive', 'reach', 'below', 'unqualified', 'reference'];
 const TIER_CLS = { safe: 'safe', competitive: 'competitive', reach: 'reach', below: 'below', unqualified: 'unqualified', reference: 'below' };
@@ -148,10 +149,12 @@ export default function ResultList({ results }) {
               <div className="score-box">
                 <span className="num">{r.admission?.median ?? '—'}</span>
                 <span className="cap">{t('median')}</span>
+                <DeltaChip delta={r.admissionDelta} field="median" />
               </div>
               <div className="score-box">
                 <span className="num">{r.admission?.lowerQuartile ?? '—'}</span>
                 <span className="cap">{t('lowerQuartile')}</span>
+                <DeltaChip delta={r.admissionDelta} field="lowerQuartile" />
               </div>
             </div>
 
@@ -159,6 +162,9 @@ export default function ResultList({ results }) {
               <div className="req-warn">⚠️ {r.requirementReasons.join('；')}</div>
             )}
             {r.scaleNote && <div className="req-warn">ℹ️ {r.scaleNote}</div>}
+            {r.admissionDelta?.comparable === false && (
+              <div className="delta-note">{t('deltaNotComparable')}</div>
+            )}
 
             <div className="meta">
               <span>{tier.desc}</span>
