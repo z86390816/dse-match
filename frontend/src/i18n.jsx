@@ -132,8 +132,6 @@ const STRINGS = {
   privacyLink: { zh: '私隱政策', en: 'Privacy Policy' },
   feedbackPrompt: { zh: '📮 發現數據不準？回報', en: '📮 Spotted inaccurate data? Report', sc: '📮 发现数据不准？回报' },
   footerDisclaimer: { zh: '· 數據僅供參考，一切以各院校官方公布為準 ·', en: '· For reference only; official institution announcements always prevail ·' },
-  adLabel: { zh: '廣告', en: 'Advertisement' },
-  adPending: { zh: '版位（設定後自動顯示廣告）', en: ' slot (ads appear here once configured)' },
 };
 
 const CATS = {
