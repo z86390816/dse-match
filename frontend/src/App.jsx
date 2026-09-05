@@ -121,7 +121,7 @@ export default function App() {
 
       {view === 'browse' && (
       <>
-        <AdUnit slot={AD_SLOTS.browseTop} label={t('adLabel')} />
+        <AdUnit slot={AD_SLOTS.browseTop} />
         <ProgrammeBrowser />
       </>
       )}
@@ -180,7 +180,7 @@ export default function App() {
             {sharing ? '…' : t('shareBtn')}
           </button>
         </div>
-        <AdUnit slot={AD_SLOTS.resultsTop} label={t('adLabel')} />
+        <AdUnit slot={AD_SLOTS.resultsTop} />
         <section className="panel result-panel">
           <ResultList results={results} />
         </section>
