@@ -211,6 +211,21 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .share-btn:hover { filter: brightness(1.05); }
 .share-btn:active { transform: translateY(1px) scale(.98); }
 .share-btn:disabled { opacity: .6; }
+/* 詳情頁頂欄的分享鍵：同一個外觀，縮細到跟返回鍵同高 */
+.share-btn.share-sm { font-size: 13px; padding: 8px 14px; min-height: 40px; }
+/* 分享結果提示：詳情頁可以捲得好長，訊息釘在視窗底部才一定睇到 */
+.share-toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%);
+  z-index: 300;
+  width: max-content; max-width: calc(100vw - 32px);
+  padding: 11px 20px;
+  background: #0f1b2d; color: #fff;
+  font-size: 13px; font-weight: 600; text-align: center;
+  border-radius: 999px;
+  box-shadow: var(--shadow-md);
+  animation: toastIn .2s ease-out;
+}
+@keyframes toastIn { from { opacity: 0; transform: translate(-50%, 10px); } to { opacity: 1; transform: translate(-50%, 0); } }
 
 /* ===== 廣告位 ===== */
 .ad-unit { display: block; margin: 12px 0; min-height: 90px; }

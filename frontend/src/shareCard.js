@@ -20,6 +20,54 @@ function truncate(ctx, text, maxW) {
   return s + '…';
 }
 
+// 斷行用的切詞：中日韓標點逐字可斷，拉丁字母要整個字一齊搬，
+// 否則 "Biomedical" 會被斬成 "Biomedi / cal"。
+function tokenize(text) {
+  const out = [];
+  let buf = '';
+  for (const ch of text) {
+    if (/[\u2e80-\u9fff\u3000-\u303f\uff00-\uffef]/.test(ch)) {
+      if (buf) { out.push(buf); buf = ''; }
+      out.push(ch);
+    } else if (ch === ' ') {
+      out.push(buf + ch); buf = '';
+    } else {
+      buf += ch;
+    }
+  }
+  if (buf) out.push(buf);
+  return out;
+}
+
+// 依目前 ctx.font 把文字排成最多 maxLines 行，放不下就在最後一行加省略號。
+function wrapText(ctx, text, maxW, maxLines) {
+  const rtrim = (x) => x.replace(/\s+$/, '');
+  const lines = [];
+  let line = '';
+  for (const tk of tokenize(text)) {
+    const test = line + tk;
+    if (line && ctx.measureText(rtrim(test)).width > maxW) {
+      lines.push(rtrim(line));
+      line = tk.replace(/^\s+/, '');
+    } else {
+      line = test;
+    }
+  }
+  if (rtrim(line)) lines.push(rtrim(line));
+  if (lines.length <= maxLines) return lines;
+  const kept = lines.slice(0, maxLines);
+  kept[maxLines - 1] = truncate(ctx, kept[maxLines - 1] + lines.slice(maxLines).join(''), maxW);
+  return kept;
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 // labels: { title, cta, domain, tierLabel(tk), uniName(r), progName(r) }
 export async function generateShareBlob(results, labels) {
   const S = 1080;
@@ -148,10 +196,191 @@ export async function shareResults(results, labels) {
       return 'shared';
     }
   } catch (e) { /* 用戶取消或不支援 → 退回下載 */ }
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url; a.download = 'jupas-calculator.png';
-  document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  downloadBlob(blob, 'jupas-calculator.png');
   return 'downloaded';
+}
+
+// ══════════════════════════════════════════════════════════════
+// 單一專業分享圖（1080×1350）
+// 比對結果那張是 1:1，但單科要放收生分、取錄人數同「我的分數」，
+// 直度不夠用，所以改用 4:5——IG 版面不會裁到，小紅書／WhatsApp 也照樣好睇。
+// labels 由元件組好（已處理繁／簡／英），這裡不碰 i18n。
+//   { brand, domain, uni, name, code, category, cta,
+//     tier, tierLabel, yourScore, yourScoreLabel, gapLabel,
+//     stats: [{ label, value }], facts: [{ label, value }] }
+// ══════════════════════════════════════════════════════════════
+export async function generateProgrammeBlob(labels) {
+  const W = 1080, H = 1350;
+  const canvas = document.createElement('canvas');
+  canvas.width = W; canvas.height = H;
+  const ctx = canvas.getContext('2d');
+  const FONT = '-apple-system, "Segoe UI", "Microsoft JhengHei", "PingFang HK", sans-serif';
+
+  const g = ctx.createLinearGradient(0, 0, W, H);
+  g.addColorStop(0, '#1e3a8a'); g.addColorStop(0.55, '#2563eb'); g.addColorStop(1, '#3b82f6');
+  ctx.fillStyle = g;
+  ctx.fillRect(0, 0, W, H);
+
+  // 品牌列
+  ctx.textBaseline = 'alphabetic';
+  ctx.textAlign = 'left';
+  ctx.fillStyle = '#ffffff';
+  ctx.font = `700 34px ${FONT}`;
+  ctx.fillText(labels.brand, 70, 92);
+  ctx.textAlign = 'right';
+  ctx.font = `600 28px ${FONT}`;
+  ctx.fillStyle = 'rgba(255,255,255,0.85)';
+  ctx.fillText(labels.domain, W - 70, 90);
+
+  // 院校膠囊
+  ctx.textAlign = 'left';
+  ctx.font = `700 34px ${FONT}`;
+  const chipW = ctx.measureText(labels.uni).width + 48;
+  ctx.fillStyle = 'rgba(255,255,255,0.18)';
+  roundRect(ctx, 70, 142, chipW, 64, 32); ctx.fill();
+  ctx.fillStyle = '#ffffff';
+  ctx.fillText(labels.uni, 70 + 24, 186);
+
+  // 專業名（最多 3 行）
+  ctx.font = `800 62px ${FONT}`;
+  ctx.fillStyle = '#ffffff';
+  let y = 296;
+  wrapText(ctx, labels.name, W - 140, 3).forEach((line) => {
+    ctx.fillText(line, 70, y);
+    y += 78;
+  });
+
+  // JS code · 類別
+  ctx.font = `600 34px ${FONT}`;
+  ctx.fillStyle = 'rgba(255,255,255,0.82)';
+  ctx.fillText([labels.code, labels.category].filter(Boolean).join(' · '), 70, y);
+  y += 52;
+
+  // ── 白色面板 ──
+  const panelX = 60, panelW = W - 120;
+  const hasMine = labels.yourScore != null;
+  const mineH = hasMine ? 152 : 0;
+  const statsH = labels.stats.length ? 190 : 0;
+  const factsH = labels.facts.length ? 116 : 0;
+  const panelH = 36 + mineH + statsH + factsH + 20;
+  // 面板置中在「標題底」到「CTA 頂」之間：標題一行同三行、有無「我的分數」，
+  // 高度差成三百幾 px，若死釘在標題下面，短標題那張底部會空一大截。
+  const bandTop = y + 30;
+  const bandBottom = H - 220;
+  const panelY = Math.max(bandTop, bandTop + (bandBottom - bandTop - panelH) / 2);
+  ctx.fillStyle = 'rgba(255,255,255,0.97)';
+  roundRect(ctx, panelX, panelY, panelW, panelH, 36); ctx.fill();
+
+  let ry = panelY + 36;
+
+  // 「我的分數」——只有由比對結果點進來先有
+  if (hasMine) {
+    const color = TIER_COLOR[labels.tier] || '#2563eb';
+    ctx.fillStyle = color + '18';
+    roundRect(ctx, panelX + 28, ry, panelW - 56, 124, 24); ctx.fill();
+
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#5b6b80'; ctx.font = `600 26px ${FONT}`;
+    ctx.fillText(labels.yourScoreLabel, panelX + 60, ry + 48);
+    ctx.fillStyle = color; ctx.font = `800 62px ${FONT}`;
+    ctx.fillText(String(labels.yourScore), panelX + 60, ry + 106);
+
+    if (labels.tierLabel) {
+      ctx.font = `700 30px ${FONT}`;
+      const tw = ctx.measureText(labels.tierLabel).width + 40;
+      const tx = panelX + panelW - 60 - tw;
+      ctx.fillStyle = color;
+      roundRect(ctx, tx, ry + 26, tw, 52, 26); ctx.fill();
+      ctx.fillStyle = '#ffffff'; ctx.textAlign = 'center';
+      ctx.fillText(labels.tierLabel, tx + tw / 2, ry + 62);
+
+      if (labels.gapLabel) {
+        ctx.textAlign = 'right';
+        ctx.fillStyle = '#5b6b80'; ctx.font = `600 26px ${FONT}`;
+        ctx.fillText(labels.gapLabel, panelX + panelW - 60, ry + 106);
+      }
+    }
+    ry += mineH;
+  }
+
+  // 收生分數欄（上四分位／中位數／下四分位，缺就少一欄）
+  if (labels.stats.length) {
+    const n = labels.stats.length;
+    const gap = 16;
+    const boxW = (panelW - 56 - gap * (n - 1)) / n;
+    labels.stats.forEach((st, i) => {
+      const bx = panelX + 28 + i * (boxW + gap);
+      ctx.fillStyle = '#f5f8fc';
+      roundRect(ctx, bx, ry, boxW, 158, 22); ctx.fill();
+      ctx.textAlign = 'center';
+      ctx.fillStyle = '#2563eb'; ctx.font = `800 56px ${FONT}`;
+      ctx.fillText(truncate(ctx, String(st.value), boxW - 20), bx + boxW / 2, ry + 82);
+      ctx.fillStyle = '#5b6b80'; ctx.font = `600 25px ${FONT}`;
+      ctx.fillText(truncate(ctx, st.label, boxW - 16), bx + boxW / 2, ry + 126);
+    });
+    ry += statsH;
+  }
+
+  // 取錄人數 / 學額
+  if (labels.facts.length) {
+    ctx.textAlign = 'left';
+    let fx = panelX + 32;
+    labels.facts.forEach((f) => {
+      const txt = `${f.label} ${f.value}`;
+      ctx.font = `700 29px ${FONT}`;
+      const w = ctx.measureText(txt).width + 40;
+      ctx.fillStyle = '#fff7ed';
+      roundRect(ctx, fx, ry + 8, w, 62, 31); ctx.fill();
+      ctx.fillStyle = '#c2410c';
+      ctx.fillText(txt, fx + 20, ry + 48);
+      fx += w + 14;
+    });
+  }
+
+  // 底部 CTA（釘在畫布底部，標題長短都不會頂到）
+  ctx.textAlign = 'center';
+  ctx.fillStyle = '#ffffff';
+  ctx.font = `700 36px ${FONT}`;
+  ctx.fillText(truncate(ctx, labels.cta, W - 120), W / 2, H - 150);
+  ctx.font = `800 46px ${FONT}`;
+  ctx.fillText(labels.domain, W / 2, H - 82);
+
+  return new Promise((resolve) => canvas.toBlob((b) => resolve(b), 'image/png'));
+}
+
+/**
+ * 分享單一專業：圖 + 連結。
+ * 手機（有 Web Share API）直接叫起系統分享面板，IG／WhatsApp／微信都收得到；
+ * 桌面瀏覽器沒有就退到「複製連結 + 下載分享圖」。
+ * 用戶自己按取消（AbortError）不當失敗，也不再退到下載——否則取消完會莫名其妙彈個檔案出來。
+ */
+export async function shareProgramme(labels) {
+  const { url, text, title } = labels;
+  const blob = await generateProgrammeBlob(labels);
+  const file = new File([blob], `${labels.code || 'jupas'}.png`, { type: 'image/png' });
+
+  try {
+    if (navigator.canShare?.({ files: [file] })) {
+      await navigator.share({ files: [file], title, text, url });
+      return 'shared';
+    }
+  } catch (e) {
+    if (e?.name === 'AbortError') return 'cancelled';
+  }
+  try {
+    if (navigator.share) {
+      await navigator.share({ title, text, url });
+      return 'shared';
+    }
+  } catch (e) {
+    if (e?.name === 'AbortError') return 'cancelled';
+  }
+
+  let copied = false;
+  try {
+    await navigator.clipboard.writeText(`${text}\n${url}`);
+    copied = true;
+  } catch { /* 沒有剪貼簿權限（非 https / 舊瀏覽器）→ 起碼把圖下載到手 */ }
+  downloadBlob(blob, `${labels.code || 'jupas'}.png`);
+  return copied ? 'copied' : 'downloaded';
 }

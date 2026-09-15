@@ -132,6 +132,12 @@ const STRINGS = {
   reportFail: { zh: '送出失敗，請改用電郵：', en: 'Failed to send — please email:' },
   reportEmpty: { zh: '請先填寫問題描述', en: 'Please describe the issue first' },
   reportOnDetail: { zh: '🚩 這個專業資料有誤？回報', en: '🚩 Data wrong? Report it' },
+
+  // ---- 單一專業分享 ----
+  shareProgBtn: { zh: '📤 分享', en: '📤 Share' },
+  shareProgCopied: { zh: '✅ 已複製連結，分享圖已下載', sc: '✅ 已复制链接，分享图已下载', en: '✅ Link copied · image downloaded' },
+  shareProgDownloaded: { zh: '✅ 分享圖已下載', sc: '✅ 分享图已下载', en: '✅ Image downloaded' },
+  shareProgFailed: { zh: '分享失敗，請再試一次', sc: '分享失败，请再试一次', en: 'Couldn’t share — please try again' },
   reportOnCalc: { zh: '🚩 發現計分有誤？話我哋知（上報）', sc: '🚩 发现计分有误？告诉我们（上报）', en: '🚩 Scoring looks wrong? Report it' },
   viewOriginal: { zh: '查看英文原文', en: 'View original (EN)' },
   viewTranslated: { zh: '返回中文翻譯', en: 'Back to Chinese' },

@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import { useLang } from '../i18n.jsx';
+import { UNIVERSITY_MAP } from '../engine/universities.js';
+import { shareProgramme } from '../shareCard.js';
+import { trackEvent } from '../analytics';
 import ReportModal from './ReportModal.jsx';
 
 export const SCHEME_LABEL = {
@@ -226,6 +229,8 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
   const [desc, setDesc] = useState(null);       // 官方課程簡介
   const [descOpen, setDescOpen] = useState(false);
   const [showOrig, setShowOrig] = useState(false); // 中文模式下切看英文原文
+  const [sharing, setSharing] = useState(false);
+  const [shareMsg, setShareMsg] = useState('');
   const disc = disciplines?.[prog.discipline];
   const discText = disc ? (lang === 'en' ? disc.en : t.s(disc.zh)) : null;
   const careerText = disc ? (lang === 'en' ? disc.careerEn : t.s(disc.careerZh)) : null;
@@ -248,6 +253,69 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
     return () => { document.body.style.overflow = ''; };
   }, []);
 
+  // 由瀏覽頁點進來的是原始專業資料（只有 universityId），
+  // 由比對結果點進來的則已帶 universityShort／yourScore／tier——兩邊都要撐得住。
+  const uni = UNIVERSITY_MAP[prog.universityId];
+  const progName = lang !== 'en' && prog.nameZh ? t.s(prog.nameZh) : prog.name;
+  const uniName = lang === 'en'
+    ? (prog.universityShort || uni?.short || '')
+    : t.s(prog.universityShortZh || uni?.shortZh || prog.universityShort || uni?.short || '');
+
+  async function handleShare() {
+    if (sharing) return;
+    setSharing(true);
+    setShareMsg('');
+    try {
+      const a = prog.admission || {};
+      const stats = [
+        a.upperQuartile != null && { label: t('upperQuartile'), value: a.upperQuartile },
+        { label: t('median'), value: a.median ?? '—' },
+        a.lowerQuartile != null && { label: t('lowerQuartile'), value: a.lowerQuartile },
+      ].filter(Boolean);
+      const facts = [
+        prog.admitted2025 > 0 && { label: t('admittedShort'), value: prog.admitted2025 },
+        prog.intake > 0 && { label: t('intakeQuota'), value: prog.intake },
+      ].filter(Boolean);
+
+      const how = await shareProgramme({
+        brand: '🎓 JUPAS Calculator',
+        domain: 'dsemarks.com',
+        // SEO 靜態頁（gen-seo.mjs 生成）——收到連結的人毋須輸入成績就睇到這一科
+        url: `${window.location.origin}/p/${prog.jupasCode}/`,
+        title: `${uniName} ${progName}`,
+        text: `${uniName} · ${progName} (${prog.jupasCode}) · ${t('median')} ${a.median ?? '—'}`,
+        uni: uniName,
+        name: progName,
+        code: prog.jupasCode,
+        category: t.cat(prog.category),
+        cta: t('shareCta'),
+        tier: prog.tier || null,
+        tierLabel: prog.tier ? t.tier(prog.tier).label : null,
+        yourScore: prog.yourScore ?? null,
+        yourScoreLabel: t('yourScore'),
+        gapLabel: prog.gapToMedian != null
+          ? `${t('distToMedian')} ${prog.gapToMedian >= 0 ? '+' : ''}${prog.gapToMedian}`
+          : null,
+        stats,
+        facts,
+      });
+      trackEvent('share_programme', { code: prog.jupasCode, how });
+      if (how === 'copied') setShareMsg(t('shareProgCopied'));
+      else if (how === 'downloaded') setShareMsg(t('shareProgDownloaded'));
+    } catch (e) {
+      setShareMsg(t('shareProgFailed'));
+    } finally {
+      setSharing(false);
+    }
+  }
+
+  // 提示訊息自動散去，唔使用戶自己撳走
+  useEffect(() => {
+    if (!shareMsg) return;
+    const id = setTimeout(() => setShareMsg(''), 3000);
+    return () => clearTimeout(id);
+  }, [shareMsg]);
+
   const bands2025 = appData?.bands?.['2025'];
   const maxBand = bands2025 ? Math.max(bands2025.bandA, bands2025.bandB, bands2025.bandC, bands2025.bandD, bands2025.bandE) : 0;
 
@@ -262,9 +330,13 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
         <div className="detail-top-bar">
           <button className="back-btn" onClick={onClose}>{t('back')}</button>
           <h3>{prog.jupasCode}</h3>
+          <button className="share-btn share-sm" onClick={handleShare} disabled={sharing} type="button">
+            {sharing ? '…' : t('shareProgBtn')}
+          </button>
         </div>
+        {shareMsg && <div className="share-toast">{shareMsg}</div>}
 
-        <h3 style={{ marginTop: 12, fontSize: 17 }}>{lang !== 'en' && prog.nameZh ? t.s(prog.nameZh) : prog.name}</h3>
+        <h3 style={{ marginTop: 12, fontSize: 17 }}>{progName}</h3>
         {lang !== 'en' && prog.nameZh && <p className="muted" style={{ margin: '2px 0 0' }}>{prog.name}</p>}
 
         {prog.admitted2025 > 0 && (
@@ -417,7 +489,7 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
       {showReport && (
         <ReportModal
           onClose={() => setShowReport(false)}
-          initialProgramme={`${prog.jupasCode} ${(lang !== 'en' && prog.nameZh) ? t.s(prog.nameZh) : prog.name}`}
+          initialProgramme={`${prog.jupasCode} ${progName}`}
         />
       )}
     </div>
