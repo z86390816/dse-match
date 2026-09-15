@@ -22,7 +22,6 @@ export default function App() {
   // 公民與社會發展預設「達標」（多數考生達標）
   const [grades, setGrades] = useState({ csd: '達標' });
   const [selectedInterests, setSelectedInterests] = useState([]);
-  const [onlyAttainable, setOnlyAttainable] = useState(false);
 
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -54,9 +53,9 @@ export default function App() {
     setError('');
     setLoading(true);
     try {
-      const useRecommend = selectedInterests.length > 0 || onlyAttainable;
-      const data = useRecommend
-        ? await api.recommend(grades, selectedInterests, onlyAttainable)
+      // 比對一律回傳全部專業（入到／入唔到都有），入唔到嗰啲在結果頁按差距排到後面。
+      const data = selectedInterests.length > 0
+        ? await api.recommend(grades, selectedInterests)
         : await api.match(grades);
       setResults(data.results);
       setView('results');
@@ -151,14 +150,6 @@ export default function App() {
                 </button>
               ))}
             </div>
-            <label className="checkbox">
-              <input
-                type="checkbox"
-                checked={onlyAttainable}
-                onChange={(e) => setOnlyAttainable(e.target.checked)}
-              />
-              {t('onlyAttainable')}
-            </label>
           </div>
           {error && <div className="error">{error}</div>}
         </section>

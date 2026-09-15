@@ -284,9 +284,38 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .tier-pill.reach { background: #ffedd5; color: #9a3412; }
 .tier-pill.below { background: #f1f5f9; color: #475569; }
 .tier-pill.unqualified { background: #fecaca; color: #991b1b; }
-.uni-filter { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.scope-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 8px; }
+.filter-label { font-size: 12px; font-weight: 600; color: var(--muted); margin-right: 2px; }
+.scope-filter .chip { padding: 6px 12px; font-size: 13px; font-weight: 600; }
+.uni-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 8px; }
 .uni-filter .chip { padding: 6px 10px; font-size: 12px; }
 .result-count { font-size: 12px; color: var(--muted); margin: 8px 0; }
+.gap-note { font-size: 11px; line-height: 1.5; color: var(--muted); margin: 0 0 12px; }
+
+/* ===== 入到 / 入唔到 分組 ===== */
+.result-group { margin-bottom: 8px; }
+.group-head {
+  display: flex; align-items: center; gap: 8px;
+  margin: 18px 0 10px; padding: 8px 12px;
+  font-size: 14px; font-weight: 700;
+  border-radius: var(--radius-sm);
+}
+.result-group.attainable .group-head { background: #dcfce7; color: #166534; }
+.result-group.out-of-reach .group-head { background: #f1f5f9; color: #475569; }
+.group-count {
+  margin-left: auto; font-size: 12px; font-weight: 700;
+  padding: 2px 9px; border-radius: 999px;
+  background: rgba(255,255,255,.75);
+}
+.group-empty { font-size: 13px; color: var(--muted); padding: 10px 2px 16px; }
+.load-more {
+  display: block; width: 100%;
+  margin: 4px 0 8px; padding: 11px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--panel); color: var(--accent);
+  font-size: 14px; font-weight: 600; cursor: pointer;
+}
+.load-more:hover { border-color: var(--accent); background: var(--accent-light); }
 .result-search { margin: 4px 0 6px; }
 .search-hint { font-size: 12px; color: var(--muted); margin: 0 0 8px; }
 

@@ -15,6 +15,20 @@ function classify(score, programme, requirementOk) {
 
 const TIER_ORDER = { safe: 0, competitive: 1, reach: 2, below: 3, unqualified: 4, reference: 5 };
 
+// 沒有中位數可比的專業，排在同級最後。
+const NO_RATIO = -999;
+
+/**
+ * 相對差距 =（你的分數 − 收生中位數）/ 收生中位數。
+ * 各校計分尺度差很遠（PolyU ~200 分制、HKU 加權制、其餘 ~35-45 分制），
+ * 直接比「差幾分」會把 PolyU 差 20 分（≈ -10%）排到 CityU 差 6 分（≈ -15%）後面，
+ * 所以跨校排序一律用這個無單位的比例。
+ */
+function gapRatio(score, median) {
+  if (median == null || median <= 0) return null;
+  return +((score - median) / median).toFixed(4);
+}
+
 export function matchAll(grades, programmes) {
   const results = programmes
     .filter((programme) => programme.scoreComparable !== false)
@@ -48,6 +62,7 @@ export function matchAll(grades, programmes) {
         yourScore: score,
         gapToMedian: median != null ? +(score - median).toFixed(2) : null,
         gapToLowerQuartile: lowerQuartile != null ? +(score - lowerQuartile).toFixed(2) : null,
+        gapRatio: gapRatio(score, median),
         tier,
         scoreComparable: programme.scoreComparable !== false,
         scaleNote: programme.scaleNote || null,
@@ -57,12 +72,16 @@ export function matchAll(grades, programmes) {
       };
     });
 
+  // 先按配對等級，再按「相對中位數的差距」由小到大排——差得越遠越後面。
   results.sort((a, b) => {
     if (TIER_ORDER[a.tier] !== TIER_ORDER[b.tier]) return TIER_ORDER[a.tier] - TIER_ORDER[b.tier];
-    return (b.gapToMedian ?? -999) - (a.gapToMedian ?? -999);
+    const ra = a.gapRatio ?? NO_RATIO;
+    const rb = b.gapRatio ?? NO_RATIO;
+    if (ra !== rb) return rb - ra;
+    return (a.jupasCode || '').localeCompare(b.jupasCode || '');
   });
 
   return results;
 }
 
-export { classify, TIER_ORDER };
+export { classify, gapRatio, TIER_ORDER };
