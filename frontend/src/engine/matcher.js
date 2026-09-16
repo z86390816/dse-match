@@ -29,14 +29,17 @@ function gapRatio(score, median) {
   return +((score - median) / median).toFixed(4);
 }
 
+// 全部專業都要出現在結果裡，包括計分方式無法複製的那些——它們照樣排入
+// 「僅供參考」一組，讓人知道有這一科，而不是整批消失。
 export function matchAll(grades, programmes) {
   const results = programmes
-    .filter((programme) => programme.scoreComparable !== false)
     .map((programme) => {
       const university = UNIVERSITY_MAP[programme.universityId];
       const { score, breakdown, requirement } = calculateScore(grades, programme, university);
       const tier = classify(score, programme, requirement.ok);
       const { median, lowerQuartile } = programme.admission || {};
+      // 計分無法複製 → 分數與收生中位數不同尺度，任何「差幾分」都是假的。
+      const comparable = programme.scoreComparable !== false;
 
       return {
         programmeId: programme.id,
@@ -60,11 +63,11 @@ export function matchAll(grades, programmes) {
         dataStatus: programme.dataStatus || 'sample',
         admission: programme.admission,
         yourScore: score,
-        gapToMedian: median != null ? +(score - median).toFixed(2) : null,
-        gapToLowerQuartile: lowerQuartile != null ? +(score - lowerQuartile).toFixed(2) : null,
-        gapRatio: gapRatio(score, median),
+        gapToMedian: comparable && median != null ? +(score - median).toFixed(2) : null,
+        gapToLowerQuartile: comparable && lowerQuartile != null ? +(score - lowerQuartile).toFixed(2) : null,
+        gapRatio: comparable ? gapRatio(score, median) : null,
         tier,
-        scoreComparable: programme.scoreComparable !== false,
+        scoreComparable: comparable,
         scaleNote: programme.scaleNote || null,
         requirementOk: requirement.ok,
         requirementReasons: requirement.reasons,

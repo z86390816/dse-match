@@ -28,7 +28,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1805",
@@ -55,7 +61,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1806",
@@ -82,7 +94,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biology"
+   "discipline": "biology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1807",
@@ -110,7 +128,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1000",
@@ -137,7 +161,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1001",
@@ -164,7 +194,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1002",
@@ -191,7 +227,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1005",
@@ -218,7 +260,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1007",
@@ -245,7 +293,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1012",
@@ -272,7 +326,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1013",
@@ -299,7 +359,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1014",
@@ -326,7 +392,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1017",
@@ -353,7 +425,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1018",
@@ -380,7 +458,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1019",
@@ -407,7 +491,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1026",
@@ -434,7 +524,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1027",
@@ -461,7 +557,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1070",
@@ -488,7 +590,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1071",
@@ -515,7 +623,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1072",
@@ -542,7 +656,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1074",
@@ -569,7 +689,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1204",
@@ -596,7 +722,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1218",
@@ -623,7 +755,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1201",
@@ -651,7 +789,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1205",
@@ -678,7 +822,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1207",
@@ -705,7 +855,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1210",
@@ -732,7 +888,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1216",
@@ -759,7 +921,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1217",
@@ -786,7 +954,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1219",
@@ -813,7 +987,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1102",
@@ -840,7 +1020,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1103",
@@ -867,7 +1053,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1104",
@@ -894,7 +1086,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1106",
@@ -921,7 +1119,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1108",
@@ -948,7 +1152,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1109",
@@ -975,7 +1185,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1111",
@@ -1002,7 +1218,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1112",
@@ -1029,7 +1251,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1113",
@@ -1056,7 +1284,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1200",
@@ -1083,7 +1317,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1202",
@@ -1110,7 +1350,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chemistry"
+   "discipline": "chemistry",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1206",
@@ -1137,7 +1383,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1208",
@@ -1164,7 +1416,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physics"
+   "discipline": "physics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1801",
@@ -1191,7 +1449,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biology"
+   "discipline": "biology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 5,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1040",
@@ -1218,7 +1482,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1041",
@@ -1245,7 +1515,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1042",
@@ -1272,7 +1548,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1043",
@@ -1299,7 +1581,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1044",
@@ -1326,7 +1614,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1050",
@@ -1353,7 +1647,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1051",
@@ -1380,7 +1680,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1053",
@@ -1407,7 +1713,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1061",
@@ -1434,7 +1746,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 5,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1052",
@@ -1461,7 +1779,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1062",
@@ -1488,7 +1812,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 5,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1123",
@@ -1515,7 +1845,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 5,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cityu-js1221",
@@ -1542,7 +1878,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4006",
@@ -1570,7 +1912,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "anthropology"
+   "discipline": "anthropology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4018",
@@ -1599,7 +1947,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4032",
@@ -1627,7 +1981,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4044",
@@ -1655,7 +2015,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4056",
@@ -1682,7 +2048,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "history"
+   "discipline": "history",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4068",
@@ -1712,7 +2084,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4070",
@@ -1740,7 +2118,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4082",
@@ -1768,7 +2152,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "music"
+   "discipline": "music",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4094",
@@ -1796,7 +2186,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4100",
@@ -1823,7 +2219,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4109",
@@ -1851,7 +2253,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4123",
@@ -1879,7 +2287,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "translation"
+   "discipline": "translation",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4136",
@@ -1909,7 +2323,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4202",
@@ -1936,7 +2356,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4214",
@@ -1963,7 +2389,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4226",
@@ -1990,7 +2422,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "hospitality"
+   "discipline": "hospitality",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4238",
@@ -2026,7 +2464,12 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "actuarial"
+   "discipline": "actuarial",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4240",
@@ -2053,7 +2496,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4252",
@@ -2088,7 +2537,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4254",
@@ -2115,7 +2570,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4264",
@@ -2145,7 +2606,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4276",
@@ -2180,7 +2647,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4725",
@@ -2207,7 +2680,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4760",
@@ -2241,7 +2720,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4320",
@@ -2269,7 +2754,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4329",
@@ -2296,7 +2787,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4331",
@@ -2325,7 +2822,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4343",
@@ -2354,7 +2857,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4361",
@@ -2390,7 +2899,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4372",
@@ -2417,7 +2932,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4386",
@@ -2448,7 +2969,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4408",
@@ -2484,7 +3011,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4412",
@@ -2520,7 +3053,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4416",
@@ -2556,7 +3095,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4428",
@@ -2595,7 +3140,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4434",
@@ -2627,7 +3178,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4446",
@@ -2663,7 +3220,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4458",
@@ -2700,7 +3263,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4460",
@@ -2735,7 +3304,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4462",
@@ -2773,7 +3348,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4468",
@@ -2810,7 +3391,12 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4470",
@@ -2844,7 +3430,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4733",
@@ -2879,7 +3471,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "information_tech"
+   "discipline": "information_tech",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4750",
@@ -2913,7 +3511,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4903",
@@ -2943,7 +3547,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4501",
@@ -2972,7 +3582,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "medicine"
+   "discipline": "medicine",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4502",
@@ -2999,7 +3615,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "medicine"
+   "discipline": "medicine",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4513",
@@ -3031,7 +3653,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4525",
@@ -3059,7 +3687,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "pharmacy"
+   "discipline": "pharmacy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4537",
@@ -3093,7 +3727,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "public_health"
+   "discipline": "public_health",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4542",
@@ -3120,7 +3760,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4550",
@@ -3151,7 +3797,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4601",
@@ -3186,7 +3838,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4648",
@@ -3222,7 +3880,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4682",
@@ -3253,7 +3917,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4690",
@@ -3285,7 +3955,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physics"
+   "discipline": "physics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4719",
@@ -3316,7 +3992,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4801",
@@ -3346,7 +4028,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4812",
@@ -3376,7 +4064,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4824",
@@ -3404,7 +4098,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4836",
@@ -3434,7 +4134,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "geography"
+   "discipline": "geography",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4838",
@@ -3469,7 +4175,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "urban_planning"
+   "discipline": "urban_planning",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4848",
@@ -3500,7 +4212,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4850",
@@ -3531,7 +4249,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "journalism"
+   "discipline": "journalism",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4858",
@@ -3561,7 +4285,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4862",
@@ -3591,7 +4321,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4874",
@@ -3619,7 +4355,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4886",
@@ -3649,7 +4391,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4892",
@@ -3678,7 +4426,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "cuhk-js4893",
@@ -3705,7 +4459,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hkust-js5101",
@@ -3756,6 +4516,11 @@
      }
     ],
     "bestN": 2
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
    }
   },
   {
@@ -3807,6 +4572,11 @@
      }
     ],
     "bestN": 2
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
    }
   },
   {
@@ -3858,6 +4628,11 @@
      }
     ],
     "bestN": 2
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
    }
   },
   {
@@ -3910,6 +4685,11 @@
      }
     ],
     "bestN": 2
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
    }
   },
   {
@@ -3961,6 +4741,11 @@
      }
     ],
     "bestN": 2
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4005,6 +4790,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4048,6 +4838,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4091,6 +4886,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4135,6 +4935,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4178,6 +4983,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4221,6 +5031,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4264,6 +5079,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4308,6 +5128,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4352,6 +5177,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
    }
   },
   {
@@ -4396,6 +5226,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4440,6 +5275,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
    }
   },
   {
@@ -4484,6 +5324,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4529,6 +5374,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4573,6 +5423,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4618,6 +5473,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4661,6 +5521,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4704,6 +5569,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4748,6 +5618,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4792,6 +5667,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4835,6 +5715,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4878,6 +5763,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4921,6 +5811,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -4964,6 +5859,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -5007,6 +5907,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -5051,6 +5956,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -5095,6 +6005,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -5140,6 +6055,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -5184,6 +6104,11 @@
      "m1": 1.5,
      "m2": 1.5
     }
+   },
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
    }
   },
   {
@@ -5218,7 +6143,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6016",
@@ -5252,7 +6183,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "surveying"
+   "discipline": "surveying",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6028",
@@ -5286,7 +6223,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6042",
@@ -5320,7 +6263,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "urban_planning"
+   "discipline": "urban_planning",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6054",
@@ -5361,7 +6310,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6274",
@@ -5400,7 +6355,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6286",
@@ -5441,7 +6402,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6298",
@@ -5492,7 +6459,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6755",
@@ -5535,7 +6508,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "business"
+   "discipline": "business",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6767",
@@ -5578,7 +6557,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6781",
@@ -5621,7 +6606,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6793",
@@ -5664,7 +6655,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6808",
@@ -5707,7 +6704,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 5,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6846",
@@ -5750,7 +6753,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6860",
@@ -5793,7 +6802,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6884",
@@ -5844,7 +6859,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6896",
@@ -5887,7 +6908,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 5,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6107",
@@ -5929,7 +6956,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "dentistry"
+   "discipline": "dentistry",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6066",
@@ -5968,7 +7001,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6080",
@@ -6007,7 +7046,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6092",
@@ -6046,7 +7091,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6119",
@@ -6106,7 +7157,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6157",
@@ -6140,7 +7197,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6303",
@@ -6183,7 +7246,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6315",
@@ -6226,7 +7295,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6339",
@@ -6269,7 +7344,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6353",
@@ -6312,7 +7393,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6377",
@@ -6355,7 +7442,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6937",
@@ -6398,7 +7491,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6987",
@@ -6441,7 +7540,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6078",
@@ -6480,7 +7585,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 5,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6406",
@@ -6519,7 +7630,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 5,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6250",
@@ -6553,7 +7670,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "public_health"
+   "discipline": "public_health",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6418",
@@ -6587,7 +7710,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6456",
@@ -6621,7 +7750,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "medicine"
+   "discipline": "medicine",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6468",
@@ -6655,7 +7790,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6482",
@@ -6689,7 +7830,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6494",
@@ -6723,7 +7870,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "pharmacy"
+   "discipline": "pharmacy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6949",
@@ -6757,7 +7910,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6688",
@@ -6806,7 +7965,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6858",
@@ -6864,7 +8029,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 5,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6901",
@@ -6924,7 +8095,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6705",
@@ -6958,7 +8135,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6717",
@@ -6992,7 +8175,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6731",
@@ -7026,7 +8215,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6810",
@@ -7060,7 +8255,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "law"
+   "discipline": "law",
+   "requiredCore": {
+    "chin": 4,
+    "eng": 5,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6822",
@@ -7099,7 +8300,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "journalism"
+   "discipline": "journalism",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6925",
@@ -7142,7 +8349,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6224",
@@ -7198,7 +8411,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6248",
@@ -7241,7 +8460,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 4,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6729",
@@ -7292,7 +8517,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "actuarial"
+   "discipline": "actuarial",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6779",
@@ -7331,7 +8562,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "statistics"
+   "discipline": "statistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6999",
@@ -7382,7 +8619,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "hku-js6602",
@@ -7433,7 +8676,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 4
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3060",
@@ -7486,7 +8735,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3220",
@@ -7539,7 +8794,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mathematics"
+   "discipline": "mathematics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3250",
@@ -7592,7 +8853,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3214",
@@ -7645,7 +8912,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "architecture"
+   "discipline": "architecture",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3140",
@@ -7698,7 +8971,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3150",
@@ -7751,7 +9030,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3011",
@@ -7804,7 +9089,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3791",
@@ -7857,7 +9148,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3211",
@@ -7910,7 +9207,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3003",
@@ -7963,7 +9266,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3320",
@@ -8016,7 +9325,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "history"
+   "discipline": "history",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3739",
@@ -8069,7 +9384,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3006",
@@ -8122,7 +9443,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3868",
@@ -8175,7 +9502,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3004",
@@ -8228,7 +9561,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "civil_eng"
+   "discipline": "civil_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3223",
@@ -8281,7 +9620,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3569",
@@ -8334,7 +9679,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3170",
@@ -8387,7 +9738,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3005",
@@ -8440,7 +9797,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3240",
@@ -8493,7 +9856,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3375",
@@ -8546,7 +9915,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "engineering"
+   "discipline": "engineering",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3050",
@@ -8599,7 +9974,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3255",
@@ -8652,7 +10033,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "food_science"
+   "discipline": "food_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3070",
@@ -8705,7 +10092,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3310",
@@ -8758,7 +10151,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "hospitality"
+   "discipline": "hospitality",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3007",
@@ -8811,7 +10210,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3180",
@@ -8864,7 +10269,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "ai"
+   "discipline": "ai",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3237",
@@ -8917,7 +10328,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3000",
@@ -8970,7 +10387,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3080",
@@ -9023,7 +10446,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3741",
@@ -9076,7 +10505,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3478",
@@ -9129,7 +10564,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biomedical"
+   "discipline": "biomedical",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3337",
@@ -9182,7 +10623,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3648",
@@ -9235,7 +10682,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "nursing"
+   "discipline": "nursing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3624",
@@ -9288,7 +10741,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3290",
@@ -9341,7 +10800,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3030",
@@ -9394,7 +10859,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physics"
+   "discipline": "physics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3636",
@@ -9447,7 +10918,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3236",
@@ -9500,7 +10977,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "mechanical_eng"
+   "discipline": "mechanical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3612",
@@ -9553,7 +11036,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "physiotherapy"
+   "discipline": "physiotherapy",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3008",
@@ -9606,7 +11095,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3130",
@@ -9659,7 +11154,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3242",
@@ -9712,7 +11213,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3789",
@@ -9765,7 +11272,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "surveying"
+   "discipline": "surveying",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "polyu-js3241",
@@ -9837,7 +11350,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7133",
@@ -9864,7 +11381,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "design"
+   "discipline": "design",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7204",
@@ -9891,7 +11412,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "translation"
+   "discipline": "translation",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7503",
@@ -9918,7 +11443,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7606",
@@ -9945,7 +11474,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7709",
@@ -9972,7 +11505,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "history"
+   "discipline": "history",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7802",
@@ -9999,7 +11536,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7905",
@@ -10026,7 +11567,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7211",
@@ -10053,7 +11598,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7212",
@@ -10080,7 +11629,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7213",
@@ -10107,7 +11660,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7214",
@@ -10134,7 +11691,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7215",
@@ -10161,7 +11722,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7216",
@@ -10188,7 +11753,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7301",
@@ -10215,7 +11784,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "economics"
+   "discipline": "economics",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7302",
@@ -10242,7 +11815,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7303",
@@ -10269,7 +11846,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7304",
@@ -10296,7 +11877,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sociology"
+   "discipline": "sociology",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7305",
@@ -10323,7 +11908,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "lingnan-js7306",
@@ -10350,7 +11939,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "political_science"
+   "discipline": "political_science",
+   "requiredCore": {
+    "eng": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8001",
@@ -10377,7 +11970,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8002",
@@ -10404,7 +12003,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8003",
@@ -10431,7 +12036,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8004",
@@ -10458,7 +12069,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8005",
@@ -10485,7 +12102,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8006",
@@ -10512,7 +12135,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8007",
@@ -10539,7 +12168,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8008",
@@ -10566,7 +12201,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8009",
@@ -10593,7 +12234,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8010",
@@ -10620,7 +12267,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8011",
@@ -10647,7 +12300,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8012",
@@ -10674,7 +12333,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8013",
@@ -10701,7 +12366,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8651",
@@ -10728,7 +12399,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8663",
@@ -10755,7 +12432,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8674",
@@ -10782,7 +12465,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8675",
@@ -10809,7 +12498,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8685",
@@ -10836,7 +12531,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "music"
+   "discipline": "music",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8686",
@@ -10863,7 +12564,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8687",
@@ -10890,7 +12597,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8688",
@@ -10917,7 +12630,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "finance"
+   "discipline": "finance",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8702",
@@ -10944,7 +12663,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8714",
@@ -10971,7 +12696,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 3
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8726",
@@ -10998,7 +12729,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8727",
@@ -11025,7 +12762,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "linguistics"
+   "discipline": "linguistics",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "eduhk-js8507",
@@ -11052,7 +12795,11 @@
     "funding": null,
     "level": "Higher Diploma"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 2,
+    "eng": 2
+   }
   },
   {
    "id": "hkbu-js2020",
@@ -11079,7 +12826,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2025",
@@ -11106,7 +12857,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "philosophy"
+   "discipline": "philosophy",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2060",
@@ -11133,7 +12888,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "music"
+   "discipline": "music",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2110",
@@ -11160,7 +12919,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2120",
@@ -11187,7 +12950,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2310",
@@ -11214,7 +12981,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "journalism"
+   "discipline": "journalism",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2330",
@@ -11241,7 +13012,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2340",
@@ -11268,7 +13043,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2370",
@@ -11295,7 +13074,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2410",
@@ -11322,7 +13105,12 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "requiredCore": {
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2420",
@@ -11349,7 +13137,12 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese_medicine"
+   "discipline": "chinese_medicine",
+   "requiredCore": {
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2510",
@@ -11376,7 +13169,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2610",
@@ -11403,7 +13200,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2620",
@@ -11430,7 +13231,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2660",
@@ -11457,7 +13262,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_work"
+   "discipline": "social_work",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2810",
@@ -11484,7 +13293,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "fine_arts"
+   "discipline": "fine_arts",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2910",
@@ -11511,7 +13324,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "data_science"
+   "discipline": "data_science",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2920",
@@ -11538,7 +13355,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2930",
@@ -11565,7 +13386,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2940",
@@ -11592,7 +13417,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "social_science"
+   "discipline": "social_science",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2950",
@@ -11619,7 +13448,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkbu-js2960",
@@ -11646,7 +13479,11 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "humanities"
+   "discipline": "humanities",
+   "requiredCore": {
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9011",
@@ -11673,7 +13510,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9013",
@@ -11700,7 +13543,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "translation"
+   "discipline": "translation",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9016",
@@ -11727,7 +13576,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "communication"
+   "discipline": "communication",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9019",
@@ -11754,7 +13609,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9220",
@@ -11781,7 +13642,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "accounting"
+   "discipline": "accounting",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9230",
@@ -11808,7 +13675,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9240",
@@ -11835,7 +13708,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "management"
+   "discipline": "management",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9266",
@@ -11862,7 +13741,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "marketing"
+   "discipline": "marketing",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9276",
@@ -11889,7 +13774,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "surveying"
+   "discipline": "surveying",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9280",
@@ -11916,7 +13807,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "psychology"
+   "discipline": "psychology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9291",
@@ -11943,7 +13840,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "hospitality"
+   "discipline": "hospitality",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9294",
@@ -11970,7 +13873,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "sports"
+   "discipline": "sports",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9530",
@@ -11997,7 +13906,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9540",
@@ -12024,7 +13939,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "english"
+   "discipline": "english",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9550",
@@ -12051,7 +13972,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9560",
@@ -12078,7 +14005,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "chinese"
+   "discipline": "chinese",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9580",
@@ -12105,7 +14038,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "education"
+   "discipline": "education",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9719",
@@ -12132,7 +14071,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "computer_science"
+   "discipline": "computer_science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9720",
@@ -12159,7 +14104,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "electrical_eng"
+   "discipline": "electrical_eng",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9731",
@@ -12186,7 +14137,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "environmental"
+   "discipline": "environmental",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9732",
@@ -12213,7 +14170,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "biotechnology"
+   "discipline": "biotechnology",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   },
   {
    "id": "hkmu-js9733",
@@ -12240,7 +14203,13 @@
     "funding": null,
     "level": "Bachelor's Degree"
    },
-   "discipline": "science"
+   "discipline": "science",
+   "requiredCore": {
+    "chin": 3,
+    "eng": 3,
+    "math": 2
+   },
+   "requireCsd": true
   }
  ]
 }

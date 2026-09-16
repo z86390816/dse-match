@@ -9,9 +9,12 @@
 
 - **收生中位數／下四分位數**：官方數據，已逐校抽查對照 PDF。
 - **計分還原**：各校計分尺度／公式不同，盡量還原（HKU 線性公式、CUHK 加權、其餘 best-5）。
-  - 192 個專業可精確比對（`scoreComparable: true`）。
-  - 81 個因計分過於複雜（PolyU 200 制、醫科加權等）標為「僅供參考」不評級。
-- **驗證**：`node data-pipeline/verify.mjs` —— 0 錯誤、0 警告、18 萬次單調性檢查通過。
+  - 334 個專業可精確比對（`scoreComparable: true`）。
+  - 15 個因計分過於複雜（加權／Best-6／額外科目）標為「僅供參考」不評級，但照樣列在結果裡。
+- **核心科最低要求**：348 個專業的 `requiredCore` / `requireCsd` 由 `build_requirements.mjs`
+  從 `applications.json` 的官方要求寫入，比對時真的會攔（填咗而唔夠先攔，留空當未知）。
+- **驗證**：`node data-pipeline/verify.mjs` —— 0 錯誤、31 個警告（全部是 PolyU 尺度提示）、
+  17 萬次單調性檢查通過。
 
 結果僅供參考，實際收生以各大學/JUPAS 官方公佈為準。各 `dataStatus`／`weightsStatus` 欄標記了每筆數據的來源與信心。
 

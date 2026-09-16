@@ -7,21 +7,27 @@ function gradeToPoints(grade, scheme) {
   return table[grade] ?? 0;
 }
 
+/**
+ * 核對官方核心科最低要求（requiredCore / requireCsd 由 build_requirements.mjs 寫入）。
+ *
+ * 只有「填咗而且唔夠」先當未符要求；留空當未知，不攔——半張表填到一半
+ * 就成版「未符要求」，比漏報更難用。reasons 回傳結構化資料而非現成句子，
+ * 介面按語言自己砌字（繁／簡／英）。
+ */
 function checkRequirements(grades, programme) {
   const reasons = [];
   const req = programme.requiredCore || {};
   for (const [subjId, minLevel] of Object.entries(req)) {
     const g = grades[subjId];
-    const pts = gradeToPoints(g, 'standard');
-    if (pts < minLevel) {
-      const name = SUBJECT_MAP[subjId]?.name || subjId;
-      reasons.push(`${name} 需達 Level ${minLevel}（你：${g || '未填'}）`);
+    if (!g) continue;
+    if (gradeToPoints(g, 'standard') < minLevel) {
+      reasons.push({ subject: subjId, min: minLevel, got: g });
     }
   }
-  if (programme.requireCsd) {
+  if (programme.requireCsd && grades.csd) {
     const csd = grades.csd;
     const attained = csd === '達標' || csd === 'Attained' || csd === 'attained' || csd === true;
-    if (!attained) reasons.push('公民與社會發展需「達標」');
+    if (!attained) reasons.push({ subject: 'csd', min: null, got: csd });
   }
   return { ok: reasons.length === 0, reasons };
 }

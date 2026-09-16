@@ -1,18 +1,39 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useLang } from '../i18n.jsx';
 import { api } from '../api';
+import { SUBJECT_MAP } from '../engine/subjects.js';
 import { DetailOverlay } from './ProgrammeDetail.jsx';
 import ReportModal from './ReportModal.jsx';
 
 const TIER_ORDER = ['safe', 'competitive', 'reach', 'below', 'unqualified', 'reference'];
 const TIER_CLS = { safe: 'safe', competitive: 'competitive', reach: 'reach', below: 'below', unqualified: 'unqualified', reference: 'below' };
 
-// 「入到」＝穩陣／有機會／衝刺；其餘（機會偏低、未符要求）歸「入唔到」。
+// 三組：「入到」＝穩陣／有機會／衝刺；「入唔到」＝機會偏低／未符要求；
+// 「僅供參考」＝計分方式無法複製，有分數也不能跟收生中位數比。
 const ATTAINABLE_TIERS = ['safe', 'competitive', 'reach'];
-const isAttainable = (r) => ATTAINABLE_TIERS.includes(r.tier);
+const GROUPS = ['attainable', 'outOfReach', 'reference'];
+const groupOf = (r) => (r.tier === 'reference' ? 'reference'
+  : ATTAINABLE_TIERS.includes(r.tier) ? 'attainable' : 'outOfReach');
+
+const SORTS = ['medianDesc', 'medianAsc', 'match'];
+const SCOPE_LABEL = { all: 'scopeAll', attainable: 'scopeAttainable', outOfReach: 'scopeOutOfReach', reference: 'scopeReference' };
+const SORT_LABEL = { medianDesc: 'sortMedianDesc', medianAsc: 'sortMedianAsc', match: 'sortMatch' };
 
 // 一次先渲染多少張卡；「入唔到」那組動輒 200+ 個專業，全部一次過畫會拖慢手機。
 const PAGE = 30;
+
+// 按收生中位數排。各校尺度不同（PolyU ~200 制），所以這是「這科收幾多分」的排名，
+// 不是跨校難度比較——難度比較請用「最易入到」那個排序。
+function byMedian(dir) {
+  return (a, b) => {
+    const ma = a.admission?.median, mb = b.admission?.median;
+    if (ma == null && mb == null) return (a.jupasCode || '').localeCompare(b.jupasCode || '');
+    if (ma == null) return 1;   // 無收生數據的永遠排最後
+    if (mb == null) return -1;
+    if (ma !== mb) return (ma - mb) * dir;
+    return (a.jupasCode || '').localeCompare(b.jupasCode || '');
+  };
+}
 
 const SCHEME_LABEL = {
   bonusTop: '5**=8.5, 5*=7, 5=5.5, 4=4, 3=3, 2=2, 1=1',
@@ -33,9 +54,20 @@ export default function ResultList({ results }) {
   const { lang, t } = useLang();
   const uniName = (r) => (lang === 'en' ? r.universityShort : t.s(r.universityShortZh || r.universityShort));
   const progName = (r) => (lang !== 'en' && r.nameZh ? t.s(r.nameZh) : r.name);
+  // 引擎回傳 { subject, min, got }，句子在這裡按語言砌
+  const reqText = (x) => {
+    if (x.subject === 'csd') return t('reqCsd');
+    const sub = SUBJECT_MAP[x.subject];
+    const name = lang === 'en' ? (sub?.en || x.subject) : t.s(sub?.name || x.subject);
+    return lang === 'en'
+      ? `${name} ${t('reqNeedLevel')} ${x.min} (${t('reqYours')} ${x.got})`
+      : `${name} ${t('reqNeedLevel')} ${x.min}（${t('reqYours')}${x.got}）`;
+  };
   const [uniFilter, setUniFilter] = useState('all');
-  // 預設「全部」：入到同入唔到都要睇得到，入唔到嗰啲按差距由細到大排喺後面。
-  const [scope, setScope] = useState('all'); // 'all' | 'attainable' | 'outOfReach'
+  // 預設「全部」：入到、入唔到同僅供參考全部都要睇得到。
+  const [scope, setScope] = useState('all'); // 'all' | attainable | outOfReach | reference
+  // 預設按收生分由高到低——即係一張「邊科收得高」的排名表。
+  const [sort, setSort] = useState('medianDesc');
   const [keyword, setKeyword] = useState('');
   const [expanded, setExpanded] = useState(() => new Set());
   const [selProg, setSelProg] = useState(null);
@@ -75,17 +107,14 @@ export default function ResultList({ results }) {
       (r.universityName || '').includes(kw));
   }, [results, kw]);
 
-  const applyScope = (list, sc) => {
-    if (sc === 'attainable') return list.filter(isAttainable);
-    if (sc === 'outOfReach') return list.filter((r) => !isAttainable(r));
-    return list;
-  };
+  const applyScope = (list, sc) => (sc === 'all' ? list : list.filter((r) => groupOf(r) === sc));
   const applyUni = (list, u) => (u === 'all' ? list : list.filter((r) => r.universityShort === u));
 
   const scopeCounts = useMemo(() => {
     const l = applyUni(afterKw, uniFilter);
-    const ok = l.filter(isAttainable).length;
-    return { all: l.length, attainable: ok, outOfReach: l.length - ok };
+    const c = { all: l.length, attainable: 0, outOfReach: 0, reference: 0 };
+    l.forEach((r) => { c[groupOf(r)] += 1; });
+    return c;
   }, [afterKw, uniFilter]);
 
   const unis = useMemo(() => {
@@ -98,13 +127,17 @@ export default function ResultList({ results }) {
     return [...m.entries()]; // [short, { n, zh }]
   }, [afterKw, scope]);
 
-  const shown = useMemo(() => applyUni(applyScope(afterKw, scope), uniFilter), [afterKw, scope, uniFilter]);
+  const shown = useMemo(() => {
+    const l = applyUni(applyScope(afterKw, scope), uniFilter);
+    // 'match' 即 matchAll 原本的「等級 → 相對差距」排序，不用再動。
+    return sort === 'match' ? l : [...l].sort(byMedian(sort === 'medianAsc' ? 1 : -1));
+  }, [afterKw, scope, uniFilter, sort]);
 
-  // matchAll 已按「等級 → 相對差距」排好，所以拆組後兩邊都保持差距由細到大。
-  const groups = useMemo(() => ({
-    attainable: shown.filter(isAttainable),
-    outOfReach: shown.filter((r) => !isAttainable(r)),
-  }), [shown]);
+  const groups = useMemo(() => {
+    const g = { attainable: [], outOfReach: [], reference: [] };
+    shown.forEach((r) => g[groupOf(r)].push(r));
+    return g; // shown 已排好，分組時順序照搬
+  }, [shown]);
 
   const tierCounts = useMemo(() => {
     const c = {};
@@ -113,8 +146,9 @@ export default function ResultList({ results }) {
   }, [results]);
 
   // 換篩選就收回「載入更多」，否則切過去會直接見到上一組展開後的長度。
-  const [limits, setLimits] = useState({ attainable: PAGE, outOfReach: PAGE });
-  useEffect(() => { setLimits({ attainable: PAGE, outOfReach: PAGE }); }, [kw, scope, uniFilter, results]);
+  const initialLimits = () => ({ attainable: PAGE, outOfReach: PAGE, reference: PAGE });
+  const [limits, setLimits] = useState(initialLimits);
+  useEffect(() => { setLimits(initialLimits()); }, [kw, scope, uniFilter, sort, results]);
 
   if (!results) return <div className="empty">{t('emptyPrompt')}</div>;
   if (results.length === 0) return <div className="empty">{t('emptyNoMatch')}</div>;
@@ -157,8 +191,8 @@ export default function ResultList({ results }) {
           </div>
         </div>
 
-        {!r.requirementOk && r.scoreComparable !== false && (
-          <div className="req-warn">⚠️ {r.requirementReasons.join('；')}</div>
+        {!r.requirementOk && r.requirementReasons?.length > 0 && (
+          <div className="req-warn">⚠️ {r.requirementReasons.map(reqText).join(lang === 'en' ? '; ' : '；')}</div>
         )}
         {r.scaleNote && <div className="req-warn">ℹ️ {r.scaleNote}</div>}
 
@@ -218,22 +252,27 @@ export default function ResultList({ results }) {
     );
   }
 
+  const GROUP_CLS = { attainable: 'attainable', outOfReach: 'out-of-reach', reference: 'reference' };
+  const GROUP_HEAD = { attainable: 'sectionAttainable', outOfReach: 'sectionOutOfReach', reference: 'sectionReference' };
+  const GROUP_EMPTY = { attainable: 'sectionAttainableEmpty', outOfReach: 'sectionOutOfReachEmpty', reference: 'sectionReferenceEmpty' };
+
   function renderGroup(key) {
     const list = groups[key];
-    const cls = key === 'attainable' ? 'attainable' : 'out-of-reach';
-    // 只選了一邊時不必再標題分段——chip 已經講清楚在看哪一組。
+    // 只選了一組時不必再標題分段——chip 已經講清楚在看哪一組。
     if (scope !== 'all' && list.length === 0) return null;
+    // 「僅供參考」只得十幾科，沒有就整段收起，唔好白白佔位。
+    if (scope === 'all' && key === 'reference' && list.length === 0) return null;
     const limit = limits[key];
     return (
-      <section className={`result-group ${cls}`} key={key}>
+      <section className={`result-group ${GROUP_CLS[key]}`} key={key}>
         {scope === 'all' && (
           <h4 className="group-head">
-            {t(key === 'attainable' ? 'sectionAttainable' : 'sectionOutOfReach')}
+            {t(GROUP_HEAD[key])}
             <span className="group-count">{list.length}</span>
           </h4>
         )}
         {list.length === 0
-          ? <div className="group-empty">{t(key === 'attainable' ? 'sectionAttainableEmpty' : 'sectionOutOfReachEmpty')}</div>
+          ? <div className="group-empty">{t(GROUP_EMPTY[key])}</div>
           : list.slice(0, limit).map(renderCard)}
         {list.length > limit && (
           <button
@@ -267,14 +306,29 @@ export default function ResultList({ results }) {
       {/* 範圍篩選：全部 / 入到 / 入唔到 */}
       <div className="scope-filter" role="group">
         <span className="filter-label">{t('filterScopeTitle')}</span>
-        {['all', 'attainable', 'outOfReach'].map((sc) => (
+        {['all', ...GROUPS].map((sc) => (
           <button
             key={sc}
             className={`chip ${scope === sc ? 'active' : ''}`}
             onClick={() => setScope(sc)}
             type="button"
           >
-            {t(sc === 'all' ? 'scopeAll' : sc === 'attainable' ? 'scopeAttainable' : 'scopeOutOfReach')} ({scopeCounts[sc]})
+            {t(SCOPE_LABEL[sc])} ({scopeCounts[sc]})
+          </button>
+        ))}
+      </div>
+
+      {/* 排序：預設收生分由高到低，即一張「邊科收得高」的排名表 */}
+      <div className="scope-filter" role="group">
+        <span className="filter-label">{t('filterSortTitle')}</span>
+        {SORTS.map((sk) => (
+          <button
+            key={sk}
+            className={`chip ${sort === sk ? 'active' : ''}`}
+            onClick={() => setSort(sk)}
+            type="button"
+          >
+            {t(SORT_LABEL[sk])}
           </button>
         ))}
       </div>
@@ -293,8 +347,7 @@ export default function ResultList({ results }) {
       <div className="result-count">{t('showingN')} {shown.length}</div>
       <div className="gap-note">{t('gapPctNote')}</div>
 
-      {renderGroup('attainable')}
-      {renderGroup('outOfReach')}
+      {GROUPS.map(renderGroup)}
 
       {selProg && (
         <DetailOverlay prog={selProg} year={2025} disciplines={disciplines} onClose={() => setSelProg(null)} />

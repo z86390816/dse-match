@@ -46,15 +46,17 @@ function gapRatio(score, median) {
  * @returns {Array} 已排序的配對結果
  */
 function matchAll(grades, programmes) {
-  // 只比對「可精確計分」的專業；計分公式太複雜／難讀（scoreComparable:false，
-  // 如醫科特殊公式、重加權課程）不納入比對結果，避免顯示無法比較的雜訊。
+  // 全部專業都要出現在結果裡。計分公式太複雜／難讀的（scoreComparable:false，
+  // 如醫科特殊公式、重加權課程）照樣列出，但歸入「僅供參考」不評級，
+  // 而不是整批隱藏——查不到一科存在，比查到「僅供參考」更難用。
   const results = programmes
-    .filter((programme) => programme.scoreComparable !== false)
     .map((programme) => {
     const university = UNIVERSITY_MAP[programme.universityId];
     const { score, breakdown, requirement } = calculateScore(grades, programme, university);
     const tier = classify(score, programme, requirement.ok);
     const { median, lowerQuartile } = programme.admission || {};
+    // 計分無法複製 → 分數與收生中位數不同尺度，任何「差幾分」都是假的。
+    const comparable = programme.scoreComparable !== false;
 
     return {
       programmeId: programme.id,
@@ -78,11 +80,11 @@ function matchAll(grades, programmes) {
       dataStatus: programme.dataStatus || 'sample',
       admission: programme.admission,
       yourScore: score,
-      gapToMedian: median != null ? +(score - median).toFixed(2) : null,
-      gapToLowerQuartile: lowerQuartile != null ? +(score - lowerQuartile).toFixed(2) : null,
-      gapRatio: gapRatio(score, median),
+      gapToMedian: comparable && median != null ? +(score - median).toFixed(2) : null,
+      gapToLowerQuartile: comparable && lowerQuartile != null ? +(score - lowerQuartile).toFixed(2) : null,
+      gapRatio: comparable ? gapRatio(score, median) : null,
       tier,
-      scoreComparable: programme.scoreComparable !== false,
+      scoreComparable: comparable,
       scaleNote: programme.scaleNote || null,
       requirementOk: requirement.ok,
       requirementReasons: requirement.reasons,
