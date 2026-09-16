@@ -60,6 +60,46 @@ function wrapText(ctx, text, maxW, maxLines) {
   return kept;
 }
 
+// canvas → File，全程同步。
+// 唔用 canvas.toBlob（回呼／Promise）係因為 navigator.share() 必須喺 click 嘅同一個
+// task 內叫：中間 await 過就會失去 transient user activation，Safari 會掟
+// NotAllowedError，用家撳完分享乜都唔會發生。toDataURL + atob 就冇呢個問題。
+function canvasToFile(canvas, filename) {
+  const dataUrl = canvas.toDataURL('image/png');
+  const b64 = dataUrl.slice(dataUrl.indexOf(',') + 1);
+  const bin = atob(b64);
+  const buf = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+  return new File([buf], filename, { type: 'image/png' });
+}
+
+// 舊 Safari／非 https 冇 navigator.clipboard，退回 execCommand。
+function legacyCopy(str) {
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = str;
+    ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0';
+    document.body.appendChild(ta);
+    ta.select();
+    ta.setSelectionRange(0, str.length); // iOS 要明確指定範圍先 select 到
+    const ok = document.execCommand('copy');
+    ta.remove();
+    return ok;
+  } catch { return false; }
+}
+
+/**
+ * 複製文字到剪貼簿。同樣要喺 user gesture 嘅同一個 task 內叫（前面唔好有 await）。
+ * @returns {Promise<boolean>}
+ */
+export async function copyText(str) {
+  if (navigator.clipboard?.writeText) {
+    try { await navigator.clipboard.writeText(str); return true; } catch { /* 試舊方法 */ }
+  }
+  return legacyCopy(str);
+}
+
 function downloadBlob(blob, filename) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -69,7 +109,8 @@ function downloadBlob(blob, filename) {
 }
 
 // labels: { title, cta, domain, tierLabel(tk), uniName(r), progName(r) }
-export async function generateShareBlob(results, labels) {
+// 同步畫，理由同 canvasToFile 一樣：navigator.share() 前面唔可以有 await。
+function drawResultsCard(results, labels) {
   const S = 1080;
   const canvas = document.createElement('canvas');
   canvas.width = S; canvas.height = S;
@@ -183,21 +224,24 @@ export async function generateShareBlob(results, labels) {
   ctx.font = `800 44px ${FONT}`;
   ctx.fillText(labels.domain, S / 2, panelY + panelH + 138);
 
-  return new Promise((resolve) => canvas.toBlob((b) => resolve(b), 'image/png'));
+  return canvas;
 }
 
-// 分享或下載
-export async function shareResults(results, labels) {
-  const blob = await generateShareBlob(results, labels);
-  const file = new File([blob], 'jupas-calculator.png', { type: 'image/png' });
-  try {
-    if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      await navigator.share({ files: [file], title: labels.title });
-      return 'shared';
-    }
-  } catch (e) { /* 用戶取消或不支援 → 退回下載 */ }
-  downloadBlob(blob, 'jupas-calculator.png');
-  return 'downloaded';
+/** 分享或下載比對結果。同 shareProgramme 一樣，必須由 click handler 直接叫。 */
+export function shareResults(results, labels) {
+  const name = 'jupas-calculator.png';
+  const canvas = drawResultsCard(results, labels);
+  const file = canvasToFile(canvas, name);
+  const fallback = () => {
+    canvas.toBlob((b) => b && downloadBlob(b, name), 'image/png');
+    return 'downloaded';
+  };
+  if (navigator.share && navigator.canShare?.({ files: [file] })) {
+    return navigator.share({ files: [file], title: labels.title })
+      .then(() => 'shared')
+      .catch((e) => (e?.name === 'AbortError' ? 'cancelled' : fallback()));
+  }
+  return Promise.resolve(fallback());
 }
 
 // ══════════════════════════════════════════════════════════════
@@ -209,7 +253,7 @@ export async function shareResults(results, labels) {
 //     tier, tierLabel, yourScore, yourScoreLabel, gapLabel,
 //     stats: [{ label, value }], facts: [{ label, value }] }
 // ══════════════════════════════════════════════════════════════
-export async function generateProgrammeBlob(labels) {
+function drawProgrammeCard(labels) {
   const W = 1080, H = 1350;
   const canvas = document.createElement('canvas');
   canvas.width = W; canvas.height = H;
@@ -345,42 +389,63 @@ export async function generateProgrammeBlob(labels) {
   ctx.font = `800 46px ${FONT}`;
   ctx.fillText(labels.domain, W / 2, H - 82);
 
-  return new Promise((resolve) => canvas.toBlob((b) => resolve(b), 'image/png'));
+  return canvas;
 }
 
 /**
  * 分享單一專業：圖 + 連結。
- * 手機（有 Web Share API）直接叫起系統分享面板，IG／WhatsApp／微信都收得到；
- * 桌面瀏覽器沒有就退到「複製連結 + 下載分享圖」。
- * 用戶自己按取消（AbortError）不當失敗，也不再退到下載——否則取消完會莫名其妙彈個檔案出來。
+ *
+ * ⚠️ 必須由 click handler 直接叫，前面唔可以有 await。
+ * navigator.share() 要 transient user activation，中間 await 過（例如等 canvas.toBlob）
+ * 就會失效：Safari 掟 NotAllowedError，之前的寫法再靜靜咁跌落 fallback，
+ * 用家撳完分享乜都唔會發生——就係「分享唔出去」的成因。
+ * 所以畫圖同轉 File 全部改成同步，share() 喺同一個 task 內即刻叫。
+ *
+ * 手機會彈系統分享面板（IG／WhatsApp／微信都收得到）；冇 Web Share API
+ * （多數桌面瀏覽器）或分享失敗，就退到「複製連結 + 下載分享圖」，
+ * 保證用家至少攞到條連結。用戶自己撳取消（AbortError）不當失敗，也不會彈個檔案出嚟。
  */
-export async function shareProgramme(labels) {
+export function shareProgramme(labels) {
   const { url, text, title } = labels;
-  const blob = await generateProgrammeBlob(labels);
-  const file = new File([blob], `${labels.code || 'jupas'}.png`, { type: 'image/png' });
+  const name = `${labels.code || 'jupas'}.png`;
+  let canvas = null;
+  let file = null;
+  try {
+    canvas = drawProgrammeCard(labels);
+    file = canvasToFile(canvas, name);
+  } catch { /* 畫唔到圖都仲可以分享連結 */ }
 
-  try {
-    if (navigator.canShare?.({ files: [file] })) {
-      await navigator.share({ files: [file], title, text, url });
-      return 'shared';
-    }
-  } catch (e) {
-    if (e?.name === 'AbortError') return 'cancelled';
-  }
-  try {
-    if (navigator.share) {
-      await navigator.share({ title, text, url });
-      return 'shared';
-    }
-  } catch (e) {
-    if (e?.name === 'AbortError') return 'cancelled';
-  }
+  const fallback = () => {
+    if (canvas) canvas.toBlob((b) => b && downloadBlob(b, name), 'image/png');
+    return copyText(`${text}\n${url}`).then((ok) => (ok ? 'copied' : 'downloaded'));
+  };
 
-  let copied = false;
-  try {
-    await navigator.clipboard.writeText(`${text}\n${url}`);
-    copied = true;
-  } catch { /* 沒有剪貼簿權限（非 https / 舊瀏覽器）→ 起碼把圖下載到手 */ }
-  downloadBlob(blob, `${labels.code || 'jupas'}.png`);
-  return copied ? 'copied' : 'downloaded';
+  if (navigator.share) {
+    const payload = file && navigator.canShare?.({ files: [file] })
+      ? { files: [file], title, text, url }
+      : { title, text, url };
+    return navigator.share(payload)
+      .then(() => 'shared')
+      .catch((e) => (e?.name === 'AbortError' ? 'cancelled' : fallback()));
+  }
+  return fallback();
+}
+
+/**
+ * 只分享連結，唔帶圖。
+ *
+ * 帶住圖分享時，好多接收 app（IG、相簿類）只會收圖，text／url 會被丟埋一邊——
+ * 結果就係「連結分享唔出去」。呢個入口保證條 link 一定係主角：
+ * 有分享面板就淨係傳 title/text/url，冇就複製落剪貼簿。
+ * 同 shareProgramme 一樣，必須由 click handler 直接叫，前面唔可以有 await。
+ */
+export function shareLink(labels) {
+  const { url, text, title } = labels;
+  const copy = () => copyText(`${text}\n${url}`).then((ok) => (ok ? 'copied' : 'failed'));
+  if (navigator.share) {
+    return navigator.share({ title, text, url })
+      .then(() => 'shared')
+      .catch((e) => (e?.name === 'AbortError' ? 'cancelled' : copy()));
+  }
+  return copy();
 }

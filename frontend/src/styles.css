@@ -213,6 +213,16 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px
 .share-btn:disabled { opacity: .6; }
 /* 詳情頁頂欄的分享鍵：同一個外觀，縮細到跟返回鍵同高 */
 .share-btn.share-sm { font-size: 13px; padding: 8px 14px; min-height: 40px; }
+/* 只複製連結：分享面板叫唔起時的保底 */
+.copy-link-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; flex: none;
+  background: var(--panel); border: 1.5px solid var(--border); border-radius: 999px;
+  font-size: 17px; line-height: 1; cursor: pointer;
+  box-shadow: var(--shadow-sm); transition: all .15s;
+}
+.copy-link-btn:hover { border-color: var(--accent); background: var(--accent-light); }
+.copy-link-btn:active { transform: translateY(1px) scale(.96); }
 /* 分享結果提示：詳情頁可以捲得好長，訊息釘在視窗底部才一定睇到 */
 .share-toast {
   position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%);

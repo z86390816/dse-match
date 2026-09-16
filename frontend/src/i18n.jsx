@@ -147,6 +147,8 @@ const STRINGS = {
 
   // ---- 單一專業分享 ----
   shareProgBtn: { zh: '📤 分享', en: '📤 Share' },
+  shareLinkBtn: { zh: '分享連結', sc: '分享链接', en: 'Share link' },
+  shareLinkCopied: { zh: '✅ 已複製連結', sc: '✅ 已复制链接', en: '✅ Link copied' },
   shareProgCopied: { zh: '✅ 已複製連結，分享圖已下載', sc: '✅ 已复制链接，分享图已下载', en: '✅ Link copied · image downloaded' },
   shareProgDownloaded: { zh: '✅ 分享圖已下載', sc: '✅ 分享图已下载', en: '✅ Image downloaded' },
   shareProgFailed: { zh: '分享失敗，請再試一次', sc: '分享失败，请再试一次', en: 'Couldn’t share — please try again' },

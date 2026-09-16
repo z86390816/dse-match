@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { api } from '../api';
 import { useLang } from '../i18n.jsx';
 import { UNIVERSITY_MAP } from '../engine/universities.js';
-import { shareProgramme } from '../shareCard.js';
+import { shareProgramme, shareLink } from '../shareCard.js';
 import { trackEvent } from '../analytics';
 import ReportModal from './ReportModal.jsx';
 
@@ -261,52 +261,75 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
     ? (prog.universityShort || uni?.short || '')
     : t.s(prog.universityShortZh || uni?.shortZh || prog.universityShort || uni?.short || '');
 
-  async function handleShare() {
-    if (sharing) return;
-    setSharing(true);
-    setShareMsg('');
-    try {
-      const a = prog.admission || {};
-      const stats = [
+  // 分享卡的內容：兩個按鈕共用，所以抽出嚟。
+  function shareLabels() {
+    const a = prog.admission || {};
+    return {
+      brand: '🎓 JUPAS Calculator',
+      domain: 'dsemarks.com',
+      // SEO 靜態頁（gen-seo.mjs 生成）——收到連結的人毋須輸入成績就睇到這一科
+      url: `${window.location.origin}/p/${prog.jupasCode}/`,
+      title: `${uniName} ${progName}`,
+      text: `${uniName} · ${progName} (${prog.jupasCode}) · ${t('median')} ${a.median ?? '—'}`,
+      uni: uniName,
+      name: progName,
+      code: prog.jupasCode,
+      category: t.cat(prog.category),
+      cta: t('shareCta'),
+      tier: prog.tier || null,
+      tierLabel: prog.tier ? t.tier(prog.tier).label : null,
+      yourScore: prog.yourScore ?? null,
+      yourScoreLabel: t('yourScore'),
+      gapLabel: prog.gapToMedian != null
+        ? `${t('distToMedian')} ${prog.gapToMedian >= 0 ? '+' : ''}${prog.gapToMedian}`
+        : null,
+      stats: [
         a.upperQuartile != null && { label: t('upperQuartile'), value: a.upperQuartile },
         { label: t('median'), value: a.median ?? '—' },
         a.lowerQuartile != null && { label: t('lowerQuartile'), value: a.lowerQuartile },
-      ].filter(Boolean);
-      const facts = [
+      ].filter(Boolean),
+      facts: [
         prog.admitted2025 > 0 && { label: t('admittedShort'), value: prog.admitted2025 },
         prog.intake > 0 && { label: t('intakeQuota'), value: prog.intake },
-      ].filter(Boolean);
+      ].filter(Boolean),
+    };
+  }
 
-      const how = await shareProgramme({
-        brand: '🎓 JUPAS Calculator',
-        domain: 'dsemarks.com',
-        // SEO 靜態頁（gen-seo.mjs 生成）——收到連結的人毋須輸入成績就睇到這一科
-        url: `${window.location.origin}/p/${prog.jupasCode}/`,
-        title: `${uniName} ${progName}`,
-        text: `${uniName} · ${progName} (${prog.jupasCode}) · ${t('median')} ${a.median ?? '—'}`,
-        uni: uniName,
-        name: progName,
-        code: prog.jupasCode,
-        category: t.cat(prog.category),
-        cta: t('shareCta'),
-        tier: prog.tier || null,
-        tierLabel: prog.tier ? t.tier(prog.tier).label : null,
-        yourScore: prog.yourScore ?? null,
-        yourScoreLabel: t('yourScore'),
-        gapLabel: prog.gapToMedian != null
-          ? `${t('distToMedian')} ${prog.gapToMedian >= 0 ? '+' : ''}${prog.gapToMedian}`
-          : null,
-        stats,
-        facts,
-      });
-      trackEvent('share_programme', { code: prog.jupasCode, how });
-      if (how === 'copied') setShareMsg(t('shareProgCopied'));
-      else if (how === 'downloaded') setShareMsg(t('shareProgDownloaded'));
+  const SHARE_MSG = { copied: 'shareProgCopied', downloaded: 'shareProgDownloaded', failed: 'shareProgFailed' };
+
+  // ⚠️ 唔可以 async：shareProgramme 內部要同步叫 navigator.share()，
+  // 呢個 handler 一 await 就會先失去 user activation，Safari 分享唔到。
+  function handleShare() {
+    if (sharing) return;
+    setSharing(true);
+    setShareMsg('');
+    let p;
+    try {
+      p = shareProgramme(shareLabels());
     } catch (e) {
-      setShareMsg(t('shareProgFailed'));
-    } finally {
       setSharing(false);
+      setShareMsg(t('shareProgFailed'));
+      return;
     }
+    p.then((how) => {
+      trackEvent('share_programme', { code: prog.jupasCode, how });
+      if (SHARE_MSG[how]) setShareMsg(t(SHARE_MSG[how]));
+    })
+      .catch(() => setShareMsg(t('shareProgFailed')))
+      .finally(() => setSharing(false));
+  }
+
+  // 淨係傳連結：帶圖分享時好多 app 只收圖、丟咗條 link，呢個掣保證連結一定出到去；
+  // 冇分享面板（桌面 Firefox、部分內置瀏覽器）就複製落剪貼簿。
+  function handleShareLink() {
+    setShareMsg('');
+    shareLink(shareLabels())
+      .then((how) => {
+        trackEvent('share_programme_link', { code: prog.jupasCode, how });
+        if (how === 'copied') setShareMsg(t('shareLinkCopied'));
+        else if (how === 'failed') setShareMsg(t('shareProgFailed'));
+      })
+      .catch(() => setShareMsg(t('shareProgFailed')));
   }
 
   // 提示訊息自動散去，唔使用戶自己撳走
@@ -330,6 +353,9 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
         <div className="detail-top-bar">
           <button className="back-btn" onClick={onClose}>{t('back')}</button>
           <h3>{prog.jupasCode}</h3>
+          <button className="copy-link-btn" onClick={handleShareLink} type="button" title={t('shareLinkBtn')} aria-label={t('shareLinkBtn')}>
+            🔗
+          </button>
           <button className="share-btn share-sm" onClick={handleShare} disabled={sharing} type="button">
             {sharing ? '…' : t('shareProgBtn')}
           </button>
@@ -443,9 +469,13 @@ export function DetailOverlay({ prog, year, disciplines, onClose }) {
           <div className="detail-block">
             <h4>{t('coreReq')}</h4>
             <div className="req-list">
-              {appData.requirements.map((r, i) => (
-                <span key={i} className="req-chip">{r.subject}{t.sep}{t.s(reqMinLabel(r.subject, r.min, t.clang))}</span>
-              ))}
+              {/* 同一科可能出現兩次（scrape 抓到「課程要求」同「大學一般要求」兩個區塊），
+                  只保留第一個，唔好喺同一版顯示兩個唔同等級自相矛盾。 */}
+              {appData.requirements
+                .filter((r, i, arr) => arr.findIndex((x) => x.subject === r.subject) === i)
+                .map((r, i) => (
+                  <span key={i} className="req-chip">{r.subject}{t.sep}{t.s(reqMinLabel(r.subject, r.min, t.clang))}</span>
+                ))}
             </div>
           </div>
         )}

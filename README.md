@@ -11,8 +11,14 @@
 - **計分還原**：各校計分尺度／公式不同，盡量還原（HKU 線性公式、CUHK 加權、其餘 best-5）。
   - 334 個專業可精確比對（`scoreComparable: true`）。
   - 15 個因計分過於複雜（加權／Best-6／額外科目）標為「僅供參考」不評級，但照樣列在結果裡。
-- **核心科最低要求**：348 個專業的 `requiredCore` / `requireCsd` 由 `build_requirements.mjs`
-  從 `applications.json` 的官方要求寫入，比對時真的會攔（填咗而唔夠先攔，留空當未知）。
+- **核心科最低要求：暫時唔攔**。`requiredCore` / `requireCsd` 留空，計分引擎的
+  `checkRequirements` 因此永遠通過，所有專業一律按分數評級。
+  原因：上游 `applications.json` 的 requirements 係 `scrape_applications.mjs` 由
+  「Core Subjects」起只掃 600 字抓落嚟，而 JUPAS 頁面該處其實有兩個區塊
+  （課程自己的要求 + 大學一般最低要求），於是 52 個專業同一科出現兩次、
+  78 個四個核心科唔齊、27 個「公民與社會發展」變成數字等級。
+  數據有嚴有鬆，攔人的規則唔可以建喺上面。修好 `parseReqs()` 重新 scrape 後，
+  `node data-pipeline/build_requirements.mjs` 會自己驗證並寫入。
 - **驗證**：`node data-pipeline/verify.mjs` —— 0 錯誤、31 個警告（全部是 PolyU 尺度提示）、
   17 萬次單調性檢查通過。
 
